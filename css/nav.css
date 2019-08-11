@@ -3,7 +3,7 @@
 .nav {
     height: 100%;
     width: 400px;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
@@ -15,6 +15,7 @@
     font-weight: bold;
     font-size: 18px;
     color: black;
+    transition: 0.5s;
 }
 
 .nav a {
@@ -24,6 +25,7 @@
     text-decoration: none;
     padding-top: 15px;
     padding-bottom: 15px;
+    transition: 0.3s;
 }
 
 .nav a:hover {
@@ -31,6 +33,27 @@
     color: rgb(196, 188, 188);
 }
 
+#nav-open {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 36px; 
+    margin-left: 50px;
+    padding-top: 20px;
+    cursor:pointer;
+    visibility: hidden;
+}
+
+#nav-close {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 36px; 
+    margin-left: 50px;
+    padding-top: 20px;
+    cursor:pointer;
+    visibility: visible;
+}
 
 .site {
     padding-top: 20px;
@@ -45,8 +68,9 @@
     max-height: 50%;
 }
 
-.site img:hover {
+img:hover {
     -webkit-filter: brightness(125%);
+    filter: alpha(brightness=125);
 }
 
 .pfp {

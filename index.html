@@ -10,32 +10,37 @@
     <link rel="stylesheet" href="./css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="./js/app.js"></script>
 </head>
 
 <body>
-    <div class="nav">
-        <img class="pfp" src="./img/nav/photo.jpg">
-        <div style="font-size: 40px">ERIC LAU</div>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a data-toggle="modal" href="#resume">Resume</a>
-        <table class="site">
-            <td>
-                <a href="https://github.com/ericlau00"><img src="./img/nav/sites/github.png"></a>
-            </td>
-            <td>
-                <a href="https://www.facebook.com/eric.lau.39395"><img src="./img/nav/sites/facebook.png"></a>
-            </td>
-            <td>
-                <a href="https://www.instagram.com/erxclau/"><img src="./img/nav/sites/instagram.png"></a>
-            </td>
-            <td>
-                <a href="https://www.linkedin.com/in/eric-lau-089126181/"><img src="./img/nav/sites/linkedin.png"></a>
-            </td>
-        </table>
-        ericlau41802@gmail.com
-        <br>
-        (646) 620 0758
+    <div id="navbar" class="nav">
+        <a id="nav-open" onclick="openNav()">&#9776</a>
+        <a id="nav-close" onclick="closeNav()">&times;</a>
+        <div class="nav-content">
+            <img class="pfp" src="./img/nav/photo.jpg">
+            <div style="font-size: 40px">ERIC LAU</div>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a data-toggle="modal" href="#resume">Resume</a>
+            <table class="site">
+                <td>
+                    <a href="https://github.com/ericlau00"><img src="./img/sites/github.png"></a>
+                </td>
+                <td>
+                    <a href="https://www.facebook.com/eric.lau.39395"><img src="./img/sites/facebook.png"></a>
+                </td>
+                <td>
+                    <a href="https://www.instagram.com/erxclau/"><img src="./img/sites/instagram.png"></a>
+                </td>
+                <td>
+                    <a href="https://www.linkedin.com/in/eric-lau-089126181/"><img src="./img/sites/linkedin.png"></a>
+                </td>
+            </table>
+            ericlau41802@gmail.com
+            <br>
+            (646) 620 0758
+        </div>
     </div>
     <div class="modal fade" id="resume" role="dialog">
         <div class="modal-dialog">
@@ -48,20 +53,25 @@
     </div>
     <div class="main">
         <header>ABOUT ME</header>
-        <div>
-
-        </div>
         <header>PROJECTS</header>
         <div id="projects">
-            <p>SOLON</p>
-            <p>PROJECT EULER</p>
-            <p>SELECTED CLASSWORK</p>
-            <div class="select">
-                <div>APCS: NQUEENS PROBLEM</div>
-                <div>APCS: MAZE SOLVER</div>
-                <div><a href="https://github.com/ericlau00/python_sat_landmark">INTRO CS: PYTHON DATABASE</a></div>
-                <div><a href="https://github.com/ericlau00/NetLogo_Calculator">INTRO CS: NETLOGO CALCULATOR</a></div>
-            </div>
+            SOLON
+            <br>
+            <a href="https://solonedu.herokuapp.com/"><img src='./img/sites/solon.png'></a>
+            <a href="https://github.com/kazijamal/solonedu"><img src='./img/sites/github.png'></a>
+            <hr>
+            PROJECT EULER
+            <br>
+            <a href="https://projecteuler.net/"><img src="./img/sites/euler.jpg"></a>
+            <a href="https://github.com/ericlau00/projectEuler"><img src='./img/sites/github.png'></a>
+            <hr>
+            APCS 2018-2019 HOLMES
+            <div><a href="https://github.com/ericlau00/7A_MazeSolver">NQUEENS PROBLEM</a></div>
+            <div><a href="https://github.com/ericlau00/78_SolverForQueensPuzzle">MAZE SOLVER</a></div>
+            <hr>
+            INTRO CS 2017-2018 KONSTANTINOVICH
+            <div><a href="https://github.com/ericlau00/python_sat_landmark">PYTHON DATABASE</a></div>
+            <div><a href="https://github.com/ericlau00/NetLogo_Calculator">NETLOGO CALCULATOR</a></div>
         </div>
     </div>
 </body>
