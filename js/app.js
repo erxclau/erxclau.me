@@ -5,6 +5,7 @@ function openNav() {
     $("#nav-open").css("visibility", "hidden");
     $(".main").css("margin-left", "425px");
 }
+
 function closeNav() {
     $("#navbar").css("width", "75px");
     $(".nav-content").hide();

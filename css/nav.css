@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 
 .nav {
     height: 100%;
@@ -10,7 +11,7 @@
     background-color: rgb(173, 66, 66);
     overflow-x: hidden;
     padding-top: 20px;
-    font-family: "Open Sans", serif;
+    font-family: "Lexend Deca", serif;
     text-align: center;
     font-weight: bold;
     font-size: 18px;
@@ -68,12 +69,12 @@
     max-height: 50%;
 }
 
-img:hover {
+.site img:hover {
     -webkit-filter: brightness(125%);
     filter: alpha(brightness=125);
 }
 
-.pfp {
+#pfp {
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
