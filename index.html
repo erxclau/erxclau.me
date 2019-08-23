@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/collapse.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
     <script src="./js/app.js"></script>
 </head>
 
 <body>
-    <div id="navbar" class="nav">
-        <a id="nav-open" onclick="openNav()">&#9776</a>
-        <a id="nav-close" onclick="closeNav()">&times;</a>
+    <nav id="navbar">
+        <a id="nav-open" onclick="App.openNav()">&#9776</a>
+        <a id="nav-close" onclick="App.closeNav()">&times;</a>
         <div class="nav-content">
             <img id="pfp" src="./img/nav/photo.jpg">
             <div style="font-size: 40px">ERIC LAU</div>
@@ -41,7 +43,7 @@
             <br>
             (646) 620 0758
         </div>
-    </div>
+    </nav>
     <div class="modal fade" id="resume" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -54,23 +56,22 @@
     <div class="main">
         <div class="section" id="about">
             <header>ABOUT ME</header>
-            <h3>MOVIE ENTHUSIAST</h3>
-            Currently watching every Pixar movie.
+            <button class="collapsible">MOVIE ENTHUSIAST</button>
+            <div class="content">
+                Currently watching every Pixar movie.
+                <div>
+                    <canvas id="movies"></canvas>
+                </div>
+            </div>
             <hr>
-            <h3>RUNNER</h3>
-            Ran 100 miles last summer. Trying for a second year in a row.
+            <button class="collapsible">RUNNER</button>
+            <div class="content">Ran 100 miles last summer. Trying for a second year in a row.</div>
             <hr>
-            <h3>STUDENT</h3>
-            I am a senior at Stuyvesant High School in New York City.
+            <button class="collapsible">STUDENT</button>
+            <div class="content">I am a senior at Stuyvesant High School in New York City.</div>
             <hr>
-            <h3>COMPUTER SCIENTIST</h3>
-            Interested in blockchain, robotics, AI.
-            <hr>
-            <h3>LIBERAL</h3>
-            But not a communist. 
-            <hr>
-            <h3>NEW YORKER</h3>
-            I live in Brooklyn.
+            <button class="collapsible">NEW YORKER</button>
+            <div class="content">I live in Brooklyn.</div>
             <hr>
         </div>
         <div class="section" id="projects">

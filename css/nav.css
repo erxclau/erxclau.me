@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 
-.nav {
+nav {
     height: 100%;
     width: 400px;
     position: fixed;
@@ -18,7 +18,7 @@
     transition: 0.5s;
 }
 
-.nav a {
+nav a {
     font-size: 25px;
     color: black;
     display: block;
@@ -28,7 +28,7 @@
     transition: 0.3s;
 }
 
-.nav a:hover {
+nav a:hover {
     text-decoration: none;
     color: rgb(196, 188, 188);
 }
@@ -91,10 +91,10 @@
 }
 
 @media screen and (max-height: 450px) {
-    .nav {
+    nav {
         padding-top:15px;
         font-size:12px;
     }
-    .nav a {font-size:18px;}
+    nav a {font-size:18px;}
 }
 
