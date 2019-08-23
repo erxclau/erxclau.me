@@ -2,7 +2,7 @@ App = {
 
     init: function () {
         App.listen();
-        App.getData();
+        // App.getData();
     },
 
     listen: function () {
@@ -20,40 +20,45 @@ App = {
         }
     },
 
-    getData: function () {
-        $.getJSON('./json/movies.json', function (data) {
-            App.createTable(data);
-        });
-    },
+    // getData: function () {
+    //     $.getJSON('./json/movies.json', function (data) {
+    //         App.createTable(data);
+    //     });
+    // },
 
-    categorize: function (category, key) {
-        if (key in category) {
-            category[key]++;
-        } else {
-            category[key] = 1;
-        }
-    },
+    // categorize: function (category, key) {
+    //     if (key in category) {
+    //         category[key]++;
+    //     } else {
+    //         category[key] = 1;
+    //     }
+    // },
 
-    createTable: function (data) {
-        var time = new Object;
-        $.each(data, function (key, object) {
-            App.categorize(time, object.year + " " + object.month);
-        })
-        var context = $("#movies");
-        var chart = new Chart(context, {
-            type: 'bar',
-            data: {
-                labels: Object.keys(time),
-                datasets: [{
-                    label: "Number of Movies",
-                    data: Object.values(time),
-                }],
-            }
-            // options: {
+    // createTable: function (data) {
+    //     var genre = new Object;
+    //     $.each(data, function(key, object) {
+    //         App.categorize(genre, object.genre)
+    //     });
+    //     console.log(genre);
+    //     var time = new Object;
+    //     $.each(data, function (key, object) {
+    //         App.categorize(time, object.year + " " + object.month);
+    //     })
+    //     var context = $("#movies");
+    //     var chart = new Chart(context, {
+    //         type: 'bar',
+    //         data: {
+    //             labels: Object.keys(time),
+    //             datasets: [{
+    //                 label: "Number of Movies",
+    //                 data: Object.values(time),
+    //             }],
+    //         }
+    //         // options: {
 
-            // }
-        })
-    },
+    //         // }
+    //     })
+    // },
 
     openNav: function () {
         $("#navbar").css("width", "400px");

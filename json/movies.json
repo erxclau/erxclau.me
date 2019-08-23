@@ -1,7 +1,7 @@
 [
     {
         "title": "Ferris Bueller's Day Off",
-        "genre": ["Teen", "Comedy"], 
+        "genre": "Comedy", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 1986,
@@ -9,7 +9,7 @@
     },
     {
         "title": "Forrest Gump",
-        "genre": ["Drama", "Comedy"], 
+        "genre": "Drama", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 1994,
@@ -17,7 +17,7 @@
     },
     {
         "title": "Dunkirk",
-        "genre": ["War"], 
+        "genre": "War", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2017,
@@ -25,7 +25,7 @@
     },
     {
         "title": "Cast Away",
-        "genre": ["Survival", "Drama"], 
+        "genre": "Survival", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2000,
@@ -33,7 +33,7 @@
     },
     {
         "title": "Goodfellas",
-        "genre": ["Crime"], 
+        "genre": "Crime", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 1990,
@@ -41,7 +41,7 @@
     },
     {
         "title": "Jaws",
-        "genre": ["Thriller"], 
+        "genre": "Thriller", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 1975,
@@ -49,7 +49,7 @@
     },
     {
         "title": "New Jack City",
-        "genre": ["Neo-noir", "Action", "Gangster"], 
+        "genre": "Gangster", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 1991,
@@ -57,7 +57,7 @@
     },
     {
         "title": "Spirited Away",
-        "genre": ["Animated", "Coming-of-age", "Fantasy"], 
+        "genre": "Fantasy", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2001,
@@ -65,7 +65,7 @@
     },
     {
         "title": "Godfather",
-        "genre": ["Crime"], 
+        "genre": "Crime", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 1972,
@@ -73,7 +73,7 @@
     },
     {
         "title": "Taxi Driver",
-        "genre": ["Neo-noir", "Thriller", "Psychological"], 
+        "genre": "Thriller", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 1976,
@@ -81,7 +81,7 @@
     },
     {
         "title": "Lost City of Z",
-        "genre": ["Biographical", "Adventure", "Drama"], 
+        "genre": "Biographical", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2016,
@@ -89,7 +89,7 @@
     },
     {
         "title": "Truman Show",
-        "genre": ["Satire", "Science Fiction"], 
+        "genre": "Satire", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 1998,
@@ -97,7 +97,7 @@
     },
     {
         "title": "Godfather Part II",
-        "genre": ["Crime"], 
+        "genre": "Crime", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 1974,
@@ -105,7 +105,7 @@
     },
     {
         "title": "Godfather Part III",
-        "genre": ["Crime"], 
+        "genre": "Crime", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 1990,
@@ -113,7 +113,7 @@
     },
     {
         "title": "Loving Vincent",
-        "genre": ["Experimental", "Animated", "Biographical", "Drama"], 
+        "genre": "Biographical", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2017,
@@ -121,7 +121,7 @@
     },
     {
         "title": "The Blind Side",
-        "genre": ["Biographical", "Sports", "Drama"], 
+        "genre": "Biographical", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2009,
@@ -129,7 +129,7 @@
     },
     {
         "title": "Mean Girls",
-        "genre": ["Teen", "Comedy"], 
+        "genre": "Comedy", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2004,
@@ -137,7 +137,7 @@
     },
     {
         "title": "Lawrence of Arabia",
-        "genre": ["Epic", "Historical", "Drama"], 
+        "genre": "Historical", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 1962,
@@ -145,7 +145,7 @@
     },
     {
         "title": "One Week",
-        "genre": ["Drama", "Romance"], 
+        "genre": "Drama", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2000,
@@ -153,7 +153,7 @@
     },
     {
         "title": "North Country",
-        "genre": ["Drama"], 
+        "genre": "Drama", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2005,
@@ -161,7 +161,7 @@
     },
     {
         "title": "Breaking Away",
-        "genre": ["Coming-of-age", "Comedy", "Drama"], 
+        "genre": "Coming-of-age", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 1979,
@@ -169,7 +169,7 @@
     },
     {
         "title": "The Mighty",
-        "genre": ["Coming-of-age", "Buddy", "Comedy", "Drama"], 
+        "genre": "Coming-of-age", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 1998,
@@ -177,7 +177,7 @@
     },
     {
         "title": "Super Size Me",
-        "genre": ["Documentary"], 
+        "genre": "Documentary", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2004,
@@ -185,7 +185,7 @@
     },
     {
         "title": "Iron Man",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2008,
@@ -193,7 +193,7 @@
     },
     {
         "title": "The Incredible Hulk",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2008,
@@ -201,7 +201,7 @@
     },
     {
         "title": "Iron Man 2",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2010,
@@ -209,7 +209,7 @@
     },
     {
         "title": "Thor",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2011,
@@ -217,7 +217,7 @@
     },
     {
         "title": "Captain America: The First Avenger",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2011,
@@ -225,7 +225,7 @@
     },
     {
         "title": "Marvel's The Avengers",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2012,
@@ -233,7 +233,7 @@
     },
     {
         "title": "Iron Man 3",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2013,
@@ -241,7 +241,7 @@
     },
     {
         "title": "Thor: The Dark World",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2013,
@@ -249,7 +249,7 @@
     },
     {
         "title": "Captain America: The Winter Soldier",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2014,
@@ -257,7 +257,7 @@
     },
     {
         "title": "Guardians of the Galaxy",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2014,
@@ -265,7 +265,7 @@
     },
     {
         "title": "Hidden Figures",
-        "genre": ["Biographical", "Drama"], 
+        "genre": "Biographical", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2016,
@@ -273,7 +273,7 @@
     },
     {
         "title": "Shawshank Redemption",
-        "genre": ["Drama"], 
+        "genre": "Drama", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 1994,
@@ -281,7 +281,7 @@
     },
     {
         "title": "Avengers: Age of Ultron",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2015,
@@ -289,7 +289,7 @@
     },
     {
         "title": "White Chicks",
-        "genre": ["Comedy"], 
+        "genre": "Comedy", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2004,
@@ -297,7 +297,7 @@
     },
     {
         "title": "Ant-Man",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2015,
@@ -305,7 +305,7 @@
     },
     {
         "title": "Captain America: Civil War",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2016,
@@ -313,7 +313,7 @@
     },
     {
         "title": "Doctor Strange",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2016,
@@ -321,7 +321,7 @@
     },
     {
         "title": "Guardians of the Galaxy Vol. 2",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2017,
@@ -329,7 +329,7 @@
     },
     {
         "title": "Spider-Man: Homecoming",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2017,
@@ -337,7 +337,7 @@
     },
     {
         "title": "Thor: Ragnarok",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2017,
@@ -345,7 +345,7 @@
     },
     {
         "title": "Black Panther",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2018,
@@ -353,7 +353,7 @@
     },
     {
         "title": "Avengers: Infinity War",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2018,
@@ -361,7 +361,7 @@
     },
     {
         "title": "Ant-Man and the Wasp",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2018,
@@ -369,7 +369,7 @@
     },
     {
         "title": "To All The Boys I've Loved Before",
-        "genre": ["Teen", "Romance"], 
+        "genre": "Romance", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2018,
@@ -377,7 +377,7 @@
     },
     {
         "title": "Spider-Man",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2002,
@@ -385,7 +385,7 @@
     },
     {
         "title": "Spider-Man 2",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2004,
@@ -393,7 +393,7 @@
     },
     {
         "title": "Spider-Man 3",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2007,
@@ -401,7 +401,7 @@
     },
     {
         "title": "The Amazing Spider-Man",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2012,
@@ -409,7 +409,7 @@
     },
     {
         "title": "The Amazing Spider-Man 2",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 2014,
@@ -417,7 +417,7 @@
     },
     {
         "title": "Good Will Hunting",
-        "genre": ["Drama"], 
+        "genre": "Drama", 
         "month": "6/7/8",  
         "year": 2018,
         "release": 1997,
@@ -425,7 +425,7 @@
     },
     {
         "title": "Blindspotting",
-        "genre": "Comedy", 
+        "genre": "Drama", 
         "month": "11",  
         "year": 2018,
         "release": 1986,
@@ -433,7 +433,7 @@
     },
     {
         "title": "Crazy Rich Asians",
-        "genre": "Comedy", 
+        "genre": "Romance", 
         "month": "11",  
         "year": 2018,
         "release": 1986,
@@ -441,7 +441,7 @@
     },
     {
         "title": "The Polar Express",
-        "genre": "Comedy", 
+        "genre": "Adventure", 
         "month": "12",  
         "year": 2018,
         "release": 1986,
@@ -449,7 +449,7 @@
     },
     {
         "title": "Eighth Grade",
-        "genre": "Comedy", 
+        "genre": "Drama", 
         "month": "12",  
         "year": 2018,
         "release": 1986,
@@ -457,7 +457,7 @@
     },
     {
         "title": "The Curse of La Llorona",
-        "genre": ["Supernatural", "Horror"], 
+        "genre": "Horror", 
         "month": "4",  
         "year": 2019,
         "release": 2019,
@@ -465,7 +465,7 @@
     },
     {
         "title": "A Beautiful Mind",
-        "genre": ["Biographical"], 
+        "genre": "Biographical", 
         "month": "5",  
         "year": 2019,
         "release": 2001,
@@ -473,7 +473,7 @@
     },
     {
         "title": "Harold and Maude",
-        "genre": ["Romance", "Dark", "Comedy"], 
+        "genre": "Dark", 
         "month": "6",  
         "year": 2019,
         "release": 1971,
@@ -481,7 +481,7 @@
     },
     {
         "title": "The Florida Project",
-        "genre": ["Slice of life", "Drama"], 
+        "genre": "Slice of life", 
         "month": "6",  
         "year": 2019,
         "release": 2017,
@@ -489,7 +489,7 @@
     },
     {
         "title": "Breakfast at Tiffany's",
-        "genre": ["Romance", "Comedy"], 
+        "genre": "Romance", 
         "month": "7",  
         "year": 2019,
         "release": 1961,
@@ -497,7 +497,7 @@
     },
     {
         "title": "Captain Marvel",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "7",  
         "year": 2019,
         "release": 2019,
@@ -505,7 +505,7 @@
     },
     {
         "title": "Avengers: Endgame",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "7",  
         "year": 2019,
         "release": 2019,
@@ -513,7 +513,7 @@
     },
     {
         "title": "Spider-Man: Far from Home",
-        "genre": ["Superhero"], 
+        "genre": "Superhero", 
         "month": "7",  
         "year": 2019,
         "release": 1986,
@@ -521,7 +521,7 @@
     },
     {
         "title": "Toy Story",
-        "genre": ["Animated", "Buddy", "Comedy"], 
+        "genre": "Comedy", 
         "month": "7",  
         "year": 2019,
         "release": 1995,
@@ -529,7 +529,7 @@
     },
     {
         "title": "A Bug's Life",
-        "genre": ["Animated", "Comedy"], 
+        "genre": "Comedy", 
         "month": "7",  
         "year": 2019,
         "release": 1998,
@@ -537,7 +537,7 @@
     },
     {
         "title": "Toy Story 2",
-        "genre": ["Animated", "Comedy"], 
+        "genre": "Comedy", 
         "month": "7",  
         "year": 2019,
         "release": 1999,
@@ -545,7 +545,7 @@
     },
     {
         "title": "Monsters, Inc.",
-        "genre": ["Animated", "Comedy"], 
+        "genre": "Comedy", 
         "month": "7",  
         "year": 2019,
         "release": 2001,
@@ -553,7 +553,7 @@
     },
     {
         "title": "Finding Nemo",
-        "genre": ["Animated", "Adventure"], 
+        "genre": "Adventure", 
         "month": "7",  
         "year": 2019,
         "release": 2003,
@@ -561,7 +561,7 @@
     },
     {
         "title": "The Incredibles",
-        "genre": ["Animated", "Superhero"], 
+        "genre": "Superhero", 
         "month": "7",  
         "year": 2019,
         "release": 2004,
@@ -569,7 +569,7 @@
     },
     {
         "title": "Cars",
-        "genre": ["Animated", "Road", "Comedy"], 
+        "genre": "Road", 
         "month": "7",  
         "year": 2019,
         "release": 2006,
@@ -577,7 +577,7 @@
     },
     {
         "title": "Ratatouille",
-        "genre": ["Animated", "Comedy"], 
+        "genre": "Comedy", 
         "month": "7",  
         "year": 2019,
         "release": 2007,
@@ -585,7 +585,7 @@
     },
     {
         "title": "WALL-E",
-        "genre": ["Animated", "Science Fiction"], 
+        "genre": "Science Fiction", 
         "month": "7",  
         "year": 2019,
         "release": 2008,
@@ -593,7 +593,7 @@
     },
     {
         "title": "Up",
-        "genre": ["Animated", "Comedy", "Drama", "Buddy", "Adventure"], 
+        "genre": "Adventure", 
         "month": "7",  
         "year": 2019,
         "release": 2009,
@@ -601,7 +601,7 @@
     },
     {
         "title": "Toy Story 3",
-        "genre": ["Animated", "Comedy"], 
+        "genre": "Comedy", 
         "month": "7",  
         "year": 2019,
         "release": 2010,
@@ -609,7 +609,7 @@
     },
     {
         "title": "Cars 2",
-        "genre": ["Animated", "Action", "Adventure", "Comedy"], 
+        "genre": "Adventure", 
         "month": "7",  
         "year": 2019,
         "release": 2011,
@@ -617,7 +617,7 @@
     },
     {
         "title": "Brave",
-        "genre": ["Animated", "Fantasy"], 
+        "genre": "Fantasy", 
         "month": "7",  
         "year": 2019,
         "release": 2012,
@@ -625,7 +625,7 @@
     },
     {
         "title": "Monsters University",
-        "genre": ["Animated", "Comedy"], 
+        "genre": "Comedy", 
         "month": "7",  
         "year": 2019,
         "release": 2013,
@@ -633,7 +633,7 @@
     },
     {
         "title": "Inside Out",
-        "genre": ["Animated", "Comedy"], 
+        "genre": "Comedy", 
         "month": "8",  
         "year": 2019,
         "release": 2015,
@@ -641,7 +641,7 @@
     },
     {
         "title": "The Good Dinosaur",
-        "genre": ["Animated", "Drama", "Adventure"], 
+        "genre": "Adventure", 
         "month": "8",  
         "year": 2019,
         "release": 2015,
