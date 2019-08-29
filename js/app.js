@@ -2,7 +2,8 @@ App = {
 
     init: function () {
         App.listen();
-        // App.getData();
+        App.getData('./json/movies.json','title','#changeMovie');
+        App.getData('./json/music.json','artist', '#changeArtist');
     },
 
     listen: function () {
@@ -20,11 +21,26 @@ App = {
         }
     },
 
-    // getData: function () {
-    //     $.getJSON('./json/movies.json', function (data) {
-    //         App.createTable(data);
-    //     });
-    // },
+    getData: function(json, field,span) {
+        $.getJSON(json, function (data) {
+            App.changeMovie(data, field,span);
+        });
+    },
+
+    changeMovie: function(data,field,span) {
+        var list = []
+        var index = 0;
+        $.each(data, function(key, object) {
+            list.push(object[field]);
+        });
+        setInterval(function() {
+            $(span).text(function() {
+                index++;
+                if(index == list.length) index = 1
+                return list[index - 1]
+            });
+        }, 1000);
+    },
 
     // categorize: function (category, key) {
     //     if (key in category) {
