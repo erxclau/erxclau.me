@@ -11,12 +11,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script> -->
+    <script type="text/javascript" src="//d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/cal-heatmap/3.3.10/cal-heatmap.min.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/cal-heatmap/3.3.10/cal-heatmap.css" />
     <script src="./js/app.js"></script>
 </head>
 
 <body>
     <nav id="navbar">
-        <a id="nav-open" onclick="App.openNav()">&#9776</a>
+        <a id="nav-open" onclick="App.openNav()">&#9776;</a>
         <a id="nav-close" onclick="App.closeNav()">&times;</a>
         <div class="nav-content">
             <img id="pfp" src="./img/nav/photo.jpg">
@@ -56,38 +59,41 @@
         <div class="section" id="about">
             <header>ABOUT ME</header>
             <h2>THINGS I LIKE</h2>
-            <div class="content">
-                <h3>MOVIES</h3> 
-                I've watched 81 films since Summer 2018: <span id="changeMovie"></span>
+                <h3>MOVIES</h3>
+                I've watched 81 films since Summer 2018 <span id="changeMovie"></span>
                 <br>
                 Currently watching every Pixar movie.
                 <h3>MUSIC</h3>
-                Artists I like: <span id="changeArtist"></span>
-            </div>
+                I primarily listen to Hip-Hop and R&B <span id="changeArtist"></span>
+            
             <hr>
             <h2>RUNNER</h2>
-            <div class="content">Ran 100 miles last summer. Trying for a second year in a row.</div>
+            <div id="run_desc">I enjoy running.</div>
             <hr>
+            <div id="run_2016"></div>
+            <div id="run_2017"></div>
+            <div id="run_2018"></div>
+            <div id="run_2019"></div>
             <h2>STUDENT</h2>
-            <div class="content">I am a senior at Stuyvesant High School in New York City.</div>
+            I am a senior at Stuyvesant High School in New York City.
             <hr>
             <h2>NEW YORKER</h2>
-            <div class="content">I live in Bushwick, Brooklyn.</div>
+            I live in Bushwick, Brooklyn.
             <hr>
         </div>
         <div class="section" id="projects">
             <header>PROJECTS</header>
             <h3>SOLON</h3>
             <a href="https://solonedu.herokuapp.com/"><img src='./img/sites/solon.png'></a>
-            <a href="https://github.com/kazijamal/solonedu"><img src='./img/sites/github.png'></a>
+            <a href="https://github.com/SolonEDU"><img src='./img/sites/github.png'></a>
             <hr>
             <h3>PROJECT EULER</h3>
             <a href="https://projecteuler.net/"><img src="./img/sites/euler.jpg"></a>
             <a href="https://github.com/ericlau00/projectEuler"><img src='./img/sites/github.png'></a>
             <hr>
             <h3>APCS 2018-2019 HOLMES</h3>
-            <div><a href="https://github.com/ericlau00/7A_MazeSolver">NQUEENS PROBLEM</a></div>
-            <div><a href="https://github.com/ericlau00/78_SolverForQueensPuzzle">MAZE SOLVER</a></div>
+            <div><a href=https://github.com/ericlau00/APCS_Holmes/tree/master/120_78_SolverForQueensPuzzle>NQUEENS PROBLEM</a></div>
+            <div><a href="https://github.com/ericlau00/APCS_Holmes/tree/master/122_7A_MazeSolver">MAZE SOLVER</a></div>
             <hr>
             <h3>INTRO CS 2017-2018 KONSTANTINOVICH</h3>
             <div><a href="https://github.com/ericlau00/python_sat_landmark">PYTHON DATABASE</a></div>
