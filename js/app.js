@@ -62,12 +62,11 @@ App = {
                 console.log('Could not get health data');
             }
         }).then(function() {
-            $("#run_desc").append("<br>I've tracked " + String(total).substring(0,String(total).indexOf('.')) + " miles on my iPhone since 2016. <br> Data is not completely accurate day to day. <br>Last updated on August 31, 2019");
+            $("#run_desc").append("<br>I've tracked " + String(total).substring(0,String(total).indexOf('.')) + " miles on my iPhone since April 2016. <br> Data is not completely accurate day to day. <br>Last updated on August 31, 2019");
             App.quickFix(days);
-            App.createCalendarHeatmap(days, new Date('April 1, 2016'), 9, '2016');
-            App.createCalendarHeatmap(days, new Date('January 1, 2017'), 12, '2017');
-            App.createCalendarHeatmap(days, new Date('January 1, 2018'), 12, '2018');
-            App.createCalendarHeatmap(days, new Date('January 1, 2019'), 12, '2019');
+            for(var i = 0; i < 4; i++) {
+                App.createCalendarHeatmap(days, new Date('January 1,' + String(2016 + i)), 12, String(2016 + i));
+            }
         })
     },
 
@@ -89,14 +88,17 @@ App = {
             range: range,
             domain: 'month',
             subDomain: 'day',
-            legend: [1,3,5,7,9],
             itemName: ['mile', 'miles'],
+            weekStartOnMonday: false,
+            cellPadding: 3,
+            cellRadius: 3,
+            data: data,
+            legend: [1,3,5,7,9],
             // legendColors: {
-            //     empty: "white",
+            //     base: "#ededed",
             //     min: '#ffe6e6',
             //     max: 'red'
             // },
-            data: data
         });
         $(itemSelector).append('<hr>')
     },
