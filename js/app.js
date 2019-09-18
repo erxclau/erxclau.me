@@ -137,19 +137,17 @@ App = {
     // },
 
     openNav: function () {
-        $("#navbar").css("width", "400px");
-        $(".nav-content").show();
+        $("#navbar").css("width", "350px");
+        $(".nav-content").show(500);
         $("#nav-close").css("visibility", "visible");
         $("#nav-open").css("visibility", "hidden");
-        $(".main").css("margin-left", "425px");
     },
 
     closeNav: function () {
-        $("#navbar").css("width", "75px");
-        $(".nav-content").hide();
+        $("#navbar").css("width", "0px");
         $("#nav-close").css("visibility", "hidden");
         $("#nav-open").css("visibility", "visible");
-        $(".main").css("margin-left", "80px");
+        $(".nav-content").hide(500);
     },
 };
 

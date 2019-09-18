@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
 
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
 body {
     background-color: rgb(173, 66, 66);
     max-width: 100vw;
@@ -13,31 +19,5 @@ div {
     flex-direction: column;
     margin: 0;
     font-family: "Karla", sans-serif;
-    font-size: 6vh;
-}
-
-.landing table {
-    padding-top: 50px;
-    padding-bottom: 30px;
-}
-
-.landing img{
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-}
-
-.landing img:hover {
-    -webkit-filter: brightness(125%);
-    filter: alpha(brightness=125);
-}
-
-.landing table img {
-    max-width: 25%;
-    max-height: 25%;
-}
-
-.landing #name {
-    max-width: 50%;
-    max-height: 50%;
+    font-size: 15px;
 }
