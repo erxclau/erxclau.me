@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.main {
+    margin-left: 425px;
+    padding: 0px 10px;
+    font-family: "Karla", sans-serif;
+    transition:0.5s;
+}
+
+.section {
+    width: 100%;
+    min-height: 100vh;
+    font-size: 18px;
+}
+
+.section header {
+    font-size: 50px;
+}
+
+.section img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.section img:hover {
+    -webkit-filter: brightness(125%);
+    filter: alpha(brightness=125);
+}
+
+.section a {
+    color: black;
+    text-decoration: none;
+}
+
+.section a:hover {
+    text-decoration: none;
+    color: rgb(196, 188, 188);
+}
