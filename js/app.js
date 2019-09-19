@@ -2,9 +2,9 @@ App = {
 
     init: function () {
         App.listen();
-        App.getJSONData('../json/movies.json','title','#changeMovie');
-        App.getJSONData('../json/music.json','artist', '#changeArtist');
-        App.getXMLData('../xml/health.xml');
+        // App.getJSONData('../json/movies.json','title','#changeMovie');
+        // App.getJSONData('../json/music.json','artist', '#changeArtist');
+        // App.getXMLData('../xml/health.xml');
     },
 
     listen: function () {
@@ -20,6 +20,9 @@ App = {
                 }
             });
         }
+        $('body').on('hidden.bs.modal', '.modal', function() {
+            $('a').blur();
+        }); 
     },
 
     getJSONData: function(json, field,span) {
@@ -137,14 +140,12 @@ App = {
     // },
 
     openNav: function () {
-        $("#navbar").css("width", "350px");
         $(".nav-content").show(500);
         $("#nav-close").css("visibility", "visible");
         $("#nav-open").css("visibility", "hidden");
     },
 
     closeNav: function () {
-        $("#navbar").css("width", "0px");
         $("#nav-close").css("visibility", "hidden");
         $("#nav-open").css("visibility", "visible");
         $(".nav-content").hide(500);
