@@ -19,7 +19,7 @@
 <body>
     <nav>
         <a id="nav-open" onclick="App.openNav()">&#9776;</a>
-        <section class="nav-content">
+        <div class="nav-content">
             <table>
                 <th><a href="#landing">home</a></th>
                 <th><a href="#about">about</a></th>
@@ -27,9 +27,9 @@
                 <th><a onclick="this.blur()" data-toggle="modal" href="#resume">resume</a></th>
                 <th><a id="nav-close" onclick="App.closeNav()">&times;</a> </th>
             </table>
-        </section>
+        </div>
     </nav>
-    <section id="landing">
+    <div id="landing">
         <img id="name" src="img/name.png">
         <table id="site">
             <td>
@@ -50,13 +50,24 @@
             <br>
             (646) 620 0758
         </center>
-    </section>
-    <section id="about">
-        ABOUT
-    </section>
-    <section id="projects">
-        PROJECTS
-    </section>
+    </div>
+    <div id="about">
+        <section>
+            IMAGE
+        </section>
+        <section>
+            ABOUT
+        </section>
+    </div>
+    <div id="projects">
+        <section>
+            IMAGE
+        </section>
+        <section>
+            PROJECTS
+            <!-- <img src="img/projects/solon.png"> -->
+        </section>
+    </div>
     <div class="modal fade" id="resume" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
