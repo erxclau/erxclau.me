@@ -31,6 +31,7 @@ body {
 }
 
 section {
+    /* background-color: aliceblue; */
     align-items: center;
     justify-content: center;
 
@@ -47,10 +48,10 @@ section {
 .image {
     content: '';
     display: flex;
-    background-image: url(../img/desk.png);
     background-size: 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding: 10px;
 }
 
 #res_pic {
