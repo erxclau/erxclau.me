@@ -46,12 +46,10 @@ section {
 }
 
 .image {
-    content: '';
-    display: flex;
     background-size: 50%;
+    background-image: url(../img/desk.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 10px;
 }
 
 #res_pic {
@@ -60,7 +58,7 @@ section {
 }
 
 h1 {
-    font-size: 100px; 
+    font-size: 10vw; 
     color: antiquewhite;
     font-weight: bold;
 }
@@ -69,9 +67,13 @@ hr {
     border: 0;
     clear: both;
     display: block;
-    width: 80%;
-    height: 1px;
+    width: 50%;
     background-color: black;
+    height: 1px;
+}
+
+.text {
+    padding: 10px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -79,6 +81,7 @@ hr {
         flex-direction: column;
     }
     .image {
-        background-size: 100%;
+        background-size: cover;
     }
 }
+
