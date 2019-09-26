@@ -1,0 +1,33 @@
+#landing table {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 25px;
+}
+
+#landing img{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#landing img:hover {
+    -webkit-filter: brightness(125%);
+    filter: alpha(brightness=125);
+}
+
+#landing table img {
+    max-width: 25%;
+    max-height: 25%;
+}
+
+#landing #name {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+@media screen and (max-width: 800px) {
+    #landing #name {
+        max-width: 75%;
+        max-height: 75%;
+    }
+}
