@@ -11,16 +11,15 @@ nav {
     padding-top: 20px;
     font-family: "Lexend Deca", serif;
     text-align: center;
-    font-weight: bold;
-    font-size: 18px;
-    color: black;
     transition: 0.5s;
 }
 
 nav a {
     font-size: 20px;
     display: block;
+    /* color: rgb(57, 125, 214); */
     color: black;
+    font-weight: bold;
     text-decoration: none;
     transition: 0.3s;
     cursor: pointer;
@@ -28,7 +27,8 @@ nav a {
 
 nav a:hover {
     text-decoration: none;
-    color: rgb(196, 188, 188);
+    /* color: rgb(196, 188, 188); */
+    color: antiquewhite;
 }
 
 #nav-open {

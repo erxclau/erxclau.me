@@ -1,3 +1,13 @@
+#landing {
+    background-image: url("../img/school.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#box { 
+    background-color: rgba(250, 235, 215,0.5);
+}
+
 #landing table {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -29,5 +39,8 @@
     #landing #name {
         max-width: 75%;
         max-height: 75%;
+    }
+    #landing {
+        background-size: cover;
     }
 }
