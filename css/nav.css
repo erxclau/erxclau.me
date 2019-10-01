@@ -26,9 +26,13 @@ nav a {
 }
 
 nav a:hover {
+    font-size: 25px;
     text-decoration: none;
+    color: goldenrod;
+    /* color: rgb(57, 125, 214); */
     /* color: rgb(196, 188, 188); */
-    color: antiquewhite;
+    /* color: black; */
+    /* color: antiquewhite; */
 }
 
 #nav-open {

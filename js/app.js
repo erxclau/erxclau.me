@@ -2,7 +2,8 @@ App = {
 
     init: function () {
         // App.changeAbout();
-        // App.listen();
+        App.listen();
+        $("#box").show(500);
         // App.getJSONData('../json/movies.json','title','#changeMovie');
         // App.getJSONData('../json/music.json','artist', '#changeArtist');
         // App.getXMLData('../xml/health.xml');
@@ -20,18 +21,18 @@ App = {
     },
 
     listen: function () {
-        var collapsibles = $(".collapsible");
-        for (let i = 0; i < collapsibles.length; i++) {
-            collapsibles[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.maxHeight) {
-                    content.style.maxHeight = null;
-                } else {
-                    content.style.maxHeight = content.scrollHeight + "px";
-                }
-            });
-        }
+        // var collapsibles = $(".collapsible");
+        // for (let i = 0; i < collapsibles.length; i++) {
+        //     collapsibles[i].addEventListener("click", function () {
+        //         this.classList.toggle("active");
+        //         var content = this.nextElementSibling;
+        //         if (content.style.maxHeight) {
+        //             content.style.maxHeight = null;
+        //         } else {
+        //             content.style.maxHeight = content.scrollHeight + "px";
+        //         }
+        //     });
+        // }
         $('body').on('hidden.bs.modal', '.modal', function () {
             $('a').blur();
         });
