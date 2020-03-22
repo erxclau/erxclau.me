@@ -61,7 +61,8 @@ h4 {
     color: black;
 }
 
-.highlight:hover {
+a, a:hover, a:focus, a:visited, a:active {
+    text-decoration: none;
     color: black;
 }
 
