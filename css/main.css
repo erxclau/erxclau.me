@@ -1,89 +1,115 @@
-@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+:root {
+    --facebook-color: rgba(60, 90, 153, 0.7);
+    --github-color: rgba(0, 0, 0, 0.5);
+    --spotify-color: rgba(30, 215, 96, 0.7);
+    --instagram-color: rgba(240, 76, 92, 0.7);
+    --twitter-color: rgba(29, 161, 242, 0.7);
+    --linkedin-color: rgba(2, 116, 179, 0.7);
+}
 
 html {
     scroll-behavior: smooth;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    font-size: small;
 }
 
-/* body {
-    background-color: antiquewhite;
-} */
-
-#landing, .nav-content {
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-
-    display: flex;
-    flex-direction: column;
-
-    margin: 0;
-    font-family: "Karla", sans-serif;
-    font-size: 20px;
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
 }
 
-#about, #projects {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    height: min-content;
+body {
+    background-color: rgb(253, 245, 241);
 }
 
-section {
-    /* background-color: aliceblue; */
-    align-items: center;
-    justify-content: center;
-
-    display: flex;
-    flex-direction: column;
-    flex: 1 0;
-    flex-wrap: wrap;
-
-    margin: 0;
-    font-family: "Karla", sans-serif;
-    font-size: 20px;
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem !important;
 }
 
-.image {
-    background-size: 50%;
-    background-image: url(../img/desk.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+td {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    padding-left: 1rem;
 }
 
-#res_pic {
-    max-width: 100%;
-    max-height: 100%;
+h2 {
+    font-size: 4rem;
 }
 
-h1 {
-    font-size: 10vw; 
-    /* color: black; */
-    /* color: rgb(57, 125, 214); */
-    color: goldenrod;
-    font-weight: bold;
+h4 {
+    font-size: 2.2rem;
 }
 
-hr {
-    border: 0;
-    clear: both;
-    display: block;
-    width: 50%;
-    background-color: black;
-    height: 1px;
+.noselect {
+    font-family: 'Raleway', sans-serif;
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
 }
 
-.text {
-    padding: 10px;
+.highlight {
+    border-bottom: 3px solid;
+    color: black;
 }
 
-@media screen and (max-width: 1200px) {
-    #about, #projects {
-        flex-direction: column;
-    }
-    .image {
-        background-size: cover;
-    }
+a, a:hover, a:focus, a:visited, a:active {
+    text-decoration: none;
+    color: black;
 }
 
+#facebook {
+    border-bottom-color: var(--facebook-color);
+}
+
+#facebook:hover {
+    background-color: var(--facebook-color);
+}
+
+#github {
+    border-bottom-color: var(--github-color);
+}
+
+#github:hover {
+    background-color: var(--github-color);
+}
+
+#spotify {
+    border-bottom-color: var(--spotify-color);
+}
+
+#spotify:hover {
+    background-color: var(--spotify-color);
+}
+
+#twitter {
+    border-bottom-color: var(--twitter-color);
+}
+
+#twitter:hover {
+    background-color: var(--twitter-color);
+}
+
+#instagram {
+    border-bottom-color: var(--instagram-color);
+}
+
+#instagram:hover {
+    background-color: var(--instagram-color);
+}
+
+#linkedin {
+    border-bottom-color: var(--linkedin-color);
+}
+
+#linkedin:hover {
+    background-color: var(--linkedin-color);
+}
