@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+:root {
+    --facebook-color: rgba(60, 90, 153, 0.7);
+    --github-color: rgba(0, 0, 0, 0.5);
+    --spotify-color: rgba(30, 215, 96, 0.7);
+    --instagram-color: rgba(240, 76, 92, 0.7);
+    --twitter-color: rgba(29, 161, 242, 0.7);
+    --linkedin-color: rgba(2, 116, 179, 0.7);
+}
+
 html {
     scroll-behavior: smooth;
     scrollbar-width: none;
@@ -14,7 +23,18 @@ html {
 }
 
 body {
+    background-color: rgb(253, 245, 241);
+}
+
+p {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem !important;
+}
+
+td {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    padding-left: 1rem;
 }
 
 h2 {
@@ -22,7 +42,7 @@ h2 {
 }
 
 h4 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
 .noselect {
@@ -34,4 +54,61 @@ h4 {
           -ms-user-select: none; /* Internet Explorer/Edge */
               user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome, Opera and Firefox */
+}
+
+.highlight {
+    border-bottom: 3px solid;
+    color: black;
+}
+
+.highlight:hover {
+    color: black;
+}
+
+#facebook {
+    border-bottom-color: var(--facebook-color);
+}
+
+#facebook:hover {
+    background-color: var(--facebook-color);
+}
+
+#github {
+    border-bottom-color: var(--github-color);
+}
+
+#github:hover {
+    background-color: var(--github-color);
+}
+
+#spotify {
+    border-bottom-color: var(--spotify-color);
+}
+
+#spotify:hover {
+    background-color: var(--spotify-color);
+}
+
+#twitter {
+    border-bottom-color: var(--twitter-color);
+}
+
+#twitter:hover {
+    background-color: var(--twitter-color);
+}
+
+#instagram {
+    border-bottom-color: var(--instagram-color);
+}
+
+#instagram:hover {
+    background-color: var(--instagram-color);
+}
+
+#linkedin {
+    border-bottom-color: var(--linkedin-color);
+}
+
+#linkedin:hover {
+    background-color: var(--linkedin-color);
 }
