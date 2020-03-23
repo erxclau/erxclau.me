@@ -47,7 +47,7 @@ h4 {
 
 .noselect {
     font-family: 'Raleway', sans-serif;
-    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-touch-callout: default; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
        -khtml-user-select: none; /* Konqueror HTML */
          -moz-user-select: none; /* Old versions of Firefox */
