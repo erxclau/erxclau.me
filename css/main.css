@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:600,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
 :root {
     --facebook-color: rgba(60, 90, 153, 0.7);
@@ -27,7 +27,7 @@ body {
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 1.7rem !important;
 }
 
