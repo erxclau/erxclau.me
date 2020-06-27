@@ -63,7 +63,8 @@
                 font-size: 4rem;
             }
 
-            .h1, .h2 {
+            .h1,
+            .h2 {
                 font-size: 1.5rem;
             }
 
@@ -89,7 +90,7 @@
             }
 
             .sub-heading .description {
-                font-size: 0.8rem
+                font-size: 0.9rem
             }
 
             .sub-heading .h3 {
@@ -101,8 +102,13 @@
             }
 
             .text {
-                font-size: 0.85rem;
+                font-size: 0.9rem;
                 padding-bottom: 0.5rem;
+            }
+
+            .social-container {
+                font-size: 1.15rem;
+                color: gray;
             }
 
             ul {
@@ -114,6 +120,62 @@
             li:not(:last-child) {
                 padding-bottom: 0.25rem;
             }
+
+            .social {
+                text-decoration: none;
+                position: relative;
+                color: black;
+                margin-left: 0.25rem;
+                margin-right: 0.25rem;
+            }
+
+            .social:after {
+                content: "";
+                position: absolute;
+                z-index: -1;
+                top: 90%;
+                left: -0.1rem;
+                right: -0.1rem;
+                bottom: 0;
+                transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+            }
+
+            .social:hover:after {
+                top: 0%;
+            }
+
+            #github:after {
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+
+            #facebook:after {
+                background-color: rgba(60, 90, 153, 0.5);
+
+            }
+
+            #spotify:after {
+                background-color: rgba(30, 215, 96, 0.5);
+
+            }
+
+            #instagram:after {
+                background-color: rgba(240, 76, 92, 0.5);
+
+            }
+
+            #linkedin:after {
+                background-color: rgba(2, 116, 179, 0.5);
+
+            }
+
+            #twitter:after {
+                background-color: rgba(29, 161, 242, 0.5);
+
+            }
+
+            #gmail:after {
+                background-color: rgba(187, 69, 58, 0.75);
+            }
         </style>
     </head>
 
@@ -123,6 +185,23 @@
                 <header>Eric Lau</header>
                 <hr>
                 <p class="description">Programmer from Bushwick, Brooklyn. Sometimes a writer too.</p>
+                <p class="social-container">
+                    <a class="social" id="gmail" style="margin-left: 0rem;"
+                        href="mailto:ericlau41802@gmail.com">Gmail</a>
+                    <a class="social" id="github" href="https://github.com/ericlau00" target="_blank">GitHub</a>
+                    <a class="social" id="linkedin" href="https://www.linkedin.com/in/eric-lau-089126181/"
+                        target="_blank">LinkedIn</a>
+                    <a class="social" id="twitter" href="https://twitter.com/erxclau" target="_blank">Twitter</a>
+                    <a class="social" id="facebook" href="https://www.facebook.com/erxclau/"
+                        target="_blank">Facebook</a>
+                    <a class="social" id="instagram" href="https://www.instagram.com/erxclau/"
+                        target="_blank">Instagram</a>
+                </p>
+                <p class="social-container">
+                    I make fire <a class="social" id="spotify" style="margin: 0;"
+                        href="https://open.spotify.com/user/sharkguy418?si=7pMPzdgnTV63l9YT2Gzq-g&nd=1"
+                        target="_blank">Spotify</a> playlists too.
+                </p>
             </div>
         </div>
         <div class="container">
