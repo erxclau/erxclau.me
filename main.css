@@ -19,21 +19,15 @@ body {
     user-select: none;
 }
 
-.center {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#title-card, .container {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+.grid {
+    margin: 1rem 13rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
 }
 
 #title-card {
+    min-height: 100vh;
     justify-self: center;
     align-self: center;
     display: flex;
@@ -43,8 +37,7 @@ body {
 }
 
 #title-card > div {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 5%;
 }
 
 img {
@@ -151,29 +144,46 @@ li:not(:last-child) {
 
 #facebook:after {
     background-color: rgba(60, 90, 153, 0.5);
-
 }
 
 #spotify:after {
     background-color: rgba(30, 215, 96, 0.5);
-
 }
 
 #instagram:after {
     background-color: rgba(240, 76, 92, 0.5);
-
 }
 
 #linkedin:after {
     background-color: rgba(2, 116, 179, 0.5);
-
 }
 
 #twitter:after {
     background-color: rgba(29, 161, 242, 0.5);
-
 }
 
 #gmail:after {
     background-color: rgba(187, 69, 58, 0.75);
+}
+
+@media (max-width : 1200px) {
+    .grid {
+        margin: 1rem 5rem;
+    }
+}
+
+@media (max-width : 900px) {
+    .grid {
+        margin: 1rem 4rem;
+    }
+}
+
+@media (max-width : 600px) {
+    .grid {
+        margin: 1rem 2rem;
+    }
+
+    #title-card {
+        flex-direction: column;
+    }
 }
