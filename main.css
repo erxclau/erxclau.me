@@ -36,6 +36,26 @@ body {
 #title-card {
     justify-self: center;
     align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#title-card > div {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 40vw;
+    min-width: 20vw;
+    height: auto;
+    border-radius: 5%;
 }
 
 header,
