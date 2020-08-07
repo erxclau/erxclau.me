@@ -7,7 +7,6 @@ body {
     font-size: small;
     margin: 0;
     height: 100%;
-    padding-bottom: 1rem;
 }
 
 .no-select {
@@ -20,7 +19,7 @@ body {
 }
 
 .grid {
-    margin: 1rem 13rem;
+    margin: 0rem 13rem;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
@@ -51,67 +50,15 @@ img {
     border-radius: 5%;
 }
 
-header,
-.h1,
-.h2,
-.h3 {
-    font-weight: bold;
-}
-
 header {
+    font-weight: bold;
     font-size: 4rem;
-}
-
-.h1 {
-    font-size: 2rem;
-    color: rgb(168, 57, 57);
-}
-
-.h2 {
-    font-size: 1.5rem;
-}
-
-.h3 {
-    font-size: 1.25rem;
-    padding-bottom: 0.25rem;
-}
-
-.sub-container {
-    padding-top: 0.25rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1rem;
-}
-
-.sub-heading {
-    padding-bottom: 0.75rem;
 }
 
 .description {
     font-size: 1.25rem;
     text-align: left;
     color: gray;
-}
-
-.sub-heading .description, .sub-heading .h3, .text {
-    font-size: 0.9rem;
-}
-
-.sub-body {
-    padding-left: 1rem;
-}
-
-.text {
-    padding-bottom: 0.5rem;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li:not(:last-child) {
-    padding-bottom: 0.25rem;
 }
 
 .social {
@@ -168,19 +115,19 @@ li:not(:last-child) {
 
 @media (max-width : 1200px) {
     .grid {
-        margin: 1rem 5rem;
+        margin: 0rem 5rem;
     }
 }
 
 @media (max-width : 900px) {
     .grid {
-        margin: 1rem 4rem;
+        margin: 0rem 4rem;
     }
 }
 
 @media (max-width : 700px) {
     .grid {
-        margin: 1rem 2rem;
+        margin: 0rem 2rem;
     }
 
     #title-card {
