@@ -59,6 +59,10 @@ li span {
     font-weight: 550;
 }
 
+li span a {
+    color: rgb(0, 183, 255);
+}
+
 a {
     text-decoration: none;
     color: rgb(61, 61, 255);
