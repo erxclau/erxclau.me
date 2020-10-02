@@ -10,13 +10,21 @@ body {
 }
 
 nav {
+    top: 0;
+    justify-content: space-between;
+}
+
+#bottom-nav {
+    bottom: 0;
+    justify-content: space-around;
+}
+
+nav, #bottom-nav {
     position: sticky;
     position: -webkit-sticky;
-    top: 0;
     padding: 0.75rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     text-align: center;
     border-bottom: 1px solid gray;
@@ -35,12 +43,12 @@ nav div span {
     margin-right: 0.75rem;
 }
 
-nav a {
+a {
     text-decoration: none;
     color: black;
 }
 
-nav a:hover, nav header:hover {
+a:hover, header:hover {
     color: rgb(107, 107, 107);
     cursor: pointer;
 }
@@ -48,6 +56,12 @@ nav a:hover, nav header:hover {
 section {
     width: 100%;
     height: 100vh;
+}
+
+section header {
+    padding-top: calc(5vh + 2 * 0.75rem);
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 #hero {
@@ -63,14 +77,26 @@ footer {
 }
 
 footer a {
-    text-decoration: none;
-    color: black;
     padding: 0.5rem;
     font-size: 1.5rem;
+}
+
+@media screen and (min-width: 550px) {
+    nav div {
+        display: flex;
+    }
+
+    #bottom-nav {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 550px) {
     nav div {
         display: none;
+    }
+
+    #bottom-nav {
+        display: flex;
     }
 }
