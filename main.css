@@ -65,9 +65,6 @@ footer {
 footer a {
     text-decoration: none;
     color: black;
-}
-
-footer div {
     padding: 0.5rem;
     font-size: 1.5rem;
 }
