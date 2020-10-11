@@ -22,7 +22,7 @@ body {
 nav {
     position: sticky;
     position: -webkit-sticky;
-    padding: 0.75rem 1.25rem;
+    padding: 0.5rem 1.25rem;
     display: flex;
     align-items: center;
     text-align: center;
@@ -58,16 +58,21 @@ a:hover {
 
 section {
     width: 100%;
-    /* height: 100vh; */
     box-sizing: border-box;
     padding: 0rem 1.25rem;
 }
 
 section header {
-    padding-top: calc(5vh + 2.05 * 0.75rem);
-    font-size: 1.75rem;
-    font-weight: 600;
+    padding-top: calc(5vh + 2.05 * 0.5rem);
+    font-size: 1.55rem;
+    font-weight: 700;
     width: fit-content;
+}
+
+.project header {
+    padding-top: 0.25rem;
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 
 #hero {
