@@ -125,6 +125,13 @@ img {
     height: auto;
 }
 
+#solon-img {
+    object-fit: cover; 
+    height: 350px; 
+    width: 45%;
+    object-position: top;
+}
+
 footer {
     display: flex;
     flex-direction: row;
@@ -146,6 +153,11 @@ footer a {
     img {
         align-self: center;
         max-width: 100%;
+    }
+
+    #solon-img {
+        width: 100%; 
+        height: 100%;
     }
 }
 
