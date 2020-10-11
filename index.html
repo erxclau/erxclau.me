@@ -22,96 +22,109 @@
             <span id="resume"><a target="_blank" href="./resume.pdf">Resume</a></span>
         </div>
     </nav>
-    <section id="hero">
-        <p>👋 Hey y'all! I'm Eric.</p>
-    </section>
-    <section id="about">
-        <header><a href="#about">About me</a></header>
-        <p>
-            Hey y'all! My name is Eric Lau. I'm from Bushwick, Brooklyn and I'm a freshman studying computer science at
-            the University of Michigan. I work at The Michigan Daily where I make data visualizations. I'm also a part
-            of the Michigan Mars Rover team where I (unsurprisingly) program rovers. Outside of those, I'm also
-            exploring general topics in computer science like web development and blockchain through extracurriculars or
-            personal projects.
-        </p>
-        <p>
-            Besides computer science, I have interests in politics, philosophy, and social psychology. I believe
-            programming is ultimately a tool which should be combined with other disciplines and studies. In my free
-            time, I love listening to podcasts and music, and curating Spotify playlists. I also enjoy going on long
-            runs, writing, and thrifting!
-        </p>
-    </section>
-    <section id="projects">
-        <header><a href="#projects">Projects</a></header>
-        <div class="project">
-            <header>Solon</header>
+    <main>
+        <section id="hero">
+            <p>👋 Hey y'all! I'm Eric.</p>
+        </section>
+        <section id="about">
+            <header><a href="#about">About me</a></header>
             <p>
-                Solon as an idea has the objective of increasing parental engagement at schools by allowing parents to
-                vote on school policies and discuss ideas with faculty. It originally began as a blockchain website
-                using Solidity, MongoDB, and Node.js. It then turned into two platforms: a mobile app built using
-                Flutter, and a administrative website for staff built using Node.js and Express.js. The two platforms
-                communicated with each other using an API and SQL backend that we built. I worked primarily on the
-                mobile app, connecting API routes and implementing user interface designs.<br>
-                [IMAGE] [GITHUB REPOSITORY]
+                Hey y'all! My name is Eric Lau. I'm from Bushwick, Brooklyn and I'm a freshman studying computer science
+                at the University of Michigan. I work at The Michigan Daily where I make data visualizations. I'm also a
+                part of the Michigan Mars Rover team where I (unsurprisingly) program rovers. Outside of those, I'm also
+                exploring topics in computer science like web development and blockchain through extracurriculars or
+                personal projects.
             </p>
-        </div>
-        <div class="project">
-            <header>messenger-data-viz</header>
             <p>
-                messenger-data-viz is a tool I built which analyzes Facebook Messenger conversations in terms of raw
-                statistics and natural language. It started out as a single use case to look at the conversation between
-                a friend and I but I then expanded it to be used generally. The analysis is visualuzed in a local web
-                application using Flask and D3.<br>
-                [GIF] [GITHUB REPOSITORY]
+                Besides computer science, I have interests in politics, philosophy, and social psychology. I believe
+                programming is ultimately a tool which should be combined with other disciplines and studies. In my free
+                time, I love listening to podcasts and music, and curating Spotify playlists. I also enjoy going on long
+                runs, writing, and thrifting!
             </p>
+        </section>
+        <div class="division-wrapper" id="projects">
+            <hr>
         </div>
-        <div class="project">
-            <header>Resourceful</header>
-            <p>
-                Resourceful is a website meant to help people learn about topics they're interested in by providing
-                various resources that are curated by the website's users. It was built using Node.js, Express.js, and
-                MongoDB. I worked primarily on the website layout and CSS styling. This website won Best UI/UX (Aurora
-                Hack) at SBUHacks 2020.<br>
-                [GIF] [GITHUB REPOSITORY]
-            </p>
+        <section>
+            <header><a href="#projects">Projects</a></header>
+            <div class="project">
+                <header>Solon</header>
+                <p>
+                    Solon as an idea has the objective of increasing parental engagement at schools by allowing parents
+                    to vote on school policies and discuss ideas with faculty. It originally began as a blockchain
+                    website using Solidity, MongoDB, and Node.js. It then turned into two platforms: a mobile app built
+                    using Flutter, and an administrative site for staff built using Node.js and Express.js. The two
+                    platforms communicated with each other using an API and SQL backend that we built. I worked on a
+                    team of several other students as well as with people from Google and the Bushwick Generator. I
+                    worked primarily on the mobile app, connecting API routes and implementing user interface designs.
+                    <br>
+                    [IMAGE] [GITHUB REPOSITORY]
+                </p>
+            </div>
+            <div class="project">
+                <header>messenger-data-viz</header>
+                <p>
+                    messenger-data-viz is a tool I built which analyzes Facebook Messenger conversations in terms of raw
+                    statistics and natural language. It started out as a single use case to look at the conversation
+                    between a friend and I but I then expanded it to be used generally. The analysis is visualuzed in a
+                    locally hosted website using Flask and D3.<br>
+                    [GIF] [GITHUB REPOSITORY]
+                </p>
+            </div>
+            <div class="project">
+                <header>Resourceful</header>
+                <p>
+                    Resourceful is a website meant to help people learn about topics they're interested in by providing
+                    various resources that are curated by the sites's users. It was built using Node.js, Express.js,
+                    and MongoDB. I built it with two friends at SBUHacks 2020. I worked on the layout and styling of the
+                    website, and we won Best UI/UX (Aurora Hack).<br>
+                    [GIF] [GITHUB REPOSITORY]
+                </p>
+            </div>
+            <div class="project">
+                <header>Caerus</header>
+                <p>
+                    I attended Stuyvesant High School where one of the school faculty provided a weekly bulletin for
+                    opportunities and scholarships in PDF form. Some friends and I thought the bulletin was hard to
+                    navigate so we created a website named Caerus to modernize the process of finding and creating items
+                    in the bulletin. We used Flask, Google OAuth2, and SQL. I worked on implementing the Flask routes,
+                    OAuth authentication, and an email notification system using cron jobs.<br>
+                    [YOUTUBE VIDEO] [GITHUB REPOSITORY]
+                </p>
+            </div>
+            <div class="project">
+                <header>covid3.js</header>
+                <p>
+                    covid3.js is a website that analyzes the effects of the COVID-19 pandemic in non-medical areas like
+                    the news, social media, and transportation. It was built using Flask and D3, along with several data
+                    sets. My friends and I were heavily inspired by The New York Times and FiveThirtyEight. I worked on
+                    analysis of the NYC transportation system as well as a general template for line graphs.<br>
+                    [YOUTUBE VIDEO] [GITHUB REPOSITORY]
+                </p>
+            </div>
+            <div class="project">
+                <header>Graphics Engine</header>
+                <p>
+                    I took a course at Stuyvesant where I wrote a graphics engine essentially from scratch. I
+                    implemented most of the features in C but some of the more advanced features used Python. It's
+                    capable of realistic lighting, animations, and can take in MDL instructions.<br>
+                    [PHOTO GALLERY] [GITHUB REPOSITORY]
+                </p>
+            </div>
+        </section>
+        <div class="division-wrapper" id="experience">
+            <hr>
         </div>
-        <div class="project">
-            <header>Caerus</header>
-            <p>
-                I attended Stuyvesant High School where one of the school faculty provided a weekly bulletin for
-                opportunities and scholarships in PDF form. Some friends and I thought the bulletin was hard to navigate
-                so we created a website named Caerus to modernize the process of finding and creating items in the
-                bulletin. We used Flask, Google OAuth2, and SQL. I worked on implementing the Flask website routes,
-                OAuth authentication, and an email notification system using cron jobs.<br>
-                [YOUTUBE VIDEO] [GITHUB REPOSITORY]
-            </p>
+        <section>
+            <header><a href="#experience">Experience</a></header>
+        </section>
+        <div class="division-wrapper" id="contact">
+            <hr>
         </div>
-        <div class="project">
-            <header>covid3.js</header>
-            <p>
-                covid3.js is a website that analyzes the effects of the COVID-19 pandemic in non-medical areas like the
-                news, social media, and transportation. It was built using Flask and D3, along with several data sets.
-                We were heavily inspired by The New York Times and FiveThirtyEight. I worked on analysis of the NYC
-                transportation system as well as a general template for line graphs.<br>
-                [YOUTUBE VIDEO] [GITHUB REPOSITORY]
-            </p>
-        </div>
-        <div class="project">
-            <header>Graphics Engine</header>
-            <p>
-                I took a course at Stuyvesant where I wrote a graphics engine essentially from scratch. I implemented
-                most of the features in C but some of the more advanced features used Python. It's capable of realistic
-                lighting, animations, and can take in MDL instructions.<br>
-                [PHOTO GALLERY] [GITHUB REPOSITORY]
-            </p>
-        </div>
-    </section>
-    <section id="experience">
-        <header><a href="#experience">Experience</a></header>
-    </section>
-    <section id="contact">
-        <header><a href="#contact">Contact</a></header>
-    </section>
+        <section>
+            <header><a href="#contact">Contact</a></header>
+        </section>
+    </main>
     <footer>
         <a class="fas fa-envelope" href="mailto:ericlau@umich.edu"></a>
         <a target="_blank" class="fa fa-spotify"
@@ -119,7 +132,6 @@
         <a target="_blank" class="fa fa-github" href="https://github.com/ericlau00"></a>
         <a target="_blank" class="fa fa-twitter" href="https://twitter.com/erxclau"></a>
         <a target="_blank" class="fa fa-linkedin" href="https://www.linkedin.com/in/eric-lau-089126181/"></a>
-        <a target="_blank" class="fa fa-instagram" href="https://www.instagram.com/erxclau/"></a>
     </footer>
     <nav id="bottom-nav">
         <span><a href="#about">About</a></span>
