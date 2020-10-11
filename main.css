@@ -101,10 +101,28 @@ section header {
     height: calc(100vh - var(--nav-height));
 }
 
+.project {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
 .project header {
     padding-top: 0.25rem;
     font-size: 1.25rem;
     font-weight: 600;
+}
+
+.project-body {
+    display: flex; 
+    align-items: flex-start;
+    padding-bottom: 1rem;
+}
+
+img {
+    max-width: 45%; 
+    height: auto;
 }
 
 footer {
@@ -118,6 +136,17 @@ footer {
 footer a {
     padding: 0.5rem;
     font-size: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+    .project-body {
+        flex-direction: column;
+    }
+
+    img {
+        align-self: center;
+        max-width: 100%;
+    }
 }
 
 @media screen and (min-width: 550px) {
