@@ -14,6 +14,7 @@ window.onload = () => {
     let i = 1;
     setInterval(() => {
         gallery.src = `img/computer_graphics_gallery/${sources[i]}`;
+        gallery.alt = sources[i];
         i++;
         if(i == sources.length) {
             i = 0;
