@@ -13,7 +13,7 @@ window.onload = () => {
     let gallery = document.getElementById("engine-gallery");
     let i = 1;
     setInterval(() => {
-        gallery.src = `/img/computer_graphics_gallery/${sources[i]}`;
+        gallery.src = `img/computer_graphics_gallery/${sources[i]}`;
         i++;
         if(i == sources.length) {
             i = 0;
