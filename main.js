@@ -10,11 +10,21 @@ window.onload = () => {
         "smooth_brain.gif"
     ]
 
+    let images = new Array();
+
+    sources.forEach(file => {
+        let tmp = new Image();
+        tmp.src = `img/computer_graphics_gallery/${file}`;
+        tmp.alt = file;
+        images.push(tmp);
+    });
+
     let gallery = document.getElementById("engine-gallery");
+    let container = gallery.parentElement;
     let i = 1;
     setInterval(() => {
-        gallery.src = `img/computer_graphics_gallery/${sources[i]}`;
-        gallery.alt = sources[i];
+        container.removeChild(container.lastElementChild);
+        container.appendChild(images[i]);
         i++;
         if(i == sources.length) {
             i = 0;
