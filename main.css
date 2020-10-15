@@ -120,6 +120,12 @@ section header {
     padding-bottom: 1rem;
 }
 
+.project-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 img {
     max-width: 45%; 
     height: auto;
