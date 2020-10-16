@@ -126,7 +126,7 @@ section header {
     justify-content: space-between;
 }
 
-img, video {
+.project-visual { 
     max-width: 45%; 
     height: auto;
 }
@@ -156,7 +156,7 @@ footer a {
         flex-direction: column;
     }
 
-    img, video {
+    .project-visual {
         align-self: center;
         max-width: 100%;
     }
