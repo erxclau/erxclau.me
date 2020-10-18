@@ -52,15 +52,15 @@ a {
     color: black;
 }
 
+a:hover {
+    color: rgb(107, 107, 107);
+    cursor: pointer;
+}
+
 p {
     font-size: 1.15rem;
     margin-block-start: 0.5em;
     margin-block-end: 0.5rem;
-}
-
-a:hover {
-    color: rgb(107, 107, 107);
-    cursor: pointer;
 }
 
 main {
@@ -86,6 +86,10 @@ hr {
     border: 1px solid black;
 }
 
+#hero {
+    height: calc(100vh - var(--nav-height));
+}
+
 #about header {
     padding-top: calc(var(--nav-height) + 4 * var(--nav-padding));
 }
@@ -95,10 +99,6 @@ section header {
     font-weight: 700;
     width: fit-content;
     margin-block-end: 0.5em;
-}
-
-#hero {
-    height: calc(100vh - var(--nav-height));
 }
 
 .project {
@@ -136,6 +136,20 @@ section header {
     height: 350px; 
     width: 45%;
     object-position: top;
+}
+
+#experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 3rem;
+}
+
+/* .experience-card {
+} */
+
+.experience-img {
+    width: 100%;
+    height: auto;
 }
 
 footer {

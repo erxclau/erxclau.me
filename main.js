@@ -16,6 +16,8 @@ window.onload = () => {
         let tmp = new Image();
         tmp.src = `img/computer_graphics_gallery/${file}`;
         tmp.alt = file;
+        tmp.className = "project-visual";
+        tmp.id = "engine-gallery";
         images.push(tmp);
     });
 
