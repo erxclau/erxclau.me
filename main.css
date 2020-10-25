@@ -42,7 +42,7 @@ nav {
     font-weight: bold;
 }
 
-#top-nav div span {
+#top-nav div a {
     font-size: 1rem;
     margin-right: 0.75rem;
 }
@@ -133,7 +133,7 @@ section header {
 
 #solon-img {
     object-fit: cover; 
-    height: 350px; 
+    height: 20rem;
     width: 45%;
     object-position: top;
 }
@@ -143,9 +143,6 @@ section header {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 3rem;
 }
-
-/* .experience-card {
-} */
 
 .experience-img {
     width: 100%;
@@ -164,6 +161,10 @@ footer a {
     padding: 0.5rem;
     font-size: 1.5rem;
 }
+
+/* .smcx-widget {
+    z-index: 0 !important;
+} */
 
 @media screen and (max-width: 800px) {
     .project-body {
