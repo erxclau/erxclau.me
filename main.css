@@ -5,12 +5,12 @@
 
 html {
     scroll-behavior: smooth;
+    font-size: medium;
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-size: small;
     font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
 }
 
@@ -87,7 +87,15 @@ hr {
 }
 
 #hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     height: calc(100vh - var(--nav-height));
+}
+
+#hero div {
+    margin-left: auto;
+    text-align: right;
 }
 
 #about header {
@@ -165,6 +173,16 @@ footer a {
 /* .smcx-widget {
     z-index: 0 !important;
 } */
+
+@media screen and (min-width: 2000px) {
+    html {
+        font-size: xx-large;
+    }
+
+    section {
+        max-width: 60%;
+    }
+}
 
 @media screen and (max-width: 800px) {
     .project-body {
