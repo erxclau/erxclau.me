@@ -17,6 +17,7 @@ body {
 #top-nav {
     top: 0;
     justify-content: space-between;
+    /* z-index: 100000; */
 }
 
 #bottom-nav {
@@ -93,9 +94,26 @@ hr {
     height: calc(100vh - var(--nav-height));
 }
 
+#hero-image {
+    width: 50%; 
+    height: auto;
+}
+
 #hero div {
     margin-left: auto;
     text-align: right;
+}
+
+#tmd-at {
+    color: #4F5C7E;
+}
+
+#umrover-at {
+    color: #f8c43a;
+}
+
+#twitter-username {
+    color: #00acee;
 }
 
 #about header {
@@ -185,6 +203,20 @@ footer a {
 }
 
 @media screen and (max-width: 800px) {
+    #hero {
+        flex-direction: column-reverse;
+    }
+
+    #hero div {
+        margin: 0;
+        text-align: left;
+    }
+
+    #hero-image {
+        height: 50%;
+        width: auto;
+    }
+
     .project-body {
         flex-direction: column;
     }
