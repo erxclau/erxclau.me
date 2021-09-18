@@ -64,7 +64,7 @@ section:last-of-type {
     max-width: 450px;
 }
 
-#hero #links, #hero #email {
+#hero #email {
     color: gray;
 }
 
@@ -104,5 +104,5 @@ li:first-child {
 }
 
 li:not(:last-child) {
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
 }
