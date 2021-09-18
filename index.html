@@ -20,319 +20,200 @@
         @import url('main.css');
     </style>
     <link rel="icon" href="favicon.ico">
-    <script src="https://kit.fontawesome.com/0cf2afd459.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav id="top-nav">
-        <header><a href="#">Eric Lau</a></header>
-        <div>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#experience">Experience</a>
-            <a href="#contact">Contact</a>
-            <a target="_blank" href="./resume.pdf">Resume</a>
-        </div>
-    </nav>
-    <main>
-        <section id="hero">
-            <div>
-                <p>Hey y'all! I'm Eric. 👋</p>
-                <p>Visualizing data <a href="https://www.michigandaily.com" rel="noopener" target="_blank"
-                        id="tmd-at">@michigandaily</a> 📊</p>
-                <p>Programming robots <a href="https://mrover.org" rel="noopener" target="_blank"
-                        id="umrover-at">@umrover</a> 🤖</p>
-                <p>Tweeting <a href="https://twitter.com/erxclau" rel="noopener" target="_blank"
-                        id="twitter-username">@erxclau</a> 🐦</p>
-            </div>
-            <object id="hero-image" data="img/hero.svg" type="image/svg+xml" alt="Animated image of Eric Lau"></object>
-        </section>
-        <section id="about">
-            <header><a href="#about">About me</a></header>
-            <p>
-                My name is Eric Lau. I'm from Bushwick, Brooklyn and I'm a freshman studying computer science
-                at the University of Michigan. I work at The Michigan Daily where I make data visualizations. I'm also a
-                part of the Michigan Mars Rover team where I (unsurprisingly) program rovers. Outside of those, I'm also
-                exploring topics in computer science like web development and blockchain through extracurriculars or
-                personal projects.
-            </p>
-            <p>
-                Besides computer science, I have interests in politics, philosophy, and social psychology. I believe
-                programming is ultimately a tool which should be combined with other disciplines and studies. In my free
-                time, I love listening to podcasts and music, and curating Spotify playlists. I also enjoy going on long
-                runs, writing, and thrifting!
-            </p>
-        </section>
-        <div class="division-wrapper" id="projects">
-            <hr>
-        </div>
-        <section>
-            <header><a href="#projects">Projects</a></header>
-            <div class="project">
-                <header>
-                    Solon
-                    <a target="_blank" rel="noopener" class="fa fa-github"
-                        href="https://github.com/solonEDU/solon-mobile"></a>
-                </header>
-                <div class="project-body">
-                    <div class="project-desc">
-                        <p>
-                            Solon as an idea has the objective of increasing parent engagement at schools by allowing
-                            them to vote on school policies and discuss ideas with faculty. It achieves this goal with a
-                            mobile app for parents and an administrative site for staff. The two platforms communicated
-                            with each other using an API and database that we built. I worked on a team of several other
-                            students as well as with people from Google and the Bushwick Generator. I worked primarily
-                            on the mobile app, connecting API routes and implementing user interface designs.
-                        </p>
-                        <p>
-                            Technologies used: Flutter, Node.js, Express.js, SQL
-                        </p>
-                    </div>
-                    <img class="project-visual" src="img/projects/solon.jpg" id="solon-img"
-                        alt="Screen showing proposals page of Solon mobile app">
-                </div>
-            </div>
-            <div class="project">
-                <header>
-                    messenger-data-viz
-                    <a target="_blank" rel="noopener" class="fa fa-github"
-                        href="https://github.com/ericlau00/messenger-data-viz"></a>
-                </header>
-                <div class="project-body">
-                    <div class="project-desc">
-                        <p>
-                            messenger-data-viz is a tool I built which analyzes Facebook Messenger conversations in
-                            terms of raw statistics and natural language. It started out as a single use case to look at
-                            the conversation between a friend and I but I then expanded it to be used generally. The
-                            analysis is visualuzed in a locally hosted website.
-                        </p>
-                        <p>
-                            Technologies used: Python, Flask, NLTK, D3.js
-                        </p>
-                    </div>
-                    <video class="project-visual" autoplay loop playsinline muted>
-                        <source src="video/messenger-data-viz.mp4">
-                    </video>
-                </div>
-            </div>
-            <div class="project">
-                <header>
-                    Resourceful
-                    <a target="_blank" rel="noopener" class="fa fa-github"
-                        href="https://github.com/solonEDU/resourceful"></a>
-                </header>
-                <div class="project-body">
-                    <div class="project-desc">
-                        <p>
-                            Resourceful is a website meant to help people learn about topics they're interested in by
-                            providing various resources that are curated by the sites's users. I built it with two
-                            friends at SBUHacks 2020. I worked on the layout and styling of the website, and we won Best
-                            UI/UX (Aurora Hack).
-                        </p>
-                        <p>
-                            Technologies used: Node.js, Express.js, MongoDB
-                        </p>
-                    </div>
-                    <video class="project-visual" autoplay loop playsinline muted>
-                        <source src="video/resourceful.mp4">
-                    </video>
-                </div>
-            </div>
-            <div class="project">
-                <header>
-                    Caerus
-                    <a target="_blank" rel="noopener" class="fa fa-github" href="https://github.com/vsofat/caerus"></a>
-                    <a target="_blank" rel="noopener" class="fab fa-youtube"
-                        href="https://www.youtube.com/watch?v=cPlkgKidTiU"></a>
-                </header>
-                <div class="project-body">
-                    <div class="project-desc">
-                        <p>
-                            I attended Stuyvesant High School where one of the school faculty provided a weekly bulletin
-                            for opportunities and scholarships in PDF form. Some friends and I thought the bulletin was
-                            hard to navigate so we created a website named Caerus to modernize the process of finding
-                            and creating items in the bulletin. I worked on implementing the routes, authentication, and
-                            an email notification system.
-                        </p>
-                        <p>
-                            Technologies used: Python, Flask, OAuth2 authentication, SQL, cron jobs
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="project">
-                <header>
-                    covid3.js
-                    <a target="_blank" rel="noopener" class="fa fa-github"
-                        href="https://github.com/kazijamal/covid3.js"></a>
-                    <a target="_blank" rel="noopener" class="fab fa-youtube"
-                        href="https://www.youtube.com/watch?v=EcRPQK6-89Q"></a>
-                </header>
-                <div class="project-body">
-                    <div class="project-desc">
-                        <p>
-                            covid3.js is a website that analyzes the effects of the COVID-19 pandemic in non-medical
-                            areas like the news, social media, and transportation. My friends and I were heavily
-                            inspired by The New York Times and FiveThirtyEight. I worked on analysis of the NYC
-                            transportation system as well as a general template for line graphs.
-                        </p>
-                        <p>
-                            Technologies used: Python, Flask, D3.js
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="project">
-                <header>
-                    Graphics Engine
-                    <a target="_blank" rel="noopener" class="fa fa-github"
-                        href="https://github.com/ericlau00/computer-graphics"></a>
-                </header>
-                <div class="project-body">
-                    <div class="project-desc">
-                        <p>
-                            I took a course at Stuyvesant where I wrote a graphics engine essentially from scratch. It's
-                            capable of making 2D or 3D images, and animations. It has realistic lighting, a coordinate
-                            system, and can take in MDL instructions. I created several images during the course. Most
-                            of them are attempts at recreating artwork or album covers.
-                        </p>
-                        <p>
-                            Technologies used: C, Python
-                        </p>
-                    </div>
-                    <img class="project-visual" id="engine-gallery"
-                        src="img/computer_graphics_gallery/clapping_hands.gif" alt="clapping_hands.gif">
-                </div>
-            </div>
-        </section>
-        <div class="division-wrapper" id="experience">
-            <hr>
-        </div>
-        <section>
-            <header><a href="#experience">Experience</a></header>
-            <div id="experience-grid">
-                <div class="experience-card">
-                    <img class="experience-img" src="img/experience/michigan-daily.jpg" alt="The Michigan Daily Logo">
-                    <div class="experience-desc">
-                        <p><b>Michigan Daily</b></p>
-                        <div>Web Developer</div>
-                        <div><i>(September 2020 - present)</i></div>
-                    </div>
-                </div>
-                <div class="experience-card">
-                    <img class="experience-img" src="img/experience/google.png" alt="Google Logo">
-                    <div class="experience-desc">
-                        <p><b>Google Mentorship Program</b></p>
-                        <div>Mentee</div>
-                        <div><i>(November 2019 - June 2020)</i></div>
-                    </div>
-                </div>
-                <div class="experience-card">
-                    <img class="experience-img" src="img/experience/stuy-fusion.jpg" alt="Stuy Fusion 479 Logo">
-                    <div class="experience-desc">
-                        <p><b>Stuy Fusion 479</b></p>
-                        <div>Head of Software Engineering</div>
-                        <div><i>(June 2019 - August 2020)</i></div>
-                        <br>
-                        <div>Software Engineer</div>
-                        <div><i>(September 2018 - June 2019)</i></div>
-                    </div>
-                </div>
-                <div class="experience-card">
-                    <img class="experience-img" src="img/experience/bushwick-generator.jpg"
-                        alt="Bushwick Generator Logo">
-                    <div class="experience-desc">
-                        <p><b>Bushwick Generator</b></p>
-                        <div>Software Intern</div>
-                        <div><i>(June 2019 - August 2019)</i></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="division-wrapper" id="contact">
-            <hr>
-        </div>
-        <section>
-            <header><a href="#contact">Contact</a></header>
-            <!-- Begin Mailchimp Signup Form -->
-            <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-            <style type="text/css">
-                #mc_embed_signup {
-                    background: #fff;
-                    clear: left;
-                    font: 14px -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
-                }
-
-                textarea {
-                    width: 100%;
-                    max-width: 100%;
-                }
-
-                #mc_embed_signup .button {
-                    background-color: black;
-                }
-
-                #mc_embed_signup .button:hover {
-                    background-color: rgb(107, 107, 107);
-                }
-
-                /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-            </style>
-            <div id="mc_embed_signup">
-                <form
-                    action="https://gmail.us2.list-manage.com/subscribe/post?u=b79e449005e1554de4ac7ec95&amp;id=7f78d58cce"
-                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                    target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-
-                        <div class="mc-field-group">
-                            <label for="mce-EMAIL">Email Address </label>
-                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                        </div>
-                        <div class="mc-field-group">
-                            <label for="mce-NAME">Name </label>
-                            <input type="text" value="" name="NAME" class="required" id="mce-NAME">
-                        </div>
-                        <div class="mc-field-group">
-                            <label for="mce-MESSAGE">Message </label>
-                            <textarea type="text" value="" name="MESSAGE" class="required" id="mce-MESSAGE"></textarea>
-                        </div>
-                        <div id="mce-responses" class="clear">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                                name="b_b79e449005e1554de4ac7ec95_7f78d58cce" tabindex="-1" value=""></div>
-                        <div class="clear"><input type="submit" value="Send" name="subscribe" id="mc-embedded-subscribe"
-                                class="button"></div>
-                    </div>
-                </form>
-            </div>
-            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-            <script
-                type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'NAME'; ftypes[1] = 'text'; fnames[2] = 'MESSAGE'; ftypes[2] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
-            <!--End mc_embed_signup-->
-        </section>
-    </main>
-    <footer>
-        <a class="fas fa-envelope" href="mailto:ericlau@umich.edu"></a>
-        <a target="_blank" rel="noopener" class="fa fa-spotify"
-            href="https://open.spotify.com/user/sharkguy418?si=pOTGzHIGSASS0CNgZHr3BQ"></a>
-        <a target="_blank" rel="noopener" class="fa fa-github" href="https://github.com/ericlau00"></a>
-        <a target="_blank" rel="noopener" class="fa fa-twitter" href="https://twitter.com/erxclau"></a>
-        <a target="_blank" rel="noopener" class="fa fa-linkedin"
-            href="https://www.linkedin.com/in/eric-lau-089126181/"></a>
-    </footer>
-    <nav id="bottom-nav">
-        <span><a href="#about">About</a></span>
-        <span><a href="#projects">Projects</a></span>
-        <span><a href="#experience">Experience</a></span>
-        <span><a href="#contact">Contact</a></span>
-        <span id="resume"><a target="_blank" href="./resume.pdf">Resume</a></span>
-    </nav>
-    <script src="main.js"></script>
 </body>
+<main>
+    <section>
+        <div id="hero-container">
+            <div id="hero">
+                <img src="face.png" alt="A black and white outline of my face.">
+                <h1>Hello, my name is Eric Lau.</h1>
+                <p>
+                    I currently <b>build websites and data visualizations</b> at The Michigan Daily.
+                </p>
+                <p>
+                    I'm also <b>studying computer science, science, technology, and society (STS), and digital
+                        studies</b>
+                    at the University of Michigan.
+                </p>
+                <p id="links">
+                    <a href="https://twitter.com/erxclau">twitter</a>,
+                    <a href="https://github.com/erxclau">github</a>,
+                    <a href="https://www.linkedin.com/in/erxclau/">linkedin</a>,
+                    <a href="resume.pdf">résumé</a>
+                </p>
+                <p id="email">
+                    <small>ericlau at umich dot edu</small>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Data visualization</h2>
+        <p>A curated list of visuals from personal and academic projects, and work I've done for The Michigan Daily.
+            Common tools I use include Python, D3.js, and Adobe Illustrator.</p>
+        <ul>
+            <li>
+                <figure>
+                    <a
+                        href="https://www.michigandaily.com/campus-life/umich-class-of-2025-by-the-numbers-and-their-hopes-for-college/">
+                        <video autoplay loop playsinline muted style="display: block;">
+                            <source src="video/class-of-2025.mp4">
+                        </video>
+                        <p>UMich Class of 2025: By the numbers and their hopes for college</p>
+                    </a>
+                    <figcaption>
+                        <p>The Michigan Daily, September 2021</p>
+                        I created scrollytelling visuals for The Daily's Class of 2025 survey using D3 with Scrollama.
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <a
+                        href="https://www.michigandaily.com/sports/olympic-tradition-includes-wolverines-from-across-the-globe/">
+                        <img src="img/olympians-globe.png"
+                            alt="A graphic showing University of Michigan Olympians from across the globe.">
+                        <p>Olympic tradition includes Wolverines from across the globe</p>
+                    </a>
+                    <figcaption>
+                        <p>The Michigan Daily, July 2021</p>
+                        As part of a two-article series on Olympians affiliated with the University of Michigan, I
+                        collaborated with another member of the data team to scrape and clean data and produce graphics.
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <a href="https://erxclau.me/ninety-eight-days-on-the-internet">
+                        <video autoplay loop playsinline muted style="display: block;">
+                            <source src="video/ninety-eight-days.mp4">
+                        </video>
+                        <p>98 Days on the Internet</p>
+                    </a>
+                    <figcaption>
+                        <p>ENGLISH 124, April 2021</p>
+                        I wrote a data-driven article about my browser history during the Winter 2021 semester.
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <a
+                        href="https://www.michigandaily.com/research/daily-analysis-finds-historically-large-salary-disparities-between-three-u-m-campuses/">
+                        <img src="img/campus-salary-stack.png"
+                            alt="A graphic showing the enormous disparity in revenue between the three University of Michigan campuses.">
+                        <p>Daily analysis finds historically large salary disparities between three U-M campuses</p>
+                    </a>
+                    <figcaption>
+                        <p>The Michigan Daily, April 2021</p>
+                        As part of a three-article series, I led the collection, analysis, and visualization of 19 years
+                        of University of Michigan budgets and salary records. I worked closely with news reporters in
+                        writing their articles and answering questions about the data.
+                    </figcaption>
+                </figure>
+            </li>
+            <!-- <li>
+                <a
+                    href="https://www.michigandaily.com/research/daily-analysis-finds-pay-disparities-within-lsa-and-coe-as-student-representatives-question-how-salaries-are-decided/">
+                    Daily analysis finds pay disparities within LSA, CoE
+                </a>
+            </li> -->
+            <!-- <li>
+                <a
+                    href="https://www.michigandaily.com/administration/daily-analysis-finds-funding-and-salary-increases-for-dpss-since-2013/">
+                    Daily analysis finds funding, salary increases for DPSS since 2013
+                </a>
+            </li> -->
+            <!-- <li>
+                <a
+                    href="https://www.michigandaily.com/government/how-are-umich-students-voting-election-survey-issues-most-important-students/">
+                    How are U-M students voting this election? A survey of issues most important to students
+                </a>
+            </li> -->
+            <!-- <li>
+                <a href="https://www.michigandaily.com/statement/2020-sex-survey/">
+                    The 2020 Statement Sex Survey
+                </a>
+            </li> -->
+            <li>
+                <figure>
+                    <a
+                        href="https://www.michigandaily.com/news/academics/we-looked-301-high-schools-most-applicants-u-m-heres-what-we-found/">
+                        <img src="img/feeder-schools.png"
+                            alt="A graphic showing the 301 in- and out-of- state feeder schools to the University of Michigan.">
+                        <p>We looked at the 301 high schools with the most applicants to U-M. Here’s what we found</p>
+                    </a>
+                    <figcaption>
+                        <p>The Michigan Daily, March 2021</p>
+                        As part of a three-article series, I collaborated with other members of The Daily's data team
+                        and news section to analyze and visualize data from a FOIA request on University of Michigan
+                        feeder schools.
+                    </figcaption>
+                </figure>
+            </li>
+            <!-- <li>
+                <a
+                    href="https://www.michigandaily.com/news/academics/hail-and-go-blue-guarantee-financial-aid-programs-give-low-income-state-students/">
+                    ‘HAIL’ and Go Blue Guarantee financial aid programs give low-income in-state students education
+                    opportunities
+                </a>
+            </li> -->
+            <li>
+                <figure>
+                    <a href="https://github.com/erxclau/messenger-data-viz">
+                        <video autoplay loop playsinline muted style="display: block;">
+                            <source src="video/messenger-data-viz.mp4">
+                        </video>
+                        <p>Facebook Messenger Dashboard</p>
+                    </a>
+                    <figcaption>
+                        <p>Personal, July 2020</p>
+                        I created a dashboard to visualize various facets of Facebook Messenger conversations. I used
+                        NLTK for language processing and Flask to serve dashboard.
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>Programming</h2>
+        <p>A curated list of non data-visualization programming projects I've worked on.</p>
+        <ul>
+            <li>
+                <figure>
+                    <a href="">
+                        <p>The Miseducation Project</p>
+                    </a>
+                    <figcaption>
+                        <p>The Michigan Daily, May 2021</p>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <a href="">
+                        <p>Rare Botanist</p>
+                    </a>
+                    <figcaption>
+                        <p>RareHouseplantsBST subreddit</p>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <a href="">
+                        <p>Solon</p>
+                    </a>
+                    <figcaption>
+                        <p>Personal, July 2019 - March 2020</p>
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+    </section>
+</main>
 
 </html>
