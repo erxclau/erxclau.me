@@ -48,6 +48,20 @@ section:last-of-type {
     margin-bottom: 1rem;
 }
 
+.grid {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem 1.5rem;
+  margin: 0 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 #hero-container {
     display: flex;
     align-items: center;
@@ -93,16 +107,27 @@ li figure figcaption {
 }
 
 li figure a img, li figure a video {
+    display: block;
     width: 100%; 
-    height: 350px; 
+    height: 350px;
+    outline: 3px solid black;
+    outline-offset: -1.5px;
     object-fit: cover;
-    object-position: top;
+    object-position: center;
 }
 
-li:first-child {
-    margin-top: 2.5rem;
+@supports (aspect-ratio: 1440 / 710) {
+  li figure a img, li figure a video {
+    height: unset;
+    outline: 3px solid black;
+    outline-offset: -1.5px;
+    aspect-ratio: 1440/710;
+    object-fit: cover;
+    object-position: center;
+  }
+
 }
 
-li:not(:last-child) {
-    margin-bottom: 2.5rem;
+footer {
+  margin: 2rem 0;
 }
