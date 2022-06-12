@@ -69,11 +69,6 @@ section:last-of-type {
     max-width: 900px;
 }
 
-#hero img {
-    width: 200px;
-    height: auto;
-}
-
 #hero p {
     max-width: 450px;
 }
