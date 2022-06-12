@@ -13,7 +13,7 @@ body {
 
 a {
     text-decoration: none;
-    color: gray;
+    color: #585858;
 }
 
 a:hover {
@@ -74,7 +74,7 @@ section:last-of-type {
 }
 
 #hero #email {
-    color: gray;
+    color: #585858;
 }
 
 ul {
