@@ -35,12 +35,16 @@
     <section>
       <div id="hero-container">
         <div id="hero">
-          <img 
-            src="img/face.png" 
-            alt="A black and white outline of Eric Lau's face"
-            width="200px"
-            height="277.65px"
-          />
+          <picture>
+            <source srcset="img/face.webp" type="image/webp" />
+            <source srcset="img/face.png" type="image/png" />
+            <img
+              src="img/face.png"
+              alt="A black and white outline of Eric Lau's face"
+              width="200px"
+              height="277.65px"
+            />
+          </picture>
           <h1>Hello, my name is Eric Lau.</h1>
           <p>
             I am currently a <b>data visuals fellow</b> at the
@@ -86,32 +90,42 @@
       <li>
         <figure>
           <a href="https://mic.michigandaily.com/queer-in-color">
-            <img
-              src="img/qic.jpg"
-              alt="Landing screen of the Queer in Color website"
-              loading="lazy"
-            />
+            <picture>
+              <source srcset="img/qic.webp" type="image/webp" />
+              <source srcset="img/qic.jpg" type="image/jpg" />
+              <img
+                src="img/qic.jpg"
+                alt="Landing screen of the Queer in Color website"
+                loading="lazy"
+              />
+            </picture>
             <p>Queer in Color</p>
           </a>
           <figcaption>
             <p>The Michigan Daily, April 2022</p>
-            A website to showcase work by queer authors and artists in Michigan in Color. Built using React and ArchieML.
+            A website to showcase work by queer authors and artists in Michigan
+            in Color. Built using React and ArchieML.
           </figcaption>
         </figure>
       </li>
       <li>
         <figure>
           <a href="https://www.michigandaily.com/statement/love-notes-2022/">
-            <img
-              src="img/love.jpg"
-              alt="Landing screen of the 2022 Love Notes website"
-              loading="lazy"
-            />
+            <picture>
+              <source srcset="img/love.webp" type="image/webp" />
+              <source srcset="img/love.jpg" type="image/jpg" />
+              <img
+                src="img/love.jpg"
+                alt="Landing screen of the 2022 Love Notes website"
+                loading="lazy"
+              />
+            </picture>
             <p>Love Notes 2022 Edition</p>
           </a>
           <figcaption>
             <p>The Michigan Daily, February 2022</p>
-            A website to display love notes that people sent to each other as cassette tapes. Built using Svelte.
+            A website to display love notes that people sent to each other as
+            cassette tapes. Built using Svelte.
           </figcaption>
         </figure>
       </li>
@@ -120,11 +134,15 @@
           <a
             href="https://www.michigandaily.com/news/more-than-100-ann-arbor-restaurants-closed-in-the-past-three-years-how-have-these-closures-affected-the-community/"
           >
-            <img
-              src="img/map.png"
-              alt="Map showing whether Ann Arbor restaurants are closed or open"
-              loading="lazy"
-            />
+            <picture>
+              <source srcset="img/map.webp" type="image/webp" />
+              <source srcset="img/map.png" type="image/png" />
+              <img
+                src="img/map.png"
+                alt="Map showing whether Ann Arbor restaurants are closed or open"
+                loading="lazy"
+              />
+            </picture>
             <p>
               More than 100 Ann Arbor restaurants closed in the past three
               years. How have these closures affected the community?
@@ -159,16 +177,21 @@
       <li>
         <figure>
           <a href="https://miseducation.michigandaily.com">
-            <img
-              src="img/miseducation.jpg"
-              alt="Landing screen of The Miseducation Project website"
-              loading="lazy"
-            />
+            <picture>
+              <source srcset="img/miseducation.webp" type="image/webp" />
+              <source srcset="img/miseducation.jpg" type="image/jpg" />
+              <img
+                src="img/miseducation.jpg"
+                alt="Landing screen of The Miseducation Project website"
+                loading="lazy"
+              />
+            </picture>
             <p>The Miseducation Project</p>
           </a>
           <figcaption>
             <p>The Michigan Daily, May 2021</p>
-            A website to showcase student art and storytelling. Built using React and ArchieML.
+            A website to showcase student art and storytelling. Built using
+            React and ArchieML.
           </figcaption>
         </figure>
       </li>
@@ -192,11 +215,15 @@
           <a
             href="https://www.michigandaily.com/research/daily-analysis-finds-historically-large-salary-disparities-between-three-u-m-campuses/"
           >
-            <img
-              src="img/campus.png"
-              alt="Small multiple graphic showing the disparity in revenue between the three University of Michigan campuses"
-              loading="lazy"
-            />
+            <picture>
+              <source srcset="img/campus.webp" type="image/webp" />
+              <source srcset="img/campus.png" type="image/png" />
+              <img
+                src="img/campus.png"
+                alt="Small multiple graphic showing the disparity in revenue between the three University of Michigan campuses"
+                loading="lazy"
+              />
+            </picture>
             <p>
               Daily analysis finds historically large salary disparities between
               three U-M campuses
@@ -215,11 +242,15 @@
           <a
             href="https://www.michigandaily.com/news/academics/we-looked-301-high-schools-most-applicants-u-m-heres-what-we-found/"
           >
-            <img
-              src="img/feeder-schools.png"
-              alt="Graphic showing the 301 in- and out-of- state feeder schools to the University of Michigan"
-              loading="lazy"
-            />
+            <picture>
+              <source srcset="img/feeder-schools.webp" type="image/webp" />
+              <source srcset="img/feeder-schools.png" type="image/png" />
+              <img
+                src="img/feeder-schools.png"
+                alt="Graphic showing the 301 in- and out-of- state feeder schools to the University of Michigan"
+                loading="lazy"
+              />
+            </picture>
             <p>
               We looked at the 301 high schools with the most applicants to U-M.
               Here's what we found
@@ -243,8 +274,8 @@
           </a>
           <figcaption>
             <p>Personal, July 2020</p>
-            A dashboard to visualize various facets of Facebook
-            Messenger conversations. Built using NLTK, Flask, and D3.
+            A dashboard to visualize various facets of Facebook Messenger
+            conversations. Built using NLTK, Flask, and D3.
           </figcaption>
         </figure>
       </li>
@@ -258,7 +289,8 @@
           </a>
           <figcaption>
             <p>Computer Graphics, January 2020 - June 2020</p>
-            An MDL graphics engine with lighting and coordinate systems capable of rendering animations. Built using C and Python.
+            An MDL graphics engine with lighting and coordinate systems capable
+            of rendering animations. Built using C and Python.
           </figcaption>
         </figure>
       </li>
