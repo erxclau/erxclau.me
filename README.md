@@ -1,3 +1,3 @@
-# ericlau00.github.io
+# erxclau.github.io
 
 My personal website
