@@ -8,7 +8,7 @@
     <meta
       name="description"
       property="og:description"
-      content="Eric Lau's personal website"
+      content="My personal website"
     />
     <style>
       @import url("main.css");
@@ -48,13 +48,12 @@
             </picture>
             <h1>Hello, my name is Eric Lau.</h1>
             <p>
-              I am a <b>senior software engineer</b> at
-              <i>The Michigan Daily</i>. I previously served as a
-              <b>managing online editor</b> where I led the engineering, data
-              journalism, and product design teams.
+              I am the <b>senior software engineer</b> at <u>The Michigan Daily</u>. I
+              previously served as a <b>managing online editor</b> where I led
+              the engineering, data journalism, and product design teams.
             </p>
             <p>
-              I have also worked at the <i>Texas Tribune</i> as a
+              I have also worked at the <u>Texas Tribune</u> as a
               <b>data visuals fellow</b> and an <b>engineering fellow</b>.
             </p>
             <p>
@@ -134,25 +133,56 @@
       <ul class="grid">
         <li>
           <figure>
-            <a href="https://mic.michigandaily.com/queer-in-color">
+            <a href="https://games.michigandaily.com/crosswords">
               <picture>
                 <source
-                  srcset="img/optimized/work/qic.webp"
+                  srcset="img/optimized/work/crosswords.webp"
                   type="image/webp"
                 />
-                <source srcset="img/original/work/qic.jpg" type="image/jpg" />
+                <source
+                  srcset="img/original/work/crosswords.png"
+                  type="image/png"
+                />
                 <img
-                  src="img/original/work/qic.jpg"
-                  alt="Landing screen of the Queer in Color website"
+                  src="img/original/work/crosswords.png"
+                  alt="The Michigan Daily crossword interface"
                   loading="lazy"
                 />
               </picture>
-              <p>Queer in Color</p>
+              <p>The Michigan Daily Crosswords</p>
             </a>
             <figcaption>
-              <p>The Michigan Daily, April 2022</p>
-              A website to showcase work by queer authors and artists in
-              Michigan in Color. Built using React and ArchieML.
+              <p>The Michigan Daily, January 2023</p>
+              A crossword application built with SvelteKit.
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <a
+              href="https://specials.michigandaily.com/photographers-favorites"
+            >
+              <picture>
+                <source
+                  srcset="img/optimized/work/photographers-favorites.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="img/original/work/photographers-favorites.png"
+                  type="image/png"
+                />
+                <img
+                  src="img/original/work/photographers-favorites.png"
+                  alt="Landing screen of the 2022 Photographers' Favorites website"
+                  loading="lazy"
+                />
+              </picture>
+              <p>2022 Photographers' Favorites</p>
+            </a>
+            <figcaption>
+              <p>The Michigan Daily, December 2022</p>
+              A multimedia article showcasing Daily photographers' favorite
+              photos from 2022. Built with Scrollama.
             </figcaption>
           </figure>
         </li>
@@ -175,8 +205,8 @@
             </a>
             <figcaption>
               <p>The Michigan Daily, February 2022</p>
-              A website to display love notes that people sent to each other as
-              cassette tapes. Built using Svelte.
+              A website displaying love notes that University students sent to
+              each other as cassette tapes. Built using Svelte.
             </figcaption>
           </figure>
         </li>
@@ -257,21 +287,6 @@
         </li>
         <li>
           <figure>
-            <a href="https://erxclau.me/ninety-eight-days-on-the-internet">
-              <video autoplay loop playsinline muted style="display: block">
-                <source src="video/ninety-eight-days.mp4" />
-              </video>
-              <p>98 Days on the Internet</p>
-            </a>
-            <figcaption>
-              <p>ENGLISH 124, April 2021</p>
-              A data-driven article about my browsing history over the 2021
-              winter semester. Built using D3 and Scrollama.
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
             <a
               href="https://www.michigandaily.com/research/daily-analysis-finds-historically-large-salary-disparities-between-three-u-m-campuses/"
             >
@@ -338,21 +353,6 @@
         </li>
         <li>
           <figure>
-            <a href="https://github.com/erxclau/messenger-data-viz">
-              <video autoplay loop playsinline muted style="display: block">
-                <source src="video/messenger-data-viz.mp4" />
-              </video>
-              <p>Facebook Messenger Dashboard</p>
-            </a>
-            <figcaption>
-              <p>Personal, July 2020</p>
-              A dashboard to visualize various facets of Facebook Messenger
-              conversations. Built using NLTK, Flask, and D3.
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
             <a href="https://github.com/erxclau/computer-graphics">
               <video autoplay loop playsinline muted style="display: block">
                 <source src="video/brain.mp4" />
@@ -366,40 +366,6 @@
             </figcaption>
           </figure>
         </li>
-        <!-- <li>
-        <figure>
-          <a href="https://github.com/erxclau/rare-botanist">
-            <p>Rare Botanist</p>
-          </a>
-          <figcaption>
-            <p>Personal, July 2020</p>
-            I developed a subreddit bot for
-            <a href="https://www.reddit.com/r/RareHouseplantsBST/"
-              >r/RareHouseplantsBST</a
-            >
-            to keep track of the sale and trade of rare houseplants. I actively
-            maintain the bot to make sure all sales and trades are properly
-            confirmed.
-          </figcaption>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <a href="https://github.com/SolonEDU/solon-mobile">
-            <p>Solon</p>
-          </a>
-          <figcaption>
-            <p>Personal, July 2019 - March 2020</p>
-            Over the course of an internship at the Bushwick Generator and a
-            mentorship program with Google, a core team of two developers and I
-            worked with mentors to create an app aimed at increasing parent
-            engagement at schools. We worked with several technologies including
-            Flutter, Node.js, and even Solidity at one point. A demonstration of
-            the final product can be found
-            <a href="https://www.youtube.com/watch?v=BqlMdw6bGE0">here</a>.
-          </figcaption>
-        </figure>
-      </li> -->
       </ul>
       <footer>Made with 💜 by Eric Lau</footer>
     </main>
