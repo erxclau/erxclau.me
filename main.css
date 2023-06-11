@@ -1,12 +1,21 @@
 html {
   scroll-behavior: smooth;
-  font-size: large;
+  font-size: 18px;
+}
+
+@font-face {
+  font-family: "Georgia Adjusted";
+  src: local(Georgia);
+  size-adjust: 88%;
+  ascent-override: 101%;
+  descent-override: 23%;
+  line-gap-override: 0%;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Crimson Pro", Georgia, "Times New Roman", Times, serif;
+  font-family: "Crimson Pro", "Georgia Adjusted", Georgia;
 }
 
 a {
