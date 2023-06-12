@@ -111,6 +111,7 @@ ul.grid li figure {
 }
 
 ul.grid li figure a p {
+  font-weight: 600;
   font-size: 1.3rem;
 }
 
