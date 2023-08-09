@@ -1,21 +1,6 @@
-html {
-  scroll-behavior: smooth;
-  font-size: 16px;
-}
-
-@font-face {
-  font-family: "Georgia Adjusted";
-  src: local(Georgia);
-  size-adjust: 88%;
-  ascent-override: 101%;
-  descent-override: 23%;
-  line-gap-override: 0%;
-}
-
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 a {
@@ -23,7 +8,9 @@ a {
   color: #585858;
 }
 
-a:hover {
+a:hover,
+a:focus,
+a:active {
   color: rgb(165, 165, 165);
   cursor: pointer;
 }
@@ -34,28 +21,19 @@ p {
   margin-block-end: 0.5rem;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 section {
   width: 100%;
   box-sizing: border-box;
   padding: 0rem 1rem;
-  max-width: 900px;
-}
-
-section:not(:first-of-type, :last-of-type) {
-  margin-bottom: 3rem;
-}
-
-section:last-of-type {
-  margin-bottom: 1rem;
+  max-width: 70ch;
 }
 
 .grid {
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+
   max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -63,46 +41,7 @@ section:last-of-type {
   margin: 0 1rem;
 }
 
-@media screen and (max-width: 800px) {
-  section {
-    max-width: 600px;
-  }
-
-  .grid {
-    max-width: 600px;
-    grid-template-columns: 1fr;
-  }
-}
-
-#hero-container {
-  display: flex;
-  align-items: center;
-  min-height: 100vh;
-  max-width: 900px;
-}
-
-@media screen and (max-width: 600px) {
-  #hero-container {
-    margin-top: 10px;
-  }
-}
-
-#hero p {
-  max-width: 450px;
-}
-
-#hero #email {
-  color: #585858;
-}
-
-ul.grid {
-  list-style-type: none;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  padding-inline-start: 0;
-}
-
-ul.grid li figure {
+.grid figure {
   box-sizing: content-box;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -110,18 +49,18 @@ ul.grid li figure {
   margin-inline-end: 0;
 }
 
-ul.grid li figure a p {
+.grid a p {
   font-weight: 600;
   font-size: 1.3rem;
 }
 
-ul.grid li figure figcaption {
+.grid figcaption {
   font-size: 1rem;
   max-width: 450px;
 }
 
-ul.grid li figure a picture img,
-li figure a video {
+.grid img,
+.grid video {
   display: block;
   width: 100%;
   height: 350px;
@@ -132,17 +71,16 @@ li figure a video {
 }
 
 @supports (aspect-ratio: 1440 / 710) {
-  ul.grid li figure a picture img,
-  ul.grid li figure a video {
+  .grid img,
+  .grid video {
     height: unset;
-    outline: 3px solid black;
-    outline-offset: -1.5px;
     aspect-ratio: 1440/710;
-    object-fit: cover;
-    object-position: center;
   }
 }
 
-footer {
-  margin: 2rem 0;
+@media screen and (max-width: 800px) {
+  .grid {
+    max-width: 600px;
+    grid-template-columns: 1fr;
+  }
 }

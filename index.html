@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth; font-size: 16px;">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,16 +24,24 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
       gtag("config", "G-236KCS13KV");
     </script>
   </head>
 
-  <body>
-    <main>
+  <body style="margin: 0; padding: 0;">
+    <main style="display: flex; flex-direction: column; align-items: center">
       <section>
-        <div id="hero-container">
-          <div id="hero">
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            min-height: 100vh;
+            max-width: 900px;
+            padding-top: 1rem;
+            box-sizing: border-box;
+          "
+        >
+          <div style="max-width: 450px">
             <picture>
               <source srcset="img/optimized/face.webp" type="image/webp" />
               <source srcset="img/optimized/face.png" type="image/png" />
@@ -44,7 +52,7 @@
                 height="277.65px"
               />
             </picture>
-            <h1>Hello, my name is Eric Lau.</h1>
+            <h1>Hello! My name is Eric Lau.</h1>
             <p>
               I am a <b>data journalist</b> at
               <u>The San Francisco Standard</u>.
@@ -73,7 +81,7 @@
               <a href="https://www.linkedin.com/in/erxclau/">linkedin</a>,
               <a href="resume.pdf">résumé</a>
             </p>
-            <p id="email">
+            <p style="color: #585858">
               <small>ericlau at umich dot edu</small>
             </p>
           </div>
@@ -87,27 +95,27 @@
           Tribune. You can find more of my personal and academic work on
           <a href="https://github.com/erxclau?tab=repositories">GitHub</a>.
         </p>
-        <ul class="list">
+        <ul style="margin-block-start: 0.5rem; display: grid; gap: 0.25rem">
           <li>
             <a
               href="https://www.texastribune.org/2022/07/19/abbott-beto-fundraising-governor-2022/"
               >Here's how much Greg Abbott and Beto O'Rourke have raised in the
               race for Texas governor</a
-            >, Texas Tribune
+            >, The Texas Tribune
           </li>
           <li>
             <a
               href="https://www.texastribune.org/2022/08/10/texas-politics-project-abortion-polling/"
               >Abortion should be permitted in cases of rape and incest, around
               80% of Texas voters say in UT poll</a
-            >, Texas Tribune
+            >, The Texas Tribune
           </li>
           <li>
             <a
               href="https://www.texastribune.org/2022/08/15/texas-schools-accountability-ratings/"
               >Texas school ratings show improvement compared to 2019, but those
               in poorer neighborhoods still lag</a
-            >, Texas Tribune
+            >, The Texas Tribune
           </li>
           <li>
             <a
@@ -115,7 +123,7 @@
             >
               High-poverty schools struggle to earn Texas' highest rating. Some
               in the Rio Grande Valley break that trend.</a
-            >, Texas Tribune
+            >, The Texas Tribune
           </li>
           <li>
             <a
@@ -134,7 +142,7 @@
           <li>
             <a href="https://texastribune.github.io/posts/2022-05-24/"
               >Spring 2022 Engineering Fellow Reflections</a
-            >, Texas Tribune
+            >, The Texas Tribune
           </li>
         </ul>
       </section>
@@ -402,7 +410,9 @@
           </figure>
         </li>
       </ul>
-      <footer>Made with 💜 by Eric Lau</footer>
     </main>
+    <footer style="width: fit-content; margin: 1rem auto; font-size: 0.875rem">
+      Made with 💜 by Eric Lau
+    </footer>
   </body>
 </html>
