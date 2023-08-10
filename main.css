@@ -16,13 +16,6 @@ p {
   margin-block-end: 0.5rem;
 }
 
-section {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0rem 1rem;
-  max-width: 70ch;
-}
-
 .grid {
   list-style-type: none;
   margin-block-start: 0;
@@ -33,7 +26,8 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem 1.5rem;
-  margin: 0 1rem;
+  margin: auto;
+  padding: 0 1rem;
 }
 
 .grid figure {
