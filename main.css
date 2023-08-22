@@ -1,12 +1,34 @@
+:root {
+  --color-text: black;
+  --color-background: white;
+  --color-outline: var(--color-text);
+  --color-link: #585858;
+  --color-link-active: rgb(165, 165, 165);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: rgb(243, 243, 243);
+    --color-background: rgb(31, 31, 31);
+    --color-link: rgb(194, 194, 194);
+    --color-link-active: rgb(229, 229, 229);
+  }
+}
+
+body {
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
 a {
   text-decoration: none;
-  color: #585858;
+  color: var(--color-link);
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: rgb(165, 165, 165);
+  color: var(--color-link-active);
   cursor: pointer;
 }
 
@@ -54,7 +76,7 @@ p {
   display: block;
   width: 100%;
   height: 350px;
-  outline: 2px solid black;
+  outline: 2px solid var(--color-outline);
   outline-offset: -1px;
   object-fit: cover;
   object-position: center;
