@@ -302,7 +302,7 @@
 	</section>
 	<section class="breakout" id="data">
 		<hgroup class="inline">
-			<h2>Data journalism</h2>
+			<h2>Journalism</h2>
 			<p>
 				I work with journalists to tell important stories with graphics and visualizations. I am
 				particularly experienced with building data trackers and bespoke interactives. I have
