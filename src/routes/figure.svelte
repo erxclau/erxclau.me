@@ -13,6 +13,13 @@
 				alt={item.media.alt}
 				loading={item.lazy ? 'lazy' : undefined}
 			></enhanced:img>
+		{:else if item.media.type === 'url'}
+			<enhanced:img
+				class="media"
+				src={item.media.source}
+				alt={item.media.alt}
+				loading={item.lazy ? 'lazy' : undefined}
+			></enhanced:img>
 		{:else if item.media.type === 'video'}
 			<video autoplay loop playsinline muted class="media">
 				<source src={item.media.source} />
@@ -53,7 +60,6 @@
 	.work .media {
 		display: block;
 		object-fit: cover;
-		object-position: center;
 		width: 100%;
 		height: unset;
 		border-radius: 5px;

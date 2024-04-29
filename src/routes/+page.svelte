@@ -1,5 +1,11 @@
 <script lang="ts">
 	import video from '$lib/assets/work/class-of-2025.mp4?url';
+	import policeUrl from '$lib/assets/work/police.png?url';
+	import grammyUrl from '$lib/assets/work/grammy.jpg?url';
+
+	import police from '$lib/assets/work/police.png?enhanced&aspect=1440:710&fit=cover&position=top';
+	import taxonomy from '$lib/assets/work/taxonomy.png?enhanced&aspect=1440:710&fit=cover&position=top';
+
 	import Figure from './figure.svelte';
 	import type { Image, Work } from '$lib/types';
 
@@ -12,7 +18,7 @@
 		}
 	});
 
-	const development: Array<Work> = [
+	const engineering: Array<Work> = [
 		{
 			link: 'https://apps.apple.com/us/app/the-michigan-daily/id1615063980?platform=iphone',
 			name: 'The Michigan Daily',
@@ -120,7 +126,7 @@
 		}
 	];
 
-	const data: Array<Work> = [
+	const journalism: Array<Work> = [
 		{
 			link: 'https://www.texastribune.org/2022/08/10/texas-politics-project-abortion-polling/',
 			name: 'Abortion should be permitted in cases of rape and incest, around 80% of Texas voters say in UT poll',
@@ -253,6 +259,70 @@
 			lazy: true
 		}
 	];
+
+	const other: Array<Work> = [
+		{
+			link: 'https://erxclau.github.io/taxonomy-of-a-computer/',
+			name: 'Taxonomy of a computer',
+			description: 'Wrote a visual brief on my computer usage. Made with D3 and Scrollama.',
+			media: {
+				type: 'url',
+				source: taxonomy,
+				alt: 'A treemap showing different portions of my computer storage.'
+			}
+		},
+		{
+			link: 'https://erxclau.github.io/september-of-bereal/',
+			name: 'September of BeReal',
+			description: 'Created a graphic showing my BeReal usage over a month. Made with D3.',
+			media: {
+				type: 'image',
+				source: pictures['/src/lib/assets/work/bereal.png'],
+				alt: 'A colored grid of rectangles laid out as a calendar.'
+			}
+		},
+		{
+			link: 'https://erxclau.github.io/ninety-eight-days-on-the-internet/',
+			name: '98 Days on the Internet',
+			description: 'Wrote a visual story about my Internet history. Used Scrollama and D3.',
+			media: {
+				type: 'image',
+				source: pictures['/src/lib/assets/work/history.png'],
+				alt: 'A bubble chart with circles of various sizes and colors signifying number of visits to different websites.'
+			}
+		},
+		{
+			link: 'https://github.com/erxclau/rare-botanist',
+			name: 'Rare Botanist',
+			description:
+				'Created an automated Reddit bot to monitor house plant transactions between 14,000 members. Made with Python.',
+			media: {
+				type: 'image',
+				source: pictures['/src/lib/assets/work/plants.jpg'],
+				alt: 'An assortment of rare house plants.'
+			}
+		},
+		{
+			link: policeUrl,
+			name: 'Police Officer (Soldier)',
+			description: 'Made with Photoshop.',
+			media: {
+				type: 'url',
+				source: police,
+				alt: 'A figure composed of several police officers with tactical uniforms and riot gear. The figure is outlined by a green rectangle labeled "Police Officer" and another labeled "Soldier."'
+			}
+		},
+		{
+			link: grammyUrl,
+			name: 'GRAMMY (People like me)',
+			description: 'Made with Processing.',
+			media: {
+				type: 'image',
+				source: pictures['/src/lib/assets/work/grammy.jpg'],
+				alt: 'A grid of Grammy winners. White winners are labeled as "People like me," whereas winners of color are labeled with their names.'
+			}
+		}
+	];
 </script>
 
 <main>
@@ -283,7 +353,7 @@
 			> in Ann Arbor.
 		</p>
 	</section>
-	<section class="breakout" id="development">
+	<section class="breakout" id="engineering">
 		<hgroup class="inline">
 			<h2>Engineering</h2>
 			<p>
@@ -293,14 +363,14 @@
 			</p>
 		</hgroup>
 		<ul class="inline">
-			{#each development as item}
+			{#each engineering as item}
 				<li>
 					<Figure {item} />
 				</li>
 			{/each}
 		</ul>
 	</section>
-	<section class="breakout" id="data">
+	<section class="breakout" id="journalism">
 		<hgroup class="inline">
 			<h2>Journalism</h2>
 			<p>
@@ -310,7 +380,20 @@
 			</p>
 		</hgroup>
 		<ul class="inline">
-			{#each data as item}
+			{#each journalism as item}
+				<li>
+					<Figure {item} />
+				</li>
+			{/each}
+		</ul>
+	</section>
+	<section class="breakout" id="other">
+		<hgroup class="inline">
+			<h2>Other</h2>
+			<p>Here is a collection of personal and academic work I've produced.</p>
+		</hgroup>
+		<ul class="inline">
+			{#each other as item}
 				<li>
 					<Figure {item} />
 				</li>

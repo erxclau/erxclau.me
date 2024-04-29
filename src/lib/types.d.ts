@@ -16,6 +16,11 @@ export type Work = {
 				alt: string;
 		  }
 		| {
+				type: 'url';
+				source: string;
+				alt: string;
+		  }
+		| {
 				type: 'video';
 				source: string;
 		  };
