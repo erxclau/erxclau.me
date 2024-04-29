@@ -14,15 +14,16 @@ export type Work = {
 				type: 'image';
 				source: Image;
 				alt: string;
+				eager?: boolean;
 		  }
 		| {
 				type: 'url';
 				source: string;
 				alt: string;
+				eager?: boolean;
 		  }
 		| {
 				type: 'video';
 				source: string;
 		  };
-	lazy?: boolean;
 };

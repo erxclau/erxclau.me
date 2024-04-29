@@ -27,7 +27,8 @@
 			media: {
 				type: 'image',
 				source: pictures['/src/lib/assets/work/daily.webp'],
-				alt: '"The Michigan Daily" written in white on a blue background'
+				alt: '"The Michigan Daily" written in white on a blue background',
+				eager: true
 			}
 		},
 		{
@@ -38,7 +39,8 @@
 			media: {
 				type: 'image',
 				source: pictures['/src/lib/assets/work/crosswords.png'],
-				alt: 'A crossword puzzle.'
+				alt: 'A crossword puzzle.',
+				eager: true
 			}
 		},
 		{
@@ -49,8 +51,7 @@
 				type: 'image',
 				source: pictures['/src/lib/assets/work/fable.webp'],
 				alt: 'Amman, Jordan on a summer day in 2023.'
-			},
-			lazy: true
+			}
 		},
 		{
 			link: 'https://specials.michigandaily.com/2023/writing-in-the-digital-dark-age/',
@@ -61,8 +62,7 @@
 				type: 'image',
 				source: pictures['/src/lib/assets/work/digital-dark-age.png'],
 				alt: 'A pixelated illustration of a lighthouse near a cliff. The light is beaming out to sea.'
-			},
-			lazy: true
+			}
 		},
 		{
 			link: 'https://www.michigandaily.com/statement/love-notes-2022/',
@@ -73,8 +73,7 @@
 				type: 'image',
 				source: pictures['/src/lib/assets/work/love.jpg'],
 				alt: 'Two cassette tapes with floating neon blue hearts.'
-			},
-			lazy: true
+			}
 		},
 		{
 			link: 'https://mic.michigandaily.com/mic-style/',
@@ -85,8 +84,7 @@
 				type: 'image',
 				source: pictures['/src/lib/assets/work/mic-style.png'],
 				alt: 'A woman wearing a strawberry sweater in a corn field.'
-			},
-			lazy: true
+			}
 		},
 		{
 			link: 'https://mic.michigandaily.com/black-hair-series/',
@@ -97,8 +95,7 @@
 				type: 'image',
 				source: pictures['/src/lib/assets/work/black-hair-series.png'],
 				alt: 'An assortment of barber shop supplies including hair trimmers, combs and hair spray.'
-			},
-			lazy: true
+			}
 		},
 		{
 			link: 'https://specials.michigandaily.com/2022/photographers-favorite/',
@@ -109,8 +106,7 @@
 				type: 'image',
 				source: pictures['/src/lib/assets/work/photographers-favorites.png'],
 				alt: 'Students standing in front of trees with autumn leaves.'
-			},
-			lazy: true
+			}
 		},
 		{
 			link: 'https://www.detroit-neighborhoods.com/',
@@ -121,8 +117,7 @@
 				type: 'image',
 				source: pictures['/src/lib/assets/work/detroit-neighborhoods.png'],
 				alt: 'Dashed outlined map of Detroit.'
-			},
-			lazy: true
+			}
 		}
 	];
 
@@ -136,8 +131,7 @@
 				type: 'image',
 				source: pictures['/src/lib/assets/work/abortion-polling.webp'],
 				alt: "Medical equipment inside a room at the Alamo Women's Reproductive Services Clinic in San Antonio, Texas."
-			},
-			lazy: true
+			}
 		},
 		{
 			link: 'https://www.texastribune.org/2022/07/19/abbott-beto-fundraising-governor-2022/',
@@ -148,8 +142,7 @@
 				type: 'image',
 				source: pictures['/src/lib/assets/work/fundraising.webp'],
 				alt: "Greg Abbott and Beto O'Rourke"
-			},
-			lazy: true
+			}
 		},
 		{
 			link: 'https://www.michigandaily.com/news/news-briefs/massive-power-outage-in-ann-arbor-leaves-thousands-in-the-dark/',
@@ -160,8 +153,7 @@
 				type: 'image',
 				source: pictures['/src/lib/assets/work/power-outages.webp'],
 				alt: 'A row of houses in Ann Arbor on a cloudy day.'
-			},
-			lazy: true
+			}
 		},
 		{
 			link: 'https://www.texastribune.org/2022/08/02/texas-juvenile-prisons-crisis/',
@@ -172,8 +164,7 @@
 				type: 'image',
 				source: pictures['/src/lib/assets/work/prison.webp'],
 				alt: 'The entrance to Giddings State School, a Texas Juvenile Justice Department prison in Lee County.'
-			},
-			lazy: true
+			}
 		},
 		{
 			link: 'https://www.michigandaily.com/campus-life/umich-class-of-2025-by-the-numbers-and-their-hopes-for-college/',
@@ -183,8 +174,7 @@
 			media: {
 				type: 'video',
 				source: video
-			},
-			lazy: true
+			}
 		},
 		{
 			link: 'https://www.texastribune.org/2022/06/28/texas-drought-agriculture/',
@@ -195,8 +185,7 @@
 				type: 'image',
 				source: pictures['/src/lib/assets/work/droughts.png'],
 				alt: 'A series of Texas maps showing droughts severity from 2011 to 2022'
-			},
-			lazy: true
+			}
 		},
 		{
 			link: 'https://www.michigandaily.com/research/daily-analysis-finds-historically-large-salary-disparities-between-three-u-m-campuses/',
@@ -207,8 +196,7 @@
 				type: 'image',
 				source: pictures['/src/lib/assets/work/campus.png'],
 				alt: 'Small multiple graphic showing the disparity in revenue between the three University of Michigan campuses'
-			},
-			lazy: true
+			}
 		},
 		{
 			link: 'https://www.michigandaily.com/news/more-than-100-ann-arbor-restaurants-closed-in-the-past-three-years-how-have-these-closures-affected-the-community/',
@@ -219,8 +207,7 @@
 				type: 'image',
 				source: pictures['/src/lib/assets/work/map.png'],
 				alt: 'Map showing whether Ann Arbor restaurants are closed or open'
-			},
-			lazy: true
+			}
 		},
 		{
 			link: 'https://www.michigandaily.com/news/academics/we-looked-301-high-schools-most-applicants-u-m-heres-what-we-found/',
@@ -231,8 +218,7 @@
 				type: 'image',
 				source: pictures['/src/lib/assets/work/feeder-schools.png'],
 				alt: 'Graphic showing the 301 in- and out-of- state feeder schools to the University of Michigan'
-			},
-			lazy: true
+			}
 		},
 		{
 			link: 'https://www.texastribune.org/2022/07/28/texas-covid-vaccines-babies-toddlers/',
@@ -243,8 +229,7 @@
 				type: 'image',
 				source: pictures['/src/lib/assets/work/vaccinations.png'],
 				alt: 'Graphic showing the proportions of youth ethnic group populations in Texas and their vaccination rates. Asian and white children receive a higher share of vaccinations.'
-			},
-			lazy: true
+			}
 		},
 		{
 			link: 'https://www.michigandaily.com/news/ann-arbor/city-of-ann-arbor-2021-special-election-results/',
@@ -255,8 +240,7 @@
 				type: 'image',
 				source: pictures['/src/lib/assets/work/election-results.png'],
 				alt: 'Choropleth map of Ann Arbor showing results from a 2021 election.'
-			},
-			lazy: true
+			}
 		}
 	];
 

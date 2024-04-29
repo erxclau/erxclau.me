@@ -11,14 +11,14 @@
 				class="media"
 				src={item.media.source.default}
 				alt={item.media.alt}
-				loading={item.lazy ? 'lazy' : undefined}
+				loading={item.media.eager ? 'eager' : 'lazy'}
 			></enhanced:img>
 		{:else if item.media.type === 'url'}
 			<enhanced:img
 				class="media"
 				src={item.media.source}
 				alt={item.media.alt}
-				loading={item.lazy ? 'lazy' : undefined}
+				loading={item.media.eager ? 'eager' : 'lazy'}
 			></enhanced:img>
 		{:else if item.media.type === 'video'}
 			<video autoplay loop playsinline muted class="media">
