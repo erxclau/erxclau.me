@@ -42,12 +42,12 @@
 
 	.work p {
 		font-family: var(--font-serif);
-		font-size: 1rem;
+		font-size: 1.025rem;
 		line-height: 1.375rem;
+		letter-spacing: 0rem;
 		margin: 0;
 		margin-top: 0.25rem;
 		font-weight: 400;
-		letter-spacing: 0rem;
 	}
 
 	.work .media {
