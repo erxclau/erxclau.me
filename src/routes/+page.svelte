@@ -266,6 +266,26 @@
 			}
 		},
 		{
+			link: policeUrl,
+			name: 'Police Officer (Soldier)',
+			description: 'Made with Photoshop.',
+			media: {
+				type: 'url',
+				source: police,
+				alt: 'A figure composed of several police officers with tactical uniforms and riot gear. The figure is outlined by a green rectangle labeled "Police Officer" and another labeled "Soldier."'
+			}
+		},
+		{
+			link: grammyUrl,
+			name: 'GRAMMY (People like me)',
+			description: 'Made with Processing.',
+			media: {
+				type: 'image',
+				source: pictures['/src/lib/assets/work/grammy.jpg'],
+				alt: 'A grid of Grammy winners. White winners are labeled as "People like me," whereas winners of color are labeled with their names.'
+			}
+		},
+		{
 			link: 'https://erxclau.github.io/ninety-eight-days-on-the-internet/',
 			name: '98 Days on the Internet',
 			description: 'Wrote a visual story about my Internet history. Used Scrollama and D3.',
@@ -287,23 +307,14 @@
 			}
 		},
 		{
-			link: policeUrl,
-			name: 'Police Officer (Soldier)',
-			description: 'Made with Photoshop.',
-			media: {
-				type: 'url',
-				source: police,
-				alt: 'A figure composed of several police officers with tactical uniforms and riot gear. The figure is outlined by a green rectangle labeled "Police Officer" and another labeled "Soldier."'
-			}
-		},
-		{
-			link: grammyUrl,
-			name: 'GRAMMY (People like me)',
-			description: 'Made with Processing.',
+			link: 'https://observablehq.com/@ericlau/law-enforcement-management-and-administrative-statistic',
+			name: 'U.S. police agencies with external investigations into injurious use of force',
+			description:
+				'An exploration of Law Enforcement Management and Administrative Statistics (2016) in Observable.',
 			media: {
 				type: 'image',
-				source: pictures['/src/lib/assets/work/grammy.jpg'],
-				alt: 'A grid of Grammy winners. White winners are labeled as "People like me," whereas winners of color are labeled with their names.'
+				source: pictures['/src/lib/assets/work/lemas.jpg'],
+				alt: 'A bubble map of the United States showing populations covered by external investigations into police use of force.'
 			}
 		}
 	];
@@ -336,6 +347,16 @@
 				>University of Michigan</a
 			> in Ann Arbor.
 		</p>
+	</section>
+	<section id="links">
+		<hgroup>
+			<h2>Links</h2>
+		</hgroup>
+		<p>
+			Reach me on <a href="https://twitter.com/erxclau">Twitter</a> or via
+			<code>hello@[domain]</code>.
+		</p>
+		<p>View my <a href="/resume.pdf">resume</a> for a summary of my experiences.</p>
 	</section>
 	<section class="breakout" id="engineering">
 		<hgroup class="inline">
@@ -400,13 +421,6 @@
 				Solutions)
 			</li>
 		</ul>
-	</section>
-	<section>
-		<p>
-			Reach me on <a href="https://twitter.com/erxclau">Twitter</a> or via
-			<code>hello@[domain]</code>.
-		</p>
-		<p>View my <a href="/resume.pdf">resume</a> for a summary of my experiences.</p>
 	</section>
 </main>
 
