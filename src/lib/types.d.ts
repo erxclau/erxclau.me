@@ -14,10 +14,10 @@ export type Work = {
 				type: 'image';
 				source: Image;
 				alt: string;
-			}
+		  }
 		| {
 				type: 'video';
 				source: string;
-			};
+		  };
 	lazy?: boolean;
 };

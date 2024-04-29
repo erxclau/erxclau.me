@@ -335,7 +335,10 @@
 		</ul>
 	</section>
 	<section>
-		<p>Reach me on <a href="https://twitter.com/erxclau">Twitter</a> or via <code>hello@[domain]</code>.</p>
+		<p>
+			Reach me on <a href="https://twitter.com/erxclau">Twitter</a> or via
+			<code>hello@[domain]</code>.
+		</p>
 		<p>View my <a href="/resume.pdf">resume</a> for a summary of my experiences.</p>
 	</section>
 </main>
