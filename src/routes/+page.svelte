@@ -324,6 +324,7 @@
 	<section>
 		<div>
 			<enhanced:img
+				fetchpriority="high"
 				src="$lib/assets/eric.png?enhanced"
 				alt="Eric Lau wearing a white T-shirt with a blue long-sleeve shirt on top. He is wearing gold rim glasses and is looking to the right."
 				style:width="135px"
