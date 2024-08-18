@@ -130,7 +130,7 @@
 			link: 'https://mic.michigandaily.com/2023/the-fable-of-the-lion-the-butcher-and-three-kings/',
 			name: 'The Fable of the Lion, the Butcher, and Three Kings',
 			description:
-				"Developed a page for Joseph Fisher's poem about Jordan.",
+				"Developed a page for a poem about Jordan.",
 			media: {
 				type: 'image',
 				source: pictures['/src/lib/assets/work/fable.webp'],
