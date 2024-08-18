@@ -20,15 +20,13 @@
 				alt={item.media.alt}
 				loading={item.media.eager ? 'eager' : 'lazy'}
 			></enhanced:img>
-		{:else if item.media.type === 'video'}
-			<video autoplay loop playsinline muted class="media">
-				<source src={item.media.source} />
-			</video>
-		{/if}
+			{/if}
 	</a>
 	<figcaption>
-		{item.name}
-		<p>{@html item.description}</p>
+		<a href={item.link}>{item.name}</a>
+		{#if item.description}
+			<p>{@html item.description}</p>
+		{/if}
 	</figcaption>
 </figure>
 
@@ -43,8 +41,12 @@
 		font-family: var(--font-sans);
 		font-weight: 600;
 		font-size: 1.25rem;
-		letter-spacing: -0.0375rem;
+		letter-spacing: -0.025rem;
 		text-wrap: balance;
+	}
+
+	.work figcaption a {
+		text-decoration: none;
 	}
 
 	.work p {

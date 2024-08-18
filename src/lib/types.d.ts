@@ -8,7 +8,7 @@ export type Image = {
 export type Work = {
 	link: string;
 	name: string;
-	description: string;
+	description?: string;
 	media:
 		| {
 				type: 'image';
@@ -21,9 +21,5 @@ export type Work = {
 				source: string;
 				alt: string;
 				eager?: boolean;
-		  }
-		| {
-				type: 'video';
-				source: string;
 		  };
 };
