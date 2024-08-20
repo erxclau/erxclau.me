@@ -19,23 +19,23 @@
 
 	const journalism: Array<Work> = [
 		{
-			link: "https://wapo.st/3yEm9OR",
+			link: 'https://wapo.st/3yEm9OR',
 			name: 'Pro-Harris groups embrace identity to fundraise via Zoom',
 			description: 'Reported and gathered data on "for Harris" Zoom calls.',
 			media: {
-				type: "image",
+				type: 'image',
 				source: pictures['/src/lib/assets/work/zoom.jpeg'],
-				alt: "Four Zoom cells with written labels."
+				alt: 'Four Zoom cells with written labels.'
 			}
 		},
 		{
-			link: "https://wapo.st/4ctWtCm",
+			link: 'https://wapo.st/4ctWtCm',
 			name: "Who is, and isn't, speaking at the Republican National Convention",
-			description: "Built a page categorizing convention speakers.",
+			description: 'Built a page categorizing convention speakers.',
 			media: {
-				type: "image",
+				type: 'image',
 				source: pictures['/src/lib/assets/work/rnc.jpeg'],
-				alt: "Collage of Donald Trump, JD Vance, Amber Rose, Melania Trump and Kevin McCarthy in front of a red background with white stars surrounding them."
+				alt: 'Collage of Donald Trump, JD Vance, Amber Rose, Melania Trump and Kevin McCarthy in front of a red background with white stars surrounding them.'
 			}
 		},
 		{
@@ -82,8 +82,7 @@
 		{
 			link: 'https://www.michigandaily.com/news/academics/we-looked-301-high-schools-most-applicants-u-m-heres-what-we-found/',
 			name: "We looked at the 301 high schools with the most applicants to U-M. Here's what we found",
-			description:
-				'Analyzed data and made visuals on university feeder schools.',
+			description: 'Analyzed data and made visuals on university feeder schools.',
 			media: {
 				type: 'image',
 				source: pictures['/src/lib/assets/work/feeder-schools.png'],
@@ -101,7 +100,6 @@
 			}
 		}
 	];
-
 
 	const engineering: Array<Work> = [
 		{
@@ -129,8 +127,7 @@
 		{
 			link: 'https://mic.michigandaily.com/2023/the-fable-of-the-lion-the-butcher-and-three-kings/',
 			name: 'The Fable of the Lion, the Butcher, and Three Kings',
-			description:
-				"Developed a page for Joseph Fisher's poem about Jordan.",
+			description: "Developed a page for Joseph Fisher's poem about Jordan.",
 			media: {
 				type: 'image',
 				source: pictures['/src/lib/assets/work/fable.webp'],
@@ -275,7 +272,7 @@
 		<hgroup class="inline">
 			<h2>Journalism</h2>
 			<p>
-				I tell stories with graphics and data. I am particularly experienced in building bespoke
+				I tell visual stories with graphics and data. I am particularly experienced in building bespoke
 				interactives and trackers.
 			</p>
 		</hgroup>
@@ -291,9 +288,8 @@
 		<hgroup class="inline">
 			<h2>Engineering</h2>
 			<p>
-				I build websites with unique interactions and strong visual identity. Often times, I work
-				with photographic or geographic elements. I care a lot about making sure my work is
-				accessible to people with disabilities.
+				I build websites, often times with interactive, photographic and geographic elements. I care
+				a lot about making sure my work is accessible to people with disabilities.
 			</p>
 		</hgroup>
 		<ul class="inline">
