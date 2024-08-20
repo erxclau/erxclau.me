@@ -127,7 +127,7 @@
 		{
 			link: 'https://mic.michigandaily.com/2023/the-fable-of-the-lion-the-butcher-and-three-kings/',
 			name: 'The Fable of the Lion, the Butcher, and Three Kings',
-			description: "Developed a page for Joseph Fisher's poem about Jordan.",
+			description: 'Developed a page for a poem about Jordan.',
 			media: {
 				type: 'image',
 				source: pictures['/src/lib/assets/work/fable.webp'],
@@ -272,8 +272,8 @@
 		<hgroup class="inline">
 			<h2>Journalism</h2>
 			<p>
-				I tell visual stories with graphics and data. I am particularly experienced in building bespoke
-				interactives and trackers.
+				I tell visual stories with graphics and data. I am particularly experienced in building
+				bespoke interactives and trackers.
 			</p>
 		</hgroup>
 		<ul class="inline">
