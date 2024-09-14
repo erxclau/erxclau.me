@@ -2,6 +2,7 @@
 	import policeUrl from '$lib/assets/work/police.png?url';
 	import grammyUrl from '$lib/assets/work/grammy.jpg?url';
 
+	import deciders from '$lib/assets/work/deciders.png?enhanced&aspect=1440:710&fit=cover&position=attention';
 	import police from '$lib/assets/work/police.png?enhanced&aspect=1440:710&fit=cover&position=top';
 	import taxonomy from '$lib/assets/work/taxonomy.png?enhanced&aspect=1440:710&fit=cover&position=top';
 
@@ -18,6 +19,16 @@
 	});
 
 	const journalism: Array<Work> = [
+		{
+			link: 'https://wapo.st/3ZoJVcG',
+			name: 'Who won the Harris-Trump debate? We asked swing-state voters.',
+			description: "Built a live-updating page showing voters' reactions the debate.",
+			media: {
+				type: 'url',
+				source: deciders,
+				alt: 'A grid of 23 people underneath a "Harris" performed better label along with an grid of 2 people underneath a "Trump performed better" label'
+			}
+		},
 		{
 			link: 'https://wapo.st/3yEm9OR',
 			name: 'Pro-Harris groups embrace identity to fundraise via Zoom',
@@ -243,14 +254,16 @@
 			<h1 aria-label="Eric Lau">Eric Lau</h1>
 		</div>
 		<p>
-			I am a graphics reporter at <a href="https://washingtonpost.com">The Washington Post</a>.
+			I am a graphics reporter at <a href="https://www.washingtonpost.com/people/eric-lau/"
+				>The Washington Post</a
+			>.
 		</p>
 		<p>
 			I previously led the engineering and data journalism teams at <a
-				href="https://michigandaily.com">The Michigan Daily</a
+				href="https://www.michigandaily.com/author/ericlau/">The Michigan Daily</a
 			>. I also worked as a data journalist and software engineer at
 			<a href="https://sfstandard.com">The San Francisco Standard</a>
-			and <a href="https://texastribune.org">The Texas Tribune</a>.
+			and <a href="https://www.texastribune.org/about/staff/eric-lau/">The Texas Tribune</a>.
 		</p>
 		<p>
 			I studied computer science and digital studies at the <a href="https://umich.edu"
@@ -266,14 +279,14 @@
 			Reach me on <a href="https://twitter.com/erxclau">Twitter</a> or via
 			<code>hello@[domain]</code>.
 		</p>
-		<p>View my <a href="/resume.pdf">resume</a> for a summary of my experiences.</p>
+		<p>View my <a href="/resume.pdf">resume</a>.</p>
 	</section>
 	<section class="breakout" id="journalism">
 		<hgroup class="inline">
 			<h2>Journalism</h2>
 			<p>
-				I tell visual stories with graphics and data. I am particularly experienced in building
-				bespoke interactives and trackers.
+				I tell visual stories with graphics and data. I am experienced in building bespoke charts
+				and trackers.
 			</p>
 		</hgroup>
 		<ul class="inline">
@@ -289,7 +302,7 @@
 			<h2>Engineering</h2>
 			<p>
 				I build websites, often times with interactive, photographic and geographic elements. I care
-				a lot about making sure my work is accessible to people with disabilities.
+				about making my work accessible to people with disabilities.
 			</p>
 		</hgroup>
 		<ul class="inline">
