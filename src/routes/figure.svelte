@@ -1,7 +1,11 @@
 <script lang="ts">
 	import type { Work } from '$lib/types';
 
-	export let item: Work;
+	interface Props {
+		item: Work;
+	}
+
+	let { item }: Props = $props();
 </script>
 
 <figure class="work">
