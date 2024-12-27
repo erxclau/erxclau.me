@@ -1,9 +1,4 @@
-export type Image = {
-	default: {
-		sources: [unknown];
-		img: [unknown];
-	};
-};
+import type { Picture } from 'vite-imagetools';
 
 export type Work = {
 	link: string;
@@ -12,7 +7,7 @@ export type Work = {
 	media:
 		| {
 				type: 'image';
-				source: Image;
+				source: { default: Picture };
 				alt: string;
 				eager?: boolean;
 		  }

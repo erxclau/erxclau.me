@@ -24,7 +24,7 @@
 				alt={item.media.alt}
 				loading={item.media.eager ? 'eager' : 'lazy'}
 			></enhanced:img>
-			{/if}
+		{/if}
 	</a>
 	<figcaption>
 		<a href={item.link}>{item.name}</a>
@@ -42,10 +42,10 @@
 	}
 
 	.work figcaption {
-		font-family: var(--font-sans);
+		font-family: var(--font-serif);
 		font-weight: 600;
 		font-size: 1.25rem;
-		letter-spacing: -0.025rem;
+		letter-spacing: 0rem;
 		text-wrap: balance;
 	}
 

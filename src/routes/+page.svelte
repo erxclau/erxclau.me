@@ -7,9 +7,10 @@
 	import taxonomy from '$lib/assets/work/taxonomy.png?enhanced&aspect=1440:710&fit=cover&position=top';
 
 	import Figure from './figure.svelte';
-	import type { Image, Work } from '$lib/types';
+	import type { Picture } from 'vite-imagetools';
+	import type { Work } from '$lib/types';
 
-	const pictures: Record<string, Image> = import.meta.glob('$lib/assets/work/*', {
+	const pictures: Record<string, { default: Picture }> = import.meta.glob('$lib/assets/work/*', {
 		eager: true,
 		query: {
 			enhanced: true,
@@ -242,7 +243,7 @@
 
 <main>
 	<section>
-		<div>
+		<hgroup>
 			<enhanced:img
 				fetchpriority="high"
 				src="$lib/assets/eric.png?enhanced"
@@ -252,7 +253,8 @@
 				style:border-radius="5px"
 			></enhanced:img>
 			<h1 aria-label="Eric Lau">Eric Lau</h1>
-		</div>
+			<!-- <p>刘浩麟</p> -->
+		</hgroup>
 		<p>
 			I am a graphics reporter at <a href="https://www.washingtonpost.com/people/eric-lau/"
 				>The Washington Post</a
@@ -390,6 +392,10 @@
 
 	h1 {
 		font-size: calc(3rem + 1vw);
+	}
+
+	hgroup p {
+		font-family: var(--font-serif);
 	}
 
 	h2 {
