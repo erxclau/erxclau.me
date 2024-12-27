@@ -27,19 +27,48 @@
 			<li>The Hunger Games: Mockingjay — Part 1</li>
 			<li>The Hunger Games: Catching Fire</li>
 			<li>The Hunger Games</li>
+			<li>Legally Blonde</li>
+			<li>Bottoms</li>
+			<li>The Lego Movie</li>
 			<li>The Perks of Being a Wallflower</li>
 			<li>Inside Out 2</li>
 			<li>Dìdi</li>
+			<li>Return to Seoul</li>
+			<li>Midsommar</li>
 			<li>Past Lives</li>
 			<li>The Boy and the Heron</li>
 			<li>Barbie</li>
 			<li>Oppenheimer</li>
 			<li>Everything Everywhere All at Once</li>
 			<li>The Grand Budapest Hotel</li>
+			<li>All Quiet on the Western Front</li>
 			<li>The Florida Project</li>
 			<li>Dunkirk</li>
+			<li>Lady Bird</li>
+			<li>Eighth Grade</li>
 			<li>The Truman Show</li>
+			<li>Ferris Bueller's Day Off</li>
 			<li>Crazy Rich Asians</li>
+			<li>Taxi Driver</li>
+			<li>The Godfather</li>
+			<li>The Godfather Part II</li>
+			<li>Goodfellas</li>
+			<li>One Flew Over the Cuckoo's Nest</li>
+			<li>Downfall</li>
+			<li>Fury</li>
+			<li>Saving Private Ryan</li>
+			<li>Inglorious Basterds</li>
+			<li>Full Metal Jacket</li>
+			<li>Letters from Iwo Jima</li>
+			<li>Flags of Our Fathers</li>
+			<li>Hacksaw Ridge</li>
+			<li>Enemy at the Gates</li>
+			<li>Patton</li>
+			<li>Spirited Away</li>
+			<li>Shawshank Redemption</li>
+			<li>Good Will Hunting</li>
+			<li>Forrest Gump</li>
+			<li>Cast Away</li>
 		</ul>
 	</section>
 	<section>
@@ -48,6 +77,8 @@
 			<li>Moral Orel</li>
 			<li>Jet Lag: The Game</li>
 			<li>Quiet on Set: The Dark Side of Kids TV</li>
+			<li>School Babysitters</li>
+			<li>Attack on Titan</li>
 			<li>Silicon Valley</li>
 			<li>Band of Brothers</li>
 			<li>The Pacific</li>
