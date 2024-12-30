@@ -2,25 +2,25 @@
 	<hgroup>
 		<h1>Eric Lau</h1>
 		<p>
-			Incomplete lists of my consumption, skewed towards things I think are significant in some
-			matter. I can't bother with separate platforms for each category, nor do I want to use a
-			single platform that would <i>own</i> my lists.
+			Incomplete lists of my consumption. I can't bother with separate platforms for each category,
+			nor do I want to use a single platform that would <i>own</i> my lists.
 		</p>
 	</hgroup>
 	<section>
 		<h2>Books</h2>
-		<ul>
+		<ol>
+			<li>The Message / Ta-Nehisi Coates</li>
 			<li>Anthropocene Reviewed / John Green</li>
 			<li>Time Is a Mother / Ocean Vuong</li>
 			<li>The Stranger / Albert Camus</li>
 			<li>Crying in H Mart / Michelle Zauner</li>
 			<li>Data Feminism / Catherine D'Ignazio and Lauren Klein</li>
 			<li>How Charts Lie: Getting Smarter about Visual Information / Alberto Cairo</li>
-		</ul>
+		</ol>
 	</section>
 	<section>
 		<h2>Movies</h2>
-		<ul>
+		<ol>
 			<li>Interstellar</li>
 			<li>Midway</li>
 			<li>The Hunger Games: Mockingjay — Part 2</li>
@@ -41,6 +41,7 @@
 			<li>Oppenheimer</li>
 			<li>Everything Everywhere All at Once</li>
 			<li>The Grand Budapest Hotel</li>
+			<li>Knives Out</li>
 			<li>All Quiet on the Western Front</li>
 			<li>The Florida Project</li>
 			<li>Dunkirk</li>
@@ -69,62 +70,70 @@
 			<li>Good Will Hunting</li>
 			<li>Forrest Gump</li>
 			<li>Cast Away</li>
-		</ul>
+		</ol>
 	</section>
 	<section>
 		<h2>Shows</h2>
-		<ul>
+		<ol>
 			<li>Moral Orel</li>
 			<li>Jet Lag: The Game</li>
 			<li>Quiet on Set: The Dark Side of Kids TV</li>
 			<li>School Babysitters</li>
 			<li>Attack on Titan</li>
+			<li>Atypical</li>
 			<li>Silicon Valley</li>
 			<li>Band of Brothers</li>
 			<li>The Pacific</li>
-		</ul>
+		</ol>
 	</section>
 	<section>
 		<h2>Talks</h2>
-		<ul>
+		<ol>
 			<li>Web Without Walls / Dan Abramov</li>
 			<li>Rethinking reactivity / Rich Harris</li>
 			<li>Computer, build me an app / Rich Harris</li>
 			<li>The beauty of data visualization / David McCandless</li>
 			<li>What the heck is the event loop anyway? / Philip Roberts</li>
 			<li>Design is a Search Problem / Mike Bostock</li>
-		</ul>
+		</ol>
 	</section>
 	<section>
 		<h2>Documentaries</h2>
-		<ul>
+		<ol>
 			<li>AlphaGo</li>
-		</ul>
+		</ol>
 	</section>
 	<section>
 		<h2>Papers</h2>
-		<ul>
-			<li>
-				Situated Knowledges: The Science Question in Feminism and the Privilege of Partial
-				Perspective / Donna Haraway
-			</li>
+		<ol>
 			<li>Humanities Approaches to Graphical Display / Johanna Drucker</li>
 			<li>
 				Anti-Semitism as Skill: Rudolf Virchow's "Schulstatistik" and the Racial Composition of
 				Germany / Andrew Zimmerman
 			</li>
-		</ul>
+			<li>
+				Situated Knowledges: The Science Question in Feminism and the Privilege of Partial
+				Perspective / Donna Haraway
+			</li>
+		</ol>
 	</section>
 	<section>
 		<h2>Journalism</h2>
-		<ul>
-			<li>Machine Bias / ProPublica</li>
+		<ol>
+			<li>Searching for Maura / The Washington Post</li>
 			<li>
 				More than 1,800 congressmen once enslaved Black people. This is who they were, and how they
-				shaped the nation / The Washington Post
+				shaped the nation. / The Washington Post
 			</li>
-			<li>Searching for Maura / The Washington Post</li>
-		</ul>
+			<li>Machine Bias / ProPublica</li>
+		</ol>
+	</section>
+	<section>
+		<h2>Essays</h2>
+		<ol>
+			<li>Surely You're a Creep, Mr. Feynman / Leila McNeill</li>
+			<li>The "Blob" Is Furious About Gaza. But That's Not Enough. / Josef Burton</li>
+		</ol>
 	</section>
 </main>
 
@@ -149,7 +158,7 @@
 		text-transform: uppercase;
 	}
 
-	ul,
+	ol,
 	p {
 		margin: 0;
 		text-wrap: balance;
