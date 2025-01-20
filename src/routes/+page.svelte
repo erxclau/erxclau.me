@@ -381,6 +381,7 @@
 	main {
 		display: grid;
 		gap: 1.25rem;
+		padding: 0.25rem 0;
 	}
 
 	h1,

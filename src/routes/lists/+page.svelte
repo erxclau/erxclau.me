@@ -32,6 +32,10 @@
 			category: 'Movies',
 			lists: [
 				{
+					date: 2025,
+					items: ['Perfect Days']
+				},
+				{
 					date: 2024,
 					items: [
 						'Interstellar',
@@ -160,7 +164,11 @@
 				{
 					date: undefined,
 					items: [
+						'The Anti-Social Century / The Atlantic',
+						'The Agony of Texting With Men / The Atlantic',
 						'The Militia and the Mole / ProPublica',
+						'The Good Whale / The New York Times',
+						'The Deserter / The New York Times',
 						'Searching for Maura / The Washington Post',
 						'More than 1,800 congressmen once enslaved Black people. This is who they were, and how they shaped the nation. / The Washington Post',
 						'Machine Bias / ProPublica',
@@ -264,10 +272,17 @@
 	p {
 		margin: 0;
 		text-wrap: balance;
+		font-family: var(--font-serif);
+		font-size: 1.125rem;
+		line-height: 1.625rem;
 	}
 
 	ul {
 		list-style-type: disc;
 		padding-left: 1.25rem;
+	}
+
+	small {
+		font-size: 0.925rem;
 	}
 </style>
