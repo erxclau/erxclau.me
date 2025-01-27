@@ -2,8 +2,13 @@
 	import policeUrl from '$lib/assets/work/police.png?url';
 	import grammyUrl from '$lib/assets/work/grammy.jpg?url';
 
+	// @ts-ignore
 	import deciders from '$lib/assets/work/deciders.png?enhanced&aspect=1440:710&fit=cover&position=attention';
+
+	// @ts-ignore
 	import police from '$lib/assets/work/police.png?enhanced&aspect=1440:710&fit=cover&position=top';
+
+	// @ts-ignore
 	import taxonomy from '$lib/assets/work/taxonomy.png?enhanced&aspect=1440:710&fit=cover&position=top';
 
 	import Figure from './figure.svelte';
@@ -281,7 +286,7 @@
 			Reach me on <a href="https://twitter.com/erxclau">Twitter</a> or via
 			<code>hello@[domain]</code>.
 		</p>
-		<p>View my <a href="/resume.pdf">resume</a>.</p>
+		<p>View my <a href="/resume.pdf">resume</a>, my <a href="/lists">consumption</a>.</p>
 	</section>
 	<section class="breakout" id="journalism">
 		<hgroup class="inline">

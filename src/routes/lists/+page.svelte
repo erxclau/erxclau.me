@@ -7,11 +7,15 @@
 			lists: [
 				{
 					date: 'Current',
-					items: ['All About Love: New Visions / bell hooks']
+					items: []
 				},
 				{
 					date: 2025,
-					items: ['Time Is a Mother / Ocean Vuong', 'The Message / Ta-Nehisi Coates']
+					items: [
+						'All About Love: New Visions / bell hooks',
+						'Time Is a Mother / Ocean Vuong',
+						'The Message / Ta-Nehisi Coates'
+					]
 				},
 				{
 					date: 2024,
@@ -45,8 +49,11 @@
 						'The Hunger Games: Catching Fire',
 						'The Hunger Games',
 						'Legally Blonde',
+						'Love in Taipei',
 						'Bottoms',
 						'The Lego Movie',
+						'Power Rangers (2017)',
+						'The Edge of Seventeen',
 						'The Perks of Being a Wallflower',
 						'Inside Out 2',
 						'Dìdi',
@@ -69,7 +76,8 @@
 				{
 					date: undefined,
 					items: [
-						'All Quiet on the Western Front',
+						"Ender's Game",
+						'All Quiet on the Western Front (2022)',
 						'The Florida Project',
 						'Dunkirk',
 						'Lady Bird',
@@ -107,6 +115,7 @@
 				{
 					date: undefined,
 					items: [
+						'Masters of the Air',
 						'Moral Orel',
 						'Quiet on Set: The Dark Side of Kids TV',
 						'Jet Lag: The Game',
@@ -194,16 +203,16 @@
 
 <main>
 	<hgroup>
-		<h1>Eric Lau</h1>
+		<h1><a href="/">Eric Lau</a></h1>
 		<p>My consumption, incomplete.</p>
 	</hgroup>
 	{#each data as { category, lists }}
-		<section>
+		<section id={category.toLowerCase()}>
 			<hgroup>
 				<h2>{category}</h2>
 				<b>{lists.flatMap((d) => d.items).length}</b>
 			</hgroup>
-			{#each lists as { date, items }, i}
+			{#each lists.filter((list) => list.items.length > 0) as { date, items }, i}
 				<section>
 					{#if date === undefined}
 						{#if i > 0}
@@ -284,5 +293,10 @@
 
 	small {
 		font-size: 0.925rem;
+	}
+
+	a {
+		color: var(--color-text);
+		text-decoration: none;
 	}
 </style>
