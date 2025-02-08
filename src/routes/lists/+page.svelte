@@ -7,7 +7,7 @@
 			lists: [
 				{
 					date: 'Current',
-					items: []
+					items: ['Killing Rage: Ending Racism']
 				},
 				{
 					date: 2025,
@@ -112,6 +112,7 @@
 		{
 			category: 'Shows',
 			lists: [
+				{ date: 2025, items: ['Veep'] },
 				{ date: 2024, items: ['Masters of the Air', 'Moral Orel'] },
 				{ date: 2023, items: ['American Born Chinese'] },
 				{
