@@ -7,7 +7,7 @@
 			lists: [
 				{
 					date: 'Current',
-					items: ['Killing Rage: Ending Racism']
+					items: ['Killing Rage: Ending Racism / bell hooks']
 				},
 				{
 					date: 2025,
