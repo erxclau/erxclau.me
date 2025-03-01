@@ -7,11 +7,12 @@
 			lists: [
 				{
 					date: 'Current',
-					items: ['Killing Rage: Ending Racism / bell hooks']
+					items: []
 				},
 				{
 					date: 2025,
 					items: [
+						'Killing Rage: Ending Racism / bell hooks',
 						'All About Love: New Visions / bell hooks',
 						'Time Is a Mother / Ocean Vuong',
 						'The Message / Ta-Nehisi Coates'
