@@ -7,7 +7,7 @@
 			lists: [
 				{
 					date: 'Current',
-					items: []
+					items: ['Living in Data / Jer Thorp']
 				},
 				{
 					date: 2025,
