@@ -38,7 +38,12 @@
 			lists: [
 				{
 					date: 2025,
-					items: ['Perfect Days']
+					items: [
+						'Eternal Sunshine of the Spotless Mind',
+						'42',
+						'The Breakfast Club',
+						'Perfect Days'
+					]
 				},
 				{
 					date: 2024,
@@ -50,6 +55,7 @@
 						'The Hunger Games: Catching Fire',
 						'The Hunger Games',
 						'Legally Blonde',
+						'Clueless',
 						'Love in Taipei',
 						'Bottoms',
 						'The Lego Movie',
@@ -105,7 +111,8 @@
 						'Shawshank Redemption',
 						'Good Will Hunting',
 						'Forrest Gump',
-						'Cast Away'
+						'Cast Away',
+						'School of Rock'
 					]
 				}
 			]
