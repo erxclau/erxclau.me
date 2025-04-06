@@ -7,11 +7,12 @@
 			lists: [
 				{
 					date: 'Current',
-					items: ['Living in Data / Jer Thorp']
+					items: ['The Year of Magical Thinking / Joan Didion']
 				},
 				{
 					date: 2025,
 					items: [
+						'Living in Data / Jer Thorp',
 						'Killing Rage: Ending Racism / bell hooks',
 						'All About Love: New Visions / bell hooks',
 						'Time Is a Mother / Ocean Vuong',
@@ -34,11 +35,31 @@
 			]
 		},
 		{
-			category: 'Movies',
+			category: 'Film',
 			lists: [
 				{
 					date: 2025,
 					items: [
+						'Marvelous and the Black Hole',
+						'Always Be My Maybe',
+						'The Half of It',
+						'Marriage Story',
+						'Unbroken',
+						'Take Out',
+						'Closing Dynasty',
+						'To All the Boys: Always and Forever',
+						'To All the Boys: P.S. I Still Love You',
+						'The Fault in Our Stars',
+						'Before We Go',
+						'World War Z',
+						'White House Down',
+						'Sorry to Bother You',
+						'Uncharted',
+						'127 Hours',
+						'Anora',
+						'Transformers: Dark of the Moon',
+						'Transformers: Revenge of the Fallen',
+						'Transformers',
 						'Pacific Rim',
 						'Battleship',
 						'The Help',
@@ -68,6 +89,7 @@
 						'Power Rangers (2017)',
 						'The Edge of Seventeen',
 						'The Perks of Being a Wallflower',
+						'A Family Affair',
 						'Inside Out 2',
 						'Dìdi',
 						'Return to Seoul',
@@ -92,6 +114,12 @@
 				{
 					date: undefined,
 					items: [
+						'Loving Vincent',
+						'Glory',
+						'Bao',
+						'1917',
+						"To All the Boys I've Loved Before",
+						'Hidden Figures',
 						'Inside Out',
 						'Turning Red',
 						'Soul',
@@ -155,6 +183,13 @@
 						'The Godfather Part II',
 						'Goodfellas',
 						"One Flew Over the Cuckoo's Nest",
+						'Rocky IV',
+						'Rocky III',
+						'Rocky II',
+						'Rocky',
+						'Rambo III',
+						'Rambo: First Blood Part II',
+						'First Blood',
 						'Downfall',
 						'Fury',
 						'Saving Private Ryan',
@@ -163,6 +198,7 @@
 						'Letters from Iwo Jima',
 						'Flags of Our Fathers',
 						'Hacksaw Ridge',
+						'Pearl Harbor',
 						'Enemy at the Gates',
 						'Patton',
 						'Spirited Away',
@@ -186,6 +222,7 @@
 				{
 					date: undefined,
 					items: [
+						'Last Chance High',
 						'Quiet on Set: The Dark Side of Kids TV',
 						'Jet Lag: The Game',
 						'School Babysitters',
@@ -213,6 +250,7 @@
 				{
 					date: undefined,
 					items: [
+						'Rap Theory & Practice: an Introduction / Lupe Fiasco',
 						'Web Without Walls / Dan Abramov',
 						'Rethinking reactivity / Rich Harris',
 						'Computer, build me an app / Rich Harris',
@@ -261,6 +299,7 @@
 				{
 					date: undefined,
 					items: [
+						'AI: The New Aesthetics of Fascism / Gareth Watkins',
 						"Surely You're a Creep, Mr. Feynman / Leila McNeill",
 						'The "Blob" Is Furious About Gaza. But That\'s Not Enough. / Josef Burton'
 					]
