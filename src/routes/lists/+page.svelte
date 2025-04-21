@@ -7,11 +7,14 @@
 			lists: [
 				{
 					date: 'Current',
-					items: ['The Year of Magical Thinking / Joan Didion']
+					items: [
+						'Unassimilable: An Asian Diasporic Manifesto for the 21st Century / Bianca Mabute-Louie'
+					]
 				},
 				{
 					date: 2025,
 					items: [
+						'The Year of Magical Thinking / Joan Didion',
 						'Living in Data / Jer Thorp',
 						'Killing Rage: Ending Racism / bell hooks',
 						'All About Love: New Visions / bell hooks',
@@ -40,6 +43,10 @@
 				{
 					date: 2025,
 					items: [
+						'Frances Ha',
+						'Arrival',
+						'The Good Shepherd',
+						'Patriots Day',
 						'Marvelous and the Black Hole',
 						'Always Be My Maybe',
 						'The Half of It',
@@ -114,6 +121,8 @@
 				{
 					date: undefined,
 					items: [
+						'Mean Girls',
+						'World Trade Center',
 						'Loving Vincent',
 						'Glory',
 						'Bao',
@@ -280,6 +289,7 @@
 				{
 					date: undefined,
 					items: [
+						'The Firefighter With O.C.D. and the Vaccine He Believed Would Kill Him / The New York Times',
 						'The Anti-Social Century / The Atlantic',
 						'The Agony of Texting With Men / The Atlantic',
 						'The Militia and the Mole / ProPublica',
@@ -299,6 +309,7 @@
 				{
 					date: undefined,
 					items: [
+						'The Worst Magazine In America / Nathan J. Robinson',
 						'AI: The New Aesthetics of Fascism / Gareth Watkins',
 						"Surely You're a Creep, Mr. Feynman / Leila McNeill",
 						'The "Blob" Is Furious About Gaza. But That\'s Not Enough. / Josef Burton'
