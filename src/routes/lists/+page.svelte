@@ -289,6 +289,7 @@
 				{
 					date: undefined,
 					items: [
+						'The Blast Effect / The Washington Post',
 						'The Firefighter With O.C.D. and the Vaccine He Believed Would Kill Him / The New York Times',
 						'The Anti-Social Century / The Atlantic',
 						'The Agony of Texting With Men / The Atlantic',
