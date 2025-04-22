@@ -26,6 +26,16 @@
 
 	const journalism: Array<Work> = [
 		{
+			link: "https://wapo.st/4luwnox",
+			name: "Elon Musk gets government policy ideas from X. Here's how.",
+			description: "Visualized Musk's X universe with a orbiting graphic form.",
+			media: {
+				type: "image",
+				source: pictures["/src/lib/assets/work/musk-universe.png"],
+				alt: "Several hundred circles orbiting around a central orange circle labeled Musk. The circles are colored differently. Four dotted rings around Musk are labeled with 1,000, 250, 50 and 10 interactions."
+			}
+		},
+		{
 			link: 'https://wapo.st/3ZoJVcG',
 			name: 'Who won the Harris-Trump debate? We asked swing-state voters.',
 			description: "Built a live-updating page showing voters' reactions the debate.",
@@ -46,15 +56,25 @@
 			}
 		},
 		{
-			link: 'https://wapo.st/4ctWtCm',
-			name: "Who is, and isn't, speaking at the Republican National Convention",
-			description: 'Built a page categorizing convention speakers.',
+			link: "https://wapo.st/3Ughxpz",
+			name: "Crypto cash is flooding the 2024 election. Here's who's benefiting.",
+			description: "Made an interactive beeswarm for crypto political funding.",
 			media: {
-				type: 'image',
-				source: pictures['/src/lib/assets/work/rnc.jpeg'],
-				alt: 'Collage of Donald Trump, JD Vance, Amber Rose, Melania Trump and Kevin McCarthy in front of a red background with white stars surrounding them.'
+				type: "image",
+				source: pictures["/src/lib/assets/work/cryptocandidates.png"],
+				alt: "Red and blue circles representing different political candidates positioned along an axis showing amount of ad spending from crypto firms."
 			}
 		},
+		// {
+		// 	link: 'https://wapo.st/4ctWtCm',
+		// 	name: "Who is, and isn't, speaking at the Republican National Convention",
+		// 	description: 'Built a page categorizing convention speakers.',
+		// 	media: {
+		// 		type: 'image',
+		// 		source: pictures['/src/lib/assets/work/rnc.jpeg'],
+		// 		alt: 'Collage of Donald Trump, JD Vance, Amber Rose, Melania Trump and Kevin McCarthy in front of a red background with white stars surrounding them.'
+		// 	}
+		// },
 		{
 			link: 'https://www.texastribune.org/2022/08/10/texas-politics-project-abortion-polling/',
 			name: 'Abortion should be permitted in cases of rape and incest, around 80% of Texas voters say in UT poll',
@@ -120,6 +140,17 @@
 
 	const engineering: Array<Work> = [
 		{
+			link: 'https://wapo.st/3WjjAKt',
+			name: "Tracking Trump's Cabinet and administration nominations",
+			description: 'Created a searchable and filterable database.',
+			media: {
+				type: 'image',
+				source: pictures['/src/lib/assets/work/appointee-tracker.jpeg'],
+				alt: 'The Washington Post Trump Political Appointee Tracker in collaboration with Partnership for Public Service',
+				eager: true
+			}
+		},
+		{
 			link: 'https://apps.apple.com/us/app/the-michigan-daily/id1615063980?platform=iphone',
 			name: 'The Michigan Daily',
 			description: 'Engineered a cross-platform mobile application.',
@@ -137,8 +168,17 @@
 			media: {
 				type: 'image',
 				source: pictures['/src/lib/assets/work/crosswords.png'],
-				alt: 'A crossword puzzle.',
-				eager: true
+				alt: 'A crossword puzzle.'
+			}
+		},
+		{
+			link: 'https://www.detroit-neighborhoods.com/',
+			name: 'Detroit neighborhoods mapping tool',
+			description: 'Built an application to crowdsource neighborhood boundaries.',
+			media: {
+				type: 'image',
+				source: pictures['/src/lib/assets/work/detroit-neighborhoods.png'],
+				alt: 'Dashed outlined map of Detroit.'
 			}
 		},
 		{
@@ -169,16 +209,6 @@
 				type: 'image',
 				source: pictures['/src/lib/assets/work/love.jpg'],
 				alt: 'Two cassette tapes with floating neon blue hearts.'
-			}
-		},
-		{
-			link: 'https://www.detroit-neighborhoods.com/',
-			name: 'Detroit neighborhoods mapping tool',
-			description: 'Built an application to crowdsource neighborhood boundaries.',
-			media: {
-				type: 'image',
-				source: pictures['/src/lib/assets/work/detroit-neighborhoods.png'],
-				alt: 'Dashed outlined map of Detroit.'
 			}
 		}
 	];
