@@ -26,19 +26,19 @@
 
 	const journalism: Array<Work> = [
 		{
-			link: "https://wapo.st/4luwnox",
-			name: "Elon Musk gets government policy ideas from X. Here's how.",
-			description: "Visualized Musk's X universe with a orbiting graphic form.",
+			link: 'https://wapo.st/4luwnox',
+			name: 'Elon Musk gets government policy ideas from X. Here’s how.',
+			description: 'Visualized Musk’s X universe with a orbiting graphic form.',
 			media: {
-				type: "image",
-				source: pictures["/src/lib/assets/work/musk-universe.png"],
-				alt: "Several hundred circles orbiting around a central orange circle labeled Musk. The circles are colored differently. Four dotted rings around Musk are labeled with 1,000, 250, 50 and 10 interactions."
+				type: 'image',
+				source: pictures['/src/lib/assets/work/musk-universe.png'],
+				alt: 'Several hundred circles orbiting around a central orange circle labeled Musk. The circles are colored differently. Four dotted rings around Musk are labeled with 1,000, 250, 50 and 10 interactions.'
 			}
 		},
 		{
 			link: 'https://wapo.st/3ZoJVcG',
 			name: 'Who won the Harris-Trump debate? We asked swing-state voters.',
-			description: "Built a live-updating page showing voters' reactions the debate.",
+			description: 'Built a live-updating page showing voters’ reactions the debate.',
 			media: {
 				type: 'url',
 				source: deciders,
@@ -48,7 +48,7 @@
 		{
 			link: 'https://wapo.st/3yEm9OR',
 			name: 'Pro-Harris groups embrace identity to fundraise via Zoom',
-			description: 'Reported and gathered data on "for Harris" Zoom calls.',
+			description: 'Reported and gathered data on “for Harris” Zoom calls.',
 			media: {
 				type: 'image',
 				source: pictures['/src/lib/assets/work/zoom.jpeg'],
@@ -56,13 +56,13 @@
 			}
 		},
 		{
-			link: "https://wapo.st/3Ughxpz",
-			name: "Crypto cash is flooding the 2024 election. Here's who's benefiting.",
-			description: "Made an interactive beeswarm for crypto political funding.",
+			link: 'https://wapo.st/3Ughxpz',
+			name: "Crypto cash is flooding the 2024 election. Here’s who's benefiting.",
+			description: 'Made an interactive beeswarm for crypto political funding.',
 			media: {
-				type: "image",
-				source: pictures["/src/lib/assets/work/cryptocandidates.png"],
-				alt: "Red and blue circles representing different political candidates positioned along an axis showing amount of ad spending from crypto firms."
+				type: 'image',
+				source: pictures['/src/lib/assets/work/cryptocandidates.png'],
+				alt: 'Red and blue circles representing different political candidates positioned along an axis showing amount of ad spending from crypto firms.'
 			}
 		},
 		// {
@@ -118,7 +118,7 @@
 		},
 		{
 			link: 'https://www.michigandaily.com/news/academics/we-looked-301-high-schools-most-applicants-u-m-heres-what-we-found/',
-			name: "We looked at the 301 high schools with the most applicants to U-M. Here's what we found",
+			name: 'We looked at the 301 high schools with the most applicants to U-M. Here’s what we found',
 			description: 'Analyzed data and made visuals on university feeder schools.',
 			media: {
 				type: 'image',
@@ -141,7 +141,7 @@
 	const engineering: Array<Work> = [
 		{
 			link: 'https://wapo.st/3WjjAKt',
-			name: "Tracking Trump's Cabinet and administration nominations",
+			name: 'Tracking Trump’s Cabinet and administration nominations',
 			description: 'Created a searchable and filterable database.',
 			media: {
 				type: 'image',
@@ -321,10 +321,7 @@
 	<section class="breakout" id="journalism">
 		<hgroup class="inline">
 			<h2>Journalism</h2>
-			<p>
-				I tell visual stories with graphics and data. I am experienced in building bespoke charts
-				and trackers.
-			</p>
+			<p>I tell visual stories with graphics and data.</p>
 		</hgroup>
 		<ul class="inline">
 			{#each journalism as item}
@@ -338,8 +335,8 @@
 		<hgroup class="inline">
 			<h2>Engineering</h2>
 			<p>
-				I build websites, often times with interactive, photographic and geographic elements. I care
-				about making my work accessible to people with disabilities.
+				I build applications, often times with interactive, photographic and geographic elements. I
+				care about making my work accessible to people with disabilities.
 			</p>
 		</hgroup>
 		<ul class="inline">
@@ -452,7 +449,12 @@
 	}
 
 	:global(a) {
-		color: var(--color-text);
+		color: var(--color-primary);
 		text-underline-offset: 3px;
+		transition: color 125ms linear;
+	}
+
+	:global(a:hover, a:focus) {
+		color: var(--color-primary-active);
 	}
 </style>

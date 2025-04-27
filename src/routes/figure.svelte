@@ -43,7 +43,6 @@
 
 	.work figcaption {
 		font-family: var(--font-serif);
-		font-weight: 600;
 		font-size: 1.25rem;
 		letter-spacing: 0rem;
 		text-wrap: balance;
@@ -55,7 +54,8 @@
 
 	.work p {
 		font-family: var(--font-serif);
-		font-size: 1.025rem;
+		font-size: 1rem;
+		font-style: italic;
 		line-height: 1.375rem;
 		letter-spacing: 0rem;
 		margin: 0;
@@ -70,10 +70,12 @@
 		height: unset;
 		border-radius: 5px;
 		aspect-ratio: 1440 / 710;
+		opacity: 0.925;
+		transition: opacity 125ms linear;
 	}
 
-	.work .media:hover,
-	.work .media:focus {
-		filter: brightness(1.125);
+	.work:hover .media,
+	.work:focus .media {
+		opacity: 1;
 	}
 </style>

@@ -31,7 +31,7 @@
 					items: [
 						'The Stranger / Albert Camus',
 						'Crying in H Mart / Michelle Zauner',
-						"Data Feminism / Catherine D'Ignazio and Lauren Klein",
+						'Data Feminism / Catherine D’Ignazio and Lauren Klein',
 						'How Charts Lie: Getting Smarter about Visual Information / Alberto Cairo'
 					]
 				}
@@ -127,7 +127,7 @@
 						'Glory',
 						'Bao',
 						'1917',
-						"To All the Boys I've Loved Before",
+						'To All the Boys I’ve Loved Before',
 						'Hidden Figures',
 						'Inside Out',
 						'Turning Red',
@@ -140,7 +140,7 @@
 						'Finding Nemo',
 						'Monsters, Inc.',
 						'Toy Story 2',
-						"A Bug's Life",
+						'A Bug’s Life',
 						'Toy Story',
 						'Spider-Man: Into the Spider-Verse',
 						'The Amazing Spider-Man 2',
@@ -178,20 +178,20 @@
 						'Iron Man 2',
 						'The Incredible Hulk',
 						'Iron Man',
-						"Ender's Game",
+						'Ender’s Game',
 						'All Quiet on the Western Front (2022)',
 						'The Florida Project',
 						'Dunkirk',
 						'Lady Bird',
 						'Eighth Grade',
 						'The Truman Show',
-						"Ferris Bueller's Day Off",
+						'Ferris Bueller’s Day Off',
 						'Crazy Rich Asians',
 						'Taxi Driver',
 						'The Godfather',
 						'The Godfather Part II',
 						'Goodfellas',
-						"One Flew Over the Cuckoo's Nest",
+						'One Flew Over the Cuckoo’s Nest',
 						'Rocky IV',
 						'Rocky III',
 						'Rocky II',
@@ -277,7 +277,7 @@
 					date: undefined,
 					items: [
 						'Humanities Approaches to Graphical Display / Johanna Drucker',
-						'Anti-Semitism as Skill: Rudolf Virchow\'s "Schulstatistik" and the Racial Composition of Germany / Andrew Zimmerman',
+						'Anti-Semitism as Skill: Rudolf Virchow’s “Schulstatistik” and the Racial Composition of Germany / Andrew Zimmerman',
 						'Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective / Donna Haraway'
 					]
 				}
@@ -299,7 +299,7 @@
 						'Searching for Maura / The Washington Post',
 						'More than 1,800 congressmen once enslaved Black people. This is who they were, and how they shaped the nation. / The Washington Post',
 						'Machine Bias / ProPublica',
-						"How does 'Hamilton,' the non stop, hip-hop Broadway sensation tap rap's master rhymes to blur musical lines? / The Wall Street Journal"
+						'How does ‘Hamilton,’ the non stop, hip-hop Broadway sensation tap rap’s master rhymes to blur musical lines? / The Wall Street Journal'
 					]
 				}
 			]
@@ -312,8 +312,8 @@
 					items: [
 						'The Worst Magazine In America / Nathan J. Robinson',
 						'AI: The New Aesthetics of Fascism / Gareth Watkins',
-						"Surely You're a Creep, Mr. Feynman / Leila McNeill",
-						'The "Blob" Is Furious About Gaza. But That\'s Not Enough. / Josef Burton'
+						'Surely You’re a Creep, Mr. Feynman / Leila McNeill',
+						'The “Blob” Is Furious About Gaza. But That’s Not Enough. / Josef Burton'
 					]
 				}
 			]
@@ -360,7 +360,6 @@
 
 <style>
 	main {
-		font-family: var(--font-serif);
 		display: grid;
 		gap: 0.75rem;
 
@@ -416,7 +415,7 @@
 	}
 
 	a {
-		color: var(--color-text);
+		color: var(--color-primary);
 		text-decoration: none;
 	}
 </style>
