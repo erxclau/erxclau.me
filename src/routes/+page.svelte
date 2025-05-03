@@ -11,6 +11,9 @@
 	// @ts-ignore
 	import taxonomy from '$lib/assets/work/taxonomy.png?enhanced&aspect=1440:710&fit=cover&position=top';
 
+	// @ts-ignore
+	import dei from '$lib/assets/work/dei.png?enhanced&aspect=1440:710&fit=cover&position=top';
+
 	import Figure from './figure.svelte';
 	import type { Picture } from 'vite-imagetools';
 	import type { Work } from '$lib/types';
@@ -25,6 +28,16 @@
 	});
 
 	const journalism: Array<Work> = [
+		{
+			link: 'https://wapo.st/4jYmNZn',
+			name: "‘DEI’ vanishing from corporate filings, mirroring business world’s retreat",
+			description: 'Analyzed and visualized a decade of S&P 500 filings.',
+			media: {
+				type: 'url',
+				source: dei,
+				alt: 'A line chart showing hundreds of lines, each representing the number of mentions of diversity, equity and inclusion in annual filings from S&P 500 companies. Between 2015 and 2019, the number of mentions remained near 0. In 2020, the average number of mentions increased to 9. The average number of mentions continued to increase to 12.5 in 2022 and then began to decrease, first to 11.4 in 2023 and then 4 in 2024.'
+			}
+		},
 		{
 			link: 'https://wapo.st/4luwnox',
 			name: 'Elon Musk gets government policy ideas from X. Here’s how.',

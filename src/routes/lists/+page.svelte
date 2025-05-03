@@ -7,13 +7,12 @@
 			lists: [
 				{
 					date: 'Current',
-					items: [
-						'Unassimilable: An Asian Diasporic Manifesto for the 21st Century / Bianca Mabute-Louie'
-					]
+					items: []
 				},
 				{
 					date: 2025,
 					items: [
+						'Unassimilable: An Asian Diasporic Manifesto for the 21st Century / Bianca Mabute-Louie',
 						'The Year of Magical Thinking / Joan Didion',
 						'Living in Data / Jer Thorp',
 						'Killing Rage: Ending Racism / bell hooks',
