@@ -7,11 +7,14 @@
 			lists: [
 				{
 					date: 'Current',
-					items: []
+					items: [
+						/*'Abundance / Ezra Klein and Derek Thompson'*/
+					]
 				},
 				{
 					date: 2025,
 					items: [
+						'Everything Is Tuberculosis: The History and Persistence of Our Deadliest Infection / John Green',
 						'Unassimilable: An Asian Diasporic Manifesto for the 21st Century / Bianca Mabute-Louie',
 						'The Year of Magical Thinking / Joan Didion',
 						'Living in Data / Jer Thorp',
@@ -42,6 +45,8 @@
 				{
 					date: 2025,
 					items: [
+						'Conclave',
+						'Sinners',
 						'Frances Ha',
 						'Arrival',
 						'The Good Shepherd',
@@ -187,9 +192,11 @@
 						'Ferris Bueller’s Day Off',
 						'Crazy Rich Asians',
 						'Taxi Driver',
-						'The Godfather',
+						'The Godfather Part III',
 						'The Godfather Part II',
+						'The Godfather',
 						'Goodfellas',
+						'Straight Outta Compton',
 						'One Flew Over the Cuckoo’s Nest',
 						'Rocky IV',
 						'Rocky III',
@@ -224,21 +231,21 @@
 		{
 			category: 'Shows',
 			lists: [
-				{ date: 2025, items: ['Veep'] },
+				{ date: 2025, items: ['Atlanta', 'You', 'Veep'] },
 				{ date: 2024, items: ['Masters of the Air', 'Moral Orel'] },
 				{ date: 2023, items: ['American Born Chinese'] },
 				{
 					date: undefined,
 					items: [
-						'Last Chance High',
 						'Quiet on Set: The Dark Side of Kids TV',
 						'Jet Lag: The Game',
 						'School Babysitters',
 						'Attack on Titan',
 						'Atypical',
 						'Silicon Valley',
+						'The Pacific',
 						'Band of Brothers',
-						'The Pacific'
+						'Last Chance High'
 					]
 				}
 			]
