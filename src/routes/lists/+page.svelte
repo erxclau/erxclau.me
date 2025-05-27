@@ -7,13 +7,12 @@
 			lists: [
 				{
 					date: 'Current',
-					items: [
-						/*'Abundance / Ezra Klein and Derek Thompson'*/
-					]
+					items: []
 				},
 				{
 					date: 2025,
 					items: [
+						'Abundance / Ezra Klein and Derek Thompson',
 						'Everything Is Tuberculosis: The History and Persistence of Our Deadliest Infection / John Green',
 						'Unassimilable: An Asian Diasporic Manifesto for the 21st Century / Bianca Mabute-Louie',
 						'The Year of Magical Thinking / Joan Didion',
@@ -45,6 +44,17 @@
 				{
 					date: 2025,
 					items: [
+						'Mission: Impossible — Dead Reckoning',
+						'Mission: Impossible — Fallout',
+						'Mission: Impossible — Rogue Nation',
+						'Mission: Impossible — Ghost Protocol',
+						'Mission: Impossible III',
+						'Mission: Impossible II',
+						'Mission: Impossible',
+						'No Hard Feelings',
+						'The Secret Life of Walter Mitty (2013)',
+						'Cloudy with a Chance of Meatballs 2',
+						'Cloudy with a Chance of Meatballs',
 						'Conclave',
 						'Sinners',
 						'Frances Ha',
@@ -182,6 +192,9 @@
 						'Iron Man 2',
 						'The Incredible Hulk',
 						'Iron Man',
+						'Jaws',
+						'Lawrence of Arabia',
+						'Breakfast at Tiffany’s',
 						'Ender’s Game',
 						'All Quiet on the Western Front (2022)',
 						'The Florida Project',
@@ -212,14 +225,19 @@
 						'Full Metal Jacket',
 						'Letters from Iwo Jima',
 						'Flags of Our Fathers',
+						'The Thin Red Line (1998)',
 						'Hacksaw Ridge',
 						'Pearl Harbor',
 						'Enemy at the Gates',
 						'Patton',
+						'Zulu',
+						'The Karate Kid (2010)',
 						'Spirited Away',
 						'Shawshank Redemption',
 						'Good Will Hunting',
 						'Forrest Gump',
+						'The Outsiders',
+						'Grease',
 						'Cast Away',
 						'A Beautiful Mind',
 						'School of Rock',
@@ -314,13 +332,17 @@
 			category: 'Essays',
 			lists: [
 				{
-					date: undefined,
+					date: 2025,
 					items: [
+						'ChatGPT Is a Gimmick / Jonathan Malesic',
 						'The Worst Magazine In America / Nathan J. Robinson',
 						'AI: The New Aesthetics of Fascism / Gareth Watkins',
-						'Surely You’re a Creep, Mr. Feynman / Leila McNeill',
-						'The “Blob” Is Furious About Gaza. But That’s Not Enough. / Josef Burton'
+						'Surely You’re a Creep, Mr. Feynman / Leila McNeill'
 					]
+				},
+				{
+					date: 2024,
+					items: ['The “Blob” Is Furious About Gaza. But That’s Not Enough. / Josef Burton']
 				}
 			]
 		}
