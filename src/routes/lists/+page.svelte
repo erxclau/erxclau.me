@@ -7,7 +7,7 @@
 			lists: [
 				{
 					date: 'Current',
-					items: []
+					items: ['LatinX / Claudia Milian']
 				},
 				{
 					date: 2025,
@@ -44,6 +44,15 @@
 				{
 					date: 2025,
 					items: [
+						'Reservoir Dogs',
+						'The Last Samurai',
+						'Jack Reacher',
+						'Top Gun: Maverick',
+						'Top Gun',
+						'Transformers: Rise of the Beasts',
+						'Bumblebee',
+						'Transformers: The Last Knight',
+						'Transformers: Age of Extinction',
 						'Mission: Impossible — Dead Reckoning',
 						'Mission: Impossible — Fallout',
 						'Mission: Impossible — Rogue Nation',
@@ -135,6 +144,7 @@
 				{
 					date: undefined,
 					items: [
+						'Whiplash',
 						'Mean Girls',
 						'World Trade Center',
 						'Loving Vincent',
@@ -400,6 +410,7 @@
 	}
 
 	main > section {
+		position: relative;
 		display: grid;
 		gap: 0.375rem;
 	}
@@ -416,6 +427,12 @@
 		font-family: var(--font-sans);
 	}
 
+	main section hgroup:has(h2) {
+		position: sticky;
+		top: 0;
+		background-color: var(--color-secondary);
+	}
+
 	h1,
 	h2,
 	h3 {
@@ -430,12 +447,14 @@
 		text-wrap: balance;
 		font-family: var(--font-serif);
 		font-size: 1.125rem;
-		line-height: 1.625rem;
+		line-height: 1.375rem;
 	}
 
 	ul {
 		list-style-type: disc;
 		padding-left: 1.25rem;
+		display: grid;
+		gap: 0.25rem;
 	}
 
 	small {
