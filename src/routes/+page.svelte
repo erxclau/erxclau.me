@@ -447,13 +447,15 @@
 
 	ul {
 		margin: 0;
+		display: grid;
+		gap: 0.25rem;
 	}
 
 	p,
 	#talks li {
 		font-family: var(--font-serif);
 		font-size: 1.25rem;
-		line-height: 1.925rem;
+		line-height: 1.75rem;
 		margin: 0;
 		text-wrap: balance;
 	}
