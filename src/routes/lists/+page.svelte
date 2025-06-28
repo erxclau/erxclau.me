@@ -44,6 +44,15 @@
 				{
 					date: 2025,
 					items: [
+						'The Rules of Attraction',
+						'American Psycho',
+						'War of the Worlds',
+						'The Boy in the Striped Pyjamas',
+						'Braveheart',
+						'Pulp Fiction',
+						'The Italian Job (2003)',
+						'Tropic Thunder',
+						'Flight',
 						'Reservoir Dogs',
 						'The Last Samurai',
 						'Jack Reacher',
@@ -118,6 +127,7 @@
 						'The Lego Movie',
 						'Power Rangers (2017)',
 						'The Edge of Seventeen',
+						'The Girl Next Door',
 						'The Perks of Being a Wallflower',
 						'A Family Affair',
 						'Inside Out 2',
@@ -144,6 +154,7 @@
 				{
 					date: undefined,
 					items: [
+						'In The Heights',
 						'Whiplash',
 						'Mean Girls',
 						'World Trade Center',
@@ -323,6 +334,7 @@
 				{
 					date: undefined,
 					items: [
+						'He’s dying. She’s pregnant / The Washington Post',
 						'The Blast Effect / The Washington Post',
 						'The Firefighter With O.C.D. and the Vaccine He Believed Would Kill Him / The New York Times',
 						'The Anti-Social Century / The Atlantic',
