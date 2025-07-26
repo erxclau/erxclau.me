@@ -7,11 +7,12 @@
 			lists: [
 				{
 					date: 'Current',
-					items: ['LatinX / Claudia Milian']
+					items: ['Orientalism / Edward Said']
 				},
 				{
 					date: 2025,
 					items: [
+						'LatinX / Claudia Milian',
 						'Abundance / Ezra Klein and Derek Thompson',
 						'Everything Is Tuberculosis: The History and Persistence of Our Deadliest Infection / John Green',
 						'Unassimilable: An Asian Diasporic Manifesto for the 21st Century / Bianca Mabute-Louie',
@@ -44,6 +45,12 @@
 				{
 					date: 2025,
 					items: [
+						'Independence Day',
+						'The Day After Tomorrow',
+						'When Harry Met Sally',
+						'Tron: Legacy',
+						'Tron',
+						'The Untouchables',
 						'The Rules of Attraction',
 						'American Psycho',
 						'War of the Worlds',
@@ -120,6 +127,7 @@
 						'The Hunger Games: Mockingjay — Part 1',
 						'The Hunger Games: Catching Fire',
 						'The Hunger Games',
+						'2012',
 						'Legally Blonde',
 						'Clueless',
 						'Love in Taipei',
@@ -270,7 +278,7 @@
 		{
 			category: 'Shows',
 			lists: [
-				{ date: 2025, items: ['Atlanta', 'You', 'Veep'] },
+				{ date: 2025, items: ['Abbott Elementary', 'Atlanta', 'You', 'Veep'] },
 				{ date: 2024, items: ['Masters of the Air', 'Moral Orel'] },
 				{ date: 2023, items: ['American Born Chinese'] },
 				{
@@ -356,6 +364,7 @@
 				{
 					date: 2025,
 					items: [
+						'Last Boys at the Beginning of History / Mana Afsari',
 						'ChatGPT Is a Gimmick / Jonathan Malesic',
 						'The Worst Magazine In America / Nathan J. Robinson',
 						'AI: The New Aesthetics of Fascism / Gareth Watkins',
