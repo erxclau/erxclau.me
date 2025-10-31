@@ -45,6 +45,8 @@
 				{
 					date: 2025,
 					items: [
+						'Wicked',
+						'Kiki’s Delivery Service',
 						'Independence Day',
 						'The Day After Tomorrow',
 						'When Harry Met Sally',
