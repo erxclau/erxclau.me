@@ -27,7 +27,7 @@
 	const journalism: Array<Work> = [
 		{
 			link: 'https://wapo.st/4jYmNZn',
-			name: "‘DEI’ vanishing from corporate filings, mirroring business world’s retreat",
+			name: '‘DEI’ vanishing from corporate filings, mirroring business world’s retreat',
 			description: 'Analyzed and visualized a decade of S&P 500 filings.',
 			media: {
 				type: 'image',
@@ -333,13 +333,15 @@
 			<h2>Journalism</h2>
 			<p>I tell visual stories with graphics and data.</p>
 		</hgroup>
-		<ul class="inline">
-			{#each journalism as item}
-				<li>
-					<Figure {item} />
-				</li>
-			{/each}
-		</ul>
+		<div>
+			<ul class="inline">
+				{#each journalism as item}
+					<li>
+						<Figure {item} />
+					</li>
+				{/each}
+			</ul>
+		</div>
 	</section>
 	<section class="breakout" id="engineering">
 		<hgroup class="inline">
@@ -349,26 +351,30 @@
 				care about making my work accessible to people with disabilities.
 			</p>
 		</hgroup>
-		<ul class="inline">
-			{#each engineering as item}
-				<li>
-					<Figure {item} />
-				</li>
-			{/each}
-		</ul>
+		<div>
+			<ul class="inline">
+				{#each engineering as item}
+					<li>
+						<Figure {item} />
+					</li>
+				{/each}
+			</ul>
+		</div>
 	</section>
 	<section class="breakout" id="other">
 		<hgroup class="inline">
 			<h2>Other</h2>
 			<p>Here is a collection of personal and academic work I've produced.</p>
 		</hgroup>
-		<ul class="inline">
-			{#each other as item}
-				<li>
-					<Figure {item} />
-				</li>
-			{/each}
-		</ul>
+		<div>
+			<ul class="inline">
+				{#each other as item}
+					<li>
+						<Figure {item} />
+					</li>
+				{/each}
+			</ul>
+		</div>
 	</section>
 	<section id="talks">
 		<h2>Talks</h2>
@@ -408,16 +414,24 @@
 		max-width: unset;
 	}
 
-	.breakout ul {
+	.breakout div:has(ul) {
 		max-width: 120ch;
+		width: 100%;
+		margin: auto;
+	}
+
+	.breakout ul {
 		list-style: none;
 
-		margin-block-start: 0;
-		margin-block-end: 0;
+		font-family: var(--font-sans-serif);
+		font-weight: bold;
+		color: white;
 
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(min(350px, 100%), 1fr));
-		gap: 1.5rem 1.25rem;
+		grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
+		gap: 1rem;
+		width: 100%;
+		max-width: unset;
 	}
 
 	main {
