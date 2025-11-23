@@ -45,6 +45,7 @@
 				{
 					date: 2025,
 					items: [
+						'Wicked: For Good',
 						'Wicked',
 						'Kiki’s Delivery Service',
 						'Independence Day',
