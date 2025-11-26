@@ -1,22 +1,7 @@
-import type { Picture } from 'vite-imagetools';
-
-export interface Work {
+interface Work {
 	link: string;
 	name: string;
 	description?: string;
-	media:
-		| {
-				type: 'image';
-				source: { default: Picture };
-				alt: string;
-				eager?: boolean;
-		  }
-		| {
-				type: 'url';
-				source: string;
-				alt: string;
-				eager?: boolean;
-		  };
 }
 
 interface Item {
@@ -43,7 +28,7 @@ interface BeforeList {
 	items: Array<Item>;
 }
 
-export type Category = {
+type Category = {
 	category: string;
 	lists:
 		| Array<DatedList>

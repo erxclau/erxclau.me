@@ -1,6 +1,4 @@
 <script lang="ts">
-	import type { Category } from '$lib/types';
-
 	const data: Array<Category> = [
 		{
 			category: 'Theater',
@@ -505,7 +503,7 @@
 		<section id={category.toLowerCase()}>
 			<hgroup>
 				<h2>{category}</h2>
-				<b>{lists.flatMap((d) => d.items).length}</b>
+				<b class="count">{lists.flatMap((d) => d.items).length}</b>
 			</hgroup>
 			{#each lists.filter((list) => list.items.length > 0) as { date, items }, i}
 				<section>
@@ -513,13 +511,13 @@
 						{#if i > 0}
 							<hgroup>
 								<h3>Before</h3>
-								<small>{items.length}</small>
+								<small class="count">{items.length}</small>
 							</hgroup>
 						{/if}
 					{:else}
 						<hgroup>
 							<h3>{date}</h3>
-							<small>{items.length}</small>
+							<small class="count">{items.length}</small>
 						</hgroup>
 					{/if}
 					<ul>
@@ -586,12 +584,20 @@
 		padding-bottom: 0.125rem;
 	}
 
-	h1,
-	h2,
-	h3 {
+	h1 {
 		margin: 0;
-		font-family: var(--font-sans);
+		font-family: var(--font-headline);
 		text-transform: uppercase;
+		color: var(--color-headline);
+		letter-spacing: 0.0625ch;
+		font-size: 3rem;
+		font-weight: 400;
+	}
+
+	h2, h3 {
+		margin: 0;
+		text-transform: uppercase;
+		font-family: sans-serif;
 	}
 
 	ul,
@@ -599,7 +605,7 @@
 		margin: 0;
 		text-wrap: pretty;
 		font-family: var(--font-serif);
-		font-size: 1.125rem;
+		font-size: 1.25rem;
 		line-height: 1.375rem;
 	}
 
@@ -618,7 +624,7 @@
 
 	li .extra {
 		line-height: 1.125rem;
-		font-family: var(--font-sans-alt);
+		font-family: var(--font-sans);
 		color: lch(from var(--color-primary) calc(l - 20) c h);
 		font-size: 0.875rem;
 	}
@@ -629,6 +635,7 @@
 
 	li .list-content.highlight > div:first-of-type {
 		text-decoration: underline;
+		text-underline-offset: 3px;
 	}
 
 	small {
@@ -638,5 +645,13 @@
 	a {
 		color: var(--color-primary);
 		text-decoration: none;
+	}
+
+	.count {
+		font-family: sans-serif;
+	}
+
+	h1 a {
+		color: var(--color-headline);
 	}
 </style>

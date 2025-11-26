@@ -8,25 +8,46 @@
 		<meta name="description" content="Eric Lau is a journalist and software engineer." />
 		<meta name="twitter:site" content="@erxclau" />
 		<meta name="twitter:creator" content="@erxclau" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap"
+			rel="stylesheet"
+		/>
 		<style>
+			@font-face {
+				font-family: 'Instrument Serif Fallback';
+				src: local('Arial Narrow');
+				size-adjust: 85%;
+				ascent-override: normal;
+				descent-override: normal;
+				line-gap-override: normal;
+			}
+
 			:root {
-				--font-serif:
-					'Charter', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+				--font-headline: 'Instrument Serif', 'Instrument Serif Fallback';
+				--font-serif: Baskerville, serif;
 				--font-sans:
-					system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-					Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-				--font-sans-alt:
 					Geneva, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
 					Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 				--color-light: rgb(231, 229, 229);
 				--color-dark: rgb(27.5, 32.5, 32.5);
 
+				--color-light-headline: rgb(55, 129, 255);
+				--color-dark-headline: rgb(15, 89, 215);
+
+				--color-light-highlight: rgb(126, 173, 252);
+				--color-dark-highlight: rgb(4, 68, 161);
+
 				--color-secondary: var(--color-light);
 				--color-secondary-active: white;
 
 				--color-primary: var(--color-dark);
 				--color-primary-active: black;
+
+				--color-headline: var(--color-dark-headline);
+				--color-highlight: var(--color-dark-highlight);
 			}
 
 			html,
@@ -36,6 +57,7 @@
 
 				background-color: var(--color-secondary);
 				color: var(--color-primary);
+				font-family: var(--font-serif);
 			}
 
 			@media (prefers-color-scheme: dark) {
@@ -45,6 +67,9 @@
 
 					--color-primary: var(--color-light);
 					--color-primary-active: white;
+
+					--color-headline: var(--color-light-headline);
+					--color-highlight: var(--color-light-highlight);
 				}
 			}
 		</style>
