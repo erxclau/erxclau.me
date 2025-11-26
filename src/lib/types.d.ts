@@ -1,6 +1,6 @@
 import type { Picture } from 'vite-imagetools';
 
-export type Work = {
+export interface Work {
 	link: string;
 	name: string;
 	description?: string;
@@ -17,22 +17,31 @@ export type Work = {
 				alt: string;
 				eager?: boolean;
 		  };
-};
+}
 
-type CurrentList = {
+interface Item {
+	name: string;
+	authors?: Array<string>;
+	location?: string;
+	year?: number;
+	highlight?: boolean;
+	thoughts?: string;
+}
+
+interface CurrentList {
 	date: 'Current';
-	items: Array<string>;
-};
+	items: Array<Item>;
+}
 
-type DatedList = {
+interface DatedList {
 	date: number;
-	items: Array<string>;
-};
+	items: Array<Item>;
+}
 
-type BeforeList = {
+interface BeforeList {
 	date: undefined;
-	items: Array<string>;
-};
+	items: Array<Item>;
+}
 
 export type Category = {
 	category: string;
