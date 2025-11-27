@@ -9,7 +9,7 @@
 						{
 							name: 'Death Becomes Her',
 							thoughts:
-								'A funny self-aware musical about living forever. Colorful, abundant, physically impressive.'
+								'A funny, self-aware musical about living forever. Colorful, abundant, physically impressive.'
 						}
 					]
 				}
@@ -26,7 +26,7 @@
 							authors: ['Edward Said'],
 							location: 'Mil Mundos',
 							thoughts:
-								'This has been a tough read for me. The writing is quite dense and bland. Regardless, I can appreciate the critical lenses into how Orientalist ideas built on each other to give us modern Western understanding of the Middle East and Islam. I find it disturbing how malleable we’ve been to centuries-old narratives that had no real authority. I found the passages relating to Marx‘s defense of Indian colonization to be a prime example of how pervasive and mainstream Orientalist thought had become in the West.'
+								'This has been a tough read for me. The writing is quite dense and, at least for me, difficult to understand at times. Regardless, I can appreciate the critical lenses into how Orientalist ideas built on each other to give us modern Western understanding of the Middle East and Islam. I find it disturbing how malleable we’ve been to centuries-old narratives that had no real authority. I found the passages relating to Marx’s defense of Indian colonization to be a prime example of how pervasive and mainstream Orientalist thought had become in the West.'
 						},
 						{
 							name: 'Data Feminism',
@@ -594,7 +594,8 @@
 		font-weight: 400;
 	}
 
-	h2, h3 {
+	h2,
+	h3 {
 		margin: 0;
 		text-transform: uppercase;
 		font-family: sans-serif;
@@ -623,10 +624,17 @@
 	}
 
 	li .extra {
+		--l-offset: 17.5;
 		line-height: 1.125rem;
 		font-family: var(--font-sans);
-		color: lch(from var(--color-primary) calc(l - 20) c h);
+		color: lch(from var(--color-primary) calc(l + var(--l-offset)) c h);
 		font-size: 0.875rem;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		li .extra {
+			--l-offset: -17.5;
+		}
 	}
 
 	li .authors {

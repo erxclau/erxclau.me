@@ -191,7 +191,7 @@
 			<a href="/lists">consumption</a>.
 		</p>
 	</section>
-	<section>
+	<section id="journalism">
 		<hgroup>
 			<h2>Journalism</h2>
 			<p>I tell visual stories with graphics and data.</p>
@@ -208,7 +208,7 @@
 		</ul>
 	</section>
 
-	<section>
+	<section id="engineering">
 		<hgroup>
 			<h2>Engineering</h2>
 			<p>
@@ -228,7 +228,7 @@
 		</ul>
 	</section>
 
-	<section>
+	<section id="other">
 		<hgroup>
 			<h2>Other</h2>
 			<p>A collection of personal and academic work.</p>
