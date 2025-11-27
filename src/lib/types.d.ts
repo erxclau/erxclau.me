@@ -7,10 +7,10 @@ interface Work {
 interface Item {
 	name: string;
 	authors?: Array<string>;
-	location?: string;
 	year?: number;
 	highlight?: boolean;
 	thoughts?: string;
+	notes?: string;
 }
 
 interface CurrentList {
@@ -28,7 +28,7 @@ interface BeforeList {
 	items: Array<Item>;
 }
 
-type Category = {
+type Lists = {
 	category: string;
 	lists:
 		| Array<DatedList>

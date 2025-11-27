@@ -1,5 +1,5 @@
 <script lang="ts">
-	const data: Array<Category> = [
+	const data: Array<Lists> = [
 		{
 			category: 'Theater',
 			lists: [
@@ -9,7 +9,8 @@
 						{
 							name: 'Death Becomes Her',
 							thoughts:
-								'A funny, self-aware musical about living forever. Colorful, abundant, physically impressive.'
+								'A funny, self-aware musical about living forever. Colorful, abundant, physically impressive.',
+							notes: 'Watched at Lunt-Fontanne Theatre'
 						}
 					]
 				}
@@ -24,20 +25,9 @@
 						{
 							name: 'Orientalism',
 							authors: ['Edward Said'],
-							location: 'Mil Mundos',
+							notes: 'Purchased at Mil Mundos',
 							thoughts:
-								'This has been a tough read for me. The writing is quite dense and, at least for me, difficult to understand at times. Regardless, I can appreciate the critical lenses into how Orientalist ideas built on each other to give us modern Western understanding of the Middle East and Islam. I find it disturbing how malleable we’ve been to centuries-old narratives that had no real authority. I found the passages relating to Marx’s defense of Indian colonization to be a prime example of how pervasive and mainstream Orientalist thought had become in the West.'
-						},
-						{
-							name: 'Data Feminism',
-							authors: ['Catherine D’Ignazio', 'Lauren Klein'],
-							location: 'Literati Bookstore',
-							thoughts:
-								'I’ve read several chapters for different university courses, but have yet to read it in full. The chapters I have read give important guidances on how to work with data in ways that surface humanity and challenge power.'
-						},
-						{
-							name: 'How Charts Lie: Getting Smarter about Visual Information',
-							authors: ['Alberto Cairo']
+								'The writing is quite dense and difficult to understand at times. Regardless, I can appreciate the critical lenses into how Orientalist ideas built on each other to develop the modern Western perspective of the Middle East and Islam. I find it disturbing how malleable we’ve been to centuries-old narratives that had no real authority. I found the passages relating to Marx’s defense of Indian colonization to be a prime example of how pervasive and mainstream Orientalist thought had become in the West.'
 						}
 					]
 				},
@@ -47,7 +37,7 @@
 						{
 							name: 'LatinX',
 							authors: ['Claudia Milian'],
-							location: 'Mil Mundos',
+							notes: 'Purchased at Mil Mundos',
 							thoughts:
 								'Milian expands upon the common linguistic and gender discourse on LatinX. She talks of “the X” as it relates to unknowability, transition and fluidity beyond gender into themes around climate and politics.'
 						},
@@ -60,13 +50,13 @@
 						{
 							name: 'Everything Is Tuberculosis: The History and Persistence of Our Deadliest Infection',
 							authors: ['John Green'],
-							location: 'Barnes & Noble',
+							notes: 'Purchased at Barnes & Noble',
 							highlight: true
 						},
 						{
 							name: 'Unassimilable: An Asian Diasporic Manifesto for the 21st Century',
 							authors: ['Bianca Mabute-Louie'],
-							location: 'Bridge Street Books',
+							notes: 'Purchased at Bridge Street Books',
 							highlight: true,
 							thoughts:
 								'The “Asian Diaspora” framing is compelling, but I do not completely resonate with it as someone who does not have particular attachments to the motherland with respect to language, travel or culture. I do value the narrative on how Mabute-Louie grew up in a religious community and “ethnoburb,” two settings I could not count as my own.'
@@ -74,7 +64,7 @@
 						{
 							name: 'The Year of Magical Thinking',
 							authors: ['Joan Didion'],
-							location: 'Strand Bookstore',
+							notes: 'Purchased at Strand Bookstore',
 							highlight: true,
 							thoughts: 'I enjoyed the fluidity of Didion’s writing.'
 						},
@@ -98,6 +88,17 @@
 				{
 					date: undefined,
 					items: [
+						{
+							name: 'Data Feminism',
+							authors: ['Catherine D’Ignazio', 'Lauren Klein'],
+							notes: 'Purchased at Literati Bookstore',
+							thoughts:
+								'I’ve read several chapters for different university courses, but have yet to read it in full. The chapters I have read give important guidances on how to work with data in ways that surface humanity and challenge power.'
+						},
+						{
+							name: 'How Charts Lie: Getting Smarter about Visual Information',
+							authors: ['Alberto Cairo']
+						},
 						{ name: 'The Stranger', authors: ['Albert Camus'] },
 						{ name: 'Crying in H Mart', authors: ['Michelle Zauner'], highlight: true }
 					]
@@ -110,7 +111,7 @@
 				{
 					date: 2025,
 					items: [
-						{ name: 'Wicked: For Good' },
+						{ name: 'Wicked: For Good', notes: "Watched at AMC Courthouse Plaza 8" },
 						{ name: 'Wicked', highlight: true },
 						{ name: 'Kiki’s Delivery Service', highlight: true },
 						{ name: 'Independence Day' },
@@ -536,6 +537,9 @@
 									{#if item.thoughts}
 										<div class="extra">{item.thoughts}</div>
 									{/if}
+									{#if item.notes}
+										<div class="extra note">{item.notes}</div>
+									{/if}
 								</div>
 							</li>
 						{/each}
@@ -629,6 +633,10 @@
 		font-family: var(--font-sans);
 		color: lch(from var(--color-primary) calc(l + var(--l-offset)) c h);
 		font-size: 0.875rem;
+	}
+
+	li .note {
+		font-size: 0.75rem;
 	}
 
 	@media (prefers-color-scheme: dark) {

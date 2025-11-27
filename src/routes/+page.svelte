@@ -187,7 +187,7 @@
 			> in Ann Arbor.
 		</p>
 		<p>
-			Reach me at <code>hello@[domain]</code>. Look at my <a href="/resume.pdf">resume</a> or
+			Reach me at <code style="font-size: 1rem">hello@[domain]</code>. Look at my <a href="/resume.pdf">resume</a> or
 			<a href="/lists">consumption</a>.
 		</p>
 	</section>
