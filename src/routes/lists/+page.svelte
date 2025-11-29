@@ -27,7 +27,7 @@
 							authors: ['Edward Said'],
 							notes: 'Purchased at Mil Mundos',
 							thoughts: `The writing is quite dense and difficult to understand at times. 
-								Still, I can appreciate the depth of Said’s critical lenses 
+								Still, I can grasp parts of the depth of Said’s critical lenses 
 								into how Orientalist ideas built on each other to develop modern 
 								Western perspective and policies on the Middle East and Islam. 
 								It’s disturbing how malleable we’ve been to centuries-old racist 
@@ -88,7 +88,7 @@
 							authors: ['bell hooks'],
 							highlight: true,
 							thoughts: `hooks offers a useful definition of love in romantic, familial, parental and communal contexts. 
-								I still carry the definition — the will to extend oneself for the purpose of nurturing one’s own or another’s spiritual growth — with me.
+								I carry the definition — the will to extend oneself for the purpose of nurturing one’s own or another’s spiritual growth — with me.
 								The spiritual essense eludes me. But I agree with the active nature, that love is not a situation to fall into but a process to continue. 
 								In the familial context, hooks argues that rearing a child should not just be the responsibility of a mother and father,
 								but of an entire community of adults who can provide a breath of advice and perspectives.`
@@ -322,7 +322,17 @@
 						{ name: 'Cloudy with a Chance of Meatballs 2' },
 						{ name: 'Cloudy with a Chance of Meatballs' },
 						{ name: 'Conclave', highlight: true },
-						{ name: 'Sinners' },
+						{
+							name: 'Sinners',
+							thoughts: `As a whole, I did not immediately love Sinners after seeing it. 
+								Michael B. Jordan’s dual role, the musical elements and historical worldbuilding were impressive. 
+								I also enjoyed learning about the Asian American presence in the early 20th century South.
+								The vampire plot caught me off guard, and parts of the second half felt rushed.
+								I can still appreciate the larger themes of the movie, some of which I admittedly did not fully grasp
+								until consuming media about the film such as F.D Signifier’s video on the movie and Black art.
+								`,
+							highlight: true
+						},
 						{ name: 'Frances Ha' },
 						{ name: 'Arrival' },
 						{ name: 'The Good Shepherd' },
@@ -363,10 +373,19 @@
 						{ name: 'The Cider House Rules' },
 						{ name: 'Life of Pi' },
 						{ name: 'Almost Famous' },
-						{ name: 'Eternal Sunshine of the Spotless Mind', highlight: true },
+						{
+							name: 'Eternal Sunshine of the Spotless Mind',
+							highlight: true,
+							thoughts: 'What an awful thing: to forget a past life. A lovely soundtrack.'
+						},
 						{ name: '42', highlight: true },
 						{ name: 'The Breakfast Club' },
-						{ name: 'Perfect Days', highlight: true, thoughts: 'A lovely soundtrack.' }
+						{
+							name: 'Perfect Days',
+							highlight: true,
+							thoughts: `Sparse, pleasant. A lovely soundtrack. Is ambition the thief of joy?
+								For Hirayama, stability and routine seem to be the key to a perfect day.`
+						}
 					]
 				},
 				{
