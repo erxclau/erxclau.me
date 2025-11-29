@@ -148,6 +148,11 @@
 					items: [
 						{ name: 'Revolutionary Road', authors: ['Richard Yates'], notes: 'Read for school' },
 						{
+							name: 'The Great Gatsby',
+							authors: ['F. Scott Fitzgerald'],
+							notes: 'Read for school'
+						},
+						{
 							name: 'The Unbearable Lightness of Being',
 							authors: ['Milan Kundera'],
 							notes: 'Read for school'
@@ -158,17 +163,32 @@
 							name: 'The Picture of Dorian Gray',
 							authors: ['Oscar Wilde'],
 							notes: 'Read for school'
-						},
-						{
-							name: 'The Odyssey',
-							authors: ['Homer'],
-							notes: 'Read for school'
 						}
 					]
 				},
 				{
 					date: 2017,
 					items: [
+						{
+							name: 'The Odyssey',
+							authors: ['Homer'],
+							notes: 'Read for school'
+						},
+						{
+							name: 'Oedipus Rex',
+							authors: ['Sophocles'],
+							notes: 'Read for school'
+						},
+						{
+							name: 'Othello',
+							authors: ['William Shakespeare'],
+							notes: 'Read for school'
+						},
+						{
+							name: 'The Sorrows of Young Werther',
+							authors: ['Johann Wolfgang von Goethe'],
+							notes: 'Read for school'
+						},
 						{
 							name: 'The Lost City of Z',
 							authors: ['David Grann'],
@@ -236,26 +256,6 @@
 						{
 							name: 'How Charts Lie: Getting Smarter about Visual Information',
 							authors: ['Alberto Cairo']
-						},
-						{
-							name: 'The Sorrows of Young Werther',
-							authors: ['Johann Wolfgang von Goethe'],
-							notes: 'Read for school'
-						},
-						{
-							name: 'Othello',
-							authors: ['William Shakespeare'],
-							notes: 'Read for school'
-						},
-						{
-							name: 'Oedipus Rex',
-							authors: ['Sophocles'],
-							notes: 'Read for school'
-						},
-						{
-							name: 'The Great Gatsby',
-							authors: ['F. Scott Fitzgerald'],
-							notes: 'Read for school'
 						},
 						{ name: 'Siddhartha', authors: ['Hermann Hesse'], notes: 'Read for school' },
 						{
