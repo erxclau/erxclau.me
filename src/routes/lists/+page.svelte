@@ -283,8 +283,17 @@
 				{
 					date: 2025,
 					items: [
-						{ name: 'Wicked: For Good', notes: 'Watched at AMC Courthouse Plaza 8' },
-						{ name: 'Wicked', highlight: true },
+						{
+							name: 'Wicked: For Good',
+							notes: 'Watched at AMC Courthouse Plaza 8',
+							thoughts: `I think it was fine. The musical numbers were less memorable than the ones from the first part.`
+						},
+						{
+							name: 'Wicked',
+							highlight: true,
+							notes:
+								'I watched on Halloween Eve, then dresssed as Elphaba (yes, with green face paint) on Halloween.'
+						},
 						{ name: 'Kiki’s Delivery Service', highlight: true },
 						{ name: 'Independence Day' },
 						{ name: 'The Day After Tomorrow' },
