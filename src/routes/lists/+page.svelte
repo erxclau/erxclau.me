@@ -30,10 +30,10 @@
 								Still, I can appreciate the depth of Said’s critical lenses 
 								into how Orientalist ideas built on each other to develop modern 
 								Western perspective and policies on the Middle East and Islam. 
-								I find it disturbing how malleable we’ve been to centuries-old racist 
+								It’s disturbing how malleable we’ve been to centuries-old racist 
 								and essentializing narratives. The passages relating to Marx’s defense 
 								of Indian colonization is a prime example of how pervasive and mainstream 
-								Orientalist thought has become in the West.`
+								Orientalist thought had become in the West by the 19th century.`
 						}
 					]
 				},
@@ -51,13 +51,19 @@
 							name: 'Abundance',
 							authors: ['Ezra Klein', 'Derek Thompson'],
 							thoughts:
-								'Klein and Thompson provide important reminders that supposedly progressive government bureaucracy can be burdensome despite good intentions. Certainly, the focus on housing affordability is timely.',
+								'Klein and Thompson remind us that supposedly progressive government bureaucracy can become burdensome despite good intentions. Certainly, the focus on housing affordability is timely.',
 							notes: 'Purchased at Barnes & Noble'
 						},
 						{
 							name: 'Everything Is Tuberculosis: The History and Persistence of Our Deadliest Infection',
 							authors: ['John Green'],
 							notes: 'Purchased at Barnes & Noble',
+							thoughts: `In the midst of the many acute disasters we give our attention to, 
+								we often forget about the chronic, persisting tragedies that play out over decades or centuries.
+								Green puts tuberculosis back in focus by telling the history of the disease alongside the story of Henry Reider.
+								The book serves as an advocate to Western audiences for funding tuberculosis treatment, 
+								especially as the United States cut USAID programs for the disease around the time the book was released.
+							`,
 							highlight: true
 						},
 						{
@@ -81,8 +87,11 @@
 							name: 'All About Love: New Visions',
 							authors: ['bell hooks'],
 							highlight: true,
-							thoughts:
-								'hooks offers a useful definition of love in romantic, familial, parental and societal contexts.'
+							thoughts: `hooks offers a useful definition of love in romantic, familial, parental and communal contexts. 
+								I still carry the definition — the will to extend oneself for the purpose of nurturing one’s own or another’s spiritual growth — with me.
+								The spiritual essense eludes me. But I agree with the active nature, that love is not a situation to fall into but a process to continue. 
+								In the familial context, hooks argues that rearing a child should not just be the responsibility of a mother and father,
+								but of an entire community of adults who can provide a breath of advice and perspectives.`
 						},
 						{ name: 'Time Is a Mother', authors: ['Ocean Vuong'] },
 						{ name: 'The Message', authors: ['Ta-Nehisi Coates'], highlight: true }
@@ -251,7 +260,7 @@
 							authors: ['Catherine D’Ignazio', 'Lauren Klein'],
 							notes: 'Purchased at Literati Bookstore',
 							thoughts:
-								'I’ve read several chapters for different university courses, but have yet to read it in full. The chapters I have read give important guidances on how to work with data in ways that surface humanity and challenge power.'
+								'I’ve read several chapters for different university courses, but have yet to read it in full. The chapters I have read give guidance on how to work with data in ways that surface humanity, challenge power and retain context.'
 						},
 						{
 							name: 'How Charts Lie: Getting Smarter about Visual Information',
@@ -323,7 +332,17 @@
 						{ name: 'The Half of It' },
 						{ name: 'Marriage Story', highlight: true },
 						{ name: 'Unbroken' },
-						{ name: 'Take Out', highlight: true },
+						{
+							name: 'Take Out',
+							highlight: true,
+							authors: ['Sean Baker', 'Shih-Ching Tsou'],
+							thoughts: `A raw film from Baker and Tsou about Ming, an undocumented Chinese immigrant working 
+							as a deliveryman in New York City during the early 2000s. I don’t know much about my father.
+							Certainly Ming’s story is not my father’s. But I felt a certain lineage and bond to it all 
+							as the child of Chinese immigrants who built a life through struggle at a Chinese restaurant in New York City.
+							The early childhood sensations all flooded back to me — the cigarette smoke, the neon light, 
+							the claustrophobic restaurant kitchen, the delivery bike, the torrential downpour.`
+						},
 						{ name: 'Closing Dynasty' },
 						{ name: 'To All the Boys: Always and Forever' },
 						{ name: 'To All the Boys: P.S. I Still Love You' },
