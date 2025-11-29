@@ -26,8 +26,14 @@
 							name: 'Orientalism',
 							authors: ['Edward Said'],
 							notes: 'Purchased at Mil Mundos',
-							thoughts:
-								'The writing is quite dense and difficult to understand at times. Regardless, I can appreciate the critical lenses into how Orientalist ideas built on each other to develop the modern Western perspective of the Middle East and Islam. I find it disturbing how malleable we’ve been to centuries-old narratives that had no real authority. I found the passages relating to Marx’s defense of Indian colonization to be a prime example of how pervasive and mainstream Orientalist thought had become in the West.'
+							thoughts: `The writing is quite dense and difficult to understand at times. 
+								Still, I can appreciate the depth of Said’s critical lenses 
+								into how Orientalist ideas built on each other to develop modern 
+								Western perspective and policies on the Middle East and Islam. 
+								I find it disturbing how malleable we’ve been to centuries-old racist 
+								and essentializing narratives. The passages relating to Marx’s defense 
+								of Indian colonization is a prime example of how pervasive and mainstream 
+								Orientalist thought has become in the West.`
 						}
 					]
 				},
@@ -45,7 +51,8 @@
 							name: 'Abundance',
 							authors: ['Ezra Klein', 'Derek Thompson'],
 							thoughts:
-								'Klein and Thompson provide important reminders that supposedly progressive government bureaucracy can be burdensome despite good intentions. Certainly, the focus on housing affordability is timely.'
+								'Klein and Thompson provide important reminders that supposedly progressive government bureaucracy can be burdensome despite good intentions. Certainly, the focus on housing affordability is timely.',
+							notes: 'Purchased at Barnes & Noble'
 						},
 						{
 							name: 'Everything Is Tuberculosis: The History and Persistence of Our Deadliest Infection',
@@ -86,6 +93,137 @@
 					items: [{ name: 'Anthropocene Reviewed', authors: ['John Green'], highlight: true }]
 				},
 				{
+					date: 2023,
+					items: [{ name: 'The Stranger', authors: ['Albert Camus'] }]
+				},
+				{
+					date: 2022,
+					items: [
+						{ name: 'Crying in H Mart', authors: ['Michelle Zauner'], highlight: true },
+						{ name: 'Ender’s Game', authors: ['Orson Scott Card'] }
+					]
+				},
+				{
+					date: 2020,
+					items: [
+						{
+							name: 'Princess: A True Story of Life Behind the Veil in Saudi Arabia',
+							authors: ['Jean Sasson']
+						},
+						{
+							name: 'We Should All Be Feminists',
+							authors: ['Chimamanda Ngozi Adichie']
+						},
+						{
+							name: 'The Ones Who Walk Away from Omelas',
+							authors: ['Ursula K. Le Guin']
+						}
+					]
+				},
+				{
+					date: 2019,
+					items: [
+						{
+							name: 'Sir Gawain and the Green Knight',
+							notes: 'Read for school'
+						},
+						{
+							name: 'Beowulf',
+							notes: 'Read for school'
+						},
+						{
+							name: 'The Brief and Wondrous Life of Oscar Wao',
+							authors: ['Junot Díaz'],
+							notes: 'Read for school'
+						},
+						{
+							name: 'Moby-Dick',
+							authors: ['Herman Melville'],
+							notes: 'Read for school'
+						}
+					]
+				},
+				{
+					date: 2018,
+					items: [
+						{ name: 'Revolutionary Road', authors: ['Richard Yates'], notes: 'Read for school' },
+						{
+							name: 'The Unbearable Lightness of Being',
+							authors: ['Milan Kundera'],
+							notes: 'Read for school'
+						},
+						{ name: 'Maus', authors: ['Art Spiegelman'], notes: 'Read for school' },
+						{ name: 'Metamorphosis', authors: ['Franz Kafka'], notes: 'Read for school' },
+						{
+							name: 'The Picture of Dorian Gray',
+							authors: ['Oscar Wilde'],
+							notes: 'Read for school'
+						},
+						{
+							name: 'The Odyssey',
+							authors: ['Homer'],
+							notes: 'Read for school'
+						}
+					]
+				},
+				{
+					date: 2017,
+					items: [
+						{
+							name: 'The Lost City of Z',
+							authors: ['David Grann'],
+							notes: 'Read for school'
+						},
+						{
+							name: 'Things Fall Apart',
+							authors: ['Chinua Achebe'],
+							notes: 'Read for school'
+						},
+						{ name: 'Julius Caesar', authors: ['William Shakespeare'], notes: 'Read for school' },
+						{ name: 'The Kite Runner', authors: ['Khaled Hosseini'], notes: 'Read for school' }
+					]
+				},
+				{
+					date: 2016,
+					items: [
+						{
+							name: 'One Flew Over The Cuckoo’s Nest',
+							authors: ['Ken Kesey'],
+							notes: 'Read for school'
+						},
+						{
+							name: 'The Curious Incident of the Dog in the Night-Time',
+							authors: ['Mark Haddon'],
+							notes: 'Read for school'
+						},
+						{
+							name: 'Stitches',
+							authors: ['David Small'],
+							notes: 'Read for school'
+						},
+						{
+							name: 'American Born Chinese',
+							authors: ['Gene Luen Yang'],
+							notes: 'Read for school'
+						},
+						{
+							name: '1984',
+							authors: ['George Orwell'],
+							notes: 'Read for school'
+						},
+						{
+							name: 'Frankenstein',
+							authors: ['Mary Shelley'],
+							notes: 'Read for school'
+						},
+						{
+							name: 'Survival of the Sickest',
+							authors: ['Sharon Moalem'],
+							notes: 'Read for school'
+						}
+					]
+				},
+				{
 					date: undefined,
 					items: [
 						{
@@ -99,8 +237,33 @@
 							name: 'How Charts Lie: Getting Smarter about Visual Information',
 							authors: ['Alberto Cairo']
 						},
-						{ name: 'The Stranger', authors: ['Albert Camus'] },
-						{ name: 'Crying in H Mart', authors: ['Michelle Zauner'], highlight: true }
+						{
+							name: 'The Sorrows of Young Werther',
+							authors: ['Johann Wolfgang von Goethe'],
+							notes: 'Read for school'
+						},
+						{
+							name: 'Othello',
+							authors: ['William Shakespeare'],
+							notes: 'Read for school'
+						},
+						{
+							name: 'Oedipus Rex',
+							authors: ['Sophocles'],
+							notes: 'Read for school'
+						},
+						{
+							name: 'The Great Gatsby',
+							authors: ['F. Scott Fitzgerald'],
+							notes: 'Read for school'
+						},
+						{ name: 'Siddhartha', authors: ['Hermann Hesse'], notes: 'Read for school' },
+						{
+							name: 'Delusions of Gender: How Our Minds, Society, and Neurosexism Create Difference',
+							authors: ['Cordelia Fine']
+						},
+						{ name: 'Crazy Rich Asians', authors: ['Kevin Kwan'] },
+						{ name: 'A Long Way Gone', authors: ['Ishmael Beah'] }
 					]
 				}
 			]
@@ -111,7 +274,7 @@
 				{
 					date: 2025,
 					items: [
-						{ name: 'Wicked: For Good', notes: "Watched at AMC Courthouse Plaza 8" },
+						{ name: 'Wicked: For Good', notes: 'Watched at AMC Courthouse Plaza 8' },
 						{ name: 'Wicked', highlight: true },
 						{ name: 'Kiki’s Delivery Service', highlight: true },
 						{ name: 'Independence Day' },
@@ -308,6 +471,7 @@
 						{ name: 'The Godfather', highlight: true },
 						{ name: 'Goodfellas', highlight: true },
 						{ name: 'Straight Outta Compton' },
+						{ name: 'The Lost City of Z' },
 						{ name: 'One Flew Over the Cuckoo’s Nest' },
 						{ name: 'Rocky IV' },
 						{ name: 'Rocky III' },
@@ -372,7 +536,12 @@
 						{ name: 'Silicon Valley', highlight: true },
 						{ name: 'The Pacific', highlight: true },
 						{ name: 'Band of Brothers', highlight: true },
-						{ name: 'Last Chance High', authors: ['Vice'] }
+						{ name: 'Last Chance High', authors: ['Vice'] },
+						{ name: 'America: The Story of Us' },
+						{
+							name: 'Battlefield',
+							notes: `I watched several of the Second World War episodes during my childhood.`
+						}
 					]
 				}
 			]
@@ -383,6 +552,7 @@
 				{
 					date: undefined,
 					items: [
+						{ name: 'The Thinking Game', authors: ['DeepMind'], highlight: true },
 						{ name: 'AlphaGo', authors: ['DeepMind'], highlight: true },
 						{ name: 'The Fallen of World War II', authors: ['Neil Halloran'], highlight: true }
 					]
@@ -511,7 +681,7 @@
 					{#if date === undefined}
 						{#if i > 0}
 							<hgroup>
-								<h3>Before</h3>
+								<h3>Undated</h3>
 								<small class="count">{items.length}</small>
 							</hgroup>
 						{/if}
