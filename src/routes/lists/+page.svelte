@@ -21,7 +21,13 @@
 			lists: [
 				{
 					date: 'Current',
-					items: []
+					items: [
+						{
+							name: 'Ornamentalism',
+							authors: ['Anne Anlin Cheng'],
+							notes: 'Purchased from McNally Jackson'
+						}
+					]
 				},
 				{
 					date: 2025,
@@ -43,12 +49,12 @@
 							sense that I had already encountered many of the overarching themes of the book 
 							in academic settings or other modern pieces of cultural critique, a testament
 							to the long-lasting and wide-ranging influence Said has had on discourse around Orientalism.`,
-							notes: 'Purchased at Mil Mundos'
+							notes: 'Purchased from Mil Mundos'
 						},
 						{
 							name: 'LatinX',
 							authors: ['Claudia Milian'],
-							notes: 'Purchased at Mil Mundos',
+							notes: 'Purchased from Mil Mundos',
 							thoughts:
 								'Milian expands upon the common linguistic and gender discourse on LatinX. She talks of “the X” as it relates to unknowability, transition and fluidity beyond gender into themes around climate and politics.'
 						},
@@ -57,12 +63,12 @@
 							authors: ['Ezra Klein', 'Derek Thompson'],
 							thoughts:
 								'Klein and Thompson remind us that supposedly progressive government bureaucracy can become burdensome despite good intentions. Certainly, the emphasis on housing affordability is timely.',
-							notes: 'Purchased at Barnes & Noble'
+							notes: 'Purchased from Barnes & Noble'
 						},
 						{
 							name: 'Everything Is Tuberculosis: The History and Persistence of Our Deadliest Infection',
 							authors: ['John Green'],
-							notes: 'Purchased at Barnes & Noble',
+							notes: 'Purchased from Barnes & Noble',
 							thoughts: `In the midst of the many acute disasters we give our attention to, 
 								we often forget about the chronic, persisting tragedies that play out over decades or centuries.
 								Green puts tuberculosis back in focus by telling the history of the disease alongside the story of Henry Reider.
@@ -74,7 +80,7 @@
 						{
 							name: 'Unassimilable: An Asian Diasporic Manifesto for the 21st Century',
 							authors: ['Bianca Mabute-Louie'],
-							notes: 'Purchased at Bridge Street Books',
+							notes: 'Purchased from Bridge Street Books',
 							highlight: true,
 							thoughts:
 								'The “Asian Diaspora” framing is compelling, but I do not completely resonate with it as someone who does not have particular attachments to the motherland with respect to language, travel or culture. I do value the narrative on how Mabute-Louie grew up in a religious community and “ethnoburb.”'
@@ -82,12 +88,30 @@
 						{
 							name: 'The Year of Magical Thinking',
 							authors: ['Joan Didion'],
-							notes: 'Purchased at Strand Bookstore',
+							notes: 'Purchased from Strand Bookstore',
 							highlight: true,
 							thoughts: 'I enjoyed the fluidity of Didion’s writing.'
 						},
 						{ name: 'Living in Data', authors: ['Jer Thorp'], highlight: true },
-						{ name: 'Killing Rage: Ending Racism', authors: ['bell hooks'], highlight: true },
+						{
+							name: 'Killing Rage: Ending Racism',
+							authors: ['bell hooks'],
+							highlight: true,
+							thoughts: `In relation to Black beauty standards that I read about in The Message, 
+							hooks discusses the “Black is beautiful” movement of the 1960s that rejected Eurocentric 
+							beauty standards. Yet, because of robust Western programming and lasting white prejudice
+							against “looking Black,” only those who looked white could climb the American social ladder.
+							Black Americans who chose to straighten their hair or wear wigs said they did so out of
+							personal preference, rather than an attempt to appeal to white America. The dissolution of
+							radical movements during the 1960s was not limited to Black beauty. hooks contends that other
+							movements, particularly ones based on economic and racial communalism, fell apart as young
+							radicals realized the difficulty of living communally in a white supremacist, capitalist patriarchy.
+							hooks views race through many intersections: that Black liberation is undermined by outdated
+							patriarchal modes of thought where Black men will silence Black women to align closer with white men, 
+							that middle class Black Americans will perpetuate caustic stereotypes and pimp Black culture to
+							appeal to white American taste.`,
+							notes: 'Purchased from Yu & Me Books'
+						},
 						{
 							name: 'All About Love: New Visions',
 							authors: ['bell hooks'],
@@ -96,10 +120,28 @@
 								I carry the definition — the will to extend oneself for the purpose of nurturing one’s own or another’s spiritual growth — with me.
 								The spiritual essense eludes me. But I agree with the active nature, that love is not a situation to fall into but a process to continue. 
 								In the familial context, hooks argues that rearing a child should not just be the responsibility of a mother and father,
-								but of an entire community of adults who can provide a breath of advice and perspectives.`
+								but of an entire community of adults who can provide a breath of advice and perspectives.`,
+							notes: 'Purchased from Codex Books'
 						},
 						{ name: 'Time Is a Mother', authors: ['Ocean Vuong'] },
-						{ name: 'The Message', authors: ['Ta-Nehisi Coates'], highlight: true }
+						{
+							name: 'The Message',
+							authors: ['Ta-Nehisi Coates'],
+							highlight: true,
+							thoughts: `I appreciated the connective tissue that linked the essays on Africa and Palestine.
+							Following the end of slavery in the United States, some white and African Americans began the
+							back-to-Africa movement on the basis that white and African Americans could not coexist. Many 
+							African Americans did migrate, particularly to Liberia, despite no clear history of where in 
+							Africa they originated. As with many settlement projects, African Americans settling in Liberia
+							was done at the expense of the native African population — African Americans necessarily took 
+							land, brought Christianity, and spread a related but distinct culture. African Americans also
+							brought a different beauty standard to Africa (through settlement and later global media) of 
+							straight hair and lighter skin. Coates contends with this when he ponders beauty in his visit to
+							Senegal. Beauty aside, the African American settlement project has narrative similarities to Zionism.
+							Jews fled Europe after the Second World War to establish the new state of Israel, on Palestinian
+							land. The United States is implicated in rejecting both African Americans (by promoting the black-to-Africa
+							movement and centuries of systemic racism) and Jews (by rejecting Jewish refugees after the Holocaust).`
+						}
 					]
 				},
 				{
@@ -263,7 +305,7 @@
 						{
 							name: 'Data Feminism',
 							authors: ['Catherine D’Ignazio', 'Lauren Klein'],
-							notes: 'Purchased at Literati Bookstore',
+							notes: 'Purchased from Literati',
 							thoughts:
 								'I’ve read several chapters for different university courses, but have yet to read it in full. The chapters I have read give guidance on how to work with data in ways that surface humanity, challenge power and retain context.'
 						},
@@ -415,7 +457,7 @@
 						{ name: 'Legally Blonde' },
 						{ name: 'Clueless' },
 						{ name: 'Love in Taipei' },
-						{ name: 'Bottoms', highlight: true },
+						{ name: 'Bottoms', highlight: true, thoughts: 'Hilarious and absurd.' },
 						{ name: 'The Lego Movie', highlight: true },
 						{ name: 'Power Rangers', year: 2017 },
 						{ name: 'The Edge of Seventeen' },
@@ -450,7 +492,7 @@
 						{ name: 'Whiplash', highlight: true },
 						{ name: 'Mean Girls', highlight: true },
 						{ name: 'World Trade Center' },
-						{ name: 'Loving Vincent', highlight: true },
+						{ name: 'Loving Vincent', highlight: true, thoughts: 'Really a gorgeous movie.' },
 						{ name: 'Glory' },
 						{ name: 'Bao' },
 						{ name: '1917' },
