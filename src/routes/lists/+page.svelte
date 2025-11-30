@@ -714,7 +714,13 @@
 						{ name: 'Machine Bias', authors: ['ProPublica'] },
 						{
 							name: 'How does ‘Hamilton,’ the non stop, hip-hop Broadway sensation tap rap’s master rhymes to blur musical lines?',
-							authors: ['The Wall Street Journal']
+							authors: ['The Wall Street Journal'],
+							thoughts: `This page unfortunately no longer works due to digital decay, 
+							but I remember spending a lot of time typing my own (in hindsight, nonsensical) 
+							multisyllabic rhyme schemes into the interactive element at the end of the page. 
+							I often attribute the start of my interest in pursuing a journalism career to 
+							interfacing with COVID-19 coverage in 2020, but perhaps I should really be 
+							attributing this piece.`
 						}
 					]
 				}
@@ -892,16 +898,12 @@
 		font-family: sans-serif;
 	}
 
-	ul,
-	p {
+	ul {
 		margin: 0;
 		text-wrap: pretty;
 		font-family: var(--font-serif);
 		font-size: 1.25rem;
 		line-height: 1.375rem;
-	}
-
-	ul {
 		list-style-type: none;
 		padding-left: 1.25rem;
 		display: grid;
@@ -937,6 +939,7 @@
 		font-family: var(--font-sans);
 		color: var(--color-neutral);
 		font-size: 0.925rem;
+		text-wrap: pretty;
 	}
 
 	li .note {
