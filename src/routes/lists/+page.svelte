@@ -21,25 +21,30 @@
 			lists: [
 				{
 					date: 'Current',
-					items: [
-						{
-							name: 'Orientalism',
-							authors: ['Edward Said'],
-							notes: 'Purchased at Mil Mundos',
-							thoughts: `The writing is quite dense and difficult to understand at times. 
-								Still, I can grasp parts of the depth of Said’s critical lenses 
-								into how Orientalist ideas built on each other to develop modern 
-								Western perspective and policies on the Middle East and Islam. 
-								It’s disturbing how malleable we’ve been to centuries-old racist 
-								and essentializing narratives. The passages relating to Marx’s defense 
-								of Indian colonization is a prime example of how pervasive and mainstream 
-								Orientalist thought had become in the West by the 19th century.`
-						}
-					]
+					items: []
 				},
 				{
 					date: 2025,
 					items: [
+						{
+							name: 'Orientalism',
+							authors: ['Edward Said'],
+							thoughts: `Said provides a critical lens into Orientalism by analyzing centuries of
+							texts and characters. I struggled to retain all of the detail, but I did grasp the
+							broad strokes of how Said characterizes the development of Orientalist ideas, 
+							from “objective” European observer-scholars journeying through the Middle East to 
+							Anglo-French colonizers to the “liberal” American foreign affairs apparatus. 
+							It’s disturbing how malleable we (not just the West, but the East as well) have been
+							to centuries-old racist and essentializing narratives — that the “Orientals” are stuck 
+							in the past and need their own history written for them, that Islam is an all-controlling 
+							deviant religion, that the exotic East ought to be dictated by the superior West.
+							The passages relating to Marx’s defense of Indian colonization is a prime example of 
+							how pervasive and mainstream Orientalist thought had became in the West. I do feel the
+							sense that I had already encountered many of the overarching themes of the book 
+							in academic settings or other modern pieces of cultural critique, a testament
+							to the long-lasting and wide-ranging influence Said has had on discourse around Orientalism.`,
+							notes: 'Purchased at Mil Mundos'
+						},
 						{
 							name: 'LatinX',
 							authors: ['Claudia Milian'],
@@ -51,7 +56,7 @@
 							name: 'Abundance',
 							authors: ['Ezra Klein', 'Derek Thompson'],
 							thoughts:
-								'Klein and Thompson remind us that supposedly progressive government bureaucracy can become burdensome despite good intentions. Certainly, the focus on housing affordability is timely.',
+								'Klein and Thompson remind us that supposedly progressive government bureaucracy can become burdensome despite good intentions. Certainly, the emphasis on housing affordability is timely.',
 							notes: 'Purchased at Barnes & Noble'
 						},
 						{
@@ -337,7 +342,7 @@
 								Michael B. Jordan’s dual role, the musical elements and historical worldbuilding were impressive. 
 								I also enjoyed learning about the Asian American presence in the early 20th century South.
 								The vampire plot caught me off guard, and parts of the second half felt rushed.
-								I can still appreciate the larger themes of the movie, some of which I admittedly did not fully grasp
+								I can still appreciate the larger themes of the movie, some of which I admittedly did not fully understand
 								until consuming media about the film such as F.D Signifier’s video on the movie and Black art.
 								`,
 							highlight: true
@@ -741,23 +746,46 @@
 					<ul>
 						{#each items as item}
 							<li>
-								<div class="list-content" class:highlight={item.highlight}>
-									<div>
-										{item.name}
-										{#if item.year}({item.year}){/if}
-									</div>
-									{#if item.authors}
-										<div class="extra authors">
-											by {@render authors(item.authors)}
+								{#if !item.thoughts}
+									<div class="list-content">
+										<div class:highlight={item.highlight}>
+											{item.name}
+											{#if item.year}({item.year}){/if}
 										</div>
-									{/if}
-									{#if item.thoughts}
-										<div class="extra">{item.thoughts}</div>
-									{/if}
-									{#if item.notes}
-										<div class="extra note">{item.notes}</div>
-									{/if}
-								</div>
+										{#if item.authors}
+											<div class="extra authors">
+												by {@render authors(item.authors)}
+											</div>
+										{/if}
+										{#if item.notes}
+											<div class="extra note">{item.notes}</div>
+										{/if}
+									</div>
+								{:else}
+									<details>
+										<summary>
+											<div class="list-content">
+												<div class:highlight={item.highlight}>
+													{item.name}
+													{#if item.year}({item.year}){/if}
+												</div>
+												{#if item.authors}
+													<div class="extra authors">
+														by {@render authors(item.authors)}
+													</div>
+												{/if}
+											</div>
+										</summary>
+										<div class="list-content">
+											{#if item.thoughts}
+												<div class="extra">{item.thoughts}</div>
+											{/if}
+											{#if item.notes}
+												<div class="extra note">{item.notes}</div>
+											{/if}
+										</div>
+									</details>
+								{/if}
 							</li>
 						{/each}
 					</ul>
@@ -832,47 +860,58 @@
 	}
 
 	ul {
-		list-style-type: disc;
+		list-style-type: none;
 		padding-left: 1.25rem;
 		display: grid;
 		gap: 0.375rem;
 	}
 
-	li .list-content {
-		color: var(--color-primary);
+	li:not(:has(details)) {
+		list-style-type: "•  ";
+	}
+
+	details,
+	.list-content {
 		display: grid;
 		gap: 0.25rem;
 	}
 
+	summary {
+		list-style-position: outside;
+		color: var(--color-primary);
+		list-style-type: '+ ';
+	}
+
+	summary:hover {
+		cursor: pointer;
+	}
+
+	details[open] summary {
+		list-style-type: '− ';
+	}
+
 	li .extra {
-		--l-offset: 17.5;
-		line-height: 1.125rem;
+		line-height: 1.25rem;
 		font-family: var(--font-sans);
-		color: lch(from var(--color-primary) calc(l + var(--l-offset)) c h);
-		font-size: 0.875rem;
-	}
-
-	li .note {
-		font-size: 0.75rem;
-	}
-
-	@media (prefers-color-scheme: dark) {
-		li .extra {
-			--l-offset: -17.5;
-		}
-	}
-
-	li .authors {
+		color: var(--color-neutral);
 		font-size: 0.925rem;
 	}
 
-	li .list-content.highlight > div:first-of-type {
+	li .note {
+		font-size: 0.825rem;
+	}
+
+	li .authors {
+		font-size: 1rem;
+	}
+
+	li .highlight {
 		text-decoration: underline;
 		text-underline-offset: 3px;
 	}
 
 	small {
-		font-size: 0.925rem;
+		font-size: 1rem;
 	}
 
 	a {

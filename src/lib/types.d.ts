@@ -2,6 +2,7 @@ interface Work {
 	link: string;
 	name: string;
 	description?: string;
+	affiliation?: string;
 }
 
 interface Item {
