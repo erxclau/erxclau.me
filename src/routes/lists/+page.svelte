@@ -906,6 +906,12 @@
 		font-family: sans-serif;
 	}
 
+	p {
+		font-size: 1.25rem;
+		line-height: 1.375rem;
+		margin: 0;
+	}
+
 	ul {
 		margin: 0;
 		text-wrap: pretty;
