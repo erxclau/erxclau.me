@@ -608,7 +608,7 @@
 				{
 					date: 2025,
 					items: [
-						{ name: 'Abbott Elementary' },
+						{ name: 'Abbott Elementary', notes: 'Yet to watch season 5' },
 						{ name: 'Atlanta', highlight: true },
 						{ name: 'You' },
 						{ name: 'Veep', highlight: true }
@@ -616,18 +616,26 @@
 				},
 				{
 					date: 2024,
-					items: [{ name: 'Masters of the Air' }, { name: 'Moral Orel', highlight: true }]
+					items: [
+						{ name: 'Masters of the Air' },
+						{ name: 'Moral Orel', highlight: true },
+						{ name: 'Quiet on Set: The Dark Side of Kids TV' }
+					]
 				},
-				{ date: 2023, items: [{ name: 'American Born Chinese' }] },
+				{
+					date: 2023,
+					items: [
+						{ name: 'School Babysitters' },
+						{ name: 'American Born Chinese' },
+						{ name: 'Atypical' }
+					]
+				},
+				{ date: 2020, items: [{ name: 'Silicon Valley', highlight: true }] },
 				{
 					date: undefined,
 					items: [
-						{ name: 'Quiet on Set: The Dark Side of Kids TV' },
 						{ name: 'Jet Lag: The Game', highlight: true },
-						{ name: 'School Babysitters' },
-						{ name: 'Attack on Titan' },
-						{ name: 'Atypical' },
-						{ name: 'Silicon Valley', highlight: true },
+						{ name: 'Attack on Titan', notes: 'Yet to watch past the first part of season 4' },
 						{ name: 'The Pacific', highlight: true },
 						{ name: 'Band of Brothers', highlight: true },
 						{ name: 'Last Chance High', authors: ['Vice'] },
