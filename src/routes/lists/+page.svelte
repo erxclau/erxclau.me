@@ -818,29 +818,31 @@
 										{/if}
 									</div>
 								{:else}
-									<details>
-										<summary>
-											<div class="list-content">
-												<div class:highlight={item.highlight}>
-													{item.name}
-													{#if item.year}({item.year}){/if}
-												</div>
-												{#if item.authors}
-													<div class="extra authors">
-														by {@render authors(item.authors)}
+									<div class="list-content">
+										<details>
+											<summary>
+												<div class="list-content">
+													<div class:highlight={item.highlight}>
+														{item.name}
+														{#if item.year}({item.year}){/if}
 													</div>
+													{#if item.authors}
+														<div class="extra authors">
+															by {@render authors(item.authors)}
+														</div>
+													{/if}
+												</div>
+											</summary>
+											<div class="list-content">
+												{#if item.thoughts}
+													<div class="extra">{item.thoughts}</div>
 												{/if}
 											</div>
-										</summary>
-										<div class="list-content">
-											{#if item.thoughts}
-												<div class="extra">{item.thoughts}</div>
-											{/if}
-											{#if item.notes}
-												<div class="extra note">{item.notes}</div>
-											{/if}
-										</div>
-									</details>
+										</details>
+										{#if item.notes}
+											<div class="extra note">{item.notes}</div>
+										{/if}
+									</div>
 								{/if}
 							</li>
 						{/each}
@@ -928,7 +930,7 @@
 		list-style-type: '•  ';
 	}
 
-	details,
+	details[open],
 	.list-content {
 		display: grid;
 		gap: 0.25rem;
