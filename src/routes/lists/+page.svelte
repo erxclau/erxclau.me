@@ -634,6 +634,7 @@
 				{
 					date: undefined,
 					items: [
+						{ name: 'Grand Army' },
 						{ name: 'Jet Lag: The Game', highlight: true },
 						{ name: 'Attack on Titan', notes: 'Yet to watch past the first part of season 4' },
 						{ name: 'The Pacific', highlight: true },
