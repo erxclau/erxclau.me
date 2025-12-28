@@ -893,16 +893,6 @@
 		<h1><a href="/">Eric Lau</a></h1>
 		<p>My consumption, incomplete.</p>
 	</hgroup>
-	<nav
-		style="position: fixed; bottom: 0; z-index: 1; background: var(--color-secondary); padding: 8px; box-sizing: content-box;"
-	>
-		<div style="font-family: var(--font-sans); font-size: 0.925rem;">
-			<div style="display: inline-flex; column-gap: 0.375rem; row-gap: 0.25rem; flex-wrap: wrap;">
-				Jump to:
-				{#each data as { category }}<a href="#{category.toLowerCase()}">{category}</a>{/each}
-			</div>
-		</div>
-	</nav>
 	<div style="display: grid; gap: 1.25rem;">
 		{#each data as { category, lists }}
 			<section id={category.toLowerCase()}>
@@ -987,6 +977,14 @@
 			</section>
 		{/each}
 	</div>
+	<nav>
+		<div style="font-family: var(--font-sans); font-size: 0.925rem;">
+			<div style="display: inline-flex; column-gap: 0.375rem; row-gap: 0.25rem; flex-wrap: wrap;">
+				Jump to:
+				{#each data as { category }}<a href="#{category.toLowerCase()}">{category}</a>{/each}
+			</div>
+		</div>
+	</nav>
 </main>
 
 <style>
@@ -1000,6 +998,15 @@
 
 		padding: 0.25rem 0.75rem;
 		box-sizing: border-box;
+	}
+
+	nav {
+		position: sticky;
+		bottom: 0;
+		z-index: 1;
+		background: var(--color-secondary);
+		padding: 8px 0;
+		box-sizing: content-box;
 	}
 
 	main > div > section {
