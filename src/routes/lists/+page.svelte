@@ -21,17 +21,26 @@
 			lists: [
 				{
 					date: 'Current',
-					items: [
-						{
-							name: 'Ornamentalism',
-							authors: ['Anne Anlin Cheng'],
-							notes: 'Purchased from McNally Jackson'
-						}
-					]
+					items: []
 				},
 				{
 					date: 2025,
 					items: [
+						{
+							name: 'Ornamentalism',
+							authors: ['Anne Anlin Cheng'],
+							thoughts: `Cheng presents a thingness—personness spectrum in Asian American women through legal, satorial 
+							(i.e., fashion or style), culinary and technological lenses. The vision of the “yellow woman” stirs a particular
+							image in the mind, often one ornamented in one way or another. The book is guided by analyses of various media
+							including historical photos, movies, a short story and museum exhibit. While I was able to follow the movie-centered
+							(Anna May Wong and Piccadilly, Ghost in the Shell, Ex Machina) and short story (Bottles of Beaujolais) analyses,
+							I was not familiar with any of the original media discussed and felt I lacked the proper frame to think more
+							critically about the ideas Cheng offered in those parts. The analyses of the historical photos and museum exhibits
+							were easier for me to think through with the photo artifacts themselves helpfully provided inline with the text.
+							While there were photos and screenshots of certain scenes discussed from the movies, I felt this insufficient to
+							fully grasp the totality of the film.`,
+							notes: 'Purchased from McNally Jackson'
+						},
 						{
 							name: 'Orientalism',
 							authors: ['Edward Said'],
@@ -655,9 +664,24 @@
 				{
 					date: undefined,
 					items: [
-						{ name: 'The Thinking Game', authors: ['DeepMind'], highlight: true },
-						{ name: 'AlphaGo', authors: ['DeepMind'], highlight: true },
-						{ name: 'The Fallen of World War II', authors: ['Neil Halloran'], highlight: true }
+						{
+							name: 'The Thinking Game',
+							authors: ['DeepMind'],
+							highlight: true,
+							url: 'https://www.youtube.com/watch?v=d95J8yzvjbQ'
+						},
+						{
+							name: 'AlphaGo',
+							authors: ['DeepMind'],
+							highlight: true,
+							url: 'https://www.youtube.com/watch?v=WXuK6gekU1Y'
+						},
+						{
+							name: 'The Fallen of World War II',
+							authors: ['Neil Halloran'],
+							highlight: true,
+							url: 'https://www.youtube.com/watch?v=DwKPFT-RioU'
+						}
 					]
 				}
 			]
@@ -668,13 +692,43 @@
 				{
 					date: undefined,
 					items: [
-						{ name: 'Rap Theory & Practice: an Introduction', authors: ['Lupe Fiasco'] },
-						{ name: 'Web Without Walls', authors: ['Dan Abramov'] },
-						{ name: 'Rethinking reactivity', authors: ['Rich Harris'], highlight: true },
-						{ name: 'Computer, build me an app', authors: ['Rich Harris'] },
-						{ name: 'The beauty of data visualization', authors: ['David McCandless'] },
-						{ name: 'What the heck is the event loop anyway?', authors: ['Philip Roberts'] },
-						{ name: 'Design is a Search Problem', authors: ['Mike Bostock'], highlight: true }
+						{
+							name: 'Rap Theory & Practice: an Introduction',
+							authors: ['Lupe Fiasco'],
+							url: 'https://www.youtube.com/watch?v=zBHRsYhYb-o'
+						},
+						{
+							name: 'Web Without Walls',
+							authors: ['Dan Abramov'],
+							url: 'https://www.youtube.com/watch?v=F1sJW6nTP6E'
+						},
+						{
+							name: 'Rethinking reactivity',
+							authors: ['Rich Harris'],
+							highlight: true,
+							url: 'https://www.youtube.com/watch?v=AdNJ3fydeao'
+						},
+						{
+							name: 'Computer, build me an app',
+							authors: ['Rich Harris'],
+							url: 'https://www.youtube.com/watch?v=qqt6YxAZoOc'
+						},
+						{
+							name: 'The beauty of data visualization',
+							authors: ['David McCandless'],
+							url: 'https://www.youtube.com/watch?v=5Zg-C8AAIGg'
+						},
+						{
+							name: 'What the heck is the event loop anyway?',
+							authors: ['Philip Roberts'],
+							url: 'https://www.youtube.com/watch?v=8aGhZQkoFbQ'
+						},
+						{
+							name: 'Design is a Search Problem',
+							authors: ['Mike Bostock'],
+							highlight: true,
+							url: 'https://www.youtube.com/watch?v=fThhbt23SGM'
+						}
 					]
 				}
 			]
@@ -704,23 +758,61 @@
 				{
 					date: undefined,
 					items: [
-						{ name: 'He’s dying. She’s pregnant', authors: ['The Washington Post'] },
-						{ name: 'The Blast Effect', authors: ['The Washington Post'] },
+						{
+							name: 'He’s dying. She’s pregnant',
+							authors: ['The Washington Post'],
+							url: 'https://wapo.st/3LijDEa'
+						},
+						{
+							name: 'The Blast Effect',
+							authors: ['The Washington Post'],
+							url: 'https://wapo.st/4pYrs15'
+						},
 						{
 							name: 'The Firefighter With O.C.D. and the Vaccine He Believed Would Kill Him',
-							authors: ['The New York Times']
+							authors: ['The New York Times'],
+							url: 'https://www.nytimes.com/2025/04/17/nyregion/firefighter-mental-health-ocd.html?unlocked_article_code=1.AFA.GV9H.ZmCU7wEc3HDd&smid=url-share'
 						},
-						{ name: 'The Anti-Social Century', authors: ['The Atlantic'] },
-						{ name: 'The Agony of Texting With Men', authors: ['The Atlantic'] },
-						{ name: 'The Militia and the Mole', authors: ['ProPublica'] },
-						{ name: 'The Good Whale', authors: ['The New York Times'] },
-						{ name: 'The Deserter', authors: ['The New York Times'] },
-						{ name: 'Searching for Maura', authors: ['The Washington Post'] },
+						{
+							name: 'The Anti-Social Century',
+							authors: ['The Atlantic'],
+							url: 'https://www.theatlantic.com/magazine/archive/2025/02/american-loneliness-personality-politics/681091/'
+						},
+						{
+							name: 'The Agony of Texting With Men',
+							authors: ['The Atlantic'],
+							url: 'https://www.theatlantic.com/family/archive/2025/01/men-texting-men-loneliness/681076/'
+						},
+						{
+							name: 'The Militia and the Mole',
+							authors: ['ProPublica'],
+							url: 'https://www.propublica.org/article/ap3-oath-keepers-militia-mole'
+						},
+						{
+							name: 'The Good Whale',
+							authors: ['The New York Times'],
+							url: 'https://www.nytimes.com/interactive/2024/podcasts/serial-good-whale.html'
+						},
+						{
+							name: 'The Deserter',
+							authors: ['The New York Times'],
+							url: 'https://www.nytimes.com/2024/09/21/podcasts/russia-ukraine-deserter-audio.html'
+						},
+						{
+							name: 'Searching for Maura',
+							authors: ['The Washington Post'],
+							url: 'https://wapo.st/3N6ObJz'
+						},
 						{
 							name: 'More than 1,800 congressmen once enslaved Black people. This is who they were, and how they shaped the nation.',
-							authors: ['The Washington Post']
+							authors: ['The Washington Post'],
+							url: 'https://wapo.st/4jdw0hk'
 						},
-						{ name: 'Machine Bias', authors: ['ProPublica'] },
+						{
+							name: 'Machine Bias',
+							authors: ['ProPublica'],
+							url: 'https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing'
+						},
 						{
 							name: 'How does ‘Hamilton,’ the non stop, hip-hop Broadway sensation tap rap’s master rhymes to blur musical lines?',
 							authors: ['The Wall Street Journal'],
@@ -729,7 +821,8 @@
 							multisyllabic rhyme schemes into the interactive element at the end of the page. 
 							I often attribute the start of my interest in pursuing a journalism career to 
 							interfacing with COVID-19 coverage in 2020, but perhaps I should really be 
-							attributing this piece.`
+							attributing this piece.`,
+							url: 'https://graphics.wsj.com/hamilton/'
 						}
 					]
 				}
@@ -741,11 +834,31 @@
 				{
 					date: 2025,
 					items: [
-						{ name: 'Last Boys at the Beginning of History', authors: ['Mana Afsari'] },
-						{ name: 'ChatGPT Is a Gimmick', authors: ['Jonathan Malesic'] },
-						{ name: 'The Worst Magazine In America', authors: ['Nathan J. Robinson'] },
-						{ name: 'AI: The New Aesthetics of Fascism', authors: ['Gareth Watkins'] },
-						{ name: 'Surely You’re a Creep, Mr. Feynman', authors: ['Leila McNeill'] }
+						{
+							name: 'Last Boys at the Beginning of History',
+							authors: ['Mana Afsari'],
+							url: 'https://thepointmag.com/politics/last-boys-at-the-beginning-of-history/'
+						},
+						{
+							name: 'ChatGPT Is a Gimmick',
+							authors: ['Jonathan Malesic'],
+							url: 'https://hedgehogreview.com/web-features/thr/posts/chatgpt-is-a-gimmick'
+						},
+						{
+							name: 'The Worst Magazine In America',
+							authors: ['Nathan J. Robinson'],
+							url: 'https://www.currentaffairs.org/news/the-worst-magazine-in-america'
+						},
+						{
+							name: 'AI: The New Aesthetics of Fascism',
+							authors: ['Gareth Watkins'],
+							url: 'https://newsocialist.org.uk/transmissions/ai-the-new-aesthetics-of-fascism/'
+						},
+						{
+							name: 'Surely You’re a Creep, Mr. Feynman',
+							authors: ['Leila McNeill'],
+							url: 'https://thebaffler.com/outbursts/surely-youre-a-creep-mr-feynman-mcneill'
+						}
 					]
 				},
 				{
@@ -753,7 +866,8 @@
 					items: [
 						{
 							name: 'The “Blob” Is Furious About Gaza. But That’s Not Enough.',
-							authors: ['Josef Burton']
+							authors: ['Josef Burton'],
+							url: 'https://www.thenation.com/article/world/blob-gaza-biden-blinken/'
 						}
 					]
 				}
@@ -774,90 +888,111 @@
 	{/if}
 {/snippet}
 
-<main>
+<main style="position: relative;">
 	<hgroup>
 		<h1><a href="/">Eric Lau</a></h1>
 		<p>My consumption, incomplete.</p>
 	</hgroup>
-	{#each data as { category, lists }}
-		<section id={category.toLowerCase()}>
-			<hgroup>
-				<h2>{category}</h2>
-				<b class="count">{lists.flatMap((d) => d.items).length}</b>
-			</hgroup>
-			{#each lists.filter((list) => list.items.length > 0) as { date, items }, i}
-				<section>
-					{#if date === undefined}
-						{#if i > 0}
-							<hgroup>
-								<h3>Undated</h3>
-								<small class="count">{items.length}</small>
-							</hgroup>
-						{/if}
-					{:else}
-						<hgroup>
-							<h3>{date}</h3>
-							<small class="count">{items.length}</small>
-						</hgroup>
-					{/if}
-					<ul>
-						{#each items as item}
-							<li>
-								{#if !item.thoughts}
-									<div class="list-content">
-										<div class:highlight={item.highlight}>
-											{item.name}
-											{#if item.year}({item.year}){/if}
-										</div>
-										{#if item.authors}
-											<div class="extra authors">
-												by {@render authors(item.authors)}
-											</div>
-										{/if}
-										{#if item.notes}
-											<div class="extra note">{item.notes}</div>
-										{/if}
-									</div>
-								{:else}
-									<div class="list-content">
-										<details>
-											<summary>
-												<div class="list-content">
-													<div class:highlight={item.highlight}>
-														{item.name}
-														{#if item.year}({item.year}){/if}
-													</div>
-													{#if item.authors}
-														<div class="extra authors">
-															by {@render authors(item.authors)}
-														</div>
+	<nav
+		style="position: fixed; bottom: 0; z-index: 1; background: var(--color-secondary); padding: 8px; box-sizing: content-box;"
+	>
+		<div style="font-family: var(--font-sans); font-size: 0.925rem;">
+			<div style="display: inline-flex; column-gap: 0.375rem; row-gap: 0.25rem; flex-wrap: wrap;">
+				Jump to:
+				{#each data as { category }}<a href="#{category.toLowerCase()}">{category}</a>{/each}
+			</div>
+		</div>
+	</nav>
+	<div style="display: grid; gap: 1.25rem;">
+		{#each data as { category, lists }}
+			<section id={category.toLowerCase()}>
+				<hgroup>
+					<h2>{category}</h2>
+					<b class="count">{lists.flatMap((d) => d.items).length}</b>
+				</hgroup>
+				<div style="display: grid; gap: 0.625rem;">
+					{#each lists.filter((list) => list.items.length > 0) as { date, items }, i}
+						<section>
+							{#if date === undefined}
+								{#if i > 0}
+									<hgroup>
+										<h3>Undated</h3>
+										<small class="count">{items.length}</small>
+									</hgroup>
+								{/if}
+							{:else}
+								<hgroup>
+									<h3>{date}</h3>
+									<small class="count">{items.length}</small>
+								</hgroup>
+							{/if}
+							<ul>
+								{#each items as item}
+									{@const title = `${item.name}${item.year === undefined ? '' : ` (${item.year})`}`}
+									<li>
+										{#if !item.thoughts}
+											<div class="list-content">
+												<div class:highlight={item.highlight}>
+													{#if item.url}
+														<a href={item.url} target="_blank">{title}</a>
+													{:else}
+														<span>{title}</span>
 													{/if}
 												</div>
-											</summary>
-											<div class="list-content">
-												{#if item.thoughts}
-													<div class="extra">{item.thoughts}</div>
+												{#if item.authors}
+													<div class="extra authors">
+														by {@render authors(item.authors)}
+													</div>
+												{/if}
+												{#if item.notes}
+													<div class="extra note">{item.notes}</div>
 												{/if}
 											</div>
-										</details>
-										{#if item.notes}
-											<div class="extra note">{item.notes}</div>
+										{:else}
+											<div class="list-content">
+												<details>
+													<summary>
+														<div class="list-content">
+															<div class:highlight={item.highlight}>
+																{#if item.url}
+																	<a href={item.url} target="_blank">{title}</a>
+																{:else}
+																	<span>{title}</span>
+																{/if}
+															</div>
+															{#if item.authors}
+																<div class="extra authors">
+																	by {@render authors(item.authors)}
+																</div>
+															{/if}
+														</div>
+													</summary>
+													<div class="list-content">
+														{#if item.thoughts}
+															<div class="extra">{item.thoughts}</div>
+														{/if}
+													</div>
+												</details>
+												{#if item.notes}
+													<div class="extra note">{item.notes}</div>
+												{/if}
+											</div>
 										{/if}
-									</div>
-								{/if}
-							</li>
-						{/each}
-					</ul>
-				</section>
-			{/each}
-		</section>
-	{/each}
+									</li>
+								{/each}
+							</ul>
+						</section>
+					{/each}
+				</div>
+			</section>
+		{/each}
+	</div>
 </main>
 
 <style>
 	main {
 		display: grid;
-		gap: 0.75rem;
+		gap: 1.25rem;
 
 		max-width: 75ch;
 		width: 100%;
@@ -867,7 +1002,7 @@
 		box-sizing: border-box;
 	}
 
-	main > section {
+	main > div > section {
 		position: relative;
 		display: grid;
 		gap: 0.375rem;
@@ -875,7 +1010,7 @@
 
 	main section section {
 		display: grid;
-		gap: 0.25rem;
+		gap: 0.375rem;
 	}
 
 	main section hgroup {
@@ -911,7 +1046,7 @@
 
 	p {
 		font-size: 1.25rem;
-		line-height: 1.375rem;
+		line-height: 1.4375rem;
 		margin: 0;
 	}
 
@@ -920,7 +1055,7 @@
 		text-wrap: pretty;
 		font-family: var(--font-serif);
 		font-size: 1.25rem;
-		line-height: 1.375rem;
+		line-height: 1.4375rem;
 		list-style-type: none;
 		padding-left: 1.25rem;
 		display: grid;
@@ -967,9 +1102,13 @@
 		font-size: 1rem;
 	}
 
-	li .highlight {
-		text-decoration: underline;
-		text-underline-offset: 3px;
+	li .highlight span,
+	li .highlight a {
+		background-color: var(--color-highlight);
+		color: var(--color-secondary);
+		padding: 0 0.25rem;
+		-webkit-box-decoration-break: clone;
+		box-decoration-break: clone;
 	}
 
 	small {
@@ -979,6 +1118,23 @@
 	a {
 		color: var(--color-primary);
 		text-decoration: none;
+	}
+
+	li a,
+	nav a {
+		text-decoration-line: underline;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 3px;
+		text-decoration-color: var(--color-primary);
+	}
+
+	li .highlight a {
+		text-underline-offset: 2px;
+		text-decoration-color: var(--color-secondary);
+	}
+
+	nav a {
+		text-underline-offset: 4px;
 	}
 
 	.count {

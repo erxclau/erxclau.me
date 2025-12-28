@@ -12,6 +12,7 @@ interface Item {
 	highlight?: boolean;
 	thoughts?: string;
 	notes?: string;
+	url?: string;
 }
 
 interface CurrentList {
