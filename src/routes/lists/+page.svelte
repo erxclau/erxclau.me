@@ -979,9 +979,11 @@
 	</div>
 	<nav>
 		<div style="font-family: var(--font-sans); font-size: 0.925rem;">
-			<div style="display: inline-flex; column-gap: 0.375rem; row-gap: 0.25rem; flex-wrap: wrap;">
-				Jump to:
-				{#each data as { category }}<a href="#{category.toLowerCase()}">{category}</a>{/each}
+			<div style="display: inline-flex; column-gap: 0.5rem; row-gap: 0.375rem;">
+				<div style="flex-shrink: 0;">Jump to:</div>
+				<div style="display: inline-flex; column-gap: 0.375rem; row-gap: 0.25rem; flex-wrap: wrap;">
+					{#each data as { category }}<a href="#{category.toLowerCase()}">{category}</a>{/each}
+				</div>
 			</div>
 		</div>
 	</nav>
