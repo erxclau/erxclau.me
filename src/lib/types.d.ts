@@ -7,6 +7,7 @@ interface Work {
 
 interface Item {
 	name: string;
+	date?: Date
 	authors?: Array<string>;
 	year?: number;
 	highlight?: boolean;

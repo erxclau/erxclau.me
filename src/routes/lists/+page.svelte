@@ -8,6 +8,7 @@
 					items: [
 						{
 							name: 'Death Becomes Her',
+							date: new Date('2025-11-22'),
 							thoughts:
 								'A funny, self-aware musical about living forever. Colorful, abundant, physically impressive.',
 							notes: 'Watched at Lunt-Fontanne Theatre'
@@ -28,6 +29,7 @@
 					items: [
 						{
 							name: 'Ornamentalism',
+							date: new Date('2025-12-28'),
 							authors: ['Anne Anlin Cheng'],
 							thoughts: `Cheng presents a thingness—personness spectrum in Asian American women through legal, satorial 
 							(i.e., fashion or style), culinary and technological lenses. The vision of the “yellow woman” stirs a particular
@@ -43,6 +45,7 @@
 						},
 						{
 							name: 'Orientalism',
+							date: new Date('2025-11-29'),
 							authors: ['Edward Said'],
 							thoughts: `Said provides a critical lens into Orientalism by analyzing centuries of
 							texts and characters. I struggled to retain all of the detail, but I did grasp the
@@ -341,44 +344,91 @@
 					items: [
 						{
 							name: 'Wicked: For Good',
+							date: new Date('2025-11-21'),
 							notes: 'Watched at AMC Courthouse Plaza 8',
 							thoughts: `I think it was fine. The musical numbers were less memorable than the ones from the first part.`
 						},
 						{
 							name: 'Wicked',
+							date: new Date('2025-10-30'),
 							highlight: true,
 							notes:
-								'I watched on Halloween Eve, then dresssed as Elphaba (yes, with green face paint) on Halloween.'
+								'Watched on YouTube. I dresssed as Elphaba (yes, with green face paint) the day after (Halloween).'
 						},
-						{ name: 'Kiki’s Delivery Service', highlight: true },
-						{ name: 'Independence Day' },
-						{ name: 'The Day After Tomorrow' },
-						{ name: 'When Harry Met Sally', highlight: true },
+						{
+							name: 'Kiki’s Delivery Service',
+							highlight: true,
+							date: new Date('2025-08-30')
+						},
+						{ name: 'Independence Day', date: new Date('2025-07-20'), notes: 'Watched on YouTube' },
+						{
+							name: 'The Day After Tomorrow',
+							date: new Date('2025-07-19'),
+							notes: 'Watched on YouTube'
+						},
+						{
+							name: 'When Harry Met Sally',
+							highlight: true,
+							date: new Date('2025-07-14'),
+							notes: 'Watched on Pluto TV'
+						},
 						{ name: 'Tron: Legacy' },
 						{ name: 'Tron' },
-						{ name: 'The Untouchables' },
-						{ name: 'The Rules of Attraction' },
-						{ name: 'American Psycho', highlight: true },
-						{ name: 'War of the Worlds' },
-						{ name: 'The Boy in the Striped Pyjamas', highlight: true },
-						{ name: 'Braveheart' },
-						{ name: 'Pulp Fiction' },
-						{ name: 'The Italian Job', year: 2003 },
-						{ name: 'Tropic Thunder' },
+						{
+							name: 'The Untouchables',
+							date: new Date('2025-06-28'),
+							notes: 'Watched on Paramount+'
+						},
+						{
+							name: 'The Rules of Attraction',
+							date: new Date('2025-06-26'),
+							notes: 'Watched on Tubi'
+						},
+						{
+							name: 'American Psycho',
+							highlight: true,
+							date: new Date('2025-06-26'),
+							notes: 'Watched on Paramount+'
+						},
+						{
+							name: 'War of the Worlds',
+							date: new Date('2025-06-25'),
+							notes: 'Watched on Paramount+'
+						},
+						{
+							name: 'The Boy in the Striped Pyjamas',
+							highlight: true,
+							date: new Date('2025-06-23'),
+							notes: 'Watched on Paramount+'
+						},
+						{ name: 'Braveheart', date: new Date('2025-06-22'), notes: 'Watched on Paramount+' },
+						{ name: 'Pulp Fiction', date: new Date('2025-06-22'), notes: 'Watched on Paramount+' },
+						{
+							name: 'The Italian Job',
+							year: 2003,
+							date: new Date('2025-06-22'),
+							notes: 'Watched on Paramount+'
+						},
+						{
+							name: 'Tropic Thunder',
+							date: new Date('2025-06-22'),
+							notes: 'Watched on Paramount+'
+						},
 						{ name: 'Flight' },
 						{ name: 'Reservoir Dogs', highlight: true },
-						{ name: 'The Last Samurai' },
-						{ name: 'Jack Reacher' },
-						{ name: 'Top Gun: Maverick' },
-						{ name: 'Top Gun' },
-						{ name: 'Transformers: Rise of the Beasts' },
-						{ name: 'Bumblebee' },
-						{ name: 'Transformers: The Last Knight' },
-						{ name: 'Transformers: Age of Extinction' },
-						{ name: 'Mission: Impossible — Dead Reckoning' },
-						{ name: 'Mission: Impossible — Fallout' },
-						{ name: 'Mission: Impossible — Rogue Nation' },
-						{ name: 'Mission: Impossible — Ghost Protocol' },
+						{ name: 'Edge of Tomorrow' },
+						{ name: 'The Last Samurai', notes: 'Watched on Paramount+' },
+						{ name: 'Jack Reacher', notes: 'Watched on Paramount+' },
+						{ name: 'Top Gun: Maverick', notes: 'Watched on Paramount+' },
+						{ name: 'Top Gun', notes: 'Watched on Paramount+' },
+						{ name: 'Transformers: Rise of the Beasts', notes: 'Watched on Paramount+' },
+						{ name: 'Bumblebee', notes: 'Watched on Paramount+' },
+						{ name: 'Transformers: The Last Knight', notes: 'Watched on Paramount+' },
+						{ name: 'Transformers: Age of Extinction', notes: 'Watched on Paramount+' },
+						{ name: 'Mission: Impossible — Dead Reckoning', notes: 'Watched on Paramount+' },
+						{ name: 'Mission: Impossible — Fallout', notes: 'Watched on Paramount+' },
+						{ name: 'Mission: Impossible — Rogue Nation', notes: 'Watched on Paramount+' },
+						{ name: 'Mission: Impossible — Ghost Protocol', notes: 'Watched on Paramount+' },
 						{ name: 'Mission: Impossible III' },
 						{ name: 'Mission: Impossible II' },
 						{ name: 'Mission: Impossible' },
@@ -398,8 +448,8 @@
 								`,
 							highlight: true
 						},
-						{ name: 'Frances Ha' },
-						{ name: 'Arrival' },
+						{ name: 'Frances Ha', date: new Date('2025-04-07') },
+						{ name: 'Arrival', date: new Date('2025-04-08') },
 						{ name: 'The Good Shepherd' },
 						{ name: 'Patriots Day' },
 						{ name: 'Marvelous and the Black Hole' },
@@ -419,12 +469,12 @@
 							the claustrophobic restaurant kitchen, the delivery bike, the torrential downpour.`
 						},
 						{ name: 'Closing Dynasty' },
-						{ name: 'To All the Boys: Always and Forever' },
-						{ name: 'To All the Boys: P.S. I Still Love You' },
-						{ name: 'The Fault in Our Stars' },
-						{ name: 'Before We Go' },
-						{ name: 'World War Z' },
-						{ name: 'White House Down' },
+						{ name: 'To All the Boys: Always and Forever', date: new Date("2025-03-30") },
+						{ name: 'To All the Boys: P.S. I Still Love You', date: new Date('2025-03-30') },
+						{ name: 'The Fault in Our Stars', date: new Date("2025-03-29") },
+						{ name: 'Before We Go', date: new Date("2025-03-26"), notes: "Watched on YouTube" },
+						{ name: 'World War Z', date: new Date("2025-03-26"), notes: "Watched on YouTube" },
+						{ name: 'White House Down', date: new Date("2025-03-26"), notes: "Watched on YouTube" },
 						{ name: 'Sorry to Bother You', highlight: true },
 						{ name: 'Uncharted' },
 						{ name: '127 Hours', highlight: true },
@@ -432,21 +482,24 @@
 						{ name: 'Transformers: Dark of the Moon' },
 						{ name: 'Transformers: Revenge of the Fallen' },
 						{ name: 'Transformers' },
-						{ name: 'Pacific Rim' },
+						{ name: 'Pacific Rim', date: new Date('2025-03-19') },
 						{ name: 'Battleship' },
-						{ name: 'The Help' },
+						{ name: 'The Help', date: new Date('2025-03-17') },
 						{ name: 'The Cider House Rules' },
-						{ name: 'Life of Pi' },
-						{ name: 'Almost Famous' },
+						{ name: 'Life of Pi', date: new Date('2025-03-16') },
+						{ name: 'Almost Famous', date: new Date('2025-03-16') },
 						{
 							name: 'Eternal Sunshine of the Spotless Mind',
 							highlight: true,
+							date: new Date('2025-03-16'),
 							thoughts: 'What an awful thing: to forget a past life. A lovely soundtrack.'
 						},
-						{ name: '42', highlight: true },
-						{ name: 'The Breakfast Club' },
+						{ name: '42', highlight: true, date: new Date('2025-03-16') },
+						{ name: 'The Breakfast Club', date: new Date('2025-03-15') },
 						{
 							name: 'Perfect Days',
+							date: new Date('2025-01-19'),
+							notes: 'Watched on YouTube',
 							highlight: true,
 							thoughts: `Sparse, pleasant. A lovely soundtrack. Is ambition the thief of joy?
 								For Hirayama, stability and routine seem to be the key to a perfect day.`
