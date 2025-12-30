@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { TemporalDate, TemporalPartialDate } from '$lib/temporal';
+
 	const data: Array<Lists> = [
 		{
 			category: 'Theater',
@@ -8,10 +10,10 @@
 					items: [
 						{
 							name: 'Death Becomes Her',
-							date: new Date('2025-11-22'),
+							date: new TemporalDate(2025, 11, 22),
 							thoughts:
 								'A funny, self-aware musical about living forever. Colorful, abundant, physically impressive.',
-							notes: 'Watched at Lunt-Fontanne Theatre'
+							notes: 'At Lunt-Fontanne Theatre'
 						}
 					]
 				}
@@ -29,7 +31,7 @@
 					items: [
 						{
 							name: 'Ornamentalism',
-							date: new Date('2025-12-28'),
+							date: new TemporalDate(2025, 12, 28),
 							authors: ['Anne Anlin Cheng'],
 							thoughts: `Cheng presents a thingness—personness spectrum in Asian American women through legal, satorial 
 							(i.e., fashion or style), culinary and technological lenses. The vision of the “yellow woman” stirs a particular
@@ -41,11 +43,11 @@
 							were easier for me to think through with the photo artifacts themselves helpfully provided inline with the text.
 							While there were photos and screenshots of certain scenes discussed from the movies, I felt this insufficient to
 							fully grasp the totality of the film.`,
-							notes: 'Purchased from McNally Jackson'
+							notes: 'From McNally Jackson'
 						},
 						{
 							name: 'Orientalism',
-							date: new Date('2025-11-29'),
+							date: new TemporalDate(2025, 11, 29),
 							authors: ['Edward Said'],
 							thoughts: `Said provides a critical lens into Orientalism by analyzing centuries of
 							texts and characters. I struggled to retain all of the detail, but I did grasp the
@@ -61,12 +63,12 @@
 							sense that I had already encountered many of the overarching themes of the book 
 							in academic settings or other modern pieces of cultural critique, a testament
 							to the long-lasting and wide-ranging influence Said has had on discourse around Orientalism.`,
-							notes: 'Purchased from Mil Mundos'
+							notes: 'From Mil Mundos'
 						},
 						{
 							name: 'LatinX',
 							authors: ['Claudia Milian'],
-							notes: 'Purchased from Mil Mundos',
+							notes: 'From Mil Mundos',
 							thoughts:
 								'Milian expands upon the common linguistic and gender discourse on LatinX. She talks of “the X” as it relates to unknowability, transition and fluidity beyond gender into themes around climate and politics.'
 						},
@@ -75,12 +77,12 @@
 							authors: ['Ezra Klein', 'Derek Thompson'],
 							thoughts:
 								'Klein and Thompson remind us that supposedly progressive government bureaucracy can become burdensome despite good intentions. Certainly, the emphasis on housing affordability is timely.',
-							notes: 'Purchased from Barnes & Noble'
+							notes: 'From Barnes & Noble'
 						},
 						{
 							name: 'Everything Is Tuberculosis: The History and Persistence of Our Deadliest Infection',
 							authors: ['John Green'],
-							notes: 'Purchased from Barnes & Noble',
+							notes: 'From Barnes & Noble',
 							thoughts: `In the midst of the many acute disasters we give our attention to, 
 								we often forget about the chronic, persisting tragedies that play out over decades or centuries.
 								Green puts tuberculosis back in focus by telling the history of the disease alongside the story of Henry Reider.
@@ -92,7 +94,7 @@
 						{
 							name: 'Unassimilable: An Asian Diasporic Manifesto for the 21st Century',
 							authors: ['Bianca Mabute-Louie'],
-							notes: 'Purchased from Bridge Street Books',
+							notes: 'From Bridge Street Books',
 							highlight: true,
 							thoughts:
 								'The “Asian Diaspora” framing is compelling, but I do not completely resonate with it as someone who does not have particular attachments to the motherland with respect to language, travel or culture. I do value the narrative on how Mabute-Louie grew up in a religious community and “ethnoburb.”'
@@ -100,7 +102,7 @@
 						{
 							name: 'The Year of Magical Thinking',
 							authors: ['Joan Didion'],
-							notes: 'Purchased from Strand Bookstore',
+							notes: 'From Strand Bookstore',
 							highlight: true,
 							thoughts: 'I enjoyed the fluidity of Didion’s writing.'
 						},
@@ -122,7 +124,7 @@
 							patriarchal modes of thought where Black men will silence Black women to align closer with white men, 
 							that middle class Black Americans will perpetuate caustic stereotypes and pimp Black culture to
 							appeal to white American taste.`,
-							notes: 'Purchased from Yu & Me Books'
+							notes: 'From Yu & Me Books'
 						},
 						{
 							name: 'All About Love: New Visions',
@@ -133,7 +135,7 @@
 								The spiritual essense eludes me. But I agree with the active nature, that love is not a situation to fall into but a process to continue. 
 								In the familial context, hooks argues that rearing a child should not just be the responsibility of a mother and father,
 								but of an entire community of adults who can provide a breath of advice and perspectives.`,
-							notes: 'Purchased from Codex Books'
+							notes: 'From Codex Books'
 						},
 						{ name: 'Time Is a Mother', authors: ['Ocean Vuong'] },
 						{
@@ -176,14 +178,17 @@
 					items: [
 						{
 							name: 'Princess: A True Story of Life Behind the Veil in Saudi Arabia',
+							date: new TemporalPartialDate(2020, 7),
 							authors: ['Jean Sasson']
 						},
 						{
 							name: 'We Should All Be Feminists',
+							date: new TemporalDate(2020, 6, 29),
 							authors: ['Chimamanda Ngozi Adichie']
 						},
 						{
 							name: 'The Ones Who Walk Away from Omelas',
+							date: new TemporalDate(2020, 3, 15),
 							authors: ['Ursula K. Le Guin']
 						}
 					]
@@ -317,7 +322,7 @@
 						{
 							name: 'Data Feminism',
 							authors: ['Catherine D’Ignazio', 'Lauren Klein'],
-							notes: 'Purchased from Literati',
+							notes: 'From Literati',
 							thoughts:
 								'I’ve read several chapters for different university courses, but have yet to read it in full. The chapters I have read give guidance on how to work with data in ways that surface humanity, challenge power and retain context.'
 						},
@@ -343,92 +348,109 @@
 					date: 2025,
 					items: [
 						{
+							name: 'Moonlight',
+							date: new TemporalDate(2025, 12, 29),
+							notes: 'On YouTube',
+							thoughts: `I thought the scene of Juan teaching Chiron to swim was beautiful — the colors, the camera positioning, the act itself.`,
+							highlight: true
+						},
+						{
 							name: 'Wicked: For Good',
-							date: new Date('2025-11-21'),
-							notes: 'Watched at AMC Courthouse Plaza 8',
+							date: new TemporalDate(2025, 11, 21),
+							notes: 'At AMC Courthouse Plaza 8',
 							thoughts: `I think it was fine. The musical numbers were less memorable than the ones from the first part.`
 						},
 						{
 							name: 'Wicked',
-							date: new Date('2025-10-30'),
-							highlight: true,
+							date: new TemporalDate(2025, 10, 30),
 							notes:
-								'Watched on YouTube. I dresssed as Elphaba (yes, with green face paint) the day after (Halloween).'
+								'On YouTube. I dresssed as Elphaba (yes, with green face paint) on Halloween.'
 						},
 						{
 							name: 'Kiki’s Delivery Service',
-							highlight: true,
-							date: new Date('2025-08-30')
+							date: new TemporalDate(2025, 8, 30)
 						},
-						{ name: 'Independence Day', date: new Date('2025-07-20'), notes: 'Watched on YouTube' },
+						{
+							name: 'Independence Day',
+							date: new TemporalDate(2025, 7, 20),
+							notes: 'On YouTube'
+						},
 						{
 							name: 'The Day After Tomorrow',
-							date: new Date('2025-07-19'),
-							notes: 'Watched on YouTube'
+							date: new TemporalDate(2025, 7, 19),
+							notes: 'On YouTube'
 						},
 						{
 							name: 'When Harry Met Sally',
 							highlight: true,
-							date: new Date('2025-07-14'),
-							notes: 'Watched on Pluto TV'
+							date: new TemporalDate(2025, 7, 14),
+							notes: 'On Pluto TV'
 						},
 						{ name: 'Tron: Legacy' },
 						{ name: 'Tron' },
 						{
 							name: 'The Untouchables',
-							date: new Date('2025-06-28'),
-							notes: 'Watched on Paramount+'
+							date: new TemporalDate(2025, 6, 28),
+							notes: 'On Paramount+'
 						},
 						{
 							name: 'The Rules of Attraction',
-							date: new Date('2025-06-26'),
-							notes: 'Watched on Tubi'
+							date: new TemporalDate(2025, 6, 26),
+							notes: 'On Tubi'
 						},
 						{
 							name: 'American Psycho',
 							highlight: true,
-							date: new Date('2025-06-26'),
-							notes: 'Watched on Paramount+'
+							date: new TemporalDate(2025, 6, 26),
+							notes: 'On Paramount+'
 						},
 						{
 							name: 'War of the Worlds',
-							date: new Date('2025-06-25'),
-							notes: 'Watched on Paramount+'
+							date: new TemporalDate(2025, 6, 25),
+							notes: 'On Paramount+'
 						},
 						{
 							name: 'The Boy in the Striped Pyjamas',
 							highlight: true,
-							date: new Date('2025-06-23'),
-							notes: 'Watched on Paramount+'
+							date: new TemporalDate(2025, 6, 23),
+							notes: 'On Paramount+'
 						},
-						{ name: 'Braveheart', date: new Date('2025-06-22'), notes: 'Watched on Paramount+' },
-						{ name: 'Pulp Fiction', date: new Date('2025-06-22'), notes: 'Watched on Paramount+' },
+						{
+							name: 'Braveheart',
+							date: new TemporalDate(2025, 6, 22),
+							notes: 'On Paramount+'
+						},
+						{
+							name: 'Pulp Fiction',
+							date: new TemporalDate(2025, 6, 22),
+							notes: 'On Paramount+'
+						},
 						{
 							name: 'The Italian Job',
 							year: 2003,
-							date: new Date('2025-06-22'),
-							notes: 'Watched on Paramount+'
+							date: new TemporalDate(2025, 6, 22),
+							notes: 'On Paramount+'
 						},
 						{
 							name: 'Tropic Thunder',
-							date: new Date('2025-06-22'),
-							notes: 'Watched on Paramount+'
+							date: new TemporalDate(2025, 6, 22),
+							notes: 'On Paramount+'
 						},
 						{ name: 'Flight' },
 						{ name: 'Reservoir Dogs', highlight: true },
 						{ name: 'Edge of Tomorrow' },
-						{ name: 'The Last Samurai', notes: 'Watched on Paramount+' },
-						{ name: 'Jack Reacher', notes: 'Watched on Paramount+' },
-						{ name: 'Top Gun: Maverick', notes: 'Watched on Paramount+' },
-						{ name: 'Top Gun', notes: 'Watched on Paramount+' },
-						{ name: 'Transformers: Rise of the Beasts', notes: 'Watched on Paramount+' },
-						{ name: 'Bumblebee', notes: 'Watched on Paramount+' },
-						{ name: 'Transformers: The Last Knight', notes: 'Watched on Paramount+' },
-						{ name: 'Transformers: Age of Extinction', notes: 'Watched on Paramount+' },
-						{ name: 'Mission: Impossible — Dead Reckoning', notes: 'Watched on Paramount+' },
-						{ name: 'Mission: Impossible — Fallout', notes: 'Watched on Paramount+' },
-						{ name: 'Mission: Impossible — Rogue Nation', notes: 'Watched on Paramount+' },
-						{ name: 'Mission: Impossible — Ghost Protocol', notes: 'Watched on Paramount+' },
+						{ name: 'The Last Samurai', notes: 'On Paramount+' },
+						{ name: 'Jack Reacher', notes: 'On Paramount+' },
+						{ name: 'Top Gun: Maverick', notes: 'On Paramount+' },
+						{ name: 'Top Gun', notes: 'On Paramount+' },
+						{ name: 'Transformers: Rise of the Beasts', notes: 'On Paramount+' },
+						{ name: 'Bumblebee', notes: 'On Paramount+' },
+						{ name: 'Transformers: The Last Knight', notes: 'On Paramount+' },
+						{ name: 'Transformers: Age of Extinction', notes: 'On Paramount+' },
+						{ name: 'Mission: Impossible — Dead Reckoning', notes: 'On Paramount+' },
+						{ name: 'Mission: Impossible — Fallout', notes: 'On Paramount+' },
+						{ name: 'Mission: Impossible — Rogue Nation', notes: 'On Paramount+' },
+						{ name: 'Mission: Impossible — Ghost Protocol', notes: 'On Paramount+' },
 						{ name: 'Mission: Impossible III' },
 						{ name: 'Mission: Impossible II' },
 						{ name: 'Mission: Impossible' },
@@ -448,8 +470,8 @@
 								`,
 							highlight: true
 						},
-						{ name: 'Frances Ha', date: new Date('2025-04-07') },
-						{ name: 'Arrival', date: new Date('2025-04-08') },
+						{ name: 'Arrival', date: new TemporalDate(2025, 4, 8) },
+						{ name: 'Frances Ha', date: new TemporalDate(2025, 4, 7) },
 						{ name: 'The Good Shepherd' },
 						{ name: 'Patriots Day' },
 						{ name: 'Marvelous and the Black Hole' },
@@ -469,12 +491,27 @@
 							the claustrophobic restaurant kitchen, the delivery bike, the torrential downpour.`
 						},
 						{ name: 'Closing Dynasty' },
-						{ name: 'To All the Boys: Always and Forever', date: new Date("2025-03-30") },
-						{ name: 'To All the Boys: P.S. I Still Love You', date: new Date('2025-03-30') },
-						{ name: 'The Fault in Our Stars', date: new Date("2025-03-29") },
-						{ name: 'Before We Go', date: new Date("2025-03-26"), notes: "Watched on YouTube" },
-						{ name: 'World War Z', date: new Date("2025-03-26"), notes: "Watched on YouTube" },
-						{ name: 'White House Down', date: new Date("2025-03-26"), notes: "Watched on YouTube" },
+						{ name: 'To All the Boys: Always and Forever', date: new TemporalDate(2025, 3, 30) },
+						{
+							name: 'To All the Boys: P.S. I Still Love You',
+							date: new TemporalDate(2025, 3, 30)
+						},
+						{ name: 'The Fault in Our Stars', date: new TemporalDate(2025, 3, 29) },
+						{
+							name: 'Before We Go',
+							date: new TemporalDate(2025, 3, 26),
+							notes: 'On YouTube'
+						},
+						{
+							name: 'World War Z',
+							date: new TemporalDate(2025, 3, 26),
+							notes: 'On YouTube'
+						},
+						{
+							name: 'White House Down',
+							date: new TemporalDate(2025, 3, 26),
+							notes: 'On YouTube'
+						},
 						{ name: 'Sorry to Bother You', highlight: true },
 						{ name: 'Uncharted' },
 						{ name: '127 Hours', highlight: true },
@@ -482,24 +519,24 @@
 						{ name: 'Transformers: Dark of the Moon' },
 						{ name: 'Transformers: Revenge of the Fallen' },
 						{ name: 'Transformers' },
-						{ name: 'Pacific Rim', date: new Date('2025-03-19') },
+						{ name: 'Pacific Rim', date: new TemporalDate(2025, 3, 19) },
 						{ name: 'Battleship' },
-						{ name: 'The Help', date: new Date('2025-03-17') },
+						{ name: 'The Help', date: new TemporalDate(2025, 3, 17) },
 						{ name: 'The Cider House Rules' },
-						{ name: 'Life of Pi', date: new Date('2025-03-16') },
-						{ name: 'Almost Famous', date: new Date('2025-03-16') },
+						{ name: 'Life of Pi', date: new TemporalDate(2025, 3, 16) },
+						{ name: 'Almost Famous', date: new TemporalDate(2025, 3, 16) },
 						{
 							name: 'Eternal Sunshine of the Spotless Mind',
 							highlight: true,
-							date: new Date('2025-03-16'),
+							date: new TemporalDate(2025, 3, 16),
 							thoughts: 'What an awful thing: to forget a past life. A lovely soundtrack.'
 						},
-						{ name: '42', highlight: true, date: new Date('2025-03-16') },
-						{ name: 'The Breakfast Club', date: new Date('2025-03-15') },
+						{ name: '42', highlight: true, date: new TemporalDate(2025, 3, 16) },
+						{ name: 'The Breakfast Club', date: new TemporalDate(2025, 3, 15) },
 						{
 							name: 'Perfect Days',
-							date: new Date('2025-01-19'),
-							notes: 'Watched on YouTube',
+							date: new TemporalDate(2025, 1, 19),
+							notes: 'On YouTube',
 							highlight: true,
 							thoughts: `Sparse, pleasant. A lovely soundtrack. Is ambition the thief of joy?
 								For Hirayama, stability and routine seem to be the key to a perfect day.`
@@ -941,6 +978,16 @@
 	{/if}
 {/snippet}
 
+{#snippet dateCompleted(date: TemporalDate | TemporalPartialDate, category: string)}
+	{@const preposition = date.partial ? 'in' : 'on'}
+	<div class="extra date">
+		{#if category === 'Books'}Finished {preposition}
+		{:else if category === 'Theater' || category === 'Film'}Watched {preposition}
+		{/if}
+		{date}
+	</div>
+{/snippet}
+
 <main style="position: relative;">
 	<hgroup>
 		<h1><a href="/">Eric Lau</a></h1>
@@ -953,7 +1000,7 @@
 					<h2>{category}</h2>
 					<b class="count">{lists.flatMap((d) => d.items).length}</b>
 				</hgroup>
-				<div style="display: grid; gap: 0.625rem;">
+				<div style="display: grid; gap: 0.75rem;">
 					{#each lists.filter((list) => list.items.length > 0) as { date, items }, i}
 						<section>
 							{#if date === undefined}
@@ -987,9 +1034,14 @@
 														by {@render authors(item.authors)}
 													</div>
 												{/if}
-												{#if item.notes}
-													<div class="extra note">{item.notes}</div>
-												{/if}
+												<div>
+													{#if item.date}
+														{@render dateCompleted(item.date, category)}
+													{/if}
+													{#if item.notes}
+														<div class="extra note">{item.notes}</div>
+													{/if}
+												</div>
 											</div>
 										{:else}
 											<div class="list-content">
@@ -1016,9 +1068,14 @@
 														{/if}
 													</div>
 												</details>
-												{#if item.notes}
-													<div class="extra note">{item.notes}</div>
-												{/if}
+												<div>
+													{#if item.date}
+														{@render dateCompleted(item.date, category)}
+													{/if}
+													{#if item.notes}
+														<div class="extra note">{item.notes}</div>
+													{/if}
+												</div>
 											</div>
 										{/if}
 									</li>
@@ -1072,7 +1129,7 @@
 
 	main section section {
 		display: grid;
-		gap: 0.375rem;
+		gap: 0.5rem;
 	}
 
 	main section hgroup {
@@ -1121,7 +1178,7 @@
 		list-style-type: none;
 		padding-left: 1.25rem;
 		display: grid;
-		gap: 0.375rem;
+		gap: 0.5rem;
 	}
 
 	li:not(:has(details)) {
@@ -1156,7 +1213,8 @@
 		text-wrap: pretty;
 	}
 
-	li .note {
+	li .note,
+	li .date {
 		font-size: 0.825rem;
 	}
 

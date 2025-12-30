@@ -31,5 +31,8 @@
 		"vite": "^6.0.0",
 		"vite-imagetools": "^7.0.5"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@js-temporal/polyfill": "^0.5.1"
+	}
 }

@@ -7,7 +7,7 @@ interface Work {
 
 interface Item {
 	name: string;
-	date?: Date
+	date?: import('./temporal').TemporalDate | import('./temporal').TemporalPartialDate;
 	authors?: Array<string>;
 	year?: number;
 	highlight?: boolean;
