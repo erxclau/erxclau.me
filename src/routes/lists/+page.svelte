@@ -348,6 +348,24 @@
 					date: 2025,
 					items: [
 						{
+							name: 'Before Midnight',
+							date: new TemporalDate(2025, 12, 30),
+							notes: 'On YouTube',
+							highlight: true
+						},
+						{
+							name: 'Before Sunset',
+							date: new TemporalDate(2025, 12, 30),
+							notes: 'On YouTube',
+							highlight: true
+						},
+						{
+							name: 'Before Sunrise',
+							date: new TemporalDate(2025, 12, 30),
+							notes: 'On YouTube',
+							highlight: true
+						},
+						{
 							name: 'Moonlight',
 							date: new TemporalDate(2025, 12, 29),
 							notes: 'On YouTube',
@@ -363,8 +381,9 @@
 						{
 							name: 'Wicked',
 							date: new TemporalDate(2025, 10, 30),
-							notes:
-								'On YouTube. I dresssed as Elphaba (yes, with green face paint) on Halloween.'
+							notes: 'On YouTube',
+
+							thoughts: 'I dresssed as Elphaba (yes, with green face paint) on Halloween.'
 						},
 						{
 							name: 'Kiki’s Delivery Service',
@@ -988,7 +1007,7 @@
 	</div>
 {/snippet}
 
-<main style="position: relative;">
+<main>
 	<hgroup>
 		<h1><a href="/">Eric Lau</a></h1>
 		<p>My consumption, incomplete.</p>
@@ -1110,6 +1129,7 @@
 
 		padding: 0.25rem 0.75rem;
 		box-sizing: border-box;
+		position: relative;
 	}
 
 	nav {
