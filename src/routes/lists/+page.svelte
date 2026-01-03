@@ -198,44 +198,44 @@
 					items: [
 						{
 							name: 'Sir Gawain and the Green Knight',
-							notes: 'Read for school'
+							notes: 'For school'
 						},
 						{
 							name: 'Beowulf',
-							notes: 'Read for school'
+							notes: 'For school'
 						},
 						{
 							name: 'The Brief and Wondrous Life of Oscar Wao',
 							authors: ['Junot Díaz'],
-							notes: 'Read for school'
+							notes: 'For school'
 						},
 						{
 							name: 'Moby-Dick',
 							authors: ['Herman Melville'],
-							notes: 'Read for school'
+							notes: 'For school'
 						}
 					]
 				},
 				{
 					date: 2018,
 					items: [
-						{ name: 'Revolutionary Road', authors: ['Richard Yates'], notes: 'Read for school' },
+						{ name: 'Revolutionary Road', authors: ['Richard Yates'], notes: 'For school' },
 						{
 							name: 'The Great Gatsby',
 							authors: ['F. Scott Fitzgerald'],
-							notes: 'Read for school'
+							notes: 'For school'
 						},
 						{
 							name: 'The Unbearable Lightness of Being',
 							authors: ['Milan Kundera'],
-							notes: 'Read for school'
+							notes: 'For school'
 						},
-						{ name: 'Maus', authors: ['Art Spiegelman'], notes: 'Read for school' },
-						{ name: 'Metamorphosis', authors: ['Franz Kafka'], notes: 'Read for school' },
+						{ name: 'Maus', authors: ['Art Spiegelman'], notes: 'For school' },
+						{ name: 'Metamorphosis', authors: ['Franz Kafka'], notes: 'For school' },
 						{
 							name: 'The Picture of Dorian Gray',
 							authors: ['Oscar Wilde'],
-							notes: 'Read for school'
+							notes: 'For school'
 						}
 					]
 				},
@@ -245,35 +245,35 @@
 						{
 							name: 'The Odyssey',
 							authors: ['Homer'],
-							notes: 'Read for school'
+							notes: 'For school'
 						},
 						{
 							name: 'Oedipus Rex',
 							authors: ['Sophocles'],
-							notes: 'Read for school'
+							notes: 'For school'
 						},
 						{
 							name: 'Othello',
 							authors: ['William Shakespeare'],
-							notes: 'Read for school'
+							notes: 'For school'
 						},
 						{
 							name: 'The Sorrows of Young Werther',
 							authors: ['Johann Wolfgang von Goethe'],
-							notes: 'Read for school'
+							notes: 'For school'
 						},
 						{
 							name: 'The Lost City of Z',
 							authors: ['David Grann'],
-							notes: 'Read for school'
+							notes: 'For school'
 						},
 						{
 							name: 'Things Fall Apart',
 							authors: ['Chinua Achebe'],
-							notes: 'Read for school'
+							notes: 'For school'
 						},
-						{ name: 'Julius Caesar', authors: ['William Shakespeare'], notes: 'Read for school' },
-						{ name: 'The Kite Runner', authors: ['Khaled Hosseini'], notes: 'Read for school' }
+						{ name: 'Julius Caesar', authors: ['William Shakespeare'], notes: 'For school' },
+						{ name: 'The Kite Runner', authors: ['Khaled Hosseini'], notes: 'For school' }
 					]
 				},
 				{
@@ -282,37 +282,37 @@
 						{
 							name: 'One Flew Over The Cuckoo’s Nest',
 							authors: ['Ken Kesey'],
-							notes: 'Read for school'
+							notes: 'For school'
 						},
 						{
 							name: 'The Curious Incident of the Dog in the Night-Time',
 							authors: ['Mark Haddon'],
-							notes: 'Read for school'
+							notes: 'For school'
 						},
 						{
 							name: 'Stitches',
 							authors: ['David Small'],
-							notes: 'Read for school'
+							notes: 'For school'
 						},
 						{
 							name: 'American Born Chinese',
 							authors: ['Gene Luen Yang'],
-							notes: 'Read for school'
+							notes: 'For school'
 						},
 						{
 							name: '1984',
 							authors: ['George Orwell'],
-							notes: 'Read for school'
+							notes: 'For school'
 						},
 						{
 							name: 'Frankenstein',
 							authors: ['Mary Shelley'],
-							notes: 'Read for school'
+							notes: 'For school'
 						},
 						{
 							name: 'Survival of the Sickest',
 							authors: ['Sharon Moalem'],
-							notes: 'Read for school'
+							notes: 'For school'
 						}
 					]
 				},
@@ -330,7 +330,7 @@
 							name: 'How Charts Lie: Getting Smarter about Visual Information',
 							authors: ['Alberto Cairo']
 						},
-						{ name: 'Siddhartha', authors: ['Hermann Hesse'], notes: 'Read for school' },
+						{ name: 'Siddhartha', authors: ['Hermann Hesse'], notes: 'For school' },
 						{
 							name: 'Delusions of Gender: How Our Minds, Society, and Neurosexism Create Difference',
 							authors: ['Cordelia Fine']
@@ -584,7 +584,7 @@
 						{ name: 'A Family Affair' },
 						{ name: 'Inside Out 2' },
 						{ name: 'Dìdi', highlight: true },
-						{ name: 'Return to Seoul' },
+						{ name: 'Return to Seoul', date: new TemporalDate(2024, 1, 20) },
 						{ name: 'Past Lives', highlight: true },
 						{ name: 'The Boy and the Heron', highlight: true }
 					]
@@ -593,8 +593,8 @@
 					date: 2023,
 					items: [
 						{ name: 'Midsommar', highlight: true },
-						{ name: 'Barbie', highlight: true },
-						{ name: 'Oppenheimer', highlight: true },
+						{ name: 'Barbie', highlight: true, date: new TemporalPartialDate(2023, 7) },
+						{ name: 'Oppenheimer', highlight: true, date: new TemporalPartialDate(2023, 7) },
 						{ name: 'Spider-Man: Across the Spider-Verse', highlight: true },
 						{ name: 'Everything Everywhere All at Once', highlight: true },
 						{ name: 'The Grand Budapest Hotel', highlight: true },
@@ -604,11 +604,26 @@
 					]
 				},
 				{
+					date: 2018,
+					items: [
+						{ name: 'Spirited Away', highlight: true, date: new TemporalPartialDate(2018, 7) },
+						{ name: 'The Godfather Part III', date: new TemporalPartialDate(2018, 7) },
+						{
+							name: 'The Godfather Part II',
+							highlight: true,
+							date: new TemporalPartialDate(2018, 7)
+						},
+						{ name: 'The Godfather', highlight: true, date: new TemporalPartialDate(2018, 7) },
+						{ name: 'Mean Girls', highlight: true, date: new TemporalDate(2018, 7, 29) },
+						{ name: 'The Truman Show', highlight: true },
+						{ name: 'Lawrence of Arabia' }
+					]
+				},
+				{
 					date: undefined,
 					items: [
 						{ name: 'In The Heights' },
 						{ name: 'Whiplash', highlight: true },
-						{ name: 'Mean Girls', highlight: true },
 						{ name: 'World Trade Center' },
 						{ name: 'Loving Vincent', highlight: true, thoughts: 'Really a gorgeous movie.' },
 						{ name: 'Glory' },
@@ -666,7 +681,6 @@
 						{ name: 'The Incredible Hulk' },
 						{ name: 'Iron Man' },
 						{ name: 'Jaws' },
-						{ name: 'Lawrence of Arabia' },
 						{ name: 'Breakfast at Tiffany’s' },
 						{ name: 'Ender’s Game' },
 						{ name: 'All Quiet on the Western Front', year: 2022 },
@@ -674,13 +688,9 @@
 						{ name: 'Dunkirk' },
 						{ name: 'Lady Bird' },
 						{ name: 'Eighth Grade', highlight: true },
-						{ name: 'The Truman Show', highlight: true },
 						{ name: 'Ferris Bueller’s Day Off' },
 						{ name: 'Crazy Rich Asians', highlight: true },
 						{ name: 'Taxi Driver', highlight: true },
-						{ name: 'The Godfather Part III' },
-						{ name: 'The Godfather Part II' },
-						{ name: 'The Godfather', highlight: true },
 						{ name: 'Goodfellas', highlight: true },
 						{ name: 'Straight Outta Compton' },
 						{ name: 'The Lost City of Z' },
@@ -706,7 +716,6 @@
 						{ name: 'Patton' },
 						{ name: 'Zulu' },
 						{ name: 'The Karate Kid', year: 2010 },
-						{ name: 'Spirited Away', highlight: true },
 						{ name: 'Shawshank Redemption' },
 						{ name: 'Good Will Hunting' },
 						{ name: 'Forrest Gump', highlight: true },
@@ -729,7 +738,7 @@
 						{ name: 'Abbott Elementary', notes: 'Yet to watch season 5' },
 						{ name: 'Atlanta', highlight: true },
 						{ name: 'You' },
-						{ name: 'Veep', highlight: true }
+						{ name: 'Veep', highlight: true, date: new TemporalPartialDate(2025, 2) }
 					]
 				},
 				{
@@ -1000,7 +1009,7 @@
 {#snippet dateCompleted(date: TemporalDate | TemporalPartialDate, category: string)}
 	{@const preposition = date.partial ? 'in' : 'on'}
 	<div class="extra date">
-		{#if category === 'Books'}Finished {preposition}
+		{#if category === 'Books' || category === 'Shows'}Finished {preposition}
 		{:else if category === 'Theater' || category === 'Film'}Watched {preposition}
 		{/if}
 		{date}
