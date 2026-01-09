@@ -261,7 +261,7 @@
 
 <style>
 	main {
-		padding: 0.5rem;
+		padding: 0.25rem 0.75rem;
 		display: grid;
 		gap: 1.25rem;
 	}
