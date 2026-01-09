@@ -24,11 +24,40 @@
 			lists: [
 				{
 					date: 'Current',
-					items: []
+					items: [
+						{
+							name: 'The Power Broker',
+							authors: ['Robert Caro']
+						},
+						{
+							name: 'Tomorrow and Tomorrow and Tomorrow',
+							authors: ['Gabrielle Zevin']
+						}
+					]
 				},
 				{
 					date: 2025,
 					items: [
+						{
+							name: 'The Sympathizer',
+							authors: ['Viet Thanh Nguyen'],
+							date: new TemporalDate(2026, 1, 8),
+							thoughts: `Nguyen explores many facets of storytelling, perspective and duality in his novel. 
+							The story is told first (and mostly) through the narrator’s written confessions, then through 
+							first and third person reprecussions of how the confessions were written to omit certain details
+							or forgotten memories. How should one narrate their own life, or live at all, when they have 
+							sympathies to so many thoughts or people? What does it mean to live and breathe in the institutions
+							one wants to revolutionize, to complete a mission at the expense of your kin? Is all at expense
+							for the revolution? If so, what is left afterwards? The novel expanded my limited understanding 
+							of the war from a non-military, non-American perpsective. Yes, I had been familiar with
+							at least some of the atrocities the United States military committed in Vietnam, Laos and Cambodia.
+							Nguyen told a horrifying story of the war and its aftermath in an intimate and critical manner that
+							implicated not just American soldiers but American media, the French, the West more generally as well
+							as the Vietnamese people themselves. The narrator is (or narrators are) left in an uncertain state by 
+							the end of the novel, quite literally drifting through the water and open to a new beginning. 
+							I am quite excited to read the sequel.`,
+							highlight: true
+						},
 						{
 							name: 'Ornamentalism',
 							date: new TemporalDate(2025, 12, 28),
@@ -477,7 +506,7 @@
 						{ name: 'The Secret Life of Walter Mitty', year: 2013 },
 						{ name: 'Cloudy with a Chance of Meatballs 2' },
 						{ name: 'Cloudy with a Chance of Meatballs' },
-						{ name: 'Conclave', highlight: true },
+						{ name: 'Conclave', highlight: true, date: new TemporalDate(2025, 5, 5) },
 						{
 							name: 'Sinners',
 							thoughts: `As a whole, I did not immediately love Sinners after seeing it. 
