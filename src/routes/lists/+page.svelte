@@ -36,7 +36,7 @@
 					]
 				},
 				{
-					date: 2025,
+					date: 2026,
 					items: [
 						{
 							name: 'The Sympathizer',
@@ -58,6 +58,11 @@
 							I am quite excited to read the sequel.`,
 							highlight: true
 						},
+					]
+				},
+				{
+					date: 2025,
+					items: [
 						{
 							name: 'Ornamentalism',
 							date: new TemporalDate(2025, 12, 28),
