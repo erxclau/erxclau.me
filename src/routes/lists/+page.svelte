@@ -30,8 +30,9 @@
 							authors: ['Robert Caro']
 						},
 						{
-							name: 'Tomorrow and Tomorrow and Tomorrow',
-							authors: ['Gabrielle Zevin']
+							name: 'Tomorrow, and Tomorrow, and Tomorrow',
+							authors: ['Gabrielle Zevin'],
+							notes: 'From Kramers'
 						}
 					]
 				},
@@ -57,7 +58,7 @@
 							the end of the novel, quite literally drifting through the water and open to a new beginning. 
 							I am quite excited to read the sequel.`,
 							highlight: true
-						},
+						}
 					]
 				},
 				{
