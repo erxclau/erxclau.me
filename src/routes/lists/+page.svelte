@@ -28,17 +28,17 @@
 						{
 							name: 'The Power Broker',
 							authors: ['Robert Caro']
-						},
-						{
-							name: 'Tomorrow, and Tomorrow, and Tomorrow',
-							authors: ['Gabrielle Zevin'],
-							notes: 'From Kramers'
 						}
 					]
 				},
 				{
 					date: 2026,
 					items: [
+						{
+							name: 'Tomorrow, and Tomorrow, and Tomorrow',
+							authors: ['Gabrielle Zevin'],
+							notes: 'From Kramers'
+						},
 						{
 							name: 'The Sympathizer',
 							authors: ['Viet Thanh Nguyen'],
