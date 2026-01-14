@@ -37,7 +37,8 @@
 						{
 							name: 'Tomorrow, and Tomorrow, and Tomorrow',
 							authors: ['Gabrielle Zevin'],
-							notes: 'From Kramers'
+							notes: 'From Kramers',
+							date: new TemporalDate(2026, 1, 11)
 						},
 						{
 							name: 'The Sympathizer',
