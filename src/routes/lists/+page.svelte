@@ -798,6 +798,14 @@
 			category: 'Shows',
 			lists: [
 				{
+					date: 'Current',
+					items: [
+						{
+							name: 'Severance'
+						}
+					]
+				},
+				{
 					date: 2025,
 					items: [
 						{ name: 'Abbott Elementary', notes: 'Yet to watch season 5' },
