@@ -6,6 +6,27 @@
 			category: 'Theater',
 			lists: [
 				{
+					date: 2026,
+					items: [
+						{
+							name: 'Hamilton',
+							date: new TemporalDate(2026, 1, 15),
+							thoughts: `
+							Ever since my seventh grade history teacher showed me Lin-Manuel Miranda performing Alexander Hamilton at 
+							the White House Poetry Jam, I’ve wanted to be in the room where it happens. As silly as it sounds to me today,
+							Hamilton was my introduction to rap music. Daveed Digg’s apperance in the original cast led me to explore his
+							experimental work in clipping. Lin’s nods to Biggie and Mobb Deep gave me starting points for rap from the 1990s.
+							While I did play trumpet and guitar in middle school, I had not deeply listened to or appreciated music before Hamilton.
+							The show itself was wonderful. I was initially uncertain. Having listened to the original cast recording countless
+							times in the past decade, I had certain expectations about the annunciations and voices. But after letting go
+							of those expectations, I was able to enjoy the show. I appreciated the more conversational, awkward and whimsical
+							moments that were not particularly conveyed in the original recording. I loved how versatile the rotating floor was.
+							I cried through much of the second half.`,
+							notes: 'At Richard Rodgers Theater'
+						}
+					]
+				},
+				{
 					date: 2025,
 					items: [
 						{
@@ -26,6 +47,10 @@
 					date: 'Current',
 					items: [
 						{
+							name: 'The Thing Around Your Neck',
+							authors: ['Chimamanda Ngozi Adichie']
+						},
+						{
 							name: 'The Power Broker',
 							authors: ['Robert Caro']
 						}
@@ -37,6 +62,11 @@
 						{
 							name: 'Tomorrow, and Tomorrow, and Tomorrow',
 							authors: ['Gabrielle Zevin'],
+							thoughts: `I felt that Zevin touched on a couple of political topics (gun violence, LGBTQ rights) but did not explore them in much depth. 
+							I think the writing itself was fine, but explaining things like what an NPC is felt pedantic. Perhaps gamers (or people who are at least
+							somewhat familiar with gaming culture) are not the target audience. In what seems like a story meant to be about how people change over time,
+							Sam and Sadie did not grow very much as individuals. They learn to forgive each other (over and over again). But what else? Maybe I am missing
+							something.`,
 							notes: 'From Kramers',
 							date: new TemporalDate(2026, 1, 11)
 						},
@@ -441,8 +471,8 @@
 							date: new TemporalDate(2025, 7, 14),
 							notes: 'On Pluto TV'
 						},
-						{ name: 'Tron: Legacy' },
-						{ name: 'Tron' },
+						{ name: 'Tron: Legacy', date: new TemporalPartialDate(2025, 7) },
+						{ name: 'Tron', date: new TemporalPartialDate(2025, 7) },
 						{
 							name: 'The Untouchables',
 							date: new TemporalDate(2025, 6, 28),
