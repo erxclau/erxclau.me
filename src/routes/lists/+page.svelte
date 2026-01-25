@@ -519,28 +519,68 @@
 							date: new TemporalDate(2025, 6, 22),
 							notes: 'On Paramount+'
 						},
-						{ name: 'Flight' },
-						{ name: 'Reservoir Dogs', highlight: true },
-						{ name: 'Edge of Tomorrow' },
-						{ name: 'The Last Samurai', notes: 'On Paramount+' },
-						{ name: 'Jack Reacher', notes: 'On Paramount+' },
-						{ name: 'Top Gun: Maverick', notes: 'On Paramount+' },
-						{ name: 'Top Gun', notes: 'On Paramount+' },
-						{ name: 'Transformers: Rise of the Beasts', notes: 'On Paramount+' },
-						{ name: 'Bumblebee', notes: 'On Paramount+' },
-						{ name: 'Transformers: The Last Knight', notes: 'On Paramount+' },
-						{ name: 'Transformers: Age of Extinction', notes: 'On Paramount+' },
-						{ name: 'Mission: Impossible — Dead Reckoning', notes: 'On Paramount+' },
-						{ name: 'Mission: Impossible — Fallout', notes: 'On Paramount+' },
-						{ name: 'Mission: Impossible — Rogue Nation', notes: 'On Paramount+' },
-						{ name: 'Mission: Impossible — Ghost Protocol', notes: 'On Paramount+' },
-						{ name: 'Mission: Impossible III' },
-						{ name: 'Mission: Impossible II' },
-						{ name: 'Mission: Impossible' },
-						{ name: 'No Hard Feelings' },
-						{ name: 'The Secret Life of Walter Mitty', year: 2013 },
-						{ name: 'Cloudy with a Chance of Meatballs 2' },
-						{ name: 'Cloudy with a Chance of Meatballs' },
+						{ name: 'Flight', date: new TemporalPartialDate(2025, 6) },
+						{ name: 'Reservoir Dogs', highlight: true, date: new TemporalPartialDate(2025, 6) },
+						{ name: 'Edge of Tomorrow', date: new TemporalPartialDate(2025, 6) },
+						{
+							name: 'The Last Samurai',
+							notes: 'On Paramount+',
+							date: new TemporalDate(2025, 6, 3)
+						},
+						{ name: 'Jack Reacher', notes: 'On Paramount+', date: new TemporalDate(2025, 6, 2) },
+						{
+							name: 'Top Gun: Maverick',
+							notes: 'On Paramount+',
+							date: new TemporalDate(2025, 6, 2)
+						},
+						{ name: 'Top Gun', notes: 'On Paramount+', date: new TemporalDate(2025, 6, 2) },
+						{
+							name: 'Transformers: Rise of the Beasts',
+							notes: 'On Paramount+',
+							date: new TemporalDate(2025, 6, 1)
+						},
+						{ name: 'Bumblebee', notes: 'On Paramount+', date: new TemporalDate(2025, 6, 1) },
+						{
+							name: 'Transformers: The Last Knight',
+							notes: 'On Paramount+',
+							date: new TemporalDate(2025, 5, 27)
+						},
+						{
+							name: 'Transformers: Age of Extinction',
+							notes: 'On Paramount+',
+							date: new TemporalDate(2025, 5, 23)
+						},
+						{
+							name: 'Mission: Impossible — Dead Reckoning',
+							notes: 'On Paramount+',
+							date: new TemporalPartialDate(2025, 5)
+						},
+						{
+							name: 'Mission: Impossible — Fallout',
+							notes: 'On Paramount+',
+							date: new TemporalPartialDate(2025, 5)
+						},
+						{
+							name: 'Mission: Impossible — Rogue Nation',
+							notes: 'On Paramount+',
+							date: new TemporalPartialDate(2025, 5)
+						},
+						{
+							name: 'Mission: Impossible — Ghost Protocol',
+							notes: 'On Paramount+',
+							date: new TemporalPartialDate(2025, 5)
+						},
+						{ name: 'Mission: Impossible III', date: new TemporalPartialDate(2025, 5) },
+						{ name: 'Mission: Impossible II', date: new TemporalPartialDate(2025, 5) },
+						{ name: 'Mission: Impossible', date: new TemporalPartialDate(2025, 5) },
+						{ name: 'No Hard Feelings', date: new TemporalPartialDate(2025, 5) },
+						{
+							name: 'The Secret Life of Walter Mitty',
+							year: 2013,
+							date: new TemporalDate(2025, 5, 21)
+						},
+						{ name: 'Cloudy with a Chance of Meatballs 2', date: new TemporalDate(2025, 5, 21) },
+						{ name: 'Cloudy with a Chance of Meatballs', date: new TemporalDate(2025, 5, 21) },
 						{ name: 'Conclave', highlight: true, date: new TemporalDate(2025, 5, 5) },
 						{
 							name: 'Sinners',
@@ -551,17 +591,18 @@
 								I can still appreciate the larger themes of the movie, some of which I admittedly did not fully understand
 								until consuming media about the film such as F.D Signifier’s video on the movie and Black art.
 								`,
-							highlight: true
+							highlight: true,
+							date: new TemporalDate(2025, 5, 4)
 						},
 						{ name: 'Arrival', date: new TemporalDate(2025, 4, 8) },
 						{ name: 'Frances Ha', date: new TemporalDate(2025, 4, 7) },
-						{ name: 'The Good Shepherd' },
-						{ name: 'Patriots Day' },
-						{ name: 'Marvelous and the Black Hole' },
-						{ name: 'Always Be My Maybe' },
-						{ name: 'The Half of It' },
-						{ name: 'Marriage Story', highlight: true },
-						{ name: 'Unbroken' },
+						{ name: 'The Good Shepherd', date: new TemporalDate(2025, 4, 6) },
+						{ name: 'Patriots Day', date: new TemporalDate(2025, 4, 6) },
+						{ name: 'Marvelous and the Black Hole', date: new TemporalPartialDate(2025, 4) },
+						{ name: 'Always Be My Maybe', date: new TemporalPartialDate(2025, 4) },
+						{ name: 'The Half of It', date: new TemporalDate(2025, 4, 5) },
+						{ name: 'Marriage Story', highlight: true, date: new TemporalDate(2025, 4, 5) },
+						{ name: 'Unbroken', date: new TemporalDate(2025, 4, 5) },
 						{
 							name: 'Take Out',
 							highlight: true,
@@ -571,13 +612,19 @@
 							Certainly Ming’s story is not my father’s. But I felt a certain lineage and bond to it all 
 							as the child of Chinese immigrants who built a life through struggle at a Chinese restaurant in New York City.
 							The early childhood sensations all flooded back to me — the cigarette smoke, the neon light, 
-							the claustrophobic restaurant kitchen, the delivery bike, the torrential downpour.`
+							the claustrophobic restaurant kitchen, the delivery bike, the torrential downpour.`,
+							date: new TemporalDate(2025, 3, 30)
 						},
-						{ name: 'Closing Dynasty' },
-						{ name: 'To All the Boys: Always and Forever', date: new TemporalDate(2025, 3, 30) },
+						{ name: 'Closing Dynasty', date: new TemporalDate(2025, 3, 30), notes: 'On Netflix' },
+						{
+							name: 'To All the Boys: Always and Forever',
+							date: new TemporalDate(2025, 3, 30),
+							notes: 'On Netflix'
+						},
 						{
 							name: 'To All the Boys: P.S. I Still Love You',
-							date: new TemporalDate(2025, 3, 30)
+							date: new TemporalDate(2025, 3, 30),
+							notes: 'On Netflix'
 						},
 						{ name: 'The Fault in Our Stars', date: new TemporalDate(2025, 3, 29) },
 						{
@@ -595,17 +642,21 @@
 							date: new TemporalDate(2025, 3, 26),
 							notes: 'On YouTube'
 						},
-						{ name: 'Sorry to Bother You', highlight: true },
-						{ name: 'Uncharted' },
-						{ name: '127 Hours', highlight: true },
-						{ name: 'Anora', highlight: true },
-						{ name: 'Transformers: Dark of the Moon' },
-						{ name: 'Transformers: Revenge of the Fallen' },
-						{ name: 'Transformers' },
+						{
+							name: 'Sorry to Bother You',
+							highlight: true,
+							date: new TemporalPartialDate(2025, 3)
+						},
+						{ name: 'Uncharted', date: new TemporalDate(2025, 3, 25) },
+						{ name: '127 Hours', highlight: true, date: new TemporalDate(2025, 3, 24) },
+						{ name: 'Anora', highlight: true, date: new TemporalDate(2025, 3, 23) },
+						{ name: 'Transformers: Dark of the Moon', date: new TemporalDate(2025, 3, 23) },
+						{ name: 'Transformers: Revenge of the Fallen', date: new TemporalDate(2025, 3, 23) },
+						{ name: 'Transformers', date: new TemporalDate(2025, 3, 23) },
 						{ name: 'Pacific Rim', date: new TemporalDate(2025, 3, 19) },
-						{ name: 'Battleship' },
+						{ name: 'Battleship', date: new TemporalPartialDate(2025, 3) },
 						{ name: 'The Help', date: new TemporalDate(2025, 3, 17) },
-						{ name: 'The Cider House Rules' },
+						{ name: 'The Cider House Rules', date: new TemporalPartialDate(2025, 3) },
 						{ name: 'Life of Pi', date: new TemporalDate(2025, 3, 16) },
 						{ name: 'Almost Famous', date: new TemporalDate(2025, 3, 16) },
 						{
@@ -646,11 +697,15 @@
 						{ name: 'The Girl Next Door' },
 						{ name: 'The Perks of Being a Wallflower', highlight: true },
 						{ name: 'A Family Affair' },
-						{ name: 'Inside Out 2' },
+						{ name: 'Inside Out 2', date: new TemporalDate(2024, 6, 18) },
 						{ name: 'Dìdi', highlight: true },
 						{ name: 'Return to Seoul', date: new TemporalDate(2024, 1, 20) },
-						{ name: 'Past Lives', highlight: true },
-						{ name: 'The Boy and the Heron', highlight: true }
+						{ name: 'Past Lives', highlight: true, date: new TemporalPartialDate(2024, 1) },
+						{
+							name: 'The Boy and the Heron',
+							highlight: true,
+							date: new TemporalPartialDate(2024, 1)
+						}
 					]
 				},
 				{
@@ -686,6 +741,7 @@
 				{
 					date: undefined,
 					items: [
+						{ name: 'Catch Me If You Can' },
 						{ name: 'In The Heights' },
 						{ name: 'Whiplash', highlight: true },
 						{ name: 'World Trade Center' },
