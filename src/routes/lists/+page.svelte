@@ -447,7 +447,6 @@
 							name: 'Wicked',
 							date: new TemporalDate(2025, 10, 30),
 							notes: 'On YouTube',
-
 							thoughts: 'I dresssed as Elphaba (yes, with green face paint) on Halloween.'
 						},
 						{
@@ -798,10 +797,12 @@
 			category: 'Shows',
 			lists: [
 				{
-					date: 'Current',
+					date: 2026,
 					items: [
 						{
-							name: 'Severance'
+							name: 'Severance',
+							notes: 'On Apple TV',
+							highlight: true
 						}
 					]
 				},
