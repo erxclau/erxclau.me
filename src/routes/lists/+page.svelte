@@ -598,7 +598,7 @@
 						{ name: 'Frances Ha', date: new TemporalDate(2025, 4, 7) },
 						{ name: 'The Good Shepherd', date: new TemporalDate(2025, 4, 6) },
 						{ name: 'Patriots Day', date: new TemporalDate(2025, 4, 6) },
-						{ name: 'Marvelous and the Black Hole', date: new TemporalPartialDate(2025, 4) },
+						{ name: 'Marvelous and the Black Hole', date: new TemporalDate(2025, 4, 6) },
 						{ name: 'Always Be My Maybe', date: new TemporalPartialDate(2025, 4) },
 						{ name: 'The Half of It', date: new TemporalDate(2025, 4, 5) },
 						{ name: 'Marriage Story', highlight: true, date: new TemporalDate(2025, 4, 5) },
