@@ -500,7 +500,8 @@
 							name: 'American Psycho',
 							highlight: true,
 							date: new TemporalDate(2025, 6, 26),
-							notes: 'On Paramount+'
+							notes: 'On Paramount+',
+							thoughts: `Psychotic indeed. Is this what happens to those soulless, good-looking New York City suits?`
 						},
 						{
 							name: 'War of the Worlds',
@@ -604,7 +605,12 @@
 						},
 						{ name: 'Cloudy with a Chance of Meatballs 2', date: new TemporalDate(2025, 5, 21) },
 						{ name: 'Cloudy with a Chance of Meatballs', date: new TemporalDate(2025, 5, 21) },
-						{ name: 'Conclave', highlight: true, date: new TemporalDate(2025, 5, 5) },
+						{
+							name: 'Conclave',
+							highlight: true,
+							date: new TemporalDate(2025, 5, 5),
+							thoughts: `The drama, the colors and the costumes all felt at place. A helpful and entertaining watch for me in the days prior to the actual papal conclave.`
+						},
 						{
 							name: 'Sinners',
 							thoughts: `As a whole, I did not immediately love Sinners after seeing it. 
@@ -617,7 +623,11 @@
 							highlight: true,
 							date: new TemporalDate(2025, 5, 4)
 						},
-						{ name: 'Arrival', date: new TemporalDate(2025, 4, 8) },
+						{
+							name: 'Arrival',
+							date: new TemporalDate(2025, 4, 8),
+							thoughts: `The concepts around time and human-alien communication felt novel.`
+						},
 						{ name: 'Frances Ha', date: new TemporalDate(2025, 4, 7) },
 						{ name: 'The Good Shepherd', date: new TemporalDate(2025, 4, 6) },
 						{ name: 'Patriots Day', date: new TemporalDate(2025, 4, 6) },
@@ -668,10 +678,16 @@
 						{
 							name: 'Sorry to Bother You',
 							highlight: true,
-							date: new TemporalPartialDate(2025, 3)
+							date: new TemporalPartialDate(2025, 3),
+							thoughts: `To compromise on your values for (capitalist) gain is to sacrifice your identity. Sorry to Bother You delivers in a more extravagant and inflated way.`
 						},
 						{ name: 'Uncharted', date: new TemporalDate(2025, 3, 25) },
-						{ name: '127 Hours', highlight: true, date: new TemporalDate(2025, 3, 24) },
+						{
+							name: '127 Hours',
+							highlight: true,
+							date: new TemporalDate(2025, 3, 24),
+							thoughts: `The exhaustion, utter frustration and scream-inducing horror of being helplessly stuck.`
+						},
 						{ name: 'Anora', highlight: true, date: new TemporalDate(2025, 3, 23) },
 						{ name: 'Transformers: Dark of the Moon', date: new TemporalDate(2025, 3, 23) },
 						{ name: 'Transformers: Revenge of the Fallen', date: new TemporalDate(2025, 3, 23) },
@@ -725,7 +741,11 @@
 							date: new TemporalDate(2024, 6, 18),
 							notes: 'At Landmark’s E Street Cinema'
 						},
-						{ name: 'Dìdi', highlight: true },
+						{
+							name: 'Dìdi',
+							highlight: true,
+							thoughts: `The story in Dìdi is not my story, but I did resonate with the dynamics of an angry, younger brother to older sister and mother.`
+						},
 						{
 							name: 'Return to Seoul',
 							date: new TemporalDate(2024, 1, 20),
@@ -737,16 +757,41 @@
 							date: new TemporalDate(2024, 1, 14),
 							notes: 'At State Theater'
 						},
-						{ name: 'Past Lives', highlight: true, date: new TemporalDate(2024, 1, 13) }
+						{
+							name: 'Past Lives',
+							highlight: true,
+							date: new TemporalDate(2024, 1, 13),
+							thoughts: `Bittersweet, as past lives are?`
+						}
 					]
 				},
 				{
 					date: 2023,
 					items: [
 						{ name: 'Midsommar', highlight: true },
-						{ name: 'Barbie', highlight: true, date: new TemporalPartialDate(2023, 7) },
-						{ name: 'Oppenheimer', highlight: true, date: new TemporalPartialDate(2023, 7) },
-						{ name: 'Spider-Man: Across the Spider-Verse', highlight: true },
+						{
+							name: 'Oppenheimer',
+							highlight: true,
+							date: new TemporalDate(2023, 7, 30),
+							thoughts: `A power outage meant I did not see Barbie and Oppenheimer on the same day. 
+							I appreciate that the film extends beyond Hiroshima and Nagasaki and addresses the brewing American 
+							fear of communism and the Soviet Union before, during and immediately after the Second World War.
+							I also enjoyed seeing Robert Downey Jr. in a post-Marvel role.`
+						},
+						{
+							name: 'Barbie',
+							highlight: true,
+							date: new TemporalDate(2023, 7, 23),
+							thoughts: `Pink pants. Fun time.`
+						},
+						{
+							name: 'Spider-Man: Across the Spider-Verse',
+							highlight: true,
+							date: new TemporalDate(2023, 6, 13),
+							notes: 'At State Theater',
+							thoughts: `I loved the style of Across the Spider-Verse (and Into the Spider-Verse).
+								I felt that animation allowed for very creative uses of cartoon physics, vibrant colors and visual effects.`
+						},
 						{ name: 'Everything Everywhere All at Once', highlight: true },
 						{ name: 'The Grand Budapest Hotel', highlight: true },
 						{ name: 'Knives Out' },
@@ -766,7 +811,11 @@
 						},
 						{ name: 'The Godfather', highlight: true, date: new TemporalPartialDate(2018, 7) },
 						{ name: 'Mean Girls', highlight: true, date: new TemporalDate(2018, 7, 29) },
-						{ name: 'The Truman Show', highlight: true },
+						{
+							name: 'The Truman Show',
+							highlight: true,
+							thoughts: `The occasional paranoid thought crosses my mind that there are powerful forces conspiring against me or that I am in a simulation. And then I think back to this movie.`
+						},
 						{ name: 'Lawrence of Arabia' }
 					]
 				},
@@ -891,7 +940,10 @@
 							name: 'Severance',
 							notes: 'On Apple TV',
 							highlight: true,
-							date: new TemporalPartialDate(2026, 1)
+							date: new TemporalPartialDate(2026, 1),
+							thoughts: `The obvious question I asked myself is whether I would ever sever.
+							Is it justifiable to work an objectionable job if you live a good life otherwise?
+							Maybe I have to some extent already bifurcated my work and personal life.`
 						},
 						{
 							name: 'Jet Lag: The Game',
