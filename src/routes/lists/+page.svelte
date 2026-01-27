@@ -719,7 +719,11 @@
 				{
 					date: 2024,
 					items: [
-						{ name: 'Interstellar', highlight: true },
+						{
+							name: 'Interstellar',
+							highlight: true,
+							thoughts: `The right way to do time travel. And the saddest consequences.`
+						},
 						{ name: 'Midway' },
 						{ name: 'The Hunger Games: Mockingjay — Part 2' },
 						{ name: 'The Hunger Games: Mockingjay — Part 1' },
@@ -730,7 +734,13 @@
 						{ name: 'Clueless' },
 						{ name: 'Love in Taipei' },
 						{ name: 'Bottoms', highlight: true, thoughts: 'Hilarious and absurd.' },
-						{ name: 'The Lego Movie', highlight: true },
+						{
+							name: 'The Lego Movie',
+							highlight: true,
+							thoughts: `I grew up playing with Lego but it (and other forms of play) largely disappeared from my life as I focused more on schooling. 
+							Maybe watching this made me want to play again. Or maybe I was already trying to play more when I watched the movie. 
+							Regardless, I’m glad I watched.`
+						},
 						{ name: 'Power Rangers', year: 2017 },
 						{ name: 'The Edge of Seventeen' },
 						{ name: 'The Girl Next Door' },
@@ -810,7 +820,12 @@
 							date: new TemporalPartialDate(2018, 7)
 						},
 						{ name: 'The Godfather', highlight: true, date: new TemporalPartialDate(2018, 7) },
-						{ name: 'Mean Girls', highlight: true, date: new TemporalDate(2018, 7, 29) },
+						{
+							name: 'Mean Girls',
+							highlight: true,
+							date: new TemporalDate(2018, 7, 29),
+							thoughts: `I was told I was a mix of Regina and Janis in high school.`
+						},
 						{
 							name: 'The Truman Show',
 							highlight: true,
@@ -824,7 +839,11 @@
 					items: [
 						{ name: 'Catch Me If You Can' },
 						{ name: 'In The Heights' },
-						{ name: 'Whiplash', highlight: true },
+						{
+							name: 'Whiplash',
+							highlight: true,
+							thoughts: `Jazz but also competition and abuse. There’s a good Adam Neely video about this that put the jazz parts into better perspective for me, as someone who only played jazz in middle school.`
+						},
 						{ name: 'World Trade Center' },
 						{ name: 'Loving Vincent', highlight: true, thoughts: 'Really a gorgeous movie.' },
 						{ name: 'Glory' },
@@ -903,7 +922,7 @@
 						{ name: 'Rambo III' },
 						{ name: 'Rambo: First Blood Part II' },
 						{ name: 'First Blood', highlight: true },
-						{ name: 'Downfall', highlight: true },
+						{ name: 'Downfall', highlight: true, thoughts: `The crash out scene is so well done.` },
 						{ name: 'Fury' },
 						{ name: 'Saving Private Ryan' },
 						{ name: 'Inglorious Basterds' },
