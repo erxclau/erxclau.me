@@ -47,7 +47,8 @@
 					items: [
 						{
 							name: 'The Thing Around Your Neck',
-							authors: ['Chimamanda Ngozi Adichie']
+							authors: ['Chimamanda Ngozi Adichie'],
+							notes: 'From Freebird Books'
 						},
 						{
 							name: 'The Power Broker',
@@ -64,8 +65,8 @@
 							thoughts: `I felt that Zevin touched on a couple of political topics (gun violence, LGBTQ rights) but did not explore them in much depth. 
 							I think the writing itself was fine, but explaining things like what an NPC is felt pedantic. Perhaps gamers (or people who are at least
 							somewhat familiar with gaming culture) are not the target audience. In what seems like a story meant to be about how people change over time,
-							Sam and Sadie did not grow very much as individuals. They learn to forgive each other (over and over again). But what else? Maybe I am missing
-							something.`,
+							Sam and Sadie did not grow very much as individuals or together. They learn to forgive each other (over and over again). But what else?
+							Maybe I am missing something.`,
 							notes: 'From Kramers',
 							date: new TemporalDate(2026, 1, 11)
 						},
@@ -85,7 +86,7 @@
 							Nguyen told a horrifying story of the war and its aftermath in an intimate and critical manner that
 							implicated not just American soldiers but American media, the French, the West more generally as well
 							as the Vietnamese people themselves. The narrator is (or narrators are) left in an uncertain state by 
-							the end of the novel, quite literally drifting through the water and open to a new beginning. 
+							the end of the novel, literally drifting through the water and open to a new beginning. 
 							I am quite excited to read the sequel.`,
 							highlight: true
 						}
@@ -416,6 +417,10 @@
 							name: 'Before Midnight',
 							date: new TemporalDate(2025, 12, 30),
 							notes: 'On YouTube',
+							thoughts: `I enjoyed the trilogy as a whole. The physical changes in the actors over decades made the progression
+							in themselves and their relationship feel believable. Love is perhaps at its most innocent when composed of just two
+							people existing in some ephemeral place or existence together. Life — through family, friends and work — complicates
+							love as in the second and third movies. To love, in a real world, is to endure with all of life’s necessary complexities.`,
 							highlight: true
 						},
 						{
@@ -469,8 +474,18 @@
 							date: new TemporalDate(2025, 7, 14),
 							notes: 'On Pluto TV'
 						},
-						{ name: 'Tron: Legacy', date: new TemporalPartialDate(2025, 7) },
-						{ name: 'Tron', date: new TemporalPartialDate(2025, 7) },
+						{
+							name: 'Tron: Legacy',
+							date: new TemporalPartialDate(2025, 7),
+							thoughts: `Tron: Legacy improved on the original by creating a world with more definition beyond the lines and shapes in the cyberspace from the original movie.`
+						},
+						{
+							name: 'Tron',
+							date: new TemporalPartialDate(2025, 7),
+							thoughts: `I can understand that the cyberspace concept was in vogue, but I can’t get 
+							behind the idea of physical entities acting “inside” some abstract computer software world.
+							The visuals also felt lacking, though I know that CGI was novel in the 1980s.`
+						},
 						{
 							name: 'The Untouchables',
 							date: new TemporalDate(2025, 6, 28),
@@ -573,11 +588,19 @@
 						{ name: 'Mission: Impossible III', date: new TemporalPartialDate(2025, 5) },
 						{ name: 'Mission: Impossible II', date: new TemporalPartialDate(2025, 5) },
 						{ name: 'Mission: Impossible', date: new TemporalPartialDate(2025, 5) },
-						{ name: 'No Hard Feelings', date: new TemporalPartialDate(2025, 5) },
+						{
+							name: 'No Hard Feelings',
+							date: new TemporalPartialDate(2025, 5),
+							thoughts: `This was mostly an uncomfortable situation to watch. I liked the Maneater rendition.`
+						},
 						{
 							name: 'The Secret Life of Walter Mitty',
 							year: 2013,
-							date: new TemporalDate(2025, 5, 21)
+							date: new TemporalDate(2025, 5, 21),
+							thoughts: `The movie explores the wandering mind of Walter Mitty, a mundane office employee at Life magazine. It is relatively straightforward in the approach,
+							developing from fantastical daydreams to actualizing an adventure to find a photo negative. After watching Severance,
+							I appreciate this film as a foundation or first pass for Ben Stiller in developing a more ambitious project on our relationship to work.
+							The use of Space Oddity in the film served as an entry point for me to explore David Bowie music.`
 						},
 						{ name: 'Cloudy with a Chance of Meatballs 2', date: new TemporalDate(2025, 5, 21) },
 						{ name: 'Cloudy with a Chance of Meatballs', date: new TemporalDate(2025, 5, 21) },
@@ -672,7 +695,7 @@
 							date: new TemporalDate(2025, 1, 19),
 							notes: 'On YouTube',
 							highlight: true,
-							thoughts: `Sparse, pleasant. A lovely soundtrack. Is ambition the thief of joy?
+							thoughts: `Sparse, pleasant. Splendid music. Is ambition the thief of joy?
 								For Hirayama, stability and routine seem to be the key to a perfect day.`
 						}
 					]
@@ -697,15 +720,24 @@
 						{ name: 'The Girl Next Door' },
 						{ name: 'The Perks of Being a Wallflower', highlight: true },
 						{ name: 'A Family Affair' },
-						{ name: 'Inside Out 2', date: new TemporalDate(2024, 6, 18) },
+						{
+							name: 'Inside Out 2',
+							date: new TemporalDate(2024, 6, 18),
+							notes: 'At Landmark’s E Street Cinema'
+						},
 						{ name: 'Dìdi', highlight: true },
-						{ name: 'Return to Seoul', date: new TemporalDate(2024, 1, 20) },
-						{ name: 'Past Lives', highlight: true, date: new TemporalPartialDate(2024, 1) },
+						{
+							name: 'Return to Seoul',
+							date: new TemporalDate(2024, 1, 20),
+							notes: 'At Michigan Theater'
+						},
 						{
 							name: 'The Boy and the Heron',
 							highlight: true,
-							date: new TemporalPartialDate(2024, 1)
-						}
+							date: new TemporalDate(2024, 1, 14),
+							notes: 'At State Theater'
+						},
+						{ name: 'Past Lives', highlight: true, date: new TemporalDate(2024, 1, 13) }
 					]
 				},
 				{
@@ -858,17 +890,28 @@
 						{
 							name: 'Severance',
 							notes: 'On Apple TV',
-							highlight: true
+							highlight: true,
+							date: new TemporalPartialDate(2026, 1)
+						},
+						{
+							name: 'Jet Lag: The Game',
+							highlight: true,
+							notes: 'I started watching in 2023. On YouTube and Nebula'
 						}
 					]
 				},
 				{
 					date: 2025,
 					items: [
-						{ name: 'Abbott Elementary', notes: 'Yet to watch season 5' },
-						{ name: 'Atlanta', highlight: true },
-						{ name: 'You' },
-						{ name: 'Veep', highlight: true, date: new TemporalPartialDate(2025, 2) }
+						{ name: 'Abbott Elementary', notes: 'Yet to watch season 5. On Hulu' },
+						{ name: 'Atlanta', highlight: true, notes: 'On Hulu' },
+						{ name: 'You', notes: 'On Netflix' },
+						{
+							name: 'Veep',
+							highlight: true,
+							date: new TemporalPartialDate(2025, 2),
+							notes: 'On HBO Max'
+						}
 					]
 				},
 				{
@@ -882,8 +925,12 @@
 				{
 					date: 2023,
 					items: [
-						{ name: 'School Babysitters' },
-						{ name: 'American Born Chinese' },
+						{ name: 'School Babysitters', notes: 'On Crunchyroll' },
+						{
+							name: 'American Born Chinese',
+							notes: 'On Disney+',
+							date: new TemporalPartialDate(2023, 6)
+						},
 						{ name: 'Atypical' }
 					]
 				},
@@ -892,8 +939,10 @@
 					date: undefined,
 					items: [
 						{ name: 'Grand Army' },
-						{ name: 'Jet Lag: The Game', highlight: true },
-						{ name: 'Attack on Titan', notes: 'Yet to watch past the first part of season 4' },
+						{
+							name: 'Attack on Titan',
+							notes: 'Yet to watch past the first part of season 4. On Hulu'
+						},
 						{ name: 'The Pacific', highlight: true },
 						{ name: 'Band of Brothers', highlight: true },
 						{ name: 'Last Chance High', authors: ['Vice'] },
