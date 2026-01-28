@@ -466,7 +466,8 @@
 						{
 							name: 'The Day After Tomorrow',
 							date: new TemporalDate(2025, 7, 19),
-							notes: 'On YouTube'
+							notes: 'On YouTube',
+							thoughts: `Love a snowy New York City backdrop in any movie.`
 						},
 						{
 							name: 'When Harry Met Sally',
@@ -814,6 +815,17 @@
 					items: [{ name: 'Drive My Car', date: new TemporalDate(2022, 2, 26) }]
 				},
 				{
+					date: 2020,
+					items: [
+						{
+							name: 'Loving Vincent',
+							highlight: true,
+							thoughts: 'Really a gorgeous movie.',
+							date: new TemporalDate(2020, 4, 3)
+						}
+					]
+				},
+				{
 					date: 2018,
 					items: [
 						{ name: 'Spirited Away', highlight: true, date: new TemporalPartialDate(2018, 7) },
@@ -849,7 +861,6 @@
 							thoughts: `Jazz but also competition and abuse. There’s a good Adam Neely video about this that put the jazz parts into better perspective for me, as someone who only played jazz in middle school.`
 						},
 						{ name: 'World Trade Center' },
-						{ name: 'Loving Vincent', highlight: true, thoughts: 'Really a gorgeous movie.' },
 						{ name: 'Glory' },
 						{ name: 'Bao' },
 						{ name: '1917' },
