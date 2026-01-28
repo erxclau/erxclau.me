@@ -8,9 +8,22 @@
 			description: 'I tell visual stories with graphics and data.',
 			list: [
 				{
+					link: 'https://wapo.st/4qKoSMO',
+					name: 'How voters shifted in Virginia, New Jersey and New York elections',
+					description: `Led graphics preparation and contributed to election data pipelines. Contributed to graphics in follow-up analysis stories about <a href="https://wapo.st/4oJBfHL">Virginia Democrats</a> and <a href="https://wapo.st/4aIUsVH">Latino voters</a>.`,
+					affiliation: 'The Washington Post'
+				},
+				{
+					link: 'https://wapo.st/4oMOAhO',
+					name: 'Veterans Affairs’ disability benefits program is prone to exploitation.',
+					description: 'Contributed graphics to series on fraud in Veterans Affairs.',
+					affiliation: 'The Washington Post'
+				},
+				{
 					link: 'https://wapo.st/4oDpAJH',
 					name: 'Trump’s USAID pause stranded lifesaving drugs. Children died waiting.',
-					description: 'Created interactive graphics showing delay in USAID shipments.',
+					description:
+						'Created interactive graphics showing life-threatening delays in USAID shipments.',
 					affiliation: 'The Washington Post'
 				},
 				{
@@ -32,9 +45,15 @@
 					affiliation: 'The Washington Post'
 				},
 				{
+					link: 'https://wapo.st/3FbRhbi',
+					name: 'We texted 1,000 Americans about Trump’s tariffs. This is how they responded',
+					description: `Created visual elements and data pipelines for The Post’s text message-based flash polls.`,
+					affiliation: 'The Washington Post'
+				},
+				{
 					link: 'https://wapo.st/3ZoJVcG',
 					name: 'Who won the Harris-Trump debate? We asked swing-state voters.',
-					description: 'Built a live-updating page showing voters’ reactions the debate.',
+					description: `Built a live-updating page showing voters’ reactions the debate. Improved on the format for the <a href="https://wapo.st/3ZSsz89">vice presidential debate</a> and <a href="https://wapo.st/40I7xYF">Trump’s inaugural speech</a>.`,
 					affiliation: 'The Washington Post'
 				},
 				{
@@ -96,7 +115,8 @@
 				{
 					link: 'https://wapo.st/3WjjAKt',
 					name: 'Tracking Trump’s Cabinet and administration nominations',
-					description: 'Created a searchable and filterable database.',
+					description:
+						'Created a searchable and filterable database and visual elements showing appointees in the Trump administration. Collaborated with the Partnership for Public Service to build data pipelines.',
 					affiliation: 'The Washington Post'
 				},
 				{
@@ -142,6 +162,11 @@
 			description: 'A collection of personal and academic work.',
 			list: [
 				{
+					link: 'https://quarters.erxclau.workers.dev',
+					name: 'Quarters',
+					description: 'Created a website to track quarters I’ve collected.'
+				},
+				{
 					link: 'https://erxclau.github.io/taxonomy-of-a-computer/',
 					name: 'Taxonomy of a computer',
 					description: 'Wrote a visual brief on my computer usage.',
@@ -173,7 +198,7 @@
 				{
 					link: 'https://observablehq.com/@ericlau/law-enforcement-management-and-administrative-statistic',
 					name: 'U.S. police agencies with external investigations into injurious use of force',
-					description: 'An exploration of law enforcement data.',
+					description: 'Explored of law enforcement data.',
 					affiliation: 'Data Visualization with Justin Joque at the University of Michigan'
 				}
 			]
