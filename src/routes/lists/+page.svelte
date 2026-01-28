@@ -830,7 +830,10 @@
 				},
 				{
 					date: 2022,
-					items: [{ name: 'Drive My Car', date: new TemporalDate(2022, 2, 26) }]
+					items: [
+						{ name: 'Drive My Car', date: new TemporalDate(2022, 2, 26) },
+						{ name: 'Ender’s Game' }
+					]
 				},
 				{
 					date: 2020,
@@ -871,6 +874,7 @@
 				{
 					date: undefined,
 					items: [
+						{ name: 'The Martian' },
 						{ name: 'Catch Me If You Can' },
 						{ name: 'In The Heights' },
 						{
@@ -938,10 +942,13 @@
 						{ name: 'Iron Man' },
 						{ name: 'Jaws' },
 						{ name: 'Breakfast at Tiffany’s' },
-						{ name: 'Ender’s Game' },
 						{ name: 'All Quiet on the Western Front', year: 2022 },
 						{ name: 'The Florida Project', highlight: true },
-						{ name: 'Dunkirk' },
+						{
+							name: 'Dunkirk',
+							thoughts: `I feel a lot of war movies don’t portray the very real ways civilians contributed. 
+							I think the film did a great job showing the scale of the evacuation.`
+						},
 						{ name: 'Lady Bird' },
 						{ name: 'Eighth Grade', highlight: true },
 						{ name: 'Ferris Bueller’s Day Off' },
@@ -960,7 +967,10 @@
 						{ name: 'First Blood', highlight: true },
 						{ name: 'Downfall', highlight: true, thoughts: `The crash out scene is so well done.` },
 						{ name: 'Fury' },
-						{ name: 'Saving Private Ryan' },
+						{
+							name: 'Saving Private Ryan',
+							thoughts: `Memorable beginning beach scene and end with the tank, plane and pistol.`
+						},
 						{ name: 'Inglorious Basterds' },
 						{ name: 'Full Metal Jacket' },
 						{ name: 'Letters from Iwo Jima' },
@@ -999,7 +1009,11 @@
 							date: new TemporalPartialDate(2026, 1),
 							thoughts: `The obvious question I asked myself is whether I would ever sever.
 							Is it justifiable to work an objectionable job if you live a good life otherwise?
-							Maybe I have to some extent already bifurcated my work and personal life.`
+							Maybe I have to some extent already bifurcated my work and personal life.
+							
+							There was something sinister to me about Gemma Scout being Asian and morphing into
+							all of these different innies with different outfits, that the Asian woman’s body is
+							the one to be particularly experimented on, identified through ornamentation and changed.`
 						},
 						{
 							name: 'Jet Lag: The Game',
