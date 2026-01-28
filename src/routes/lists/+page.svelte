@@ -456,7 +456,8 @@
 						},
 						{
 							name: 'Kiki’s Delivery Service',
-							date: new TemporalDate(2025, 8, 30)
+							date: new TemporalDate(2025, 8, 30),
+							thoughts: ``
 						},
 						{
 							name: 'Independence Day',
@@ -490,7 +491,8 @@
 						{
 							name: 'The Untouchables',
 							date: new TemporalDate(2025, 6, 28),
-							notes: 'On Paramount+'
+							notes: 'On Paramount+',
+							thoughts: `I finally understand what Dr. Dre meant in California Love.`
 						},
 						{
 							name: 'The Rules of Attraction',
@@ -633,9 +635,21 @@
 						{ name: 'The Good Shepherd', date: new TemporalDate(2025, 4, 6) },
 						{ name: 'Patriots Day', date: new TemporalDate(2025, 4, 6) },
 						{ name: 'Marvelous and the Black Hole', date: new TemporalDate(2025, 4, 6) },
-						{ name: 'Always Be My Maybe', date: new TemporalPartialDate(2025, 4) },
-						{ name: 'The Half of It', date: new TemporalDate(2025, 4, 5) },
-						{ name: 'Marriage Story', highlight: true, date: new TemporalDate(2025, 4, 5) },
+						{
+							name: 'Always Be My Maybe',
+							date: new TemporalPartialDate(2025, 4),
+							thoughts: `The Keanu Reeves bit was so unexpected but very funny.`
+						},
+						{
+							name: 'The Half of It',
+							date: new TemporalDate(2025, 4, 5),
+							thoughts: `I thought the starting premise was crazy but ultimately a welcome deviation on traditional roles of Asian kids.`
+						},
+						{
+							name: 'Marriage Story',
+							highlight: true,
+							date: new TemporalDate(2025, 4, 5)
+						},
 						{ name: 'Unbroken', date: new TemporalDate(2025, 4, 5) },
 						{
 							name: 'Take Out',
@@ -742,7 +756,11 @@
 							Maybe watching this made me want to play again. Or maybe I was already trying to play more when I watched the movie. 
 							Regardless, I’m glad I watched.`
 						},
-						{ name: 'Power Rangers', year: 2017 },
+						{
+							name: 'Power Rangers',
+							year: 2017,
+							thoughts: `As someone who dressed as the Red Ranger one cold New York City Halloween, this did not revive my childhood love for the series.`
+						},
 						{ name: 'The Edge of Seventeen' },
 						{ name: 'The Girl Next Door' },
 						{ name: 'The Perks of Being a Wallflower', highlight: true },
@@ -779,7 +797,7 @@
 				{
 					date: 2023,
 					items: [
-						{ name: 'Midsommar', highlight: true },
+						{ name: 'Midsommar', highlight: true, thoughts: 'Chilling. Great aesthetics.' },
 						{
 							name: 'Oppenheimer',
 							highlight: true,
@@ -865,7 +883,7 @@
 						{ name: 'Bao' },
 						{ name: '1917' },
 						{ name: 'To All the Boys I’ve Loved Before' },
-						{ name: 'Hidden Figures' },
+						{ name: 'Hidden Figures', thoughts: `Badass women! Also, what a cast.` },
 						{ name: 'Inside Out' },
 						{ name: 'Turning Red' },
 						{ name: 'Soul' },
@@ -889,7 +907,10 @@
 						{ name: 'Thor: Love and Thunder' },
 						{ name: 'Doctor Strange in the Multiverse of Madness' },
 						{ name: 'Spider-Man: No Way Home' },
-						{ name: 'Eternals' },
+						{
+							name: 'Eternals',
+							thoughts: `Where and how does this connect to the rest of the world?`
+						},
 						{ name: 'Shang-Chi and the Legend of the Ten Rings' },
 						{ name: 'Black Widow' },
 						{ name: 'Spider-Man: Far From Home' },
@@ -898,19 +919,19 @@
 						{ name: 'Ant-Man and the Wasp' },
 						{ name: 'Avengers: Infinity War' },
 						{ name: 'Black Panther' },
-						{ name: 'Thor: Ragnarok' },
+						{ name: 'Thor: Ragnarok', thoughts: `I think Ragnarok had the right amount of humor.` },
 						{ name: 'Spider-Man: Homecoming' },
 						{ name: 'Guardians of the Galaxy Vol. 2' },
 						{ name: 'Doctor Strange' },
 						{ name: 'Captain America: Civil War' },
 						{ name: 'Ant-Man' },
 						{ name: 'Avengers: Age of Ultron' },
-						{ name: 'Guardians of the Galaxy' },
+						{ name: 'Guardians of the Galaxy', thoughts: `Love the music.` },
 						{ name: 'Captain America: The Winter Soldier' },
 						{ name: 'Thor: The Dark World' },
 						{ name: 'Iron Man 3' },
 						{ name: 'The Avengers' },
-						{ name: 'Captain America: The First Avenger' },
+						{ name: 'Captain America: The First Avenger', thoughts: `Just some Brooklyn boys.` },
 						{ name: 'Thor' },
 						{ name: 'Iron Man 2' },
 						{ name: 'The Incredible Hulk' },
@@ -946,6 +967,7 @@
 						{ name: 'Flags of Our Fathers' },
 						{ name: 'The Thin Red Line', year: 1998 },
 						{ name: 'Hacksaw Ridge' },
+						{ name: 'Tora! Tora! Tora', thoughts: `The better Pearl Harbor movie.` },
 						{ name: 'Pearl Harbor' },
 						{ name: 'Enemy at the Gates' },
 						{ name: 'Patton' },
