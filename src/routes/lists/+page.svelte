@@ -1479,11 +1479,10 @@
 	h1 {
 		margin: 0;
 		font-family: var(--font-headline);
-		text-transform: uppercase;
 		color: var(--color-headline);
 		letter-spacing: 0.0625ch;
 		font-size: 3rem;
-		font-weight: 400;
+		font-weight: 300;
 	}
 
 	h2,

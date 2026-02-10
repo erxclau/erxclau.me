@@ -313,15 +313,16 @@
 	}
 
 	h1 {
-		text-transform: uppercase;
 		font-size: 5rem;
 		line-height: 5rem;
 		letter-spacing: 0.0625ch;
+		font-weight: 200;
 	}
 
 	h2 {
 		font-size: 2.5rem;
 		line-height: 2.5rem;
+		font-weight: 200;
 	}
 
 	p {
