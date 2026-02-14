@@ -46,11 +46,6 @@
 					date: 'Current',
 					items: [
 						{
-							name: 'The Thing Around Your Neck',
-							authors: ['Chimamanda Ngozi Adichie'],
-							notes: 'From Freebird Books'
-						},
-						{
 							name: 'The Power Broker',
 							authors: ['Robert Caro']
 						}
@@ -59,6 +54,12 @@
 				{
 					date: 2026,
 					items: [
+						{
+							name: 'The Thing Around Your Neck',
+							authors: ['Chimamanda Ngozi Adichie'],
+							notes: 'From Freebird Books',
+							date: new TemporalDate(2026, 2, 13)
+						},
 						{
 							name: 'Tomorrow, and Tomorrow, and Tomorrow',
 							authors: ['Gabrielle Zevin'],
