@@ -58,7 +58,8 @@
 							name: 'The Thing Around Your Neck',
 							authors: ['Chimamanda Ngozi Adichie'],
 							notes: 'From Freebird Books',
-							date: new TemporalDate(2026, 2, 13)
+							date: new TemporalDate(2026, 2, 13),
+							thoughts: `Beautifully written short stories about modern tension between American and Nigerian conceptions of marriage, religion, gender and status.`
 						},
 						{
 							name: 'Tomorrow, and Tomorrow, and Tomorrow',
@@ -411,6 +412,30 @@
 		{
 			category: 'Film',
 			lists: [
+				{
+					date: 2026,
+					items: [
+						{
+							name: 'In the Mood for Love 2001',
+							date: new TemporalDate(2026, 2, 14),
+							notes: 'At Angelika Film Center on Houston',
+							thoughts: `The short film releases the tension around physical intimacy, 
+							though of course the characters in this film are not Mrs. Chan and Mr. Chow. 
+							Maybe in a past life.`
+						},
+						{
+							name: 'In the Mood for Love',
+							date: new TemporalDate(2026, 2, 14),
+							notes: 'At Angelika Film Center on Houston',
+							highlight: true,
+							thoughts: `The colors, the music, the dresses — all stunning. At times confusing, either things being lost in
+							translation or lack of spatial context. The lines also blurred when Mrs. Chan and Mr. Chow acted out how their spouses
+							talked to each other, or how they would talk to their spouses — when are they their spouses and when are they themselves?
+							I suppose the blurriness is the point. The visual absense of the spouses was powerful in creating distance.
+							Absent any physical intimacy beyond holding hands, the tension between Mrs. Chan and Mr. Chow is never resolved, at least not on screen.`
+						}
+					]
+				},
 				{
 					date: 2025,
 					items: [
