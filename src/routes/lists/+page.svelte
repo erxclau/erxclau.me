@@ -431,7 +431,7 @@
 							thoughts: `The colors, the music, the dresses — all stunning. At times confusing, either things being lost in
 							translation or lack of spatial context. The lines also blurred when Mrs. Chan and Mr. Chow acted out how their spouses
 							talked to each other, or how they would talk to their spouses — when are they their spouses and when are they themselves?
-							I suppose the blurriness is the point. The visual absense of the spouses was powerful in creating distance.
+							I suppose the blurriness is the point. The visual absence of the spouses was powerful in creating distance.
 							Absent any physical intimacy beyond holding hands, the tension between Mrs. Chan and Mr. Chow is never resolved, at least not on screen.`
 						}
 					]
