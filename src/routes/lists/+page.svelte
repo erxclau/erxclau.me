@@ -1026,8 +1026,17 @@
 			category: 'Shows',
 			lists: [
 				{
+					date: 'Current',
+					items: []
+				},
+				{
 					date: 2026,
 					items: [
+						{
+							name: 'Ted Lasso',
+							notes: 'On Apple TV',
+							date: new TemporalPartialDate(2026, 2)
+						},
 						{
 							name: 'Severance',
 							notes: 'On Apple TV',
