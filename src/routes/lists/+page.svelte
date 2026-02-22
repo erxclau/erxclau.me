@@ -10,7 +10,7 @@
 					items: [
 						{
 							name: 'Hamilton',
-							date: new TemporalDate(2026, 1, 15),
+							finishDate: new TemporalDate(2026, 1, 15),
 							thoughts: `
 							Ever since my seventh grade history teacher showed me Lin-Manuel Miranda performing Alexander Hamilton at 
 							the White House Poetry Jam, I’ve wanted to be in the room where it happens. Hamilton was my introduction to rap music.
@@ -30,7 +30,7 @@
 					items: [
 						{
 							name: 'Death Becomes Her',
-							date: new TemporalDate(2025, 11, 22),
+							finishDate: new TemporalDate(2025, 11, 22),
 							thoughts:
 								'A funny, self-aware musical about living forever. Colorful, abundant, physically impressive.',
 							notes: 'At Lunt-Fontanne Theatre'
@@ -46,8 +46,14 @@
 					date: 'Current',
 					items: [
 						{
+							name: 'The Committed',
+							authors: ['Viet Thanh Nguyen'],
+							startDate: new TemporalDate(2026, 2, 22)
+						},
+						{
 							name: 'The Power Broker',
-							authors: ['Robert Caro']
+							authors: ['Robert Caro'],
+							startDate: new TemporalPartialDate(2026, 1)
 						}
 					]
 				},
@@ -58,7 +64,7 @@
 							name: 'The Thing Around Your Neck',
 							authors: ['Chimamanda Ngozi Adichie'],
 							notes: 'From Freebird Books',
-							date: new TemporalDate(2026, 2, 13),
+							finishDate: new TemporalDate(2026, 2, 13),
 							thoughts: `Beautifully written short stories about modern tension between American and Nigerian conceptions of marriage, religion, gender and status.`
 						},
 						{
@@ -70,12 +76,13 @@
 							Sam and Sadie did not grow very much as individuals or together. They learn to forgive each other (over and over again). But what else?
 							Maybe I am missing something.`,
 							notes: 'From Kramers',
-							date: new TemporalDate(2026, 1, 11)
+							startDate: new TemporalDate(2026, 1, 8),
+							finishDate: new TemporalDate(2026, 1, 11)
 						},
 						{
 							name: 'The Sympathizer',
 							authors: ['Viet Thanh Nguyen'],
-							date: new TemporalDate(2026, 1, 8),
+							finishDate: new TemporalDate(2026, 1, 8),
 							thoughts: `Nguyen explores many facets of storytelling, perspective and duality in his novel. 
 							The story is told first (and mostly) through the narrator’s written confessions, then through 
 							first and third person reprecussions of how the confessions were written to omit certain details
@@ -99,7 +106,7 @@
 					items: [
 						{
 							name: 'Ornamentalism',
-							date: new TemporalDate(2025, 12, 28),
+							finishDate: new TemporalDate(2025, 12, 28),
 							authors: ['Anne Anlin Cheng'],
 							thoughts: `Cheng presents a thingness—personness spectrum in Asian American women through legal, satorial 
 							(i.e., fashion or style), culinary and technological lenses. The vision of the “yellow woman” stirs a particular
@@ -115,7 +122,7 @@
 						},
 						{
 							name: 'Orientalism',
-							date: new TemporalDate(2025, 11, 29),
+							finishDate: new TemporalDate(2025, 11, 29),
 							authors: ['Edward Said'],
 							thoughts: `Said provides a critical lens into Orientalism by analyzing centuries of
 							texts and characters. I struggled to retain all of the detail, but I did grasp the
@@ -246,17 +253,17 @@
 					items: [
 						{
 							name: 'Princess: A True Story of Life Behind the Veil in Saudi Arabia',
-							date: new TemporalPartialDate(2020, 7),
+							finishDate: new TemporalPartialDate(2020, 7),
 							authors: ['Jean Sasson']
 						},
 						{
 							name: 'We Should All Be Feminists',
-							date: new TemporalDate(2020, 6, 29),
+							finishDate: new TemporalDate(2020, 6, 29),
 							authors: ['Chimamanda Ngozi Adichie']
 						},
 						{
 							name: 'The Ones Who Walk Away from Omelas',
-							date: new TemporalDate(2020, 3, 15),
+							finishDate: new TemporalDate(2020, 3, 15),
 							authors: ['Ursula K. Le Guin']
 						}
 					]
@@ -417,7 +424,7 @@
 					items: [
 						{
 							name: 'In the Mood for Love 2001',
-							date: new TemporalDate(2026, 2, 14),
+							finishDate: new TemporalDate(2026, 2, 14),
 							notes: 'At Angelika Film Center on Houston',
 							thoughts: `The short film releases the tension around physical intimacy, 
 							though of course the characters in this film are not Mrs. Chan and Mr. Chow. 
@@ -425,7 +432,7 @@
 						},
 						{
 							name: 'In the Mood for Love',
-							date: new TemporalDate(2026, 2, 14),
+							finishDate: new TemporalDate(2026, 2, 14),
 							notes: 'At Angelika Film Center on Houston',
 							highlight: true,
 							thoughts: `The colors, the music, the dresses — all stunning. At times confusing, either things being lost in
@@ -441,7 +448,7 @@
 					items: [
 						{
 							name: 'Before Midnight',
-							date: new TemporalDate(2025, 12, 30),
+							finishDate: new TemporalDate(2025, 12, 30),
 							notes: 'On YouTube',
 							thoughts: `I enjoyed the trilogy as a whole. The physical changes in the actors over decades made the progression
 							in themselves and their relationship feel believable. Love is perhaps at its most innocent when composed of just two
@@ -451,193 +458,207 @@
 						},
 						{
 							name: 'Before Sunset',
-							date: new TemporalDate(2025, 12, 30),
+							finishDate: new TemporalDate(2025, 12, 30),
 							notes: 'On YouTube',
 							highlight: true
 						},
 						{
 							name: 'Before Sunrise',
-							date: new TemporalDate(2025, 12, 30),
+							finishDate: new TemporalDate(2025, 12, 30),
 							notes: 'On YouTube',
 							highlight: true
 						},
 						{
 							name: 'Moonlight',
-							date: new TemporalDate(2025, 12, 29),
+							finishDate: new TemporalDate(2025, 12, 29),
 							notes: 'On YouTube',
 							thoughts: `I thought the scene of Juan teaching Chiron to swim was beautiful — the colors, the camera positioning, the act itself.`,
 							highlight: true
 						},
 						{
 							name: 'Wicked: For Good',
-							date: new TemporalDate(2025, 11, 21),
+							finishDate: new TemporalDate(2025, 11, 21),
 							notes: 'At AMC Courthouse Plaza 8',
 							thoughts: `I think it was fine. The musical numbers were less memorable than the ones from the first part.`
 						},
 						{
 							name: 'Wicked',
-							date: new TemporalDate(2025, 10, 30),
+							finishDate: new TemporalDate(2025, 10, 30),
 							notes: 'On YouTube',
 							thoughts: 'I dresssed as Elphaba (yes, with green face paint) on Halloween.'
 						},
 						{
 							name: 'Kiki’s Delivery Service',
-							date: new TemporalDate(2025, 8, 30),
+							finishDate: new TemporalDate(2025, 8, 30),
 							thoughts: ``
 						},
 						{
 							name: 'Independence Day',
-							date: new TemporalDate(2025, 7, 20),
+							finishDate: new TemporalDate(2025, 7, 20),
 							notes: 'On YouTube'
 						},
 						{
 							name: 'The Day After Tomorrow',
-							date: new TemporalDate(2025, 7, 19),
+							finishDate: new TemporalDate(2025, 7, 19),
 							notes: 'On YouTube',
 							thoughts: `Love a snowy New York City backdrop in any movie.`
 						},
 						{
 							name: 'When Harry Met Sally',
 							highlight: true,
-							date: new TemporalDate(2025, 7, 14),
+							finishDate: new TemporalDate(2025, 7, 14),
 							notes: 'On Pluto TV'
 						},
 						{
 							name: 'Tron: Legacy',
-							date: new TemporalPartialDate(2025, 7),
+							finishDate: new TemporalPartialDate(2025, 7),
 							thoughts: `Tron: Legacy improved on the original by creating a world with more definition beyond the lines and shapes in the cyberspace from the original movie.`
 						},
 						{
 							name: 'Tron',
-							date: new TemporalPartialDate(2025, 7),
+							finishDate: new TemporalPartialDate(2025, 7),
 							thoughts: `I can understand that the cyberspace concept was in vogue, but I can’t get 
 							behind the idea of physical entities acting “inside” some abstract computer software world.
 							The visuals also felt lacking, though I know that CGI was novel in the 1980s.`
 						},
 						{
 							name: 'The Untouchables',
-							date: new TemporalDate(2025, 6, 28),
+							finishDate: new TemporalDate(2025, 6, 28),
 							notes: 'On Paramount+',
 							thoughts: `I finally understand what Dr. Dre meant in California Love.`
 						},
 						{
 							name: 'The Rules of Attraction',
-							date: new TemporalDate(2025, 6, 26),
+							finishDate: new TemporalDate(2025, 6, 26),
 							notes: 'On Tubi'
 						},
 						{
 							name: 'American Psycho',
 							highlight: true,
-							date: new TemporalDate(2025, 6, 26),
+							finishDate: new TemporalDate(2025, 6, 26),
 							notes: 'On Paramount+',
 							thoughts: `Psychotic indeed. Is this what happens to those soulless, good-looking New York City suits?`
 						},
 						{
 							name: 'War of the Worlds',
-							date: new TemporalDate(2025, 6, 25),
+							finishDate: new TemporalDate(2025, 6, 25),
 							notes: 'On Paramount+'
 						},
 						{
 							name: 'The Boy in the Striped Pyjamas',
 							highlight: true,
-							date: new TemporalDate(2025, 6, 23),
+							finishDate: new TemporalDate(2025, 6, 23),
 							notes: 'On Paramount+'
 						},
 						{
 							name: 'Braveheart',
-							date: new TemporalDate(2025, 6, 22),
+							finishDate: new TemporalDate(2025, 6, 22),
 							notes: 'On Paramount+'
 						},
 						{
 							name: 'Pulp Fiction',
-							date: new TemporalDate(2025, 6, 22),
+							finishDate: new TemporalDate(2025, 6, 22),
 							notes: 'On Paramount+'
 						},
 						{
 							name: 'The Italian Job',
 							year: 2003,
-							date: new TemporalDate(2025, 6, 22),
+							finishDate: new TemporalDate(2025, 6, 22),
 							notes: 'On Paramount+'
 						},
 						{
 							name: 'Tropic Thunder',
-							date: new TemporalDate(2025, 6, 22),
+							finishDate: new TemporalDate(2025, 6, 22),
 							notes: 'On Paramount+'
 						},
-						{ name: 'Flight', date: new TemporalPartialDate(2025, 6) },
-						{ name: 'Reservoir Dogs', highlight: true, date: new TemporalPartialDate(2025, 6) },
-						{ name: 'Edge of Tomorrow', date: new TemporalPartialDate(2025, 6) },
+						{ name: 'Flight', finishDate: new TemporalPartialDate(2025, 6) },
+						{
+							name: 'Reservoir Dogs',
+							highlight: true,
+							finishDate: new TemporalPartialDate(2025, 6)
+						},
+						{ name: 'Edge of Tomorrow', finishDate: new TemporalPartialDate(2025, 6) },
 						{
 							name: 'The Last Samurai',
 							notes: 'On Paramount+',
-							date: new TemporalDate(2025, 6, 3)
+							finishDate: new TemporalDate(2025, 6, 3)
 						},
-						{ name: 'Jack Reacher', notes: 'On Paramount+', date: new TemporalDate(2025, 6, 2) },
+						{
+							name: 'Jack Reacher',
+							notes: 'On Paramount+',
+							finishDate: new TemporalDate(2025, 6, 2)
+						},
 						{
 							name: 'Top Gun: Maverick',
 							notes: 'On Paramount+',
-							date: new TemporalDate(2025, 6, 2)
+							finishDate: new TemporalDate(2025, 6, 2)
 						},
-						{ name: 'Top Gun', notes: 'On Paramount+', date: new TemporalDate(2025, 6, 2) },
+						{ name: 'Top Gun', notes: 'On Paramount+', finishDate: new TemporalDate(2025, 6, 2) },
 						{
 							name: 'Transformers: Rise of the Beasts',
 							notes: 'On Paramount+',
-							date: new TemporalDate(2025, 6, 1)
+							finishDate: new TemporalDate(2025, 6, 1)
 						},
-						{ name: 'Bumblebee', notes: 'On Paramount+', date: new TemporalDate(2025, 6, 1) },
+						{ name: 'Bumblebee', notes: 'On Paramount+', finishDate: new TemporalDate(2025, 6, 1) },
 						{
 							name: 'Transformers: The Last Knight',
 							notes: 'On Paramount+',
-							date: new TemporalDate(2025, 5, 27)
+							finishDate: new TemporalDate(2025, 5, 27)
 						},
 						{
 							name: 'Transformers: Age of Extinction',
 							notes: 'On Paramount+',
-							date: new TemporalDate(2025, 5, 23)
+							finishDate: new TemporalDate(2025, 5, 23)
 						},
 						{
 							name: 'Mission: Impossible — Dead Reckoning',
 							notes: 'On Paramount+',
-							date: new TemporalPartialDate(2025, 5)
+							finishDate: new TemporalPartialDate(2025, 5)
 						},
 						{
 							name: 'Mission: Impossible — Fallout',
 							notes: 'On Paramount+',
-							date: new TemporalPartialDate(2025, 5)
+							finishDate: new TemporalPartialDate(2025, 5)
 						},
 						{
 							name: 'Mission: Impossible — Rogue Nation',
 							notes: 'On Paramount+',
-							date: new TemporalPartialDate(2025, 5)
+							finishDate: new TemporalPartialDate(2025, 5)
 						},
 						{
 							name: 'Mission: Impossible — Ghost Protocol',
 							notes: 'On Paramount+',
-							date: new TemporalPartialDate(2025, 5)
+							finishDate: new TemporalPartialDate(2025, 5)
 						},
-						{ name: 'Mission: Impossible III', date: new TemporalPartialDate(2025, 5) },
-						{ name: 'Mission: Impossible II', date: new TemporalPartialDate(2025, 5) },
-						{ name: 'Mission: Impossible', date: new TemporalPartialDate(2025, 5) },
+						{ name: 'Mission: Impossible III', finishDate: new TemporalPartialDate(2025, 5) },
+						{ name: 'Mission: Impossible II', finishDate: new TemporalPartialDate(2025, 5) },
+						{ name: 'Mission: Impossible', finishDate: new TemporalPartialDate(2025, 5) },
 						{
 							name: 'No Hard Feelings',
-							date: new TemporalPartialDate(2025, 5),
+							finishDate: new TemporalPartialDate(2025, 5),
 							thoughts: `This was mostly an uncomfortable situation to watch. I liked the Maneater rendition.`
 						},
 						{
 							name: 'The Secret Life of Walter Mitty',
 							year: 2013,
-							date: new TemporalDate(2025, 5, 21),
+							finishDate: new TemporalDate(2025, 5, 21),
 							thoughts: `The movie explores the wandering mind of Walter Mitty, a mundane office employee at Life magazine. It is relatively straightforward in the approach,
 							developing from fantastical daydreams to actualizing an adventure to find a photo negative. After watching Severance,
 							I appreciate this film as a foundation or first pass for Ben Stiller in developing a more ambitious project on our relationship to work.
 							The use of Space Oddity in the film served as an entry point for me to explore David Bowie music.`
 						},
-						{ name: 'Cloudy with a Chance of Meatballs 2', date: new TemporalDate(2025, 5, 21) },
-						{ name: 'Cloudy with a Chance of Meatballs', date: new TemporalDate(2025, 5, 21) },
+						{
+							name: 'Cloudy with a Chance of Meatballs 2',
+							finishDate: new TemporalDate(2025, 5, 21)
+						},
+						{
+							name: 'Cloudy with a Chance of Meatballs',
+							finishDate: new TemporalDate(2025, 5, 21)
+						},
 						{
 							name: 'Conclave',
 							highlight: true,
-							date: new TemporalDate(2025, 5, 5),
+							finishDate: new TemporalDate(2025, 5, 5),
 							thoughts: `The drama, the colors and the costumes all felt at place. A helpful and entertaining watch for me in the days prior to the actual papal conclave.`
 						},
 						{
@@ -650,33 +671,33 @@
 								until consuming media about the film such as F.D Signifier’s video on the movie and Black art.
 								`,
 							highlight: true,
-							date: new TemporalDate(2025, 5, 4)
+							finishDate: new TemporalDate(2025, 5, 4)
 						},
 						{
 							name: 'Arrival',
-							date: new TemporalDate(2025, 4, 8),
+							finishDate: new TemporalDate(2025, 4, 8),
 							thoughts: `The concepts around time and human-alien communication felt novel.`
 						},
-						{ name: 'Frances Ha', date: new TemporalDate(2025, 4, 7) },
-						{ name: 'The Good Shepherd', date: new TemporalDate(2025, 4, 6) },
-						{ name: 'Patriots Day', date: new TemporalDate(2025, 4, 6) },
-						{ name: 'Marvelous and the Black Hole', date: new TemporalDate(2025, 4, 6) },
+						{ name: 'Frances Ha', finishDate: new TemporalDate(2025, 4, 7) },
+						{ name: 'The Good Shepherd', finishDate: new TemporalDate(2025, 4, 6) },
+						{ name: 'Patriots Day', finishDate: new TemporalDate(2025, 4, 6) },
+						{ name: 'Marvelous and the Black Hole', finishDate: new TemporalDate(2025, 4, 6) },
 						{
 							name: 'Always Be My Maybe',
-							date: new TemporalPartialDate(2025, 4),
+							finishDate: new TemporalPartialDate(2025, 4),
 							thoughts: `The Keanu Reeves bit was so unexpected but very funny.`
 						},
 						{
 							name: 'The Half of It',
-							date: new TemporalDate(2025, 4, 5),
+							finishDate: new TemporalDate(2025, 4, 5),
 							thoughts: `I thought the starting premise was crazy but ultimately a welcome deviation on traditional roles of Asian kids.`
 						},
 						{
 							name: 'Marriage Story',
 							highlight: true,
-							date: new TemporalDate(2025, 4, 5)
+							finishDate: new TemporalDate(2025, 4, 5)
 						},
-						{ name: 'Unbroken', date: new TemporalDate(2025, 4, 5) },
+						{ name: 'Unbroken', finishDate: new TemporalDate(2025, 4, 5) },
 						{
 							name: 'Take Out',
 							highlight: true,
@@ -687,69 +708,76 @@
 							as the child of Chinese immigrants who built a life through struggle at a Chinese restaurant in New York City.
 							The early childhood sensations all flooded back to me — the cigarette smoke, the neon light, 
 							the claustrophobic restaurant kitchen, the delivery bike, the torrential downpour.`,
-							date: new TemporalDate(2025, 3, 30)
+							finishDate: new TemporalDate(2025, 3, 30)
 						},
-						{ name: 'Closing Dynasty', date: new TemporalDate(2025, 3, 30), notes: 'On Netflix' },
+						{
+							name: 'Closing Dynasty',
+							finishDate: new TemporalDate(2025, 3, 30),
+							notes: 'On Netflix'
+						},
 						{
 							name: 'To All the Boys: Always and Forever',
-							date: new TemporalDate(2025, 3, 30),
+							finishDate: new TemporalDate(2025, 3, 30),
 							notes: 'On Netflix'
 						},
 						{
 							name: 'To All the Boys: P.S. I Still Love You',
-							date: new TemporalDate(2025, 3, 30),
+							finishDate: new TemporalDate(2025, 3, 30),
 							notes: 'On Netflix'
 						},
-						{ name: 'The Fault in Our Stars', date: new TemporalDate(2025, 3, 29) },
+						{ name: 'The Fault in Our Stars', finishDate: new TemporalDate(2025, 3, 29) },
 						{
 							name: 'Before We Go',
-							date: new TemporalDate(2025, 3, 26),
+							finishDate: new TemporalDate(2025, 3, 26),
 							notes: 'On YouTube'
 						},
 						{
 							name: 'World War Z',
-							date: new TemporalDate(2025, 3, 26),
+							finishDate: new TemporalDate(2025, 3, 26),
 							notes: 'On YouTube'
 						},
 						{
 							name: 'White House Down',
-							date: new TemporalDate(2025, 3, 26),
+							finishDate: new TemporalDate(2025, 3, 26),
 							notes: 'On YouTube'
 						},
 						{
 							name: 'Sorry to Bother You',
 							highlight: true,
-							date: new TemporalPartialDate(2025, 3),
+							finishDate: new TemporalPartialDate(2025, 3),
 							thoughts: `To compromise on your values for (capitalist) gain is to sacrifice your identity. Sorry to Bother You delivers in a more extravagant and inflated way.`
 						},
-						{ name: 'Uncharted', date: new TemporalDate(2025, 3, 25) },
+						{ name: 'Uncharted', finishDate: new TemporalDate(2025, 3, 25) },
 						{
 							name: '127 Hours',
 							highlight: true,
-							date: new TemporalDate(2025, 3, 24),
+							finishDate: new TemporalDate(2025, 3, 24),
 							thoughts: `The exhaustion, utter frustration and scream-inducing horror of being helplessly stuck.`
 						},
-						{ name: 'Anora', highlight: true, date: new TemporalDate(2025, 3, 23) },
-						{ name: 'Transformers: Dark of the Moon', date: new TemporalDate(2025, 3, 23) },
-						{ name: 'Transformers: Revenge of the Fallen', date: new TemporalDate(2025, 3, 23) },
-						{ name: 'Transformers', date: new TemporalDate(2025, 3, 23) },
-						{ name: 'Pacific Rim', date: new TemporalDate(2025, 3, 19) },
-						{ name: 'Battleship', date: new TemporalPartialDate(2025, 3) },
-						{ name: 'The Help', date: new TemporalDate(2025, 3, 17) },
-						{ name: 'The Cider House Rules', date: new TemporalPartialDate(2025, 3) },
-						{ name: 'Life of Pi', date: new TemporalDate(2025, 3, 16) },
-						{ name: 'Almost Famous', date: new TemporalDate(2025, 3, 16) },
+						{ name: 'Anora', highlight: true, finishDate: new TemporalDate(2025, 3, 23) },
+						{ name: 'Transformers: Dark of the Moon', finishDate: new TemporalDate(2025, 3, 23) },
+						{
+							name: 'Transformers: Revenge of the Fallen',
+							finishDate: new TemporalDate(2025, 3, 23)
+						},
+						{ name: 'Transformers', finishDate: new TemporalDate(2025, 3, 23) },
+						{ name: 'Pacific Rim', finishDate: new TemporalDate(2025, 3, 19) },
+						{ name: 'Battleship', finishDate: new TemporalPartialDate(2025, 3) },
+						{ name: 'The Help', finishDate: new TemporalDate(2025, 3, 17) },
+						{ name: 'The Cider House Rules', finishDate: new TemporalPartialDate(2025, 3) },
+						{ name: 'Life of Pi', finishDate: new TemporalDate(2025, 3, 16) },
+						{ name: 'Almost Famous', finishDate: new TemporalDate(2025, 3, 16) },
 						{
 							name: 'Eternal Sunshine of the Spotless Mind',
 							highlight: true,
-							date: new TemporalDate(2025, 3, 16),
+							finishDate: new TemporalDate(2025, 3, 16),
 							thoughts: 'What an awful thing: to forget a past life. A lovely soundtrack.'
 						},
-						{ name: '42', highlight: true, date: new TemporalDate(2025, 3, 16) },
-						{ name: 'The Breakfast Club', date: new TemporalDate(2025, 3, 15) },
+						{ name: '42', highlight: true, finishDate: new TemporalDate(2025, 3, 16) },
+						{ name: 'The Breakfast Club', finishDate: new TemporalDate(2025, 3, 15) },
 						{
 							name: 'Perfect Days',
-							date: new TemporalDate(2025, 1, 19),
+							finishDate: new TemporalDate(2025, 1, 19),
 							notes: 'On YouTube',
 							highlight: true,
 							thoughts: `Sparse, pleasant. Splendid music. Is ambition the thief of joy?
@@ -793,7 +821,7 @@
 						{ name: 'A Family Affair' },
 						{
 							name: 'Inside Out 2',
-							date: new TemporalDate(2024, 6, 18),
+							finishDate: new TemporalDate(2024, 6, 18),
 							notes: 'At Landmark’s E Street Cinema'
 						},
 						{
@@ -803,19 +831,19 @@
 						},
 						{
 							name: 'Return to Seoul',
-							date: new TemporalDate(2024, 1, 20),
+							finishDate: new TemporalDate(2024, 1, 20),
 							notes: 'At Michigan Theater'
 						},
 						{
 							name: 'The Boy and the Heron',
 							highlight: true,
-							date: new TemporalDate(2024, 1, 14),
+							finishDate: new TemporalDate(2024, 1, 14),
 							notes: 'At State Theater'
 						},
 						{
 							name: 'Past Lives',
 							highlight: true,
-							date: new TemporalDate(2024, 1, 13),
+							finishDate: new TemporalDate(2024, 1, 13),
 							thoughts: `Bittersweet, as past lives are?`
 						}
 					]
@@ -827,7 +855,7 @@
 						{
 							name: 'Oppenheimer',
 							highlight: true,
-							date: new TemporalDate(2023, 7, 30),
+							finishDate: new TemporalDate(2023, 7, 30),
 							thoughts: `A power outage meant I did not see Barbie and Oppenheimer on the same day. 
 							I appreciate that the film extends beyond Hiroshima and Nagasaki and addresses the brewing American 
 							fear of communism and the Soviet Union before, during and immediately after the Second World War.
@@ -836,13 +864,13 @@
 						{
 							name: 'Barbie',
 							highlight: true,
-							date: new TemporalDate(2023, 7, 23),
+							finishDate: new TemporalDate(2023, 7, 23),
 							thoughts: `Pink pants. Fun time.`
 						},
 						{
 							name: 'Spider-Man: Across the Spider-Verse',
 							highlight: true,
-							date: new TemporalDate(2023, 6, 13),
+							finishDate: new TemporalDate(2023, 6, 13),
 							notes: 'At State Theater',
 							thoughts: `I loved the style of Across the Spider-Verse (and Into the Spider-Verse).
 								I felt that animation allowed for very creative uses of cartoon physics, vibrant colors and visual effects.`
@@ -857,7 +885,7 @@
 				{
 					date: 2022,
 					items: [
-						{ name: 'Drive My Car', date: new TemporalDate(2022, 2, 26) },
+						{ name: 'Drive My Car', finishDate: new TemporalDate(2022, 2, 26) },
 						{ name: 'Ender’s Game' }
 					]
 				},
@@ -868,25 +896,33 @@
 							name: 'Loving Vincent',
 							highlight: true,
 							thoughts: 'Really a gorgeous movie.',
-							date: new TemporalDate(2020, 4, 3)
+							finishDate: new TemporalDate(2020, 4, 3)
 						}
 					]
 				},
 				{
 					date: 2018,
 					items: [
-						{ name: 'Spirited Away', highlight: true, date: new TemporalPartialDate(2018, 7) },
-						{ name: 'The Godfather Part III', date: new TemporalPartialDate(2018, 7) },
+						{
+							name: 'Spirited Away',
+							highlight: true,
+							finishDate: new TemporalPartialDate(2018, 7)
+						},
+						{ name: 'The Godfather Part III', finishDate: new TemporalPartialDate(2018, 7) },
 						{
 							name: 'The Godfather Part II',
 							highlight: true,
-							date: new TemporalPartialDate(2018, 7)
+							finishDate: new TemporalPartialDate(2018, 7)
 						},
-						{ name: 'The Godfather', highlight: true, date: new TemporalPartialDate(2018, 7) },
+						{
+							name: 'The Godfather',
+							highlight: true,
+							finishDate: new TemporalPartialDate(2018, 7)
+						},
 						{
 							name: 'Mean Girls',
 							highlight: true,
-							date: new TemporalDate(2018, 7, 29),
+							finishDate: new TemporalDate(2018, 7, 29),
 							thoughts: `I was told I was a mix of Regina and Janis in high school.`
 						},
 						{
@@ -1035,13 +1071,15 @@
 						{
 							name: 'Ted Lasso',
 							notes: 'On Apple TV',
-							date: new TemporalPartialDate(2026, 2)
+							startDate: new TemporalDate(2026, 2, 18),
+							finishDate: new TemporalDate(2026, 2, 22)
 						},
 						{
 							name: 'Severance',
 							notes: 'On Apple TV',
 							highlight: true,
-							date: new TemporalPartialDate(2026, 1),
+							startDate: new TemporalDate(2026, 1, 18),
+							finishDate: new TemporalDate(2026, 1, 23),
 							thoughts: `The obvious question I asked myself is whether I would ever sever.
 							Is it justifiable to work an objectionable job if you live a good life otherwise?
 							Maybe I have to some extent already bifurcated my work and personal life.
@@ -1053,7 +1091,8 @@
 						{
 							name: 'Jet Lag: The Game',
 							highlight: true,
-							notes: 'I started watching in 2023. On YouTube and Nebula'
+							notes: 'On YouTube and Nebula',
+							startDate: new TemporalPartialDate(2023, 12)
 						}
 					]
 				},
@@ -1066,7 +1105,8 @@
 						{
 							name: 'Veep',
 							highlight: true,
-							date: new TemporalPartialDate(2025, 2),
+							startDate: new TemporalDate(2025, 2, 7),
+							finishDate: new TemporalDate(2025, 2, 13),
 							notes: 'On HBO Max'
 						}
 					]
@@ -1086,7 +1126,7 @@
 						{
 							name: 'American Born Chinese',
 							notes: 'On Disney+',
-							date: new TemporalPartialDate(2023, 6)
+							finishDate: new TemporalPartialDate(2023, 6)
 						},
 						{ name: 'Atypical' }
 					]
@@ -1342,7 +1382,15 @@
 	{/if}
 {/snippet}
 
-{#snippet dateCompleted(date: TemporalDate | TemporalPartialDate, category: string)}
+{#snippet dateStarted(date: TemporalDate | TemporalPartialDate)}
+	{@const preposition = date.partial ? 'in' : 'on'}
+	<div class="extra date">
+		Started {preposition}
+		{date}
+	</div>
+{/snippet}
+
+{#snippet dateFinished(date: TemporalDate | TemporalPartialDate, category: string)}
 	{@const preposition = date.partial ? 'in' : 'on'}
 	<div class="extra date">
 		{#if category === 'Books' || category === 'Shows'}Finished {preposition}
@@ -1399,9 +1447,14 @@
 													</div>
 												{/if}
 												<div>
-													{#if item.date}
-														{@render dateCompleted(item.date, category)}
-													{/if}
+													<div class="dates">
+														{#if item.startDate}
+															{@render dateStarted(item.startDate)}
+														{/if}
+														{#if item.finishDate}
+															{@render dateFinished(item.finishDate, category)}
+														{/if}
+													</div>
 													{#if item.notes}
 														<div class="extra note">{item.notes}</div>
 													{/if}
@@ -1433,9 +1486,14 @@
 													</div>
 												</details>
 												<div>
-													{#if item.date}
-														{@render dateCompleted(item.date, category)}
-													{/if}
+													<div class="dates">
+														{#if item.startDate}
+															{@render dateStarted(item.startDate)}
+														{/if}
+														{#if item.finishDate}
+															{@render dateFinished(item.finishDate, category)}
+														{/if}
+													</div>
 													{#if item.notes}
 														<div class="extra note">{item.notes}</div>
 													{/if}
@@ -1627,5 +1685,11 @@
 
 	h1 a {
 		color: var(--color-headline);
+	}
+
+	.dates {
+		display: flex;
+		flex-wrap: wrap;
+		column-gap: 1rem;
 	}
 </style>
