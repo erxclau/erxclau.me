@@ -32,7 +32,7 @@ interface BeforeList {
 	items: Array<Item>;
 }
 
-type Lists = {
+interface Lists {
 	category: string;
 	lists:
 		| Array<DatedList>

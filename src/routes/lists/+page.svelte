@@ -402,6 +402,11 @@
 								'I’ve read several chapters for different university courses, but have yet to read it in full. The chapters I have read give guidance on how to work with data in ways that surface humanity, challenge power and retain context.'
 						},
 						{
+							name: 'The Other Wes Moore',
+							authors: ['Wes Moore'],
+							notes: 'For school'
+						},
+						{
 							name: 'How Charts Lie: Getting Smarter about Visual Information',
 							authors: ['Alberto Cairo']
 						},
