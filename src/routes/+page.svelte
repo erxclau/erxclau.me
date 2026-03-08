@@ -8,6 +8,12 @@
 			description: 'I tell visual stories with graphics and data.',
 			list: [
 				{
+					link: 'https://wapo.st/4baXQHz',
+					name: 'Why more lawmakers are quitting Congress, and what it means for the midterms',
+					description: 'Created graphics and compiled data for congressional departures.',
+					affiliation: 'The Washington Post'
+				},
+				{
 					link: 'https://wapo.st/4qKoSMO',
 					name: 'How voters shifted in Virginia, New Jersey and New York elections',
 					description: `Led graphics preparation and contributed to election data pipelines. Contributed to graphics in follow-up analysis stories about <a href="https://wapo.st/4oJBfHL">Virginia Democrats</a> and <a href="https://wapo.st/4aIUsVH">Latino voters</a>.`,
@@ -165,6 +171,12 @@
 					link: 'https://quarters.erxclau.workers.dev',
 					name: 'Quarters',
 					description: 'Created a website to track quarters I’ve collected.'
+				},
+				{
+					link: 'https://erxclau.github.io/chinatown-bubble-tea/',
+					name: 'Bubble tea establishments',
+					description: 'Mapped bubble tea shops in New York City’s Manhattan Chinatown.',
+					affiliation: 'The Rhetoric of Mapping with Cat Cassel at the University of Michigan'
 				},
 				{
 					link: 'https://erxclau.github.io/taxonomy-of-a-computer/',
