@@ -9,6 +9,11 @@
 					date: 2026,
 					items: [
 						{
+							name: 'Chinese Republicans',
+							finishDate: new TemporalDate(2026, 3, 13),
+							notes: 'At Laura Pels Theatre'
+						},
+						{
 							name: 'Hamilton',
 							finishDate: new TemporalDate(2026, 1, 15),
 							thoughts: `
@@ -21,7 +26,8 @@
 							I was able to enjoy the show after letting go of those expectations. I appreciated the more conversational, awkward and whimsical
 							moments that were not particularly conveyed in the original recording. I loved how versatile the rotating floor was.
 							I cried through much of the second half.`,
-							notes: 'At Richard Rodgers Theater'
+							notes: 'At Richard Rodgers Theater',
+							highlight: true
 						}
 					]
 				},
@@ -46,9 +52,16 @@
 					date: 'Current',
 					items: [
 						{
+							name: 'The Brothers Karamazov',
+							authors: ['Fyodor Dostoevsky'],
+							startDate: new TemporalDate(2026, 3, 14),
+							notes: 'From Arlington Public Library'
+						},
+						{
 							name: 'The Committed',
 							authors: ['Viet Thanh Nguyen'],
-							startDate: new TemporalDate(2026, 2, 22)
+							startDate: new TemporalDate(2026, 2, 22),
+							notes: 'From Kramers'
 						},
 						{
 							name: 'The Power Broker',
