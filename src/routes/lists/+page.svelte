@@ -11,7 +11,10 @@
 						{
 							name: 'Chinese Republicans',
 							finishDate: new TemporalDate(2026, 3, 13),
-							notes: 'At Laura Pels Theatre'
+							notes: 'At Laura Pels Theatre',
+							thoughts: `Each of the main characters had at least one powerful performance or moment in the play. 
+							To me, the humor felt trite, shocking and cruel in an overtly forced manner. The themes around generational 
+							divide, immigration, language and corporate politics were familiar but underdeveloped.`
 						},
 						{
 							name: 'Hamilton',
