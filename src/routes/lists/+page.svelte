@@ -444,6 +444,19 @@
 					date: 2026,
 					items: [
 						{
+							name: 'Ghostbusters',
+							year: 1984,
+							finishDate: new TemporalDate(2026, 3, 21),
+							notes: 'On Hulu',
+							thoughts: "Acting, pacing and dialogue felt disjointed."
+						},
+						{
+							name: 'The Revenant',
+							finishDate: new TemporalDate(2026, 3, 21),
+							notes: 'On Hulu',
+							thoughts: "Horrifying horse violence."
+						},
+						{
 							name: 'In the Mood for Love 2001',
 							finishDate: new TemporalDate(2026, 2, 14),
 							notes: 'At Angelika Film Center on Houston',
