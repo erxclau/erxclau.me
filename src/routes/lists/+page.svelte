@@ -444,17 +444,21 @@
 					date: 2026,
 					items: [
 						{
+							name: 'Dune',
+							finishDate: new TemporalDate(2026, 3, 24)
+						},
+						{
 							name: 'Ghostbusters',
 							year: 1984,
 							finishDate: new TemporalDate(2026, 3, 21),
 							notes: 'On Hulu',
-							thoughts: "Acting, pacing and dialogue felt disjointed."
+							thoughts: 'Acting, pacing and dialogue felt disjointed.'
 						},
 						{
 							name: 'The Revenant',
 							finishDate: new TemporalDate(2026, 3, 21),
 							notes: 'On Hulu',
-							thoughts: "Horrifying horse violence."
+							thoughts: 'Horrifying horse violence.'
 						},
 						{
 							name: 'In the Mood for Love 2001',
