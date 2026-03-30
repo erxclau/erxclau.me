@@ -445,7 +445,8 @@
 					items: [
 						{
 							name: 'Dune',
-							finishDate: new TemporalDate(2026, 3, 24)
+							finishDate: new TemporalDate(2026, 3, 24),
+							thoughts: `Cool worldbuilding and sound. I’d have to think more about whether the movie’s Middle Eastern metaphors are appropriate. A name like Lisan al-Gaib feels a tad uninspired.`
 						},
 						{
 							name: 'Ghostbusters',
