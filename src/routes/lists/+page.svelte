@@ -61,12 +61,6 @@
 							notes: 'From Arlington Public Library'
 						},
 						{
-							name: 'The Committed',
-							authors: ['Viet Thanh Nguyen'],
-							startDate: new TemporalDate(2026, 2, 22),
-							notes: 'From Kramers'
-						},
-						{
 							name: 'The Power Broker',
 							authors: ['Robert Caro'],
 							startDate: new TemporalPartialDate(2026, 1)
@@ -76,6 +70,14 @@
 				{
 					date: 2026,
 					items: [
+						{
+							name: 'The Committed',
+							authors: ['Viet Thanh Nguyen'],
+							startDate: new TemporalDate(2026, 2, 22),
+							finishDate: new TemporalDate(2026, 4, 1),
+							thoughts: `I enjoyed how Nguyen played with text font and size throughout the novel.`,
+							notes: 'From Kramers'
+						},
 						{
 							name: 'The Thing Around Your Neck',
 							authors: ['Chimamanda Ngozi Adichie'],
