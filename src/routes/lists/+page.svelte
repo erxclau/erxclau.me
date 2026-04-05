@@ -55,6 +55,11 @@
 					date: 'Current',
 					items: [
 						{
+							name: 'Project Hail Mary',
+							authors: ['Andy Weir'],
+							startDate: new TemporalDate(2026, 4, 1)
+						},
+						{
 							name: 'The Brothers Karamazov',
 							authors: ['Fyodor Dostoevsky'],
 							startDate: new TemporalDate(2026, 3, 14),
