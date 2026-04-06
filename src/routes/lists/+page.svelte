@@ -451,6 +451,11 @@
 					date: 2026,
 					items: [
 						{
+							name: 'Paprika',
+							finishDate: new TemporalDate(2026, 4, 5),
+							notes: 'At the National Museum of Asian Art'
+						},
+						{
 							name: 'Dune',
 							finishDate: new TemporalDate(2026, 3, 24),
 							thoughts: `Cool worldbuilding and sound. I’d have to think more about whether the movie’s Middle Eastern metaphors are appropriate. A name like Lisan al-Gaib feels a tad uninspired.`
