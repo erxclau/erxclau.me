@@ -1,8 +1,16 @@
+interface Image {
+	src: import('@sveltejs/enhanced-img').Picture;
+	alt: string;
+	top?: number;
+	left?: number;
+}
+
 interface Work {
 	link: string;
 	name: string;
 	description?: string;
 	affiliation?: string;
+	image?: Image;
 }
 
 interface Item {
@@ -39,4 +47,9 @@ interface Lists {
 		| [CurrentList, ...Array<DatedList>, BeforeList]
 		| [CurrentList, ...Array<DatedList>]
 		| [...Array<DatedList>, BeforeList];
-};
+}
+
+declare module '*&imagetools' {
+	const picture: import('@sveltejs/enhanced-img').Picture;
+	export default picture;
+}

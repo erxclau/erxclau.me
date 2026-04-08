@@ -8,58 +8,96 @@
 			description: 'I tell visual stories with graphics and data.',
 			list: [
 				{
-					link: 'https://wapo.st/4baXQHz',
-					name: 'Why more lawmakers are quitting Congress, and what it means for the midterms',
-					description: 'Created graphics and compiled data for congressional departures.',
-					affiliation: 'The Washington Post'
-				},
-				{
-					link: 'https://wapo.st/4qKoSMO',
-					name: 'How voters shifted in Virginia, New Jersey and New York elections',
-					description: `Led graphics preparation and contributed to election data pipelines. Contributed to graphics in follow-up analysis stories about <a href="https://wapo.st/4oJBfHL">Virginia Democrats</a> and <a href="https://wapo.st/4aIUsVH">Latino voters</a>.`,
-					affiliation: 'The Washington Post'
-				},
-				{
-					link: 'https://wapo.st/4oMOAhO',
-					name: 'Veterans Affairs’ disability benefits program is prone to exploitation.',
-					description: 'Contributed graphics to series on fraud in Veterans Affairs.',
-					affiliation: 'The Washington Post'
+					link: 'https://wapo.st/4luwnox',
+					name: 'Elon Musk gets government policy ideas from X. Here’s how.',
+					description: 'Visualized Musk’s X universe with a orbiting graphic form.',
+					affiliation: 'The Washington Post',
+					image: {
+						src: (await import('$lib/assets/work/musk-universe.png?enhanced&aspect=5:2&imagetools'))
+							.default,
+						alt: 'Several hundred circles orbiting around a central orange circle labeled Musk. The circles are colored differently.'
+					}
 				},
 				{
 					link: 'https://wapo.st/4oDpAJH',
 					name: 'Trump’s USAID pause stranded lifesaving drugs. Children died waiting.',
 					description:
 						'Created interactive graphics showing life-threatening delays in USAID shipments.',
-					affiliation: 'The Washington Post'
-				},
-				{
-					link: 'https://wapo.st/44AyAb0',
-					name: 'How Mamdani stunned in New York City’s mayoral primary, mapped',
-					description: 'Mapped precinct-level results around the city.',
-					affiliation: 'The Washington Post'
-				},
-				{
-					link: 'https://wapo.st/4jYmNZn',
-					name: '‘DEI’ vanishing from corporate filings, mirroring business world’s retreat',
-					description: 'Analyzed and visualized a decade of S&P 500 filings.',
-					affiliation: 'The Washington Post'
-				},
-				{
-					link: 'https://wapo.st/4luwnox',
-					name: 'Elon Musk gets government policy ideas from X. Here’s how.',
-					description: 'Visualized Musk’s X universe with a orbiting graphic form.',
-					affiliation: 'The Washington Post'
+					affiliation: 'The Washington Post',
+					image: {
+						src: (await import('$lib/assets/work/usaid.png?enhanced&aspect=5:2&imagetools'))
+							.default,
+						alt: 'Orange and gray circles clustered around four different stages labeled "At supplier," "In transit," "In country," and "At warehouse."'
+					}
 				},
 				{
 					link: 'https://wapo.st/3FbRhbi',
 					name: 'We texted 1,000 Americans about Trump’s tariffs. This is how they responded',
 					description: `Created visual elements and data pipelines for The Post’s text message-based flash polls.`,
-					affiliation: 'The Washington Post'
+					affiliation: 'The Washington Post',
+					image: {
+						src: (
+							await import('$lib/assets/work/flash.png?enhanced&position=entropy&aspect=5:2&imagetools')
+						).default,
+						alt: 'Orange and teal text message bubbles'
+					}
+				},
+				{
+					link: 'https://wapo.st/4qKoSMO',
+					name: 'How voters shifted in Virginia, New Jersey and New York elections',
+					description: `Led graphics preparation and contributed to election data pipelines. Contributed to graphics in follow-up analysis stories about <a href="https://wapo.st/4oJBfHL">Virginia Democrats</a> and <a href="https://wapo.st/4aIUsVH">Latino voters</a>.`,
+					affiliation: 'The Washington Post',
+					image: {
+						src: (await import('$lib/assets/work/nyc.png?enhanced&aspect=5:2&imagetools')).default,
+						alt: 'A map of New York City precincts colored yellow and blue hues.'
+					}
+				},
+				{
+					link: 'https://wapo.st/3Ughxpz',
+					name: 'Crypto cash is flooding the 2024 election. Here’s who’s benefiting.',
+					description: 'Made an interactive beeswarm for crypto political funding.',
+					affiliation: 'The Washington Post',
+					image: {
+						src: (
+							await import('$lib/assets/work/cryptocandidates.png?enhanced&aspect=5:2&imagetools')
+						).default,
+						alt: 'Blue and red bubbles of different sizes positioned along a percentage axis.'
+					}
 				},
 				{
 					link: 'https://wapo.st/3ZoJVcG',
 					name: 'Who won the Harris-Trump debate? We asked swing-state voters.',
 					description: `Built a live-updating page showing voters’ reactions the debate. Improved on the format for the <a href="https://wapo.st/3ZSsz89">vice presidential debate</a> and <a href="https://wapo.st/40I7xYF">Trump’s inaugural speech</a>.`,
+					affiliation: 'The Washington Post',
+					image: {
+						src: (
+							await import('$lib/assets/work/deciders.png?enhanced&position=top&aspect=5:2&imagetools')
+						).default,
+						alt: '23 people thought Harris performed better and 2 people thought Trump performed better'
+					}
+				},
+				{
+					link: 'https://wapo.st/4jYmNZn',
+					name: '‘DEI’ vanishing from corporate filings, mirroring business world’s retreat',
+					description: 'Analyzed and visualized a decade of S&P 500 filings.',
+					affiliation: 'The Washington Post',
+					image: {
+						src: (
+							await import('$lib/assets/work/deitable.png?enhanced&position=bottom&aspect=5:2&imagetools')
+						).default,
+						alt: 'A heatmap showing number of mentions of DEI from several companies'
+					}
+				},
+				{
+					link: 'https://wapo.st/4baXQHz',
+					name: 'Why more lawmakers are quitting Congress, and what it means for the midterms',
+					description: 'Created graphics and compiled data for congressional departures.',
+					affiliation: 'The Washington Post',
+				},
+				{
+					link: 'https://wapo.st/44AyAb0',
+					name: 'How Mamdani stunned in New York City’s mayoral primary, mapped',
+					description: 'Mapped precinct-level results around the city.',
 					affiliation: 'The Washington Post'
 				},
 				{
@@ -69,9 +107,16 @@
 					affiliation: 'The Washington Post'
 				},
 				{
-					link: 'https://wapo.st/3Ughxpz',
-					name: 'Crypto cash is flooding the 2024 election. Here’s who’s benefiting.',
-					description: 'Made an interactive beeswarm for crypto political funding.',
+					link: 'https://wapo.st/4oMOAhO',
+					name: 'Veterans Affairs’ disability benefits program is prone to exploitation.',
+					description: 'Contributed graphics to series on fraud in Veterans Affairs.',
+					affiliation: 'The Washington Post'
+				},
+				{
+					link: 'https://wapo.st/3WjjAKt',
+					name: 'Tracking Trump’s Cabinet and administration nominations',
+					description:
+						'Created a searchable and filterable database and visual elements showing appointees in the Trump administration. Collaborated with the Partnership for Public Service to build data pipelines.',
 					affiliation: 'The Washington Post'
 				},
 				{
@@ -94,12 +139,6 @@
 					affiliation: 'The Texas Tribune'
 				},
 				{
-					link: 'https://www.michigandaily.com/research/daily-analysis-finds-historically-large-salary-disparities-between-three-u-m-campuses/',
-					name: 'Daily analysis finds historically large salary disparities between three U-M campuses',
-					description: 'Analyzed data and made visuals for salary and budget records.',
-					affiliation: 'The Michigan Daily'
-				},
-				{
 					link: 'https://www.michigandaily.com/news/academics/we-looked-301-high-schools-most-applicants-u-m-heres-what-we-found/',
 					name: 'We looked at the 301 high schools with the most applicants to U-M. Here’s what we found',
 					description: 'Analyzed data and made visuals on university feeder schools.',
@@ -107,8 +146,8 @@
 				},
 				{
 					link: 'https://www.michigandaily.com/news/ann-arbor/city-of-ann-arbor-2021-special-election-results/',
-					name: 'Ann Arbor 2021 Special Election Results',
-					description: 'Built a tracker and page for live election results.',
+					name: 'Ann Arbor Election Results',
+					description: 'Built a tracker and page for live 2021 special election results.',
 					affiliation: 'The Michigan Daily'
 				}
 			]
@@ -119,47 +158,73 @@
 				'I build applications, often times with interactive, photographic and geographic elements. I care about making my work accessible to people with disabilities.',
 			list: [
 				{
-					link: 'https://wapo.st/3WjjAKt',
-					name: 'Tracking Trump’s Cabinet and administration nominations',
-					description:
-						'Created a searchable and filterable database and visual elements showing appointees in the Trump administration. Collaborated with the Partnership for Public Service to build data pipelines.',
-					affiliation: 'The Washington Post'
-				},
-				{
 					link: 'https://apps.apple.com/us/app/the-michigan-daily/id1615063980?platform=iphone',
 					name: 'The Michigan Daily',
 					description: 'Engineered a cross-platform mobile application.',
-					affiliation: 'The Michigan Daily'
+					affiliation: 'The Michigan Daily',
+					image: {
+						src: (await import('$lib/assets/work/daily.webp?enhanced&aspect=5:2&imagetools'))
+							.default,
+						alt: '"The Michigan Daily" stylized in traditional gothic lettering'
+					}
 				},
 				{
 					link: 'https://games.michigandaily.com/crosswords',
 					name: 'The Michigan Daily Crosswords',
 					description: 'Built infrastructure to publish and play crosswords.',
-					affiliation: 'The Michigan Daily'
+					affiliation: 'The Michigan Daily',
+					image: {
+						src: (
+							await import('$lib/assets/work/crosswords.png?enhanced&aspect=5:2&position=top&imagetools')
+						).default,
+						alt: 'A crossword'
+					}
 				},
 				{
 					link: 'https://www.detroit-neighborhoods.com/',
-					name: 'Detroit neighborhoods mapping tool',
+					name: 'Detroit neighborhoods',
 					description: 'Built an application to crowdsource neighborhood boundaries.',
-					affiliation: 'DETROITography'
+					affiliation: 'DETROITography',
+					image: {
+						src: (await import('$lib/assets/work/detroit.png?enhanced&aspect=5:2&imagetools'))
+							.default,
+						alt: 'A zoomed-in map of Detroit colored according to neighborhoods'
+					}
 				},
 				{
 					link: 'https://mic.michigandaily.com/2023/the-fable-of-the-lion-the-butcher-and-three-kings/',
 					name: 'The Fable of the Lion, the Butcher, and Three Kings',
 					description: 'Developed a page for a poem about Jordan.',
-					affiliation: 'The Michigan Daily'
+					affiliation: 'The Michigan Daily',
+					image: {
+						src: (await import('$lib/assets/work/jordan.png?enhanced&aspect=5:2&imagetools'))
+							.default,
+						alt: 'A map of the Middle East showing the borders of Jordan'
+					}
 				},
 				{
 					link: 'https://specials.michigandaily.com/2023/writing-in-the-digital-dark-age/',
 					name: 'Writing in the Digital Dark Age',
 					description: 'Created a visual story about the Internet.',
-					affiliation: 'The Michigan Daily'
+					affiliation: 'The Michigan Daily',
+					image: {
+						src: (
+							await import('$lib/assets/work/digital-dark-age.png?enhanced&aspect=5:2&position=top&imagetools')
+						).default,
+						alt: 'A lighthouse shining in front of the moon'
+					}
 				},
 				{
 					link: 'https://www.michigandaily.com/statement/love-notes-2022/',
-					name: 'Love Notes 2022 Edition',
+					name: 'Love Notes',
 					description: 'Designed and developed a page of student love notes.',
-					affiliation: 'The Michigan Daily'
+					affiliation: 'The Michigan Daily',
+					image: {
+						src: (
+							await import('$lib/assets/work/love.jpg?enhanced&aspect=5:2&position=top&imagetools')
+						).default,
+						alt: 'Two cassette tapes with love notes written on them.'
+					}
 				}
 			]
 		},
@@ -170,48 +235,64 @@
 				{
 					link: 'https://quarters.erxclau.workers.dev',
 					name: 'Quarters',
-					description: 'Created a website to track quarters I’ve collected.'
+					description: 'Created a website to track quarters I’ve collected.',
+					image: {
+						src: (
+							await import('$lib/assets/work/quarters.png?enhanced&position=top&aspect=5:2&imagetools')
+						).default,
+						alt: 'Ten quarters'
+					}
 				},
 				{
 					link: 'https://erxclau.github.io/chinatown-bubble-tea/',
 					name: 'Bubble tea establishments',
 					description: 'Mapped bubble tea shops in New York City’s Manhattan Chinatown.',
-					affiliation: 'The Rhetoric of Mapping with Cat Cassel at the University of Michigan'
-				},
-				{
-					link: 'https://erxclau.github.io/taxonomy-of-a-computer/',
-					name: 'Taxonomy of a computer',
-					description: 'Wrote a visual brief on my computer usage.',
-					affiliation: 'The Rhetoric of Infographics with Cat Cassel at the University of Michigan'
+					affiliation: 'The Rhetoric of Mapping with Cat Cassel at the University of Michigan',
+					image: {
+						src: (await import('$lib/assets/work/chinatown.png?enhanced&aspect=5:2&imagetools'))
+							.default,
+						alt: 'A map of Chinatown with brown circles.'
+					}
 				},
 				{
 					link: 'https://erxclau.github.io/september-of-bereal/',
 					name: 'September of BeReal',
 					description: 'Created a graphic showing my BeReal usage over a month.',
-					affiliation: 'The Rhetoric of Infographics with Cat Cassel at the University of Michigan'
+					affiliation: 'The Rhetoric of Infographics with Cat Cassel at the University of Michigan',
+					image: {
+						src: (await import('$lib/assets/work/bereal.png?enhanced&aspect=5:2&imagetools'))
+							.default,
+						alt: 'A colored calendar stylized like BeReal pictures.'
+					}
 				},
 				{
 					link: policeUrl,
 					name: 'Police Officer',
 					affiliation:
-						'Critical Data Visualization with Catherine Griffiths at the University of Michigan'
+						'Critical Data Visualization with Catherine Griffiths at the University of Michigan',
+					image: {
+						src: (
+							await import('$lib/assets/work/police.png?enhanced&aspect=5:2&position=top&imagetools')
+						).default,
+						alt: 'A silhouette of a police officer filled with officers with militarized equipment.'
+					}
 				},
 				{
 					link: grammyUrl,
 					name: 'GRAMMY',
-					affiliation: 'How Algorithms See with Catherine Griffiths at the University of Michigan'
+					affiliation: 'How Algorithms See with Catherine Griffiths at the University of Michigan',
+					image: {
+						src: (
+							await import('$lib/assets/work/grammy.jpg?enhanced&aspect=5:2&position=bottom&imagetools')
+						).default,
+						alt: 'A grid of GRAMMY winners.'
+					}
 				},
 				{
 					link: 'https://github.com/erxclau/rare-botanist',
 					name: 'Rare Botanist',
 					description:
 						'Created an automated Reddit bot to monitor house plant transactions between 14,000 members.'
-				},
-				{
-					link: 'https://observablehq.com/@ericlau/law-enforcement-management-and-administrative-statistic',
-					name: 'U.S. police agencies with external investigations into injurious use of force',
-					description: 'Explored of law enforcement data.',
-					affiliation: 'Data Visualization with Justin Joque at the University of Michigan'
 				}
 			]
 		},
@@ -283,8 +364,23 @@
 				{#each list as item}
 					<li>
 						<div class="content">
-							<a href={item.link} target="_blank">{item.name}</a>
-							<div class="description">{@html item.description}</div>
+							<div>
+								<a href={item.link} target="_blank"
+									><div>{item.name}</div>
+									{#if item.image}
+										<enhanced:img
+											class="picture"
+											src={item.image.src}
+											alt={item.image.alt}
+											width="100%"
+											loading="lazy"
+										/>
+									{/if}
+								</a>
+							</div>
+							{#if item.description}
+								<div class="description">{@html item.description}</div>
+							{/if}
 							{#if item.affiliation}
 								<div class="affiliation">For {item.affiliation}</div>
 							{/if}
@@ -365,8 +461,10 @@
 		margin: 0;
 		font-size: 1.25rem;
 		display: grid;
-		gap: 0.5rem;
+		gap: 0.75rem;
 		font-family: var(--font-serif);
+		list-style-type: none;
+		padding-left: 0;
 	}
 
 	ul a {
@@ -378,6 +476,18 @@
 		gap: 0.25rem;
 		text-wrap: balance;
 		text-wrap: pretty;
+	}
+
+	.picture {
+		display: block;
+		margin-top: 0.375rem;
+		border-radius: 7.5px;
+		filter: grayscale(0.375);
+		transition: filter 125ms linear;
+	}
+
+	ul a:hover .picture {
+		filter: none;
 	}
 
 	.description {

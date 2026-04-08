@@ -453,7 +453,8 @@
 						{
 							name: 'Paprika',
 							finishDate: new TemporalDate(2026, 4, 5),
-							notes: 'At the National Museum of Asian Art'
+							notes: 'At the National Museum of Asian Art',
+							// thoughts: `Dreams of a collective, dreaming through a body. Dr. Chiba as a girl defeating the chairman. Childlike dreams, dreams of an adult. Warping dreams. Salutes. Delusions. How to take over the minds of society. Chiba and Paprika. Konakawa realizing his dreams. Incomplete dreams. Reality compared to dreaming. Merging the two. Visual effects. Worlds within worlds. Internet websites. Japanese style. Interactive worlds. 2000s websites.`
 						},
 						{
 							name: 'Dune',
