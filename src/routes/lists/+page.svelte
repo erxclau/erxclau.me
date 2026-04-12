@@ -81,7 +81,7 @@
 							not work for me. There are what I thought to be strange, eye-rolling commentary and writing from Weir on gender and race.
 							That said, it was overall a pleasant read. I generally preferred the Dr. Grace and Rocky writing over the flashbacks. 
 							I think the Stratt character is too cold, argumentative, antisocial. Sacrifice is necessary in times of crisis but we 
-							mustn’t backslide on basic freedoms.`
+							mustn’t backslide on basic freedoms and decency.`
 						},
 						{
 							name: 'The Committed',
@@ -462,10 +462,11 @@
 							name: 'Project Hail Mary',
 							finishDate: new TemporalDate(2026, 4, 12),
 							notes: 'At AMC Georgetown 14 in IMAX',
-							thoughts: `The movie was stunning visually and audibly; I particularly enjoyed the scenes in Adrian’s Petrova line and lower atmosphere. 
-							There are expectedly changes and details cut from the novel but I think the differences were fine and didn’t diverge from the larger plot points. 
-							A fine package. I think Andy Weir tried to establish a humorous tone in the novel (at least between Dr. Grace and Rocky), 
-							but the movie did a better job at delivering that. This felt like a nice cap to the past two weeks of reading the novel and consuming the Artemis II mission. 
+							thoughts: `The movie was stunning visually and audibly; I particularly enjoyed the scenes in Adrian’s Petrova line and lower atmosphere.
+							I also enjoyed the ship and EVA suit aesthetics. I am a sucker for the NASA worm logo. Sorry, meatball. There are expectedly changes and 
+							details cut from the novel but I think the differences were fine and didn’t diverge from the larger plot points. A fine package. I think 
+							Andy Weir tried to establish a humorous tone in the novel (at least between Dr. Grace and Rocky), but the movie did a better job at delivering 
+							that. This felt like a nice cap to the past two weeks of reading the novel and consuming the Artemis II mission. 
 							Amaze, amaze, amaze.`
 						},
 						{
