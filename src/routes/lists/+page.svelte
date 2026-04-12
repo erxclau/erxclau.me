@@ -77,10 +77,11 @@
 							finishDate: new TemporalDate(2026, 4, 11),
 							notes: 'From Kramers',
 							thoughts: `The science concepts are approachable, though I did skim over some of the calculation and math text.
-							The beginning of the novel was very slow. I think Weir tries to establish a humorous tone but this generally did not work for me. 
-							A pleasant read, though. There are what I thought to be strange, eye-rolling commentary and writing from Weir on gender and race.
-							I generally preferred the Dr. Grace and Rocky writing over the flashbacks. I think the Stratt character is too cold, argumentative, antisocial.
-							Sacrifice is necessary in times of crisis but we mustn’t backslide on basic freedoms.`
+							The beginning of the novel was very slow. I think Weir tries to establish a humorous tone but this generally did 
+							not work for me. There are what I thought to be strange, eye-rolling commentary and writing from Weir on gender and race.
+							That said, it was overall a pleasant read. I generally preferred the Dr. Grace and Rocky writing over the flashbacks. 
+							I think the Stratt character is too cold, argumentative, antisocial. Sacrifice is necessary in times of crisis but we 
+							mustn’t backslide on basic freedoms.`
 						},
 						{
 							name: 'The Committed',
