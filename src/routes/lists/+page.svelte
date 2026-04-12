@@ -55,11 +55,6 @@
 					date: 'Current',
 					items: [
 						{
-							name: 'Project Hail Mary',
-							authors: ['Andy Weir'],
-							startDate: new TemporalDate(2026, 4, 1)
-						},
-						{
 							name: 'The Brothers Karamazov',
 							authors: ['Fyodor Dostoevsky'],
 							startDate: new TemporalDate(2026, 3, 14),
@@ -75,6 +70,18 @@
 				{
 					date: 2026,
 					items: [
+						{
+							name: 'Project Hail Mary',
+							authors: ['Andy Weir'],
+							startDate: new TemporalDate(2026, 4, 1),
+							finishDate: new TemporalDate(2026, 4, 11),
+							notes: 'From Kramers',
+							thoughts: `The science concepts are approachable, though I did skim over some of the calculation and math text.
+							The beginning of the novel was very slow. I think Weir tries to establish a humorous tone but this generally did not work for me. 
+							A pleasant read, though. There are what I thought to be strange, eye-rolling commentary and writing from Weir on gender and race.
+							I generally preferred the Dr. Grace and Rocky writing over the flashbacks. I think the Stratt character is too cold, argumentative, antisocial.
+							Sacrifice is necessary in times of crisis but we mustn’t backslide on basic freedoms.`
+						},
 						{
 							name: 'The Committed',
 							authors: ['Viet Thanh Nguyen'],
@@ -451,10 +458,28 @@
 					date: 2026,
 					items: [
 						{
+							name: 'Project Hail Mary',
+							finishDate: new TemporalDate(2026, 4, 12),
+							notes: 'At AMC Georgetown 14 in IMAX',
+							thoughts: `The movie was stunning visually and audibly; I particularly enjoyed the scenes in Adrian’s Petrova line and lower atmosphere. 
+							There are expectedly changes and details cut from the novel but I think the differences were fine and didn’t diverge from the larger plot points. 
+							A fine package. I think Andy Weir tried to establish a humorous tone in the novel (at least between Dr. Grace and Rocky), 
+							but the movie did a better job at delivering that. This felt like a nice cap to the past two weeks of reading the novel and consuming the Artemis II mission. 
+							Amaze, amaze, amaze.`
+						},
+						{
 							name: 'Paprika',
 							finishDate: new TemporalDate(2026, 4, 5),
 							notes: 'At the National Museum of Asian Art',
-							// thoughts: `Dreams of a collective, dreaming through a body. Dr. Chiba as a girl defeating the chairman. Childlike dreams, dreams of an adult. Warping dreams. Salutes. Delusions. How to take over the minds of society. Chiba and Paprika. Konakawa realizing his dreams. Incomplete dreams. Reality compared to dreaming. Merging the two. Visual effects. Worlds within worlds. Internet websites. Japanese style. Interactive worlds. 2000s websites.`
+							highlight: true,
+							thoughts: `Confusing and wild, in a beautiful dream-like way. 
+							How can the dream of one influence, perhaps corrupt, the dreams of the many? 
+							How can a central figure delude a collective to march, salute, hail to oblivion?
+							I can imagine how vulnerable it must feel to have someone invade your consciousness. A bad trip. 
+							As someone who produces on the Internet, I appreciated the immersive totality of the 2000s-era radioclub.jp website.
+							The themes I most picked up on: autonomy, childhood, the human body. The chairman, disabled and bound to a wheelchair, 
+							wishes to use Osanai’s body for his own dreams. And Osanai himself violates the autonomy of Dr. Chiba/Paprika’s body. 
+							Konakawa is finally able to free himself and realize his abandoned film dream.`
 						},
 						{
 							name: 'Dune',
