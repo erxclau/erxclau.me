@@ -459,6 +459,12 @@
 					date: 2026,
 					items: [
 						{
+							name: 'The Devil Wears Prada',
+							finishDate: new TemporalDate(2026, 4, 12),
+							notes: 'On Hulu',
+							thoughts: 'Obsessed, yearning, suddenly I see.'
+						},
+						{
 							name: 'Project Hail Mary',
 							finishDate: new TemporalDate(2026, 4, 12),
 							notes: 'At AMC Georgetown 14 in IMAX',
