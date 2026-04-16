@@ -92,7 +92,7 @@
 					link: 'https://wapo.st/4baXQHz',
 					name: 'Why more lawmakers are quitting Congress, and what it means for the midterms',
 					description: 'Created graphics and compiled data for congressional departures.',
-					affiliation: 'The Washington Post',
+					affiliation: 'The Washington Post'
 				},
 				{
 					link: 'https://wapo.st/44AyAb0',
@@ -347,9 +347,7 @@
 		</p>
 		<p>
 			Reach me at <code style="font-size: 1rem">hello@[domain]</code>. Look at my
-			<a href="/resume.pdf">resume</a>
-			or
-			<a href="/lists">consumption</a>.
+			<a href="/resume.pdf">resume</a>.<br />Here’s my <a href="/lists">consumption</a>.
 		</p>
 	</section>
 	{#each works as { category, description, list }}
@@ -484,6 +482,7 @@
 		border-radius: 7.5px;
 		filter: grayscale(0.375);
 		transition: filter 125ms linear;
+		aspect-ratio: 5 / 2;
 	}
 
 	ul a:hover .picture {
