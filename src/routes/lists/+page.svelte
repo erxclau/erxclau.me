@@ -55,6 +55,11 @@
 					date: 'Current',
 					items: [
 						{
+							name: 'The Topeka School',
+							authors: ['Ben Lerner'],
+							startDate: new TemporalDate(2026, 4, 17)
+						},
+						{
 							name: 'The Brothers Karamazov',
 							authors: ['Fyodor Dostoevsky'],
 							startDate: new TemporalDate(2026, 3, 14),
@@ -1667,7 +1672,8 @@
 	h3 {
 		margin: 0;
 		text-transform: uppercase;
-		font-family: sans-serif;
+		font-family: var(--font-sans);
+		font-weight: 600;
 	}
 
 	p {
@@ -1765,7 +1771,7 @@
 	}
 
 	.count {
-		font-family: sans-serif;
+		font-family: var(--font-sans);
 	}
 
 	h1 a {
