@@ -464,10 +464,25 @@
 					date: 2026,
 					items: [
 						{
+							name: 'Coach Carter',
+							finishDate: new TemporalDate(2026, 4, 20),
+							notes: 'On YouTube',
+							thoughts: `I did not understand why Timo Cruz left the team the second time. 
+							I thought his mindset had changed with his time under Carter’s coaching. Cruz’s (and Renny’s) subplot felt pretty thin.
+							More generally, the characters’ viewpoints on the contract and lockout felt bizarre.`
+						},
+						{
+							name: 'The Intern',
+							finishDate: new TemporalDate(2026, 4, 20),
+							notes: 'On YouTube',
+							thoughts: 'Some funny bits. Good chemistry between Anne Hathaway and Robert De Niro.'
+						},
+						{
 							name: 'The Devil Wears Prada',
 							finishDate: new TemporalDate(2026, 4, 12),
 							notes: 'On Hulu',
-							thoughts: 'Obsessed, yearning, suddenly I see.'
+							thoughts:
+								'What an iconic New York City opening montage! I am obsessed with the song too.'
 						},
 						{
 							name: 'Project Hail Mary',
