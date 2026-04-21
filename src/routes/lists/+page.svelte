@@ -464,6 +464,12 @@
 					date: 2026,
 					items: [
 						{
+							name: 'The Hunger Games: The Ballad of Songbirds & Snakes',
+							finishDate: new TemporalDate(2026, 4, 21),
+							notes: 'On Hulu',
+							thoughts: 'Rachel Zegler has a beautiful voice.'
+						},
+						{
 							name: 'Coach Carter',
 							finishDate: new TemporalDate(2026, 4, 20),
 							notes: 'On YouTube',
@@ -493,7 +499,8 @@
 							details cut from the novel but I think the differences were fine and didn’t diverge from the larger plot points. A fine package. I think 
 							Andy Weir tried to establish a humorous tone in the novel (at least between Dr. Grace and Rocky), but the movie did a better job at delivering 
 							that. This felt like a nice cap to the past two weeks of reading the novel and consuming the Artemis II mission. 
-							Amaze, amaze, amaze.`
+							Amaze, amaze, amaze.`,
+							highlight: true
 						},
 						{
 							name: 'Paprika',
@@ -558,14 +565,12 @@
 							thoughts: `I enjoyed the trilogy as a whole. The physical changes in the actors over decades made the progression
 							in themselves and their relationship feel believable. Love is perhaps at its most innocent when composed of just two
 							people existing in some ephemeral place or existence together. Life — through family, friends and work — complicates
-							love as in the second and third movies. To love, in a real world, is to endure with all of life’s necessary complexities.`,
-							highlight: true
+							love as in the second and third movies. To love, in a real world, is to endure with all of life’s necessary complexities.`
 						},
 						{
 							name: 'Before Sunset',
 							finishDate: new TemporalDate(2025, 12, 30),
-							notes: 'On YouTube',
-							highlight: true
+							notes: 'On YouTube'
 						},
 						{
 							name: 'Before Sunrise',
