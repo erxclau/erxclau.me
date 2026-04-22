@@ -464,6 +464,12 @@
 					date: 2026,
 					items: [
 						{
+							name: 'Passengers',
+							finishDate: new TemporalDate(2026, 4, 22),
+							notes: 'On Hulu',
+							thoughts: `The male loneliness epidemic, now in space. Jim could’ve taken this chance to make a male friend (Arthur aside).`
+						},
+						{
 							name: 'Soul Plane',
 							finishDate: new TemporalDate(2026, 4, 21),
 							notes: 'On YouTube',
