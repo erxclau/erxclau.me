@@ -464,6 +464,12 @@
 					date: 2026,
 					items: [
 						{
+							name: 'Soul Plane',
+							finishDate: new TemporalDate(2026, 4, 21),
+							notes: 'On YouTube',
+							thoughts: 'There’s so much space in that plane!'
+						},
+						{
 							name: 'The Hunger Games: The Ballad of Songbirds & Snakes',
 							finishDate: new TemporalDate(2026, 4, 21),
 							notes: 'On Hulu',
