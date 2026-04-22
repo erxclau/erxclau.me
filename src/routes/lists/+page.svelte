@@ -464,10 +464,18 @@
 					date: 2026,
 					items: [
 						{
+							name: 'Pacific Rim Uprising',
+							finishDate: new TemporalDate(2026, 4, 22),
+							notes: 'On Hulu',
+							thoughts: `I found it hard to care about the characters. The dialogue felt lacking and the attempts at humor were too frequent and often misplaced. Jaegar and Kaiju fight scenes were nice, I guess.`
+						},
+						{
 							name: 'Passengers',
 							finishDate: new TemporalDate(2026, 4, 22),
 							notes: 'On Hulu',
-							thoughts: `The male loneliness epidemic, now in space. Jim could’ve taken this chance to make a male friend (Arthur aside).`
+							thoughts: `The male loneliness epidemic, now in space. Jim could’ve taken this chance to make a male friend (Arthur aside).
+							On a more serious note, a woman’s life shouldn’t be destroyed at the whim of a man who can’t find happiness on his own. 
+							Regardless, I did like the overarching thought that you can’t wait for the perfect conditions to live out a life.`
 						},
 						{
 							name: 'Soul Plane',
