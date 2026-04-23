@@ -464,6 +464,19 @@
 					date: 2026,
 					items: [
 						{
+							name: 'After Yang',
+							finishDate: new TemporalDate(2026, 4, 22),
+							notes: 'On Kanopy',
+							thoughts: `The thought that the search for tea is more interesting than the taste; is that an orientalist mindset? 
+							To explore, find, understand, catalogue, extract but ultimately not immerse and embrace the experience.
+							Why long to search for tea if you don’t stop to enjoy it? Jake does ultimately concede that the taste too is interesting,
+							but only after Yang questions him about it. It is also notable that Jake’s introduction to tea is through a
+							Western documentary set in China. Does Jake know tea? Maybe, through his rituals and ability to speak on it. Tragically,
+							this makes Yang feel that he does not know tea either. What makes someone Asian? Is knowing “Chinese fun facts” enough?
+							I loved the dance scene at the beginning.`,
+							highlight: true
+						},
+						{
 							name: 'Pacific Rim Uprising',
 							finishDate: new TemporalDate(2026, 4, 22),
 							notes: 'On Hulu',
