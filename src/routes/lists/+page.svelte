@@ -206,7 +206,6 @@
 							name: 'Unassimilable: An Asian Diasporic Manifesto for the 21st Century',
 							authors: ['Bianca Mabute-Louie'],
 							notes: 'From Bridge Street Books',
-							highlight: true,
 							thoughts:
 								'The “Asian Diaspora” framing is compelling, but I do not completely resonate with it as someone who does not have particular attachments to the motherland with respect to language, travel or culture. I do value the narrative on how Mabute-Louie grew up in a religious community and “ethnoburb.”'
 						},
@@ -214,14 +213,12 @@
 							name: 'The Year of Magical Thinking',
 							authors: ['Joan Didion'],
 							notes: 'From Strand Bookstore',
-							highlight: true,
 							thoughts: 'I enjoyed the fluidity of Didion’s writing.'
 						},
-						{ name: 'Living in Data', authors: ['Jer Thorp'], highlight: true },
+						{ name: 'Living in Data', authors: ['Jer Thorp'] },
 						{
 							name: 'Killing Rage: Ending Racism',
 							authors: ['bell hooks'],
-							highlight: true,
 							thoughts: `In relation to Black beauty standards that I read about in The Message, 
 							hooks discusses the “Black is beautiful” movement of the 1960s that rejected Eurocentric 
 							beauty standards. Yet, because of robust Western programming and lasting white prejudice
