@@ -461,6 +461,16 @@
 					date: 2026,
 					items: [
 						{
+							name: '(500) Days of Summer',
+							finishDate: new TemporalDate(2026, 4, 23),
+							notes: 'On Hulu',
+							thoughts: `I enjoyed the non-linear structure. The IKEA scene was fun. I also have an irrational fear/nightmare/thought of my teeth falling out.
+							Should we stop relying on strangers putting words into our mouths to express how we feel? Maybe that’d be easy for greeting cards, but what about for 
+							music, movies, art, media and culture more broadly? And what does it mean for someone to be a part of that ecosystem. “There’s enough bullshit in the world
+							without my help.” The lady at the end being named Autumn made me laugh.`,
+							highlight: true
+						},
+						{
 							name: 'After Yang',
 							finishDate: new TemporalDate(2026, 4, 22),
 							notes: 'On Kanopy',
