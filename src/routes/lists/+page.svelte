@@ -57,18 +57,20 @@
 						{
 							name: 'The Topeka School',
 							authors: ['Ben Lerner'],
-							startDate: new TemporalDate(2026, 4, 17)
+							startDate: new TemporalDate(2026, 4, 17),
+							notes: 'Gift from Sharon'
 						},
 						{
 							name: 'The Brothers Karamazov',
-							authors: ['Fyodor Dostoevsky'],
+							authors: ['Fyodor Dostoevsky', 'Edmund Fuller'],
 							startDate: new TemporalDate(2026, 3, 14),
 							notes: 'From Arlington Public Library'
 						},
 						{
 							name: 'The Power Broker',
 							authors: ['Robert Caro'],
-							startDate: new TemporalPartialDate(2026, 1)
+							startDate: new TemporalPartialDate(2026, 1),
+							notes: 'Gift from Irena'
 						}
 					]
 				},
@@ -215,7 +217,11 @@
 							notes: 'From Strand Bookstore',
 							thoughts: 'I enjoyed the fluidity of Didion’s writing.'
 						},
-						{ name: 'Living in Data', authors: ['Jer Thorp'], thoughts: 'Fascinating story about the algorithmic design of the 9/11 Memorial.' },
+						{
+							name: 'Living in Data',
+							authors: ['Jer Thorp'],
+							thoughts: 'Fascinating story about the algorithmic design of the 9/11 Memorial.'
+						},
 						{
 							name: 'Killing Rage: Ending Racism',
 							authors: ['bell hooks'],
