@@ -215,7 +215,7 @@
 							notes: 'From Strand Bookstore',
 							thoughts: 'I enjoyed the fluidity of Didion’s writing.'
 						},
-						{ name: 'Living in Data', authors: ['Jer Thorp'], notes: 'Fascinating story about the algorithmic design of the 9/11 Memorial.' },
+						{ name: 'Living in Data', authors: ['Jer Thorp'], thoughts: 'Fascinating story about the algorithmic design of the 9/11 Memorial.' },
 						{
 							name: 'Killing Rage: Ending Racism',
 							authors: ['bell hooks'],
