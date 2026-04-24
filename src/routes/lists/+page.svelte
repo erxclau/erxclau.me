@@ -461,7 +461,7 @@
 					date: 2026,
 					items: [
 						{
-							name: 'A Man Named Otto',
+							name: 'A Man Called Otto',
 							finishDate: new TemporalDate(2206, 4, 23),
 							notes: 'On Hulu',
 							highlight: true,
