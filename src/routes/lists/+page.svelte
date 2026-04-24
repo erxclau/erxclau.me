@@ -461,6 +461,16 @@
 					date: 2026,
 					items: [
 						{
+							name: 'A Man Named Otto',
+							finishDate: new TemporalDate(2206, 4, 23),
+							notes: 'On Hulu',
+							highlight: true,
+							thoughts: `Never kill yourself. Despite his disposition, Otto is in fact a luchador. He is a man deeply dedicated in his fight 
+							for justice and building community. Corporations (Dye & Merica, the steel plant and the bus company), through greed, 
+							negligence and crime tried to ruin his life. Despite it all, Otto’s still got a big heart. I appreciated the themes around
+							accessibility and gender.`
+						},
+						{
 							name: '(500) Days of Summer',
 							finishDate: new TemporalDate(2026, 4, 23),
 							notes: 'On Hulu',
