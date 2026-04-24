@@ -461,8 +461,16 @@
 					date: 2026,
 					items: [
 						{
+							name: 'A Man Called Ove',
+							finishDate: new TemporalDate(2026, 4, 24),
+							notes: 'On Tubi',
+							thoughts: `I think I prefer the remake because I feel some things were lost in translation and for my
+							better understanding of American culture and setting. I do like that this original version included more
+							in building Otto’s past in the flashbacks.`
+						},
+						{
 							name: 'A Man Called Otto',
-							finishDate: new TemporalDate(2206, 4, 23),
+							finishDate: new TemporalDate(2026, 4, 23),
 							notes: 'On Hulu',
 							highlight: true,
 							thoughts: `Never kill yourself. Despite his disposition, Otto is in fact a luchador. He is a man deeply dedicated in his fight 
