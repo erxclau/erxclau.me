@@ -490,7 +490,7 @@
 							notes: 'On Hulu',
 							thoughts: `I enjoyed the non-linear structure. The IKEA scene was fun. I also have an irrational fear/nightmare/thought of my teeth falling out.
 							Should we stop relying on strangers putting words into our mouths to express how we feel? Maybe that’d be easy for greeting cards, but what about for 
-							music, movies, art, media and culture more broadly? And what does it mean for someone to be a part of that ecosystem. “There’s enough bullshit in the world
+							music, movies, art, media and culture more broadly? And what does it mean for someone to be a part of that ecosystem? “There’s enough bullshit in the world
 							without my help.” The lady at the end being named Autumn made me laugh.`,
 							highlight: true
 						},
@@ -1213,21 +1213,44 @@
 						{ name: 'Flags of Our Fathers' },
 						{ name: 'The Thin Red Line', year: 1998 },
 						{ name: 'Hacksaw Ridge' },
-						{ name: 'Tora! Tora! Tora', thoughts: `The better Pearl Harbor movie.` },
+						{ name: 'Tora! Tora! Tora!', thoughts: `The better Pearl Harbor movie.` },
 						{ name: 'Pearl Harbor' },
 						{ name: 'Enemy at the Gates' },
 						{ name: 'Patton' },
 						{ name: 'Zulu' },
 						{ name: 'The Karate Kid', year: 2010 },
 						{ name: 'Shawshank Redemption' },
-						{ name: 'Good Will Hunting' },
+						{ name: 'Good Will Hunting', highlight: true },
 						{ name: 'Forrest Gump', highlight: true },
 						{ name: 'The Outsiders' },
 						{ name: 'Grease' },
 						{ name: 'Cast Away' },
 						{ name: 'A Beautiful Mind' },
 						{ name: 'School of Rock' },
-						{ name: 'Lincoln' }
+						{ name: 'Lincoln' },
+						{
+							name: 'The Thinking Game',
+							authors: ['DeepMind'],
+							highlight: true,
+							notes: 'On YouTube',
+							url: 'https://www.youtube.com/watch?v=d95J8yzvjbQ'
+						},
+						{
+							name: 'AlphaGo',
+							authors: ['DeepMind'],
+							highlight: true,
+							notes: 'On YouTube',
+							url: 'https://www.youtube.com/watch?v=WXuK6gekU1Y'
+						},
+						{
+							name: 'The Fallen of World War II',
+							authors: ['Neil Halloran'],
+							highlight: true,
+							notes: 'On YouTube',
+							url: 'https://www.youtube.com/watch?v=DwKPFT-RioU',
+							thoughts:
+								'An early piece of media that likely influenced my becoming a visual journalist, though of course I did not know it at the time.'
+						}
 					]
 				}
 			]
@@ -1288,7 +1311,7 @@
 				{
 					date: 2024,
 					items: [
-						{ name: 'Masters of the Air' },
+						{ name: 'Masters of the Air', notes: 'On Apple TV' },
 						{ name: 'Moral Orel', highlight: true },
 						{ name: 'Quiet on Set: The Dark Side of Kids TV' }
 					]
@@ -1321,34 +1344,6 @@
 						{
 							name: 'Battlefield',
 							notes: `I watched several of the Second World War episodes during my childhood.`
-						}
-					]
-				}
-			]
-		},
-		{
-			category: 'Documentaries',
-			lists: [
-				{
-					date: undefined,
-					items: [
-						{
-							name: 'The Thinking Game',
-							authors: ['DeepMind'],
-							highlight: true,
-							url: 'https://www.youtube.com/watch?v=d95J8yzvjbQ'
-						},
-						{
-							name: 'AlphaGo',
-							authors: ['DeepMind'],
-							highlight: true,
-							url: 'https://www.youtube.com/watch?v=WXuK6gekU1Y'
-						},
-						{
-							name: 'The Fallen of World War II',
-							authors: ['Neil Halloran'],
-							highlight: true,
-							url: 'https://www.youtube.com/watch?v=DwKPFT-RioU'
 						}
 					]
 				}
