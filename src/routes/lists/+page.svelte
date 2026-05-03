@@ -480,7 +480,7 @@
 							for that conversation to happen mere days before your wedding!
 							Maybe the conversation would have happened on its own in a more
 							natural setting in due time. But love realistically does not exist
-							in a vacuum; its filled with interactions with others that might
+							in a vacuum; it’s filled with interactions with others that might
 							make you question your love. I think Rachel did something far 
 							worse than Emma. I felt her reaction about Emma’s divulgence was 
 							unwarranted. Sam is barely a character and we don’t get a sense of
