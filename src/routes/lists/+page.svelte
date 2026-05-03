@@ -477,18 +477,22 @@
 							be comfortable enough with your soon-to-be life partner as to be 
 							radically transparent with them (even for something so as heinous 
 							as attempting a school shooting) in an unforced conversation. And 
-							for that conversation to happen mere days before your wedding! 
-							I think Rachel did something far worse than Emma. I felt her 
-							reaction about Emma’s divulgence was unwarranted. Sam is barely a 
-							character and we don’t get a sense of how close they are to each 
-							other. Emma’s fixation on the DJ smoking heroin also seemed 
-							extreme to me. I suppose the movie is meant to be hyperbolic, 
-							punchy, dramatic even. It just makes things hard to believe. There
-							was a charm to the movie. I enjoyed the scenes where they 
-							reenacted meeting each other, their inside jokes. There was too 
-							much obnoxious laughter in the theater at moments I thought were 
-							not especially funny. I also unforunately missed the first couple 
-							of minutes after running late from a happy hour. Alas.`
+							for that conversation to happen mere days before your wedding!
+							Maybe the conversation would have happened on its own in a more
+							natural setting in due time. But love realistically does not exist
+							in a vacuum; its filled with interactions with others that might
+							make you question your love. I think Rachel did something far 
+							worse than Emma. I felt her reaction about Emma’s divulgence was 
+							unwarranted. Sam is barely a character and we don’t get a sense of
+							how close they are to each other. Emma’s fixation on the DJ
+							smoking heroin also seemed extreme to me. I suppose the movie is 
+							meant to be hyperbolic, punchy, dramatic even. It just makes 
+							things hard to believe. There was a charm to the movie. I enjoyed 
+							the scenes where they reenacted meeting each other, their inside 
+							jokes. There was too much obnoxious laughter in the theater at 
+							moments I thought were not especially funny. I also unforunately 
+							missed the first couple of minutes after running late from a happy 
+							hour. Alas.`
 						},
 						{
 							name: 'A Man Called Ove',
