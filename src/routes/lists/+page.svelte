@@ -9,6 +9,32 @@
 					date: 2026,
 					items: [
 						{
+							name: 'A Streetcar Named Desire',
+							finishDate: new TemporalDate(2026, 5, 3),
+							notes: 'At Dupont Underground',
+							thoughts: `This was quite an experience. I knew nothing of the
+							play before and had not been to the venue before. I did not expect
+							the performance and space to be so minimal. The performers were
+							really strong. Despite the elongated space and strange acoustics, 
+							I was able to hear everyone for the most part. Stanley did an
+							incredible job projecting, given his booming presence. The minimal
+							set was confusing at times. I had a hard time sometimes knowing
+							where the characters were and how they were interacting with the
+							environment. The small ensemble also made it hard to distinguish
+							if and when a performer was acting out separate characters. The
+							use of light was dramatic and even haunting at times. I suppose
+							the play was meant to take place in the early 20th century but
+							the dress and lack of setting made the story feel more 
+							contemporary, even though the thought of a streetcar and some of
+							the language still felt antique. Blanche is quite the tragic
+							character. She’d lost her family and even lost Stella figuratively
+							to Stanley. How sad to try to start a new life but be rejected for
+							all of the skeletons you are trying to move past. I think a 
+							similar theme to The Drama: that Mitch and Blanche wanted to get
+							married but not after learning of Blanche’s past.`,
+							highlight: true
+						},
+						{
 							name: 'Chinese Republicans',
 							finishDate: new TemporalDate(2026, 3, 13),
 							notes: 'At Laura Pels Theatre',
@@ -466,6 +492,20 @@
 				{
 					date: 2026,
 					items: [
+						{
+							name: 'The Devil Wears Prada 2',
+							finishDate: new TemporalDate(2026, 5, 7),
+							notes: 'At AMC Courthouse Plaza 8',
+							thoughts: `I was pleasantly surprised about the journalism themes.
+							Incredible timing, really! With the layoffs and awards and all.
+							Loved the mention of interactive journalism. The caricatures were
+							well done. Is Andy really making that much as a journalist? They 
+							tried to make her apartment at the start of the movie be 
+							dysfunctional (with the dirty laundry), but it looked rather large
+							and pristine. I did not think Andy’s dating subplot was necessary.
+							Yes, journalism is in fact more important than contracting on
+							buildings. Cameos galore! Shoutout Kara Swisher.`
+						},
 						{
 							name: 'The Drama',
 							finishDate: new TemporalDate(2026, 5, 1),
