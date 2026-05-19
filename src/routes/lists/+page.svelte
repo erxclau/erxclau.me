@@ -87,12 +87,6 @@
 							notes: 'Gift from Sharon'
 						},
 						{
-							name: 'The Brothers Karamazov',
-							authors: ['Fyodor Dostoevsky', 'Edmund Fuller'],
-							startDate: new TemporalDate(2026, 3, 14),
-							notes: 'From Arlington Public Library'
-						},
-						{
 							name: 'The Power Broker',
 							authors: ['Robert Caro'],
 							startDate: new TemporalPartialDate(2026, 1),
@@ -103,6 +97,13 @@
 				{
 					date: 2026,
 					items: [
+						{
+							name: 'The Brothers Karamazov',
+							authors: ['Fyodor Dostoevsky', 'Constance Garnett', 'Edmund Fuller'],
+							startDate: new TemporalDate(2026, 3, 14),
+							finishDate: new TemporalDate(2026, 5, 19),
+							notes: 'From Arlington Public Library'
+						},
 						{
 							name: 'Project Hail Mary',
 							authors: ['Andy Weir'],
