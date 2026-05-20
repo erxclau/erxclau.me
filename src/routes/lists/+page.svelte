@@ -102,6 +102,16 @@
 							authors: ['Fyodor Dostoevsky', 'Constance Garnett', 'Edmund Fuller'],
 							startDate: new TemporalDate(2026, 3, 14),
 							finishDate: new TemporalDate(2026, 5, 19),
+							thoughts: `I did not fully comprehend that I got an abridged 
+							version. It was still plenty long. I enjoyed The Grand Inquisitor
+							chapter, in particular a passage that reminded me of Ursula K. Le
+							Guin’s utilitarian short story about Omelas. Dostoevsky had
+							originally explored the idea in a more Christian framework which I
+							had not considered in Le Guin’s work. As one might expect of the
+							time period, the story is quite romantic, passionate, dramatic,
+							and persistent themes in modern life: the loss of religious
+							institutions, free will, fatherhood, socialism, Russia’s
+							resistance to western European influences.`,
 							notes: 'From Arlington Public Library'
 						},
 						{
