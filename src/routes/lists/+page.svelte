@@ -111,7 +111,10 @@
 							time period, the story is quite romantic, passionate, dramatic,
 							and persistent themes in modern life: the loss of religious
 							institutions, free will, fatherhood, socialism, Russia’s
-							resistance to western European influences.`,
+							resistance to western European influences. The best and most 
+							complex parts of the novel come from the monologues and dialogues
+							about these large ideas. I do think it’d be worthwhile to read 
+							a full unabridged version at some point.`,
 							notes: 'From Arlington Public Library'
 						},
 						{
