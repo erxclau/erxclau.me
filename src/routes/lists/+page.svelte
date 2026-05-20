@@ -1629,7 +1629,7 @@
 	{:else if list.length === 2}
 		{list.at(0)} and {list.at(1)}
 	{:else}
-		{list.at(0)}, {authors(list.slice(1))}
+		{list.at(0)}, {@render authors(list.slice(1))}
 	{/if}
 {/snippet}
 
