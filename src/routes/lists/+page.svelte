@@ -108,13 +108,13 @@
 							Guin’s utilitarian short story about Omelas. Dostoevsky had
 							originally explored the idea in a more Christian framework which I
 							had not considered in Le Guin’s work. As one might expect of the
-							time period, the story is quite romantic, passionate, dramatic,
-							and persistent themes in modern life: the loss of religious
-							institutions, free will, fatherhood, socialism, Russia’s
-							resistance to western European influences. The best and most 
-							complex parts of the novel come from the monologues and dialogues
-							about these large ideas. I do think it’d be worthwhile to read 
-							a full unabridged version at some point.`,
+							time period, the story is quite romantic, passionate, dramatic.
+							Yet there are themes that persist to contemporary life as well: 
+							the loss of religious institutions, free will, fatherhood, 
+							socialism, Russia’s resistance to western European influences. 
+							The best and most complex parts of the novel come from the 
+							monologues and dialogues about these large ideas. I do think it’d 
+							be worthwhile to read a full unabridged version at some point.`,
 							notes: 'From Arlington Public Library'
 						},
 						{
@@ -506,6 +506,16 @@
 				{
 					date: 2026,
 					items: [
+						{
+							name: 'Rosemead',
+							finishDate: new TemporalDate(2026, 5, 22),
+							notes: 'On Hulu',
+							highlight: true,
+							thoughts: `Horrifying, scary, disturbing, soul-crushing in the way
+							where you hope to yourself that something like that will never 
+							manifest in the real world. But it did happen, to a real family, 
+							in the real world.`
+						},
 						{
 							name: 'The Devil Wears Prada 2',
 							finishDate: new TemporalDate(2026, 5, 7),
