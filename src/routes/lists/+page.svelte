@@ -507,6 +507,16 @@
 					date: 2026,
 					items: [
 						{
+							name: 'The Amateur',
+							finishDate: new TemporalDate(2026, 5, 23),
+							notes: 'On Hulu',
+							thoughts: `The film unfortunately uses elements typical for 
+							“hacking” media: monospaced fonts, an absurd number of monitors,
+							futuristic-sounding blips and boops, windows popping up all at once 
+							for no reason, and so on. Some of the action sequences did feel
+							creative, given Charlie’s hesitancy with murder.`
+						},
+						{
 							name: 'Rosemead',
 							finishDate: new TemporalDate(2026, 5, 22),
 							notes: 'On Hulu',
