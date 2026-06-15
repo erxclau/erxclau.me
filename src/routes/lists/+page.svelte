@@ -507,6 +507,21 @@
 					date: 2026,
 					items: [
 						{
+							name: 'Ghost in the Shell',
+							year: 1995,
+							finishDate: new TemporalDate(2026, 6, 13),
+							notes: 'On YouTube',
+							thoughts: `Great detail work. Happy to finally see the scene
+							behind the keyboard fingers. I feel I did not entirely follow the
+							plot, especially what “sections” are and how they relate to each
+							other. Despite being a Japanese movie, I think there can still be
+							critical racial and gender questions asked about what it means to
+							portray an Asian woman prominently as a nude shell of a person, 
+							able to be “merged” with some puppet master. The artificial 
+							intelligence thoughts were nice, but not particularly novel in the
+							modern discourse.`
+						},
+						{
 							name: 'The Amateur',
 							finishDate: new TemporalDate(2026, 5, 23),
 							notes: 'On Hulu',
