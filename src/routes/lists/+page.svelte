@@ -9,6 +9,27 @@
 					date: 2026,
 					items: [
 						{
+							name: 'Chess',
+							finishDate: new TemporalDate(2026, 6, 16),
+							notes: 'At Imperial Theatre',
+							thoughts: `I was influenced to watch after reading a New York 
+							Times article about the show closing down after Lea Michele’s 
+							departure, even though I don’t particularly know her work. I 
+							generally enjoyed the colors and lighting. I unfortunately could 
+							not make out the lyrics to some of the musical numbers, especially
+							the ones with backing instrumentation or vocals. I could still 
+							follow the plot, but feel I missed out on much of the character 
+							development and mindsets. They were nonetheless bangers. I enjoyed
+							the fourth wall moments from the narrator. I was disappointed the
+							players did not sit down to play at a real chess board, though I 
+							did appreciate the historical context the play provided about the
+							Cold War and chess’s part in it. I can’t say I’m a chess historian
+							but I could definitely pick up on Freddie Trumper’s Bobby Fischer 
+							inspiration. I’m glad for Florence Vassy’s inclusion though much 
+							of her story is still told in how she relates and serves the men 
+							around her.`
+						},
+						{
 							name: 'A Streetcar Named Desire',
 							finishDate: new TemporalDate(2026, 5, 3),
 							notes: 'At Dupont Underground',
