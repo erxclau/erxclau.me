@@ -9,6 +9,44 @@
 			<li>
 				<figure>
 					<blockquote>
+						I’m not saying we’re going to be some kind of couple always but I want to be in New York
+						some weekend with you[.]
+					</blockquote>
+					<figcaption>Amber <cite>The Topeka School</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>
+						[W]e thought that if we had a language for our feelings we might transcend them. More
+						often we fed them.
+					</blockquote>
+					<figcaption>Jonathan <cite>The Topeka School</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>America was one vast institution; it had no outside.</blockquote>
+					<figcaption>Jonathan <cite>The Topeka School</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>
+						I often suspected that people were only going through the motions of reading, or
+						mimicking its stillness; did I pretend to read as a child, maybe as a way of escaping
+						something—my father’s anger? Walking through the library in graduate school, I’d think
+						to myself: Not a single one of you people, if I shut your book, would be able to tell me
+						what you’ve just read. Shallow-reading. And when I myself was reading, I was actuely
+						aware of other people watching me, of how I performed absorption, which of course
+						distracted me from the page.
+					</blockquote>
+					<figcaption>Jonathan <cite>The Topeka School</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>
 						And I swear, by finding him guilty you will only make it easier for him: you will ease
 						his conscience, he will curse the blood he has shed and will not regret it. At the same
 						time you will destroy in him the possibility of becoming a new man, for he will remain
