@@ -102,12 +102,6 @@
 					date: 'Current',
 					items: [
 						{
-							name: 'The Topeka School',
-							authors: ['Ben Lerner'],
-							startDate: new TemporalDate(2026, 4, 17),
-							notes: 'Gift from Sharon'
-						},
-						{
 							name: 'The Power Broker',
 							authors: ['Robert Caro'],
 							startDate: new TemporalPartialDate(2026, 1),
@@ -118,6 +112,28 @@
 				{
 					date: 2026,
 					items: [
+						{
+							name: 'The Topeka School',
+							authors: ['Ben Lerner'],
+							startDate: new TemporalDate(2026, 4, 17),
+							finishDate: new TemporalDate(2026, 6, 28),
+							notes: 'Gift from Sharon',
+							thoughts: `I enjoyed Lerner’s style, at least in how he constructs
+							sentences. The switching perspectives and time periods kept me on 
+							my toes. Admittedly, this was a bit of a shallow reading from my 
+							part. I found myself at times confused about who was being 
+							narrated. Many names to keep track of for my distracted mind over
+							the course of two months! I do think the switching makes sense 
+							thematically, as we try to tie together how Adam’s parents’s
+							past and current lives influence his, and vice versa, along with
+							all of the other minor characters. Lerner gives some good nuance 
+							on what it’s like to grow up as a boy in modern America. The 
+							struggle with conformity presents itself in many ways: spreading
+							as a niche skill to win or gain favor in debate tournaments, 
+							masquerading as rappers in white America, feigning acceptance for
+							outcasts. There’s more for me to untangle about the significance 
+							of the story being written in the Trump era, and of New York City.`
+						},
 						{
 							name: 'The Brothers Karamazov',
 							authors: ['Fyodor Dostoevsky', 'Constance Garnett', 'Edmund Fuller'],
