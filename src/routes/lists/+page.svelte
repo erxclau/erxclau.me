@@ -544,6 +544,12 @@
 					date: 2026,
 					items: [
 						{
+							name: "The Marvels",
+							finishDate: new TemporalDate(2026, 6, 30),
+							notes: "On Disney+",
+							thoughts: `I generally liked the teleportation premise.`
+						},
+						{
 							name: 'Ghost in the Shell',
 							year: 1995,
 							finishDate: new TemporalDate(2026, 6, 13),
