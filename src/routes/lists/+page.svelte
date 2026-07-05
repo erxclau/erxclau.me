@@ -544,9 +544,22 @@
 					date: 2026,
 					items: [
 						{
-							name: "The Marvels",
+							name: 'X2',
+							finishDate: new TemporalDate(2026, 7, 4),
+							notes: 'On Disney+',
+							thoughts: `Surely Bobby could have frozen the water that broke
+							from the dam.`
+						},
+						{
+							name: 'X-Men',
+							finishDate: new TemporalDate(2026, 7, 4),
+							notes: 'On Disney+',
+							thoughts: `Action felt flimsy.`
+						},
+						{
+							name: 'The Marvels',
 							finishDate: new TemporalDate(2026, 6, 30),
-							notes: "On Disney+",
+							notes: 'On Disney+',
 							thoughts: `I generally liked the teleportation premise.`
 						},
 						{
@@ -1420,7 +1433,13 @@
 			lists: [
 				{
 					date: 'Current',
-					items: []
+					items: [
+						{
+							name: 'Industry',
+							notes: 'On HBO Max',
+							startDate: new TemporalDate(2026, 7, 2)
+						}
+					]
 				},
 				{
 					date: 2026,
