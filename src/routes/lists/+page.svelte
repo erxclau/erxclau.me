@@ -544,6 +544,12 @@
 					date: 2026,
 					items: [
 						{
+							name: "X-Men: The Last Stand",
+							finishDate: new TemporalDate(2026, 7, 5),
+							notes: "On Disney+",
+							thoughts: `The blip before blips.`
+						},
+						{
 							name: 'X2',
 							finishDate: new TemporalDate(2026, 7, 4),
 							notes: 'On Disney+',
