@@ -549,7 +549,7 @@
 							notes: 'On Disney+',
 							thoughts: `I enjoyed the historical geopolitical aspect of the 
 							movie, and that Magneto is not built as a villain. The accents for
-							apparent Germans continues to feel silly to me.`
+							apparent Germans continue to feel silly to me.`
 						},
 						{
 							name: 'X-Men: The Last Stand',
