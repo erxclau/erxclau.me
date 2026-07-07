@@ -544,9 +544,17 @@
 					date: 2026,
 					items: [
 						{
-							name: "X-Men: The Last Stand",
+							name: 'X-Men: First Class',
+							finishDate: new TemporalDate(2026, 7, 6),
+							notes: 'On Disney+',
+							thoughts: `I enjoyed the historical geopolitical aspect of the 
+							movie, and that Magneto is not built as a villain. The accents for
+							apparent Germans continues to feel silly to me.`
+						},
+						{
+							name: 'X-Men: The Last Stand',
 							finishDate: new TemporalDate(2026, 7, 5),
-							notes: "On Disney+",
+							notes: 'On Disney+',
 							thoughts: `The blip before blips.`
 						},
 						{
