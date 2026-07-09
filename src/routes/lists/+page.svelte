@@ -544,6 +544,18 @@
 					date: 2026,
 					items: [
 						{
+							name: 'X-Men: Apocalypse',
+							finishDate: new TemporalDate(2026, 7, 8),
+							notes: "On Disney+",
+							thoughts: `More blipping.`
+						},
+						{
+							name: 'X-Men: Days of Future Past',
+							finishDate: new TemporalDate(2026, 7, 6),
+							notes: 'On Disney+',
+							thoughts: `I love the Quicksilver bullet scene.`
+						},
+						{
 							name: 'X-Men: First Class',
 							finishDate: new TemporalDate(2026, 7, 6),
 							notes: 'On Disney+',
