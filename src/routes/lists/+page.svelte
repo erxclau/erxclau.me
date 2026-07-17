@@ -544,9 +544,15 @@
 					date: 2026,
 					items: [
 						{
+							name: 'Dark Phoenix',
+							finishDate: new TemporalDate(2026, 7, 17),
+							notes: 'On Disney+',
+							thoughts: `Confused about the canon timeline.`
+						},
+						{
 							name: 'X-Men: Apocalypse',
 							finishDate: new TemporalDate(2026, 7, 8),
-							notes: "On Disney+",
+							notes: 'On Disney+',
 							thoughts: `More blipping.`
 						},
 						{
@@ -1461,9 +1467,19 @@
 					date: 'Current',
 					items: [
 						{
+							name: 'Abbott Elementary',
+							notes: 'On Hulu',
+							startDate: new TemporalDate(2025, 6, 28)
+						},
+						{
 							name: 'Industry',
 							notes: 'On HBO Max',
 							startDate: new TemporalDate(2026, 7, 2)
+						},
+						{
+							name: 'Heated Rivalry',
+							notes: 'On HBO Max',
+							startDate: new TemporalPartialDate(2026, 12)
 						}
 					]
 				},
@@ -1474,7 +1490,8 @@
 							name: 'Ted Lasso',
 							notes: 'On Apple TV',
 							startDate: new TemporalDate(2026, 2, 18),
-							finishDate: new TemporalDate(2026, 2, 22)
+							finishDate: new TemporalDate(2026, 2, 22),
+							thoughts: `Great jokes, inspiring speeches.`
 						},
 						{
 							name: 'Severance',
@@ -1501,7 +1518,6 @@
 				{
 					date: 2025,
 					items: [
-						{ name: 'Abbott Elementary', notes: 'Yet to watch season 5. On Hulu' },
 						{ name: 'Atlanta', highlight: true, notes: 'On Hulu' },
 						{ name: 'You', notes: 'On Netflix' },
 						{

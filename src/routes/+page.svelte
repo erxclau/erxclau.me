@@ -233,6 +233,15 @@
 			description: 'A collection of personal and academic work.',
 			list: [
 				{
+					link: 'https://erxclau.github.io/nyc-streets',
+					name: 'Name New York City streets',
+					image: {
+						src: (await import('$lib/assets/work/nyc-streets.png?enhanced&aspect=5:2&imagetools'))
+							.default,
+						alt: 'A map of New York City with some streets colored blue.'
+					}
+				},
+				{
 					link: 'https://quarters.erxclau.workers.dev',
 					name: 'Quarters',
 					description: 'Created a website to track quarters I’ve collected.',
