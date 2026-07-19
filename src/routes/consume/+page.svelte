@@ -1,5 +1,8 @@
 <script lang="ts">
 	import { TemporalDate, TemporalPartialDate } from '$lib/temporal';
+	import { page } from '$app/state';
+	import { onMount } from 'svelte';
+	import { goto } from '$app/navigation';
 
 	const data: Array<Lists> = [
 		{
@@ -1773,6 +1776,17 @@
 			]
 		}
 	];
+
+	onMount(() => {
+		if (page.url.hash.length) {
+			const details = document.querySelector<HTMLDetailsElement>(`${page.url.hash} details`);
+			if (details === null) {
+				return;
+			}
+
+			details.open = true;
+		}
+	});
 </script>
 
 {#snippet authors(list: Array<string>)}
@@ -1836,7 +1850,10 @@
 							<ul>
 								{#each items as item}
 									{@const title = `${item.name}${item.year === undefined ? '' : ` (${item.year})`}`}
-									<li>
+									{@const id = `${category.toLowerCase()}-${item.name
+										.replaceAll(/\W/g, '-')
+										.toLowerCase()}${item.year === undefined ? '' : `-${item.year}`}`}
+									<li class="item" {id}>
 										{#if !item.thoughts}
 											<div class="list-content">
 												<div class:highlight={item.highlight}>
@@ -1867,7 +1884,18 @@
 											</div>
 										{:else}
 											<div class="list-content">
-												<details>
+												<details
+													ontoggle={(e) => {
+														const details = e.target as HTMLDetailsElement;
+														if (details.open) {
+															goto(`/consume#${id}`);
+														} else {
+															goto('/consume', {
+																noScroll: true
+															});
+														}
+													}}
+												>
 													<summary>
 														<div class="list-content">
 															<div class:highlight={item.highlight}>
@@ -1877,12 +1905,12 @@
 																	<span>{title}</span>
 																{/if}
 															</div>
-															{#if item.authors}
-																<div class="extra authors">
-																	by {@render authors(item.authors)}
-																</div>
-															{/if}
 														</div>
+														{#if item.authors}
+															<div class="extra authors">
+																by {@render authors(item.authors)}
+															</div>
+														{/if}
 													</summary>
 													<div class="list-content">
 														{#if item.thoughts}
@@ -2069,12 +2097,27 @@
 	}
 
 	li a,
-	nav a,
-	hgroup p a {
+	nav a {
 		text-decoration-line: underline;
 		text-decoration-thickness: 1px;
 		text-underline-offset: 3px;
 		text-decoration-color: var(--color-primary);
+	}
+
+	hgroup p a {
+		color: var(--color-highlight);
+		text-underline-offset: 3px;
+		text-decoration-thickness: 1.25px;
+		text-decoration-line: underline;
+		transition: color 125ms linear;
+		letter-spacing: 0.05ch;
+		word-spacing: -0.125ch;
+	}
+
+	hgroup p a:hover,
+	hgroup p a:focus,
+	hgroup p a:active {
+		color: var(--color-primary-active);
 	}
 
 	li .highlight a {
@@ -2098,5 +2141,9 @@
 		display: flex;
 		flex-wrap: wrap;
 		column-gap: 1rem;
+	}
+
+	.item {
+		scroll-margin: 32px;
 	}
 </style>

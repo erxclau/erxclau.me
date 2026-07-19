@@ -460,7 +460,8 @@
 	}
 
 	a:hover,
-	a:focus {
+	a:focus,
+	a:active {
 		color: var(--color-primary-active);
 	}
 

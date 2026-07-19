@@ -311,10 +311,18 @@
 	}
 
 	hgroup p a {
-		color: var(--color-primary);
-		text-decoration-line: underline;
-		text-decoration-thickness: 1px;
+		color: var(--color-highlight);
 		text-underline-offset: 3px;
-		text-decoration-color: var(--color-primary);
+		text-decoration-thickness: 1.25px;
+		transition: color 125ms linear;
+		text-decoration-line: underline;
+		letter-spacing: 0.05ch;
+		word-spacing: -0.125ch;
+	}
+
+	hgroup p a:hover,
+	hgroup p a:focus,
+	hgroup p a:active {
+		color: var(--color-primary-active);
 	}
 </style>
