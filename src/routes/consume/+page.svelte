@@ -9,6 +9,21 @@
 					date: 2026,
 					items: [
 						{
+							name: 'Maybe Happy Ending',
+							finishDate: new TemporalDate(2026, 7, 19),
+							notes: 'At Belasco Theater',
+							thoughts: `I loved the set design. The shrinking and expanding
+							viewport was so fun. I particularly liked the reveal during the
+							firefly scene with all of the instrumentalists. I did cry at the
+							flashback visuals when Junseo accessed Oliver’s memories of James,
+							partly because the older lady sitting to my left started sobbing.
+							The jazz soundtrack was very much up my alley and I enjoyed Gil
+							Brentley’s periodic incorporation. There’s no way that red 
+							umbrella could handle two. Jenny’s shoulder definitely got wet.
+							Also, vinyl should not be stored horizontally!`,
+							highlight: true
+						},
+						{
 							name: 'Chess',
 							finishDate: new TemporalDate(2026, 6, 16),
 							notes: 'At Imperial Theatre',
@@ -1793,7 +1808,7 @@
 <main>
 	<hgroup>
 		<h1><a href="/">Eric Lau</a></h1>
-		<p>My consumption, incomplete.</p>
+		<p>My consumption, and a <a href="/common">commonplace</a>.</p>
 	</hgroup>
 	<div style="display: grid; gap: 1.25rem;">
 		{#each data as { category, lists }}
@@ -2054,7 +2069,8 @@
 	}
 
 	li a,
-	nav a {
+	nav a,
+	hgroup p a {
 		text-decoration-line: underline;
 		text-decoration-thickness: 1px;
 		text-underline-offset: 3px;

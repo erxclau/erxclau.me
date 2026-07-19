@@ -2,10 +2,25 @@
 	<section>
 		<hgroup>
 			<h1><a href="/">Eric Lau</a></h1>
-			<p>My commonplace</p>
+			<p>My commonplace, based on my <a href="/consume">consumption</a>.</p>
 		</hgroup>
 
 		<ul>
+			<li>
+				<figure>
+					<blockquote>They say nothing’s better than doing nothing, together...</blockquote>
+					<figcaption>Oliver <cite>Maybe Happy Ending</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>
+						When you’re in love, you are the loneliest. You’re only half when one is what you were.
+						You’re part instead of whole.
+					</blockquote>
+					<figcaption>Claire and Oliver <cite>Maybe Happy Ending</cite></figcaption>
+				</figure>
+			</li>
 			<li>
 				<figure>
 					<blockquote>
@@ -220,11 +235,14 @@
 		padding: 0.25rem 0.75rem;
 		display: grid;
 		gap: 1.25rem;
+		box-sizing: border-box;
+
+		max-width: 75ch;
+		width: 100%;
+		margin: auto;
 	}
 
 	section {
-		margin: auto;
-		max-width: 70ch;
 		width: 100%;
 		display: grid;
 		gap: 2rem;
@@ -290,5 +308,13 @@
 
 		display: grid;
 		gap: 2rem;
+	}
+
+	hgroup p a {
+		color: var(--color-primary);
+		text-decoration-line: underline;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 3px;
+		text-decoration-color: var(--color-primary);
 	}
 </style>

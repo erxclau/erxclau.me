@@ -356,7 +356,7 @@
 		</p>
 		<p>
 			Reach me at <code style="font-size: 1rem">hello@[domain]</code>. Look at my
-			<a href="/resume.pdf">resume</a> or <a href="/lists">consumption</a>.
+			<a href="/resume.pdf">resume</a> or <a href="/consume">consumption</a>.
 		</p>
 	</section>
 	{#each works as { category, description, list }}
