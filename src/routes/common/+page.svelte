@@ -285,7 +285,7 @@
 	h1 {
 		margin: 0;
 		font-family: var(--font-headline);
-		letter-spacing: 0.0625ch;
+		letter-spacing: 0.01ch;
 		font-size: 3rem;
 		font-weight: 300;
 	}

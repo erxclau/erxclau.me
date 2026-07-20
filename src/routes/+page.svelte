@@ -4,7 +4,7 @@
 
 	const works: Array<{ category: string; description?: string; list: Array<Work> }> = [
 		{
-			category: 'Journalism',
+			category: 'Journali<span class="non-wonk">s</span>m',
 			description: 'I tell visual stories with graphics and data.',
 			list: [
 				{
@@ -306,7 +306,7 @@
 			]
 		},
 		{
-			category: 'Talks',
+			category: 'Talk<span class="non-wonk">s</span>',
 			list: [
 				{
 					link: 'https://docs.google.com/presentation/d/1q2K8ycYSfrE41ai8gzp5Z0zWobl1n45wYu-liAFzM18/edit',
@@ -362,7 +362,7 @@
 	{#each works as { category, description, list }}
 		<section id={category.toLowerCase()}>
 			<hgroup>
-				<h2>{category}</h2>
+				<h2>{@html category}</h2>
 				{#if description}
 					<p>{description}</p>
 				{/if}
@@ -430,7 +430,7 @@
 	h1 {
 		font-size: 5rem;
 		line-height: 5rem;
-		letter-spacing: 0.0625ch;
+		letter-spacing: 0.05ch;
 		font-weight: 200;
 	}
 
@@ -438,6 +438,10 @@
 		font-size: 2.5rem;
 		line-height: 2.5rem;
 		font-weight: 200;
+	}
+
+	:global(h2 > .non-wonk) {
+		font-variation-settings: 'WONK' 0;
 	}
 
 	p {
