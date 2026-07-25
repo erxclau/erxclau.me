@@ -562,6 +562,15 @@
 					date: 2026,
 					items: [
 						{
+							name: "X-Men Origins: Wolverine",
+							finishDate: new TemporalDate(2026, 7, 24),
+							notes: "On Disney+",
+							thoughts: `Charles Xavier plays deus ex machina, but not for the 
+							plot line that more greatly affects mutant life. That really
+							brought me out of the movie but I generally did enjoy getting 
+							more of Logan’s story.`
+						},
+						{
 							name: 'Dark Phoenix',
 							finishDate: new TemporalDate(2026, 7, 17),
 							notes: 'On Disney+',
