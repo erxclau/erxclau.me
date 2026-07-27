@@ -120,6 +120,12 @@
 					date: 'Current',
 					items: [
 						{
+							name: 'Interior Chinatown',
+							authors: ['Charles Yu'],
+							startDate: new TemporalDate(2026, 7, 26),
+							notes: 'Gift from Irena'
+						},
+						{
 							name: 'The Power Broker',
 							authors: ['Robert Caro'],
 							startDate: new TemporalPartialDate(2026, 1),
@@ -562,9 +568,9 @@
 					date: 2026,
 					items: [
 						{
-							name: "X-Men Origins: Wolverine",
+							name: 'X-Men Origins: Wolverine',
 							finishDate: new TemporalDate(2026, 7, 24),
-							notes: "On Disney+",
+							notes: 'On Disney+',
 							thoughts: `Charles Xavier plays deus ex machina, but not for the 
 							plot line that more greatly affects mutant life. That really
 							brought me out of the movie but I generally did enjoy getting 
