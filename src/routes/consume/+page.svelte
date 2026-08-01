@@ -123,7 +123,14 @@
 							name: 'Interior Chinatown',
 							authors: ['Charles Yu'],
 							startDate: new TemporalDate(2026, 7, 26),
-							notes: 'Gift from Irena'
+							finishDate: new TemporalDate(2026, 8, 1),
+							notes: 'Gift from Irena',
+							thoughts: `A bit over the top and takes some suspension of 
+							disbelief, perhaps as a television show or film is meant to be. At
+							times  (purposefully?) confusing as to when characters are playing 
+							characters or are themselves. Aren’t we all caricatures? I think
+							it’d probably feel more cohesive on screen. Great courthouse 
+							ending.`
 						},
 						{
 							name: 'The Power Broker',

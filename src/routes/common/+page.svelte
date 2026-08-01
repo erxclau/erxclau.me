@@ -8,6 +8,20 @@
 		<ul>
 			<li>
 				<figure>
+					<blockquote>
+						They zoned us, kept us roped off from everyone else. Trapped us inside. Cut us off from
+						our families, our history. So we made it our own place. Chinatown. A place for
+						preservation and self-preservation. Give them what they feel is right, is safe. Make it
+						fit their ideas of what is out there. Don’t threaten them. Chinatown and indeed being
+						Chinese is and always has been, from the very beginning, a construction, a performance
+						of features, gestures, culture, and exoticism. An invention, a reinvention, a
+						stylization.
+					</blockquote>
+					<figcaption>Older Brother <cite>Interior Chinatown</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
 					<blockquote>They say nothing’s better than doing nothing, together...</blockquote>
 					<figcaption>Oliver <cite>Maybe Happy Ending</cite></figcaption>
 				</figure>
