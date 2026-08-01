@@ -120,6 +120,17 @@
 					date: 'Current',
 					items: [
 						{
+							name: 'The Power Broker',
+							authors: ['Robert Caro'],
+							startDate: new TemporalPartialDate(2026, 1),
+							notes: 'Gift from Irena'
+						}
+					]
+				},
+				{
+					date: 2026,
+					items: [
+						{
 							name: 'Interior Chinatown',
 							authors: ['Charles Yu'],
 							startDate: new TemporalDate(2026, 7, 26),
@@ -132,17 +143,6 @@
 							it’d probably feel more cohesive on screen. Great courthouse 
 							ending.`
 						},
-						{
-							name: 'The Power Broker',
-							authors: ['Robert Caro'],
-							startDate: new TemporalPartialDate(2026, 1),
-							notes: 'Gift from Irena'
-						}
-					]
-				},
-				{
-					date: 2026,
-					items: [
 						{
 							name: 'The Topeka School',
 							authors: ['Ben Lerner'],
