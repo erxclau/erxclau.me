@@ -583,7 +583,7 @@
 							horse, of the battles, of the burning of Troy, the frantic animal 
 							crew banging on the door. Circe molding the men into pigs was so
 							disturbing! The several island chase sequences were chilling each 
-							time.`,
+							time. I appreciated the more modern vernacular.`,
 							highlight: true
 						},
 						{
