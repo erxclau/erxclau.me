@@ -578,12 +578,13 @@
 							name: 'The Odyssey',
 							finishDate: new TemporalDate(2026, 8, 1),
 							notes: 'At AMC Magic Johnson Capitol Center 12 in IMAX',
-							thoughts: `Phenomenal music and sound design: the magestic bow
+							thoughts: `Phenomenal music and sound design: the majestic bow
 							strum, the wrath of the gods, the cacophony of being inside the 
-							horse, of the batles, of the burning of Troy, the frantic animal 
+							horse, of the battles, of the burning of Troy, the frantic animal 
 							crew banging on the door. Circe molding the men into pigs was so
 							disturbing! The several island chase sequences were chilling each 
-							time.`
+							time.`,
+							highlight: true
 						},
 						{
 							name: 'X-Men Origins: Wolverine',
