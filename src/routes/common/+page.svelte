@@ -8,6 +8,25 @@
 		<ul>
 			<li>
 				<figure>
+					<blockquote>Don’t look for gods in men; you’ll always be dissapointed.</blockquote>
+					<figcaption>Odysseus <cite>The Odyssey</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>
+						What you most want is what you most can’t have. And what you most can’t have is what you
+						already had and lost.
+					</blockquote>
+					<figcaption>Odysseus <cite>The Odyssey</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>The power of a sacrifice is in the cost of the person making it.</figure>
+				<figcation>Odysseus <cite>The Odyssey</cite></figcation>
+			</li>
+			<li>
+				<figure>
 					<blockquote>
 						They zoned us, kept us roped off from everyone else. Trapped us inside. Cut us off from
 						our families, our history. So we made it our own place. Chinatown. A place for
