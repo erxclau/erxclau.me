@@ -115,6 +115,7 @@
 		},
 		{
 			category: 'Books',
+			description: 'This list also includes short stories.',
 			lists: [
 				{
 					date: 'Current',
@@ -130,6 +131,23 @@
 				{
 					date: 2026,
 					items: [
+						{
+							name: 'There Will Come Soft Rains',
+							authors: ['Ray Bradbury'],
+							startDate: new TemporalDate(2026, 8, 4),
+							finishDate: new TemporalDate(2026, 8, 4),
+							highlight: true,
+							thoughts: `Technology will not save us. Bradbury’s smart house — 
+							one that can cook, clean, try to put out a fire — is not yet here. 
+							Even if it were, it will never fully adapt to or know our 
+							circumstance. The home in Allendale carries on despite the
+							apocalypse, the same way an algorithm might continue their work on
+							our social media accounts after a death. Technology will not save
+							itself. There is no meaning to technology without the person
+							maintaining it, the person using it. It merely exists to rust into
+							oblivion. We may destroy ourselves, with technology. 
+							Yet, the sun still rises on August 5.`
+						},
 						{
 							name: 'Interior Chinatown',
 							authors: ['Charles Yu'],
@@ -1624,6 +1642,7 @@
 		},
 		{
 			category: 'Talks',
+			description: `I love a good technical presentation.`,
 			lists: [
 				{
 					date: undefined,
@@ -1671,6 +1690,7 @@
 		},
 		{
 			category: 'Papers',
+			description: `This is a list of papers I read in my college courses that have stuck with me.`,
 			lists: [
 				{
 					date: undefined,
@@ -1690,6 +1710,7 @@
 		},
 		{
 			category: 'Journalism',
+			description: `I consume a lot of journalism on the day-to-day. This is a short list of work that include important reporting and unique visual (and other multimedia) concepts.`,
 			lists: [
 				{
 					date: undefined,
@@ -1859,12 +1880,15 @@
 		<p>My consumption, and a <a href="/common">commonplace</a>.</p>
 	</hgroup>
 	<div style="display: grid; gap: 1.25rem;">
-		{#each data as { category, lists }}
+		{#each data as { category, description, lists }}
 			<section id={category.toLowerCase()}>
 				<hgroup>
 					<h2>{category}</h2>
 					<b class="count">{lists.flatMap((d) => d.items).length}</b>
 				</hgroup>
+				{#if description}
+					<p class="description">{description}</p>
+				{/if}
 				<div style="display: grid; gap: 0.75rem;">
 					{#each lists.filter((list) => list.items.length > 0) as { date, items }, i}
 						<section>
@@ -2179,5 +2203,11 @@
 
 	.item {
 		scroll-margin: 32px;
+	}
+
+	.description {
+		font-size: 1.125rem;
+		line-height: 1.25rem;
+		text-wrap: pretty;
 	}
 </style>

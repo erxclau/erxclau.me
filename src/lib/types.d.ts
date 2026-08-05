@@ -42,6 +42,7 @@ interface BeforeList {
 
 interface Lists {
 	category: string;
+	description?: string;
 	lists:
 		| Array<DatedList>
 		| [CurrentList, ...Array<DatedList>, BeforeList]

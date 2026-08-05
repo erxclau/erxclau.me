@@ -8,6 +8,29 @@
 		<ul>
 			<li>
 				<figure>
+					<blockquote>
+						Not one would mind, neither bird nor tree, / if mankind perished utterly; / And Spring
+						herself, when she woke at dawn / Would scarcely know that we were gone.
+					</blockquote>
+					<figcaption>Sara Teasdale <cite>There Will Come Soft Rains</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>Law? What do I care for law? Hain’t I got the power?</blockquote>
+					<figcaption>Commodore Vanderbilt <cite>The Power Broker</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>
+						One must wait until the evening / To see how splendid the day has been.
+					</blockquote>
+					<figcaption>Sophocles <cite>The Power Broker</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
 					<blockquote>Don’t look for gods in men; you’ll always be dissapointed.</blockquote>
 					<figcaption>Odysseus <cite>The Odyssey</cite></figcaption>
 				</figure>
