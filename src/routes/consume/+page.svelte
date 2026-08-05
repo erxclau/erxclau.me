@@ -132,6 +132,13 @@
 					date: 2026,
 					items: [
 						{
+							name: 'Terms and Conditions',
+							authors: ['Daniel Lefferts'],
+							startDate: new TemporalDate(2026, 8, 4),
+							finishDate: new TemporalDate(2026, 8, 4),
+							thoughts: `Groups: do they ever survive?`
+						},
+						{
 							name: 'There Will Come Soft Rains',
 							authors: ['Ray Bradbury'],
 							startDate: new TemporalDate(2026, 8, 4),
@@ -1874,6 +1881,47 @@
 	</div>
 {/snippet}
 
+{#snippet dateConsumed(date: TemporalDate | TemporalPartialDate, category: string)}
+	{@const preposition = date.partial ? 'in' : 'on'}
+	<div class="extra date">
+		{#if category === 'Books'}Read {preposition}
+		{:else if category === 'Theater' || category === 'Film' || category === 'Shows'}Watched {preposition}
+		{/if}
+		{date}
+	</div>
+{/snippet}
+
+{#snippet title(item: Item)}
+	{@const t = `${item.name}${item.year === undefined ? '' : ` (${item.year})`}`}
+	<div class:highlight={item.highlight}>
+		{#if item.url}
+			<a href={item.url} target="_blank">{t}</a>
+		{:else}
+			<span>{t}</span>
+		{/if}
+	</div>
+{/snippet}
+
+{#snippet dates(item: Item, category: string)}
+	<div>
+		<div class="dates">
+			{#if item.startDate !== undefined && item.finishDate !== undefined && item.startDate.toString() === item.finishDate.toString()}
+				{@render dateConsumed(item.finishDate, category)}
+			{:else}
+				{#if item.startDate}
+					{@render dateStarted(item.startDate)}
+				{/if}
+				{#if item.finishDate}
+					{@render dateFinished(item.finishDate, category)}
+				{/if}
+			{/if}
+		</div>
+		{#if item.notes}
+			<div class="extra note">{item.notes}</div>
+		{/if}
+	</div>
+{/snippet}
+
 <main>
 	<hgroup>
 		<h1><a href="/">Eric Lau</a></h1>
@@ -1907,38 +1955,19 @@
 							{/if}
 							<ul>
 								{#each items as item}
-									{@const title = `${item.name}${item.year === undefined ? '' : ` (${item.year})`}`}
 									{@const id = `${category.toLowerCase()}-${item.name
 										.replaceAll(/\W/g, '-')
 										.toLowerCase()}${item.year === undefined ? '' : `-${item.year}`}`}
 									<li class="item" {id}>
 										{#if !item.thoughts}
 											<div class="list-content">
-												<div class:highlight={item.highlight}>
-													{#if item.url}
-														<a href={item.url} target="_blank">{title}</a>
-													{:else}
-														<span>{title}</span>
-													{/if}
-												</div>
+												{@render title(item)}
 												{#if item.authors}
 													<div class="extra authors">
 														by {@render authors(item.authors)}
 													</div>
 												{/if}
-												<div>
-													<div class="dates">
-														{#if item.startDate}
-															{@render dateStarted(item.startDate)}
-														{/if}
-														{#if item.finishDate}
-															{@render dateFinished(item.finishDate, category)}
-														{/if}
-													</div>
-													{#if item.notes}
-														<div class="extra note">{item.notes}</div>
-													{/if}
-												</div>
+												{@render dates(item, category)}
 											</div>
 										{:else}
 											<div class="list-content">
@@ -1956,13 +1985,7 @@
 												>
 													<summary>
 														<div class="list-content">
-															<div class:highlight={item.highlight}>
-																{#if item.url}
-																	<a href={item.url} target="_blank">{title}</a>
-																{:else}
-																	<span>{title}</span>
-																{/if}
-															</div>
+															{@render title(item)}
 														</div>
 														{#if item.authors}
 															<div class="extra authors">
@@ -1976,19 +1999,7 @@
 														{/if}
 													</div>
 												</details>
-												<div>
-													<div class="dates">
-														{#if item.startDate}
-															{@render dateStarted(item.startDate)}
-														{/if}
-														{#if item.finishDate}
-															{@render dateFinished(item.finishDate, category)}
-														{/if}
-													</div>
-													{#if item.notes}
-														<div class="extra note">{item.notes}</div>
-													{/if}
-												</div>
+												{@render dates(item, category)}
 											</div>
 										{/if}
 									</li>
