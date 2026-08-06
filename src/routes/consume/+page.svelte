@@ -600,6 +600,14 @@
 					date: 2026,
 					items: [
 						{
+							name: 'The Wolverine',
+							finishDate: new TemporalDate(2026, 8, 5),
+							notes: 'On Disney+',
+							thoughts: `Heavy on familicide. Yashida very clearly articulates
+							reasons against living forever yet still wants to. His family is
+							his legacy, no?`
+						},
+						{
 							name: 'The Odyssey',
 							finishDate: new TemporalDate(2026, 8, 1),
 							notes: 'At AMC Magic Johnson Capitol Center 12 in IMAX',
