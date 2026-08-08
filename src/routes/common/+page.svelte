@@ -8,6 +8,12 @@
 		<ul>
 			<li>
 				<figure>
+					<blockquote>If the end doesn’t justify the means, what does?</blockquote>
+					<figcaption>Robert Moses <cite>The Power Broker</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
 					<blockquote>
 						Not one would mind, neither bird nor tree, / if mankind perished utterly; / And Spring
 						herself, when she woke at dawn / Would scarcely know that we were gone.

@@ -600,6 +600,13 @@
 					date: 2026,
 					items: [
 						{
+							name: "Obsession",
+							finishDate: new TemporalDate(2026, 8, 7),
+							notes: "On Peacock",
+							thoughts: `Dumb people, dumb decisions. Bear is a coward. I did 
+							scream when Nikki killed Sarah. Very gruesome movie.`
+						},
+						{
 							name: 'The Wolverine',
 							finishDate: new TemporalDate(2026, 8, 5),
 							notes: 'On Disney+',
