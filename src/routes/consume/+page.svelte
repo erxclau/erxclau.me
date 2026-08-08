@@ -600,9 +600,16 @@
 					date: 2026,
 					items: [
 						{
-							name: "Obsession",
+							name: 'Hoppers',
 							finishDate: new TemporalDate(2026, 8, 7),
-							notes: "On Peacock",
+							notes: 'On Disney+',
+							thoughts: `Robert Moses will pay. Cute movie, even if they did
+							cause millions in damages.`
+						},
+						{
+							name: 'Obsession',
+							finishDate: new TemporalDate(2026, 8, 7),
+							notes: 'On Peacock',
 							thoughts: `Dumb people, dumb decisions. Bear is a coward. I did 
 							scream when Nikki killed Sarah. Very gruesome movie.`
 						},
