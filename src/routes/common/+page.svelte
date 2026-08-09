@@ -8,6 +8,14 @@
 		<ul>
 			<li>
 				<figure>
+					<blockquote>
+						He made you feel you were part of something big. It was almost like a war.
+					</blockquote>
+					<figcaption><cite>The Power Broker</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
 					<blockquote>If the end doesn’t justify the means, what does?</blockquote>
 					<figcaption>Robert Moses <cite>The Power Broker</cite></figcaption>
 				</figure>
@@ -51,8 +59,10 @@
 				</figure>
 			</li>
 			<li>
-				<figure>The power of a sacrifice is in the cost of the person making it.</figure>
-				<figcation>Odysseus <cite>The Odyssey</cite></figcation>
+				<figure>
+					<blockquote>The power of a sacrifice is in the cost of the person making it.</blockquote>
+					<figcaption>Odysseus <cite>The Odyssey</cite></figcaption>
+				</figure>
 			</li>
 			<li>
 				<figure>
