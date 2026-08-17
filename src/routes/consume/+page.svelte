@@ -1823,6 +1823,7 @@
 						{
 							name: "Something to do with being entertained",
 							authors: ['Charlie Phelan'],
+							url: "https://harperreview.com/something-to-do-with-being-entertained/",
 							notes: "Read in a physical copy of The Harper Review Vol. IV, no. 1 gifted by Emily",
 							thoughts: `I found the essay accessible, even though I haven’t
 							read David Foster Wallace’s work. Wallace was right to treat 
@@ -1833,7 +1834,7 @@
 							newborn grows. It’s a skill to know how to turn my brain back on,
 							how to make death temporary. Indulgance, in moderation, works for 
 							me. I write this a day after I play Minecraft until 3 in the
-							morning. To me, Minecraft is not crack cocaine. Nor is a reel. But
+							morning. Minecraft is not crack cocaine. Nor is a reel. But
 							I do fear, as Wallace and Phelan do, that it’s become easier to 
 							indulge in too much slop. I pay attention to more than 
 							entertainment; I am more than this consumption page. Perhaps 
