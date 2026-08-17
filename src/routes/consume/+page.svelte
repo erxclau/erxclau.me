@@ -1830,20 +1830,19 @@
 							“existentially unsatisfying pleasure” as a matter of life and 
 							death. The infinite scroll is a chance for me to turn my brain
 							off. I think us not wobbly-eyed, drug-addicted newborns. And even 
-							if we were, the most entertaining film ends at some point and the
-							newborn grows. It’s a skill to know how to turn my brain back on,
-							how to make death temporary. Indulgance, in moderation, works for 
-							me. I write this a day after I play Minecraft until 3 in the
-							morning. Minecraft is not crack cocaine. Nor is a reel. But
-							I do fear, as Wallace and Phelan do, that it’s become easier to 
-							indulge in too much slop. I pay attention to more than 
-							entertainment; I am more than this consumption page. Perhaps 
-							Phelan regards entertainment in a more base form. Regardless, 
-							there are fulfilling forms of pleasure, things to pay attention 
-							to, entertainment, et cetera. In eating food (quite literally 
-							nourishing my body and mind), in relationships, in love, in doing 
-							taxes, in work, in my Maslow’s hierarchy, in the otherwise mundane
-							aspects of being human.` 
+							if we were, the film ends and the newborn grows. It’s a skill to 
+							know how to turn my brain back on, how to make death temporary. 
+							Indulgance, in moderation, works for me. I write this a day after 
+							I play Minecraft until 3 in the morning. Minecraft is not crack 
+							cocaine. Nor is a reel. But I do fear, as Wallace and Phelan do, 
+							that it’s become easier to indulge in too much slop. I pay 
+							attention to more than entertainment; I am more than this 
+							consumption page. Perhaps Phelan regards entertainment in a more 
+							base form. Regardless, there are fulfilling forms of pleasure, 
+							things to pay attention to, entertainment, et cetera. In eating 
+							food (quite literally nourishing!), in relationships, in love, in 
+							doing taxes, in work, in my Maslow’s hierarchy, in the otherwise 
+							mundane aspects of being human.` 
 						}
 					]
 				},
