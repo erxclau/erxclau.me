@@ -1823,8 +1823,10 @@
 						{
 							name: "Something to do with being entertained",
 							authors: ['Charlie Phelan'],
+							startDate: new TemporalDate(2026, 8, 15),
+							finishDate: new TemporalDate(2026, 8, 15),
 							url: "https://harperreview.com/something-to-do-with-being-entertained/",
-							notes: "Read in a physical copy of The Harper Review Vol. IV, no. 1 gifted by Emily",
+							notes: "From a physical copy of The Harper Review Vol. IV, no. 1 gifted by Emily",
 							thoughts: `I found the essay accessible, even though I haven’t
 							read David Foster Wallace’s work. Wallace was right to treat 
 							“existentially unsatisfying pleasure” as a matter of life and 
@@ -1925,7 +1927,7 @@
 {#snippet dateFinished(date: TemporalDate | TemporalPartialDate, category: string)}
 	{@const preposition = date.partial ? 'in' : 'on'}
 	<div class="extra date">
-		{#if category === 'Books' || category === 'Shows'}Finished {preposition}
+		{#if category === 'Books' || category === 'Shows' || category === "Essays"}Finished {preposition}
 		{:else if category === 'Theater' || category === 'Film'}Watched {preposition}
 		{/if}
 		{date}
@@ -1935,7 +1937,7 @@
 {#snippet dateConsumed(date: TemporalDate | TemporalPartialDate, category: string)}
 	{@const preposition = date.partial ? 'in' : 'on'}
 	<div class="extra date">
-		{#if category === 'Books'}Read {preposition}
+		{#if category === 'Books' || category === "Essays"}Read {preposition}
 		{:else if category === 'Theater' || category === 'Film' || category === 'Shows'}Watched {preposition}
 		{/if}
 		{date}
