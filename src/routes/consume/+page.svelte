@@ -597,6 +597,16 @@
 			category: 'Film',
 			lists: [
 				{
+					date: 'Current',
+					items: [
+						{
+							name: 'The Hobbit: An Unexpected Journey',
+							startDate: new TemporalDate(2026, 8, 15),
+							notes: 'On HBO Max'
+						}
+					]
+				},
+				{
 					date: 2026,
 					items: [
 						{
@@ -1821,12 +1831,12 @@
 					date: 2026,
 					items: [
 						{
-							name: "Something to do with being entertained",
+							name: 'Something to do with being entertained',
 							authors: ['Charlie Phelan'],
 							startDate: new TemporalDate(2026, 8, 15),
 							finishDate: new TemporalDate(2026, 8, 15),
-							url: "https://harperreview.com/something-to-do-with-being-entertained/",
-							notes: "From a physical copy of The Harper Review Vol. IV, no. 1 gifted by Emily",
+							url: 'https://harperreview.com/something-to-do-with-being-entertained/',
+							notes: 'From a physical copy of The Harper Review Vol. IV, no. 1 gifted by Emily',
 							thoughts: `I found the essay accessible, even though I haven’t
 							read David Foster Wallace’s work. Wallace was right to treat 
 							“existentially unsatisfying pleasure” as a matter of life and 
@@ -1844,7 +1854,7 @@
 							things to pay attention to, entertainment, et cetera. In eating 
 							food (quite literally nourishing!), in relationships, in love, in 
 							doing taxes, in work, in my Maslow’s hierarchy, in the otherwise 
-							mundane aspects of being human.` 
+							mundane aspects of being human.`
 						}
 					]
 				},
@@ -1927,7 +1937,7 @@
 {#snippet dateFinished(date: TemporalDate | TemporalPartialDate, category: string)}
 	{@const preposition = date.partial ? 'in' : 'on'}
 	<div class="extra date">
-		{#if category === 'Books' || category === 'Shows' || category === "Essays"}Finished {preposition}
+		{#if category === 'Books' || category === 'Shows' || category === 'Essays'}Finished {preposition}
 		{:else if category === 'Theater' || category === 'Film'}Watched {preposition}
 		{/if}
 		{date}
@@ -1937,7 +1947,7 @@
 {#snippet dateConsumed(date: TemporalDate | TemporalPartialDate, category: string)}
 	{@const preposition = date.partial ? 'in' : 'on'}
 	<div class="extra date">
-		{#if category === 'Books' || category === "Essays"}Read {preposition}
+		{#if category === 'Books' || category === 'Essays'}Read {preposition}
 		{:else if category === 'Theater' || category === 'Film' || category === 'Shows'}Watched {preposition}
 		{/if}
 		{date}
