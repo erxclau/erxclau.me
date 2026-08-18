@@ -610,6 +610,15 @@
 					date: 2026,
 					items: [
 						{
+							name: "Logan",
+							finishDate: new TemporalDate(2026, 8, 17),
+							notes: "On Disney+",
+							highlight: true,
+							thoughts: `A welcome change of pace for a Marvel movie. I think
+							Logan gets his happy end, not one via a self-inflicted adamantium
+							gunshot wound.`
+						},
+						{
 							name: 'Hoppers',
 							finishDate: new TemporalDate(2026, 8, 7),
 							notes: 'On Disney+',
