@@ -600,6 +600,11 @@
 					date: 'Current',
 					items: [
 						{
+							name: "Deadpool",
+							startDate: new TemporalDate(2026, 8, 18),
+							notes: "On Disney+"
+						},
+						{
 							name: 'The Hobbit: An Unexpected Journey',
 							startDate: new TemporalDate(2026, 8, 15),
 							notes: 'On HBO Max'

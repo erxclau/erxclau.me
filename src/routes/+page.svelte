@@ -233,13 +233,15 @@
 			description: 'A collection of personal and academic work.',
 			list: [
 				{
-					link: 'https://erxclau.github.io/nyc-streets',
-					name: 'Name New York City streets',
+					link: 'https://us-streets.erxclau.workers.dev',
+					name: 'Name U.S. streets',
 					image: {
 						src: (await import('$lib/assets/work/nyc-streets.png?enhanced&aspect=5:2&imagetools'))
 							.default,
 						alt: 'A map of New York City with some streets colored blue.'
-					}
+					},
+					description:
+						"Created an application where you name streets across the United States. This is a follow-up to an initial version based in <a href='https://erxclau.github.io/nyc-streets/'>New York City</a>."
 				},
 				{
 					link: 'https://quarters.erxclau.workers.dev',
@@ -297,12 +299,12 @@
 						alt: 'A grid of GRAMMY winners.'
 					}
 				},
-				{
-					link: 'https://github.com/erxclau/rare-botanist',
-					name: 'Rare Botanist',
-					description:
-						'Created an automated Reddit bot to monitor house plant transactions between 14,000 members.'
-				}
+				// {
+				// 	link: 'https://github.com/erxclau/rare-botanist',
+				// 	name: 'Rare Botanist',
+				// 	description:
+				// 		'Created an automated Reddit bot to monitor house plant transactions between 14,000 members.'
+				// }
 			]
 		},
 		{
