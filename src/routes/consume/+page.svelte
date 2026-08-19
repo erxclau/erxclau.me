@@ -600,10 +600,10 @@
 					date: 'Current',
 					items: [
 						{
-							name: "Deadpool",
+							name: 'Deadpool',
 							startDate: new TemporalDate(2026, 8, 18),
-							notes: "On Disney+"
-						},
+							notes: 'On Disney+'
+						}
 					]
 				},
 				{
@@ -617,9 +617,9 @@
 							notes: 'On HBO Max'
 						},
 						{
-							name: "Logan",
+							name: 'Logan',
 							finishDate: new TemporalDate(2026, 8, 17),
-							notes: "On Disney+",
+							notes: 'On Disney+',
 							highlight: true,
 							thoughts: `A welcome change of pace for a Marvel movie. I think
 							Logan gets his happy end, not one via a self-inflicted adamantium
@@ -1950,10 +1950,15 @@
 	</div>
 {/snippet}
 
-{#snippet dateFinished(date: TemporalDate | TemporalPartialDate, category: string)}
+{#snippet dateFinished(
+	date: TemporalDate | TemporalPartialDate,
+	category: string,
+	startedOnDifferentDate: boolean
+)}
 	{@const preposition = date.partial ? 'in' : 'on'}
 	<div class="extra date">
-		{#if category === 'Books' || category === 'Shows' || category === 'Essays'}Finished {preposition}
+		{#if category === 'Books' || category === 'Shows' || category === 'Essays' || startedOnDifferentDate}Finished
+			{preposition}
 		{:else if category === 'Theater' || category === 'Film'}Watched {preposition}
 		{/if}
 		{date}
@@ -1991,7 +1996,11 @@
 					{@render dateStarted(item.startDate)}
 				{/if}
 				{#if item.finishDate}
-					{@render dateFinished(item.finishDate, category)}
+					{@render dateFinished(
+						item.finishDate,
+						category,
+						item.startDate !== undefined && item.startDate !== item.finishDate
+					)}
 				{/if}
 			{/if}
 		</div>
