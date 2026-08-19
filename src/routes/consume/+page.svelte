@@ -604,16 +604,18 @@
 							startDate: new TemporalDate(2026, 8, 18),
 							notes: "On Disney+"
 						},
-						{
-							name: 'The Hobbit: An Unexpected Journey',
-							startDate: new TemporalDate(2026, 8, 15),
-							notes: 'On HBO Max'
-						}
 					]
 				},
 				{
 					date: 2026,
 					items: [
+						{
+							name: 'The Hobbit: An Unexpected Journey',
+							startDate: new TemporalDate(2026, 8, 15),
+							finishDate: new TemporalDate(2026, 8, 18),
+							thoughts: `Some cool battle scenes. Silly tropes at times.`,
+							notes: 'On HBO Max'
+						},
 						{
 							name: "Logan",
 							finishDate: new TemporalDate(2026, 8, 17),
