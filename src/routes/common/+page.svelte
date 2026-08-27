@@ -9,9 +9,31 @@
 			<li>
 				<figure>
 					<blockquote>
+						New York for a New Yorker long absent gives the impression of great security. Something
+						old, familiar, safe.
+					</blockquote>
+					<figcaption>Isamu Noguchi<cite>The Noguchi Museum</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>
+						Like a lot of New Yorkers, I was one of those bitten by some kind of an idealism … New
+						Yorkers after all felt a special relationship to the world. They were on this island
+						looking out on the whole damn world, which they had to do something about. My way was
+						not the way of words, but the way of doing things, making something which might sort of
+						approach that which one felt the world could be. Little spots here and there, so that
+						instead of going to the moon, you bring the moon to you.
+					</blockquote>
+					<figcaption>Isamu Noguchi<cite>The Noguchi Museum</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>
 						He made you feel you were part of something big. It was almost like a war.
 					</blockquote>
-					<figcaption><cite>The Power Broker</cite></figcaption>
+					<figcaption>Robert Caro<cite>The Power Broker</cite></figcaption>
 				</figure>
 			</li>
 			<li>
