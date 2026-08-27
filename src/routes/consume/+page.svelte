@@ -598,17 +598,24 @@
 			lists: [
 				{
 					date: 'Current',
-					items: [
-						{
-							name: 'Deadpool',
-							startDate: new TemporalDate(2026, 8, 18),
-							notes: 'On Disney+'
-						}
-					]
+					items: []
 				},
 				{
 					date: 2026,
 					items: [
+						{
+							name: 'Deadpool 2',
+							finishDate: new TemporalDate(2026, 8, 26),
+							thoughts: 'Sharper than the first one. Good music.',
+							notes: 'On Disney+'
+						},
+						{
+							name: 'Deadpool',
+							startDate: new TemporalDate(2026, 8, 18),
+							finishDate: new TemporalDate(2026, 8, 25),
+							thoughts: 'Subversion did not work.',
+							notes: 'On Disney+'
+						},
 						{
 							name: 'The Hobbit: An Unexpected Journey',
 							startDate: new TemporalDate(2026, 8, 15),
