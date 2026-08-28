@@ -604,6 +604,12 @@
 					date: 2026,
 					items: [
 						{
+							name: 'The New Mutants',
+							finishDate: new TemporalDate(2026, 8, 27),
+							thoughts: 'It passed the Bechdel test I guess.',
+							notes: 'On Disney+'
+						},
+						{
 							name: 'Deadpool 2',
 							finishDate: new TemporalDate(2026, 8, 26),
 							thoughts: 'Sharper than the first one. Good music.',
