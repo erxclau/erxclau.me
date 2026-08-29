@@ -136,7 +136,8 @@
 							authors: ['Daniel Lefferts'],
 							startDate: new TemporalDate(2026, 8, 4),
 							finishDate: new TemporalDate(2026, 8, 4),
-							thoughts: `Groups: do they ever survive?`
+							thoughts: `Groups: do they ever survive?`,
+							notes: 'Recommended by Josh'
 						},
 						{
 							name: 'There Will Come Soft Rains',
@@ -144,6 +145,7 @@
 							startDate: new TemporalDate(2026, 8, 4),
 							finishDate: new TemporalDate(2026, 8, 4),
 							highlight: true,
+							notes: 'Recommended by Irena',
 							thoughts: `Technology will not save us. Bradbury’s smart house — 
 							one that can cook, clean, try to put out a fire — is not yet here. 
 							Even if it were, it will never fully adapt to or know our 
@@ -246,7 +248,7 @@
 							somewhat familiar with gaming culture) are not the target audience. In what seems like a story meant to be about how people change over time,
 							Sam and Sadie did not grow very much as individuals or together. They learn to forgive each other (over and over again). But what else?
 							Maybe I am missing something.`,
-							notes: 'From Kramers',
+							notes: 'From Kramers; Recommended by Sophia',
 							startDate: new TemporalDate(2026, 1, 8),
 							finishDate: new TemporalDate(2026, 1, 11)
 						},
@@ -1006,8 +1008,7 @@
 						},
 						{
 							name: 'Kiki’s Delivery Service',
-							finishDate: new TemporalDate(2025, 8, 30),
-							thoughts: ``
+							finishDate: new TemporalDate(2025, 8, 30)
 						},
 						{
 							name: 'Independence Day',
@@ -1373,6 +1374,7 @@
 							name: 'Oppenheimer',
 							highlight: true,
 							finishDate: new TemporalDate(2023, 7, 30),
+							notes: 'At State Theater',
 							thoughts: `A power outage meant I did not see Barbie and Oppenheimer on the same day. 
 							I appreciate that the film extends beyond Hiroshima and Nagasaki and addresses the brewing American 
 							fear of communism and the Soviet Union before, during and immediately after the Second World War.
@@ -1382,6 +1384,7 @@
 							name: 'Barbie',
 							highlight: true,
 							finishDate: new TemporalDate(2023, 7, 23),
+							notes: 'At State Theater',
 							thoughts: `Pink pants. Fun time.`
 						},
 						{
@@ -1865,25 +1868,25 @@
 							startDate: new TemporalDate(2026, 8, 15),
 							finishDate: new TemporalDate(2026, 8, 15),
 							url: 'https://harperreview.com/something-to-do-with-being-entertained/',
-							notes: 'From a physical copy of The Harper Review Vol. IV, no. 1 gifted by Emily',
-							thoughts: `I found the essay accessible, even though I haven’t
-							read David Foster Wallace’s work. Wallace was right to treat 
+							notes: 'From a physical copy of The Harper Review Vol. IV, no. 1; Gift from Emily',
+							thoughts: `I found the writing accessible, even though I haven’t
+							read David Foster Wallace’s work. He was right to treat 
 							“existentially unsatisfying pleasure” as a matter of life and 
-							death. The infinite scroll is a chance for me to turn my brain
-							off. I think us not wobbly-eyed, drug-addicted newborns. And even 
-							if we were, the film ends and the newborn grows. It’s a skill to 
-							know how to turn my brain back on, how to make death temporary. 
-							Indulgance, in moderation, works for me. I write this a day after 
-							I play Minecraft until 3 in the morning. Minecraft is not crack 
-							cocaine. Nor is a reel. But I do fear, as Wallace and Phelan do, 
-							that it’s become easier to indulge in too much slop. I pay 
-							attention to more than entertainment; I am more than this 
-							consumption page. Perhaps Phelan regards entertainment in a more 
-							base form. Regardless, there are fulfilling forms of pleasure, 
-							things to pay attention to, entertainment, et cetera. In eating 
-							food (quite literally nourishing!), in relationships, in love, in 
-							doing taxes, in work, in my Maslow’s hierarchy, in the otherwise 
-							mundane aspects of being human.`
+							death. The infinite scroll is a chance to turn my brain off. 
+							I think us not wobbly-eyed, drug-addicted newborns. Even if we 
+							were, the film ends (the infinite scroll is not quite infinite)
+							and the newborn grows. It’s a skill to know how to turn my brain
+							back on, how to make death temporary. Indulgance, in moderation, 
+							works for me. I write this a day after I play Minecraft until 3 in
+							the morning. Minecraft is not crack cocaine. Nor is a reel. But I 
+							do fear, as Wallace and Phelan do, that it’s become easier to 
+							indulge in too much slop. I pay attention to more than 
+							entertainment; I am more than this consumption page. Perhaps 
+							Phelan regards entertainment in a more base form. Regardless, 
+							there are fulfilling forms of pleasure, things to pay attention 
+							to, entertainment, et cetera. In eating food (quite literally 
+							nourishing!), in relationships, in love, in Maslow’s, in doing 
+							taxes, in work, in the otherwise mundane aspects of being human.`
 						}
 					]
 				},
@@ -2000,25 +2003,20 @@
 {/snippet}
 
 {#snippet dates(item: Item, category: string)}
-	<div>
-		<div class="dates">
-			{#if item.startDate !== undefined && item.finishDate !== undefined && item.startDate.toString() === item.finishDate.toString()}
-				{@render dateConsumed(item.finishDate, category)}
-			{:else}
-				{#if item.startDate}
-					{@render dateStarted(item.startDate)}
-				{/if}
-				{#if item.finishDate}
-					{@render dateFinished(
-						item.finishDate,
-						category,
-						item.startDate !== undefined && item.startDate !== item.finishDate
-					)}
-				{/if}
+	<div class="dates">
+		{#if item.startDate !== undefined && item.finishDate !== undefined && item.startDate.toString() === item.finishDate.toString()}
+			{@render dateConsumed(item.finishDate, category)}
+		{:else}
+			{#if item.startDate}
+				{@render dateStarted(item.startDate)}
 			{/if}
-		</div>
-		{#if item.notes}
-			<div class="extra note">{item.notes}</div>
+			{#if item.finishDate}
+				{@render dateFinished(
+					item.finishDate,
+					category,
+					item.startDate !== undefined && item.startDate !== item.finishDate
+				)}
+			{/if}
 		{/if}
 	</div>
 {/snippet}
@@ -2068,7 +2066,12 @@
 														by {@render authors(item.authors)}
 													</div>
 												{/if}
-												{@render dates(item, category)}
+												<div class="extra-container">
+													{@render dates(item, category)}
+													{#if item.notes}
+														<div class="extra note">{item.notes}</div>
+													{/if}
+												</div>
 											</div>
 										{:else}
 											<div class="list-content">
@@ -2100,7 +2103,12 @@
 														{/if}
 													</div>
 												</details>
-												{@render dates(item, category)}
+												<div class="extra-container">
+													{@render dates(item, category)}
+													{#if item.notes}
+														<div class="extra note">{item.notes}</div>
+													{/if}
+												</div>
 											</div>
 										{/if}
 									</li>
@@ -2242,6 +2250,7 @@
 	li .note,
 	li .date {
 		font-size: 0.825rem;
+		line-height: 1rem;
 	}
 
 	li .authors {
@@ -2321,5 +2330,10 @@
 		font-size: 1.125rem;
 		line-height: 1.25rem;
 		text-wrap: pretty;
+	}
+
+	.extra-container {
+		display: grid;
+		gap: 0.125rem;
 	}
 </style>
