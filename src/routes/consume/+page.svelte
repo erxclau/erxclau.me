@@ -248,7 +248,7 @@
 							somewhat familiar with gaming culture) are not the target audience. In what seems like a story meant to be about how people change over time,
 							Sam and Sadie did not grow very much as individuals or together. They learn to forgive each other (over and over again). But what else?
 							Maybe I am missing something.`,
-							notes: 'From Kramers; Recommended by Sophia',
+							notes: 'From Kramers; recommended by Sophia',
 							startDate: new TemporalDate(2026, 1, 8),
 							finishDate: new TemporalDate(2026, 1, 11)
 						},
@@ -605,6 +605,16 @@
 				{
 					date: 2026,
 					items: [
+						{
+							name: "Deadpool & Wolverine",
+							startDate: new TemporalDate(2026, 8, 29),
+							finishDate: new TemporalDate(2026, 8, 30),
+							notes: "On Disney+",
+							thoughts: `Holy cameos. You don’t get to see many uncut action 
+							scenes from the MCU. The Deadpool Corps sequence near the end was 
+							great. The humor gets a little old but has its moments. Sweet
+							video during the end credits.`
+						},
 						{
 							name: 'The New Mutants',
 							finishDate: new TemporalDate(2026, 8, 27),
@@ -1868,7 +1878,7 @@
 							startDate: new TemporalDate(2026, 8, 15),
 							finishDate: new TemporalDate(2026, 8, 15),
 							url: 'https://harperreview.com/something-to-do-with-being-entertained/',
-							notes: 'From a physical copy of The Harper Review Vol. IV, no. 1; Gift from Emily',
+							notes: 'From a physical copy of The Harper Review Vol. IV, no. 1; gift from Emily',
 							thoughts: `I found the writing accessible, even though I haven’t
 							read David Foster Wallace’s work. He was right to treat 
 							“existentially unsatisfying pleasure” as a matter of life and 
