@@ -1869,9 +1869,9 @@
 							and I might share some overlap in our algorithmic “taste”, but 
 							there’s no true depth to it. What’s the value in making taste
 							more convenient, in engineering it? Seek from a (local) who 
-							instead of an (online) what. I recently listened to an 
-							<a target="_blank" href="https://youtu.be/f4KgyG-AuAo?si=x3dMS7_rfUmSlSa2">episode</a>
-							of The Vergecast that dealt with similar themes.`,
+							instead of an (online) what. I enjoyed listening to an episode of 
+							The Vergecast that dealt with similar themes; it was framed in 
+							response to Mark Zuckerberg’s AI manifesto.`,
 							notes: 'Gift from Emily'
 						},
 						{
@@ -2437,10 +2437,5 @@
 	.extra-container {
 		display: grid;
 		gap: 0.125rem;
-	}
-
-	.extra :global(a) {
-		color: var(--color-primary);
-		text-underline-offset: 2px;
 	}
 </style>
