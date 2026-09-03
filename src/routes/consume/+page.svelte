@@ -585,7 +585,7 @@
 							name: 'Captain America: Brave New World',
 							startDate: new TemporalDate(2026, 8, 30),
 							finishDate: new TemporalDate(2026, 9, 1),
-							notes: "On Disney+",
+							notes: 'On Disney+',
 							thoughts: `Joseph McCarthy would’ve known.`
 						},
 						{
@@ -1858,6 +1858,71 @@
 					date: 2026,
 					items: [
 						{
+							name: 'I, me, mine',
+							authors: ['Olivia Curran'],
+							startDate: new TemporalDate(2026, 8, 27),
+							finishDate: new TemporalDate(2026, 9, 2),
+							url: 'https://harperreview.com/i-me-mine/',
+							thoughts: `I love the word bespoke. I use it often in my work to 
+							describe custom-built stories. Consumption, when curated by 
+							algorithms, is an easy yet mostly lonely venture. Sure, my friends
+							and I might share some overlap in our algorithmic “taste”, but 
+							there’s no true depth to it. What’s the value in making taste
+							more convenient, in engineering it? Seek from a (local) who 
+							instead of an (online) what. I recently listened to an 
+							<a target="_blank" href="https://youtu.be/f4KgyG-AuAo?si=x3dMS7_rfUmSlSa2">episode</a>
+							of The Vergecast that dealt with similar themes.`,
+							notes: 'Gift from Emily'
+						},
+						{
+							name: 'Disaffected democracy',
+							authors: ['Emma Schmidt'],
+							startDate: new TemporalDate(2026, 8, 27),
+							finishDate: new TemporalDate(2026, 8, 31),
+							url: 'https://harperreview.com/disaffected-democracy/',
+							thoughts: `I don’t think I ever got the memo that we shouldn’t 
+							discuss politics or religion with family. My father, and some 
+							extended family, are quite political. It’d usually end in 
+							frustration, by all parties, plagued by my inadequate Fuzhounese 
+							language skills (or my family’s English) What difference would 
+							Hannah Arendt’s “council system,” have when compared to modern 
+							American politics, when large swaths of the population are already
+							not participating in public life? The crux is less so about any 
+							given system but a person’s focus on their private welfare, over a
+							communal welfare or participation. If the collective cared for
+							more than just the private life, then maybe a viable council 
+							system (or something of the sort) would naturally emerge. Alas, 
+							we are disaffected.`,
+							notes: 'Gift from Emily'
+						},
+						{
+							name: 'Nietzsche’s basilisk',
+							authors: ['Liam Eifert'],
+							startDate: new TemporalDate(2026, 8, 27),
+							finishDate: new TemporalDate(2026, 8, 30),
+							url: 'https://harperreview.com/nietzsches-basilisk/',
+							thoughts: `Is David Foster Wallace’s search for some meaningful or 
+							serious entertainment a form of suffering? Wallace treated 
+							entertainment as a matter of life and death, never quite finding
+							something important enough to pay attention to, to suffer for. 
+							Cesare Pavese, “[d]evoid of the rhythms of daily life” in an 
+							ascetic pursuit, also committed suicide. Perhaps both found death
+							as the ultimate form of suffering. It finally clicked after 
+							a couple of reads that Susan Sontag’s Camp is the same word “camp”
+							that was so pervasive a couple of years ago. I feel I can finally
+							appreciate the meaning.`,
+							notes: 'Gift from Emily'
+						},
+						{
+							name: 'Galatea and Claude',
+							authors: ['Hannah Mayerfield'],
+							startDate: new TemporalDate(2026, 8, 15),
+							finishDate: new TemporalDate(2026, 8, 27),
+							url: 'https://harperreview.com/galatea-and-claude/',
+							thoughts: `So you’re telling me Claude is a performative male?`,
+							notes: 'Gift from Emily'
+						},
+						{
 							name: 'Something to do with being entertained',
 							authors: ['Charlie Phelan'],
 							startDate: new TemporalDate(2026, 8, 15),
@@ -2134,7 +2199,7 @@
 													</summary>
 													<div class="list-content">
 														{#if item.thoughts}
-															<div class="extra">{item.thoughts}</div>
+															<div class="extra">{@html item.thoughts}</div>
 														{/if}
 													</div>
 												</details>
@@ -2372,5 +2437,10 @@
 	.extra-container {
 		display: grid;
 		gap: 0.125rem;
+	}
+
+	.extra :global(a) {
+		color: var(--color-primary);
+		text-underline-offset: 2px;
 	}
 </style>
