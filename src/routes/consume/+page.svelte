@@ -1866,7 +1866,7 @@
 							thoughts: `I love the word bespoke. I use it often in my work to 
 							describe custom-built stories. Consumption, when curated by 
 							algorithms, is an easy yet mostly lonely venture. Sure, my friends
-							and I might share some overlap in our algorithmic “taste”, but 
+							and I might share some overlap in our algorithmic “taste,” but 
 							there’s no true depth to it. What’s the value in making taste
 							more convenient, in engineering it? Seek from a (local) who 
 							instead of an (online) what. I enjoyed listening to an episode of 
@@ -1907,10 +1907,10 @@
 							something important enough to pay attention to, to suffer for. 
 							Cesare Pavese, “[d]evoid of the rhythms of daily life” in an 
 							ascetic pursuit, also committed suicide. Perhaps both found death
-							as the ultimate form of suffering. It finally clicked after 
-							a couple of reads that Susan Sontag’s Camp is the same word “camp”
-							that was so pervasive a couple of years ago. I feel I can finally
-							appreciate the meaning.`,
+							as the ultimate form of suffering. It clicked after a couple of 
+							reads that Susan Sontag’s Camp is the same word “camp” that was so 
+							pervasive a couple of years ago. I feel I can finally appreciate 
+							the meaning.`,
 							notes: 'Gift from Emily'
 						},
 						{
@@ -2034,8 +2034,14 @@
 	];
 
 	onMount(() => {
-		if (page.url.hash.length) {
-			const details = document.querySelector<HTMLDetailsElement>(`${page.url.hash} details`);
+		const hash = page.url.hash;
+
+		if (data.find((d) => d.category.toLowerCase().replaceAll(' ', '-') === hash.slice(1))) {
+			return;
+		}
+
+		if (hash.length) {
+			const details = document.querySelector<HTMLDetailsElement>(`${hash} details`);
 			if (details === null) {
 				return;
 			}
