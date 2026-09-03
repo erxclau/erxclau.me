@@ -1919,7 +1919,8 @@
 							startDate: new TemporalDate(2026, 8, 15),
 							finishDate: new TemporalDate(2026, 8, 27),
 							url: 'https://harperreview.com/galatea-and-claude/',
-							thoughts: `So you’re telling me Claude is a performative male?`,
+							thoughts: `So you’re telling me Claude is a performative male?
+							Claude is safer, maybe.`,
 							notes: 'Gift from Emily'
 						},
 						{
