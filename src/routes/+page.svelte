@@ -1,6 +1,6 @@
 <script lang="ts">
-	import policeUrl from '$lib/assets/work/police.png?url';
-	import grammyUrl from '$lib/assets/work/grammy.jpg?url';
+	import policeUrl from '#lib/assets/work/police.png?url';
+	import grammyUrl from '#lib/assets/work/grammy.jpg?url';
 
 	const works: Array<{ category: string; description?: string; list: Array<Work> }> = [
 		{
@@ -13,7 +13,7 @@
 					description: 'Visualized Musk’s X universe with a orbiting graphic form.',
 					affiliation: 'The Washington Post',
 					image: {
-						src: (await import('$lib/assets/work/musk-universe.png?enhanced&aspect=5:2&imagetools'))
+						src: (await import('#lib/assets/work/musk-universe.png?enhanced&aspect=5:2&imagetools'))
 							.default,
 						alt: 'Several hundred circles orbiting around a central orange circle labeled Musk. The circles are colored differently.'
 					}
@@ -25,7 +25,7 @@
 						'Created interactive graphics showing life-threatening delays in USAID shipments.',
 					affiliation: 'The Washington Post',
 					image: {
-						src: (await import('$lib/assets/work/usaid.png?enhanced&aspect=5:2&imagetools'))
+						src: (await import('#lib/assets/work/usaid.png?enhanced&aspect=5:2&imagetools'))
 							.default,
 						alt: 'Orange and gray circles clustered around four different stages labeled "At supplier," "In transit," "In country," and "At warehouse."'
 					}
@@ -37,7 +37,7 @@
 					affiliation: 'The Washington Post',
 					image: {
 						src: (
-							await import('$lib/assets/work/flash.png?enhanced&position=entropy&aspect=5:2&imagetools')
+							await import('#lib/assets/work/flash.png?enhanced&position=entropy&aspect=5:2&imagetools')
 						).default,
 						alt: 'Orange and teal text message bubbles'
 					}
@@ -48,7 +48,7 @@
 					description: `Led graphics preparation and contributed to election data pipelines. Contributed to graphics in follow-up analysis stories about <a href="https://wapo.st/4oJBfHL">Virginia Democrats</a> and <a href="https://wapo.st/4aIUsVH">Latino voters</a>.`,
 					affiliation: 'The Washington Post',
 					image: {
-						src: (await import('$lib/assets/work/nyc.png?enhanced&aspect=5:2&imagetools')).default,
+						src: (await import('#lib/assets/work/nyc.png?enhanced&aspect=5:2&imagetools')).default,
 						alt: 'A map of New York City precincts colored yellow and blue hues.'
 					}
 				},
@@ -59,7 +59,7 @@
 					affiliation: 'The Washington Post',
 					image: {
 						src: (
-							await import('$lib/assets/work/cryptocandidates.png?enhanced&aspect=5:2&imagetools')
+							await import('#lib/assets/work/cryptocandidates.png?enhanced&aspect=5:2&imagetools')
 						).default,
 						alt: 'Blue and red bubbles of different sizes positioned along a percentage axis.'
 					}
@@ -71,7 +71,7 @@
 					affiliation: 'The Washington Post',
 					image: {
 						src: (
-							await import('$lib/assets/work/deciders.png?enhanced&position=top&aspect=5:2&imagetools')
+							await import('#lib/assets/work/deciders.png?enhanced&position=top&aspect=5:2&imagetools')
 						).default,
 						alt: '23 people thought Harris performed better and 2 people thought Trump performed better'
 					}
@@ -83,7 +83,7 @@
 					affiliation: 'The Washington Post',
 					image: {
 						src: (
-							await import('$lib/assets/work/deitable.png?enhanced&position=bottom&aspect=5:2&imagetools')
+							await import('#lib/assets/work/deitable.png?enhanced&position=bottom&aspect=5:2&imagetools')
 						).default,
 						alt: 'A heatmap showing number of mentions of DEI from several companies'
 					}
@@ -163,7 +163,7 @@
 					description: 'Engineered a cross-platform mobile application.',
 					affiliation: 'The Michigan Daily',
 					image: {
-						src: (await import('$lib/assets/work/daily.webp?enhanced&aspect=5:2&imagetools'))
+						src: (await import('#lib/assets/work/daily.webp?enhanced&aspect=5:2&imagetools'))
 							.default,
 						alt: '"The Michigan Daily" stylized in traditional gothic lettering'
 					}
@@ -175,7 +175,7 @@
 					affiliation: 'The Michigan Daily',
 					image: {
 						src: (
-							await import('$lib/assets/work/crosswords.png?enhanced&aspect=5:2&position=top&imagetools')
+							await import('#lib/assets/work/crosswords.png?enhanced&aspect=5:2&position=top&imagetools')
 						).default,
 						alt: 'A crossword'
 					}
@@ -186,7 +186,7 @@
 					description: 'Built an application to crowdsource neighborhood boundaries.',
 					affiliation: 'DETROITography',
 					image: {
-						src: (await import('$lib/assets/work/detroit.png?enhanced&aspect=5:2&imagetools'))
+						src: (await import('#lib/assets/work/detroit.png?enhanced&aspect=5:2&imagetools'))
 							.default,
 						alt: 'A zoomed-in map of Detroit colored according to neighborhoods'
 					}
@@ -197,7 +197,7 @@
 					description: 'Developed a page for a poem about Jordan.',
 					affiliation: 'The Michigan Daily',
 					image: {
-						src: (await import('$lib/assets/work/jordan.png?enhanced&aspect=5:2&imagetools'))
+						src: (await import('#lib/assets/work/jordan.png?enhanced&aspect=5:2&imagetools'))
 							.default,
 						alt: 'A map of the Middle East showing the borders of Jordan'
 					}
@@ -209,7 +209,7 @@
 					affiliation: 'The Michigan Daily',
 					image: {
 						src: (
-							await import('$lib/assets/work/digital-dark-age.png?enhanced&aspect=5:2&position=top&imagetools')
+							await import('#lib/assets/work/digital-dark-age.png?enhanced&aspect=5:2&position=top&imagetools')
 						).default,
 						alt: 'A lighthouse shining in front of the moon'
 					}
@@ -221,7 +221,7 @@
 					affiliation: 'The Michigan Daily',
 					image: {
 						src: (
-							await import('$lib/assets/work/love.jpg?enhanced&aspect=5:2&position=top&imagetools')
+							await import('#lib/assets/work/love.jpg?enhanced&aspect=5:2&position=top&imagetools')
 						).default,
 						alt: 'Two cassette tapes with love notes written on them.'
 					}
@@ -236,7 +236,7 @@
 					link: 'https://us-streets.erxclau.workers.dev',
 					name: 'Name U.S. streets',
 					image: {
-						src: (await import('$lib/assets/work/nyc-streets.png?enhanced&aspect=5:2&imagetools'))
+						src: (await import('#lib/assets/work/nyc-streets.png?enhanced&aspect=5:2&imagetools'))
 							.default,
 						alt: 'A map of New York City with some streets colored blue.'
 					},
@@ -249,7 +249,7 @@
 					description: 'Created a website to track quarters I’ve collected.',
 					image: {
 						src: (
-							await import('$lib/assets/work/quarters.png?enhanced&position=top&aspect=5:2&imagetools')
+							await import('#lib/assets/work/quarters.png?enhanced&position=top&aspect=5:2&imagetools')
 						).default,
 						alt: 'Ten quarters'
 					}
@@ -260,7 +260,7 @@
 					description: 'Mapped bubble tea shops in New York City’s Manhattan Chinatown.',
 					affiliation: 'The Rhetoric of Mapping with Cat Cassel at the University of Michigan',
 					image: {
-						src: (await import('$lib/assets/work/chinatown.png?enhanced&aspect=5:2&imagetools'))
+						src: (await import('#lib/assets/work/chinatown.png?enhanced&aspect=5:2&imagetools'))
 							.default,
 						alt: 'A map of Chinatown with brown circles.'
 					}
@@ -271,7 +271,7 @@
 					description: 'Created a graphic showing my BeReal usage over a month.',
 					affiliation: 'The Rhetoric of Infographics with Cat Cassel at the University of Michigan',
 					image: {
-						src: (await import('$lib/assets/work/bereal.png?enhanced&aspect=5:2&imagetools'))
+						src: (await import('#lib/assets/work/bereal.png?enhanced&aspect=5:2&imagetools'))
 							.default,
 						alt: 'A colored calendar stylized like BeReal pictures.'
 					}
@@ -283,7 +283,7 @@
 						'Critical Data Visualization with Catherine Griffiths at the University of Michigan',
 					image: {
 						src: (
-							await import('$lib/assets/work/police.png?enhanced&aspect=5:2&position=top&imagetools')
+							await import('#lib/assets/work/police.png?enhanced&aspect=5:2&position=top&imagetools')
 						).default,
 						alt: 'A silhouette of a police officer filled with officers with militarized equipment.'
 					}
@@ -294,11 +294,11 @@
 					affiliation: 'How Algorithms See with Catherine Griffiths at the University of Michigan',
 					image: {
 						src: (
-							await import('$lib/assets/work/grammy.jpg?enhanced&aspect=5:2&position=bottom&imagetools')
+							await import('#lib/assets/work/grammy.jpg?enhanced&aspect=5:2&position=bottom&imagetools')
 						).default,
 						alt: 'A grid of GRAMMY winners.'
 					}
-				},
+				}
 				// {
 				// 	link: 'https://github.com/erxclau/rare-botanist',
 				// 	name: 'Rare Botanist',
@@ -331,7 +331,7 @@
 		<hgroup>
 			<enhanced:img
 				fetchpriority="high"
-				src="$lib/assets/eric.png?enhanced"
+				src="#lib/assets/eric.png?enhanced"
 				alt="Eric Lau in a white T-shirt with a blue long-sleeve shirt on top. He is wearing gold rim glasses and is looking to the right."
 				style:width="135px"
 				style:height="135px"

@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { TemporalDate, TemporalPartialDate } from '$lib/temporal';
+	import { TemporalDate, TemporalPartialDate } from '#lib/temporal.js';
 	import { page } from '$app/state';
-	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
+	import { onMount } from 'svelte';
 
 	const data: Array<Lists> = [
 		{
@@ -2179,12 +2179,11 @@
 												<details
 													ontoggle={(e) => {
 														const details = e.target as HTMLDetailsElement;
+
 														if (details.open) {
 															goto(`/consume#${id}`);
 														} else {
-															goto('/consume', {
-																noScroll: true
-															});
+															goto('/consume', { shallow: true });
 														}
 													}}
 												>
