@@ -9,6 +9,20 @@
 			<li>
 				<figure>
 					<blockquote>
+						Now he began taking measures to limit use of his parks. He had restricted the use of
+						state parks by poor and lower-middle-class families in the first place, by limiting
+						access to the parks by rapid transit; he had vetoed the Long Island Rail Road’s proposed
+						construction of a branch spur to Jones Beach for this reason. Now he began to limit
+						access by buses; he instructed Shapiro to build the bridges across his new parkways
+						low-too low for buses to pass. Bus trips therefore had to be made on local roads, making
+						the trips discouragingly long and arduous.
+					</blockquote>
+					<figcaption>Robert Caro<cite>The Power Broker</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>
 						New York for a New Yorker long absent gives the impression of great security. Something
 						old, familiar, safe.
 					</blockquote>

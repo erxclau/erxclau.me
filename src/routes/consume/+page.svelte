@@ -413,12 +413,8 @@
 						{
 							name: 'We Should All Be Feminists',
 							finishDate: new TemporalDate(2020, 6, 29),
-							authors: ['Chimamanda Ngozi Adichie']
-						},
-						{
-							name: 'The Ones Who Walk Away from Omelas',
-							finishDate: new TemporalDate(2020, 3, 15),
-							authors: ['Ursula K. Le Guin']
+							authors: ['Chimamanda Ngozi Adichie'],
+							notes: 'Recommended by Yaru'
 						}
 					]
 				},
@@ -1921,7 +1917,8 @@
 						{
 							name: 'Last Boys at the Beginning of History',
 							authors: ['Mana Afsari'],
-							url: 'https://thepointmag.com/politics/last-boys-at-the-beginning-of-history/'
+							url: 'https://thepointmag.com/politics/last-boys-at-the-beginning-of-history/',
+							notes: 'Recommended by Emily'
 						},
 						{
 							name: 'ChatGPT Is a Gimmick',
