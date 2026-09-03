@@ -115,7 +115,6 @@
 		},
 		{
 			category: 'Books',
-			description: 'This list also includes short stories.',
 			lists: [
 				{
 					date: 'Current',
@@ -131,32 +130,6 @@
 				{
 					date: 2026,
 					items: [
-						{
-							name: 'Terms and Conditions',
-							authors: ['Daniel Lefferts'],
-							startDate: new TemporalDate(2026, 8, 4),
-							finishDate: new TemporalDate(2026, 8, 4),
-							thoughts: `Groups: do they ever survive?`,
-							notes: 'Recommended by Josh'
-						},
-						{
-							name: 'There Will Come Soft Rains',
-							authors: ['Ray Bradbury'],
-							startDate: new TemporalDate(2026, 8, 4),
-							finishDate: new TemporalDate(2026, 8, 4),
-							highlight: true,
-							notes: 'Recommended by Irena',
-							thoughts: `Technology will not save us. Bradbury’s smart house — 
-							one that can cook, clean, try to put out a fire — is not yet here. 
-							Even if it were, it will never fully adapt to or know our 
-							circumstance. The home in Allendale carries on despite the
-							apocalypse, the same way an algorithm might continue their work on
-							our social media accounts after a death. Technology will not save
-							itself. There is no meaning to technology without the person
-							maintaining it, the person using it. It merely exists to rust into
-							oblivion. We may destroy ourselves, with technology. 
-							Yet, the sun still rises on August 5.`
-						},
 						{
 							name: 'Interior Chinatown',
 							authors: ['Charles Yu'],
@@ -270,7 +243,8 @@
 							as the Vietnamese people themselves. The narrator is (or narrators are) left in an uncertain state by 
 							the end of the novel, literally drifting through the water and open to a new beginning. 
 							I am quite excited to read the sequel.`,
-							highlight: true
+							highlight: true,
+							notes: 'Gift from Dora'
 						}
 					]
 				},
@@ -413,7 +387,13 @@
 				},
 				{
 					date: 2023,
-					items: [{ name: 'The Stranger', authors: ['Albert Camus'] }]
+					items: [
+						{
+							name: 'The Stranger',
+							authors: ['Albert Camus'],
+							finishDate: new TemporalDate(2023, 4, 30)
+						}
+					]
 				},
 				{
 					date: 2022,
@@ -606,10 +586,17 @@
 					date: 2026,
 					items: [
 						{
-							name: "Deadpool & Wolverine",
+							name: 'Captain America: Brave New World',
+							startDate: new TemporalDate(2026, 8, 30),
+							finishDate: new TemporalDate(2026, 9, 1),
+							notes: "On Disney+",
+							thoughts: `Joseph McCarthy would’ve known.`
+						},
+						{
+							name: 'Deadpool & Wolverine',
 							startDate: new TemporalDate(2026, 8, 29),
 							finishDate: new TemporalDate(2026, 8, 30),
-							notes: "On Disney+",
+							notes: 'On Disney+',
 							thoughts: `Holy cameos. You don’t get to see many uncut action 
 							scenes from the MCU. The Deadpool Corps sequence near the end was 
 							great. The humor gets a little old but has its moments. Sweet
@@ -1639,7 +1626,7 @@
 					items: [
 						{
 							name: 'Ted Lasso',
-							notes: 'On Apple TV',
+							notes: 'On Apple TV; up to season 3',
 							startDate: new TemporalDate(2026, 2, 18),
 							finishDate: new TemporalDate(2026, 2, 22),
 							thoughts: `Great jokes, inspiring speeches.`
@@ -1707,7 +1694,7 @@
 						{ name: 'Grand Army' },
 						{
 							name: 'Attack on Titan',
-							notes: 'Yet to watch past the first part of season 4. On Hulu'
+							notes: 'On Hulu; up to season 3'
 						},
 						{ name: 'The Pacific', highlight: true },
 						{ name: 'Band of Brothers', highlight: true },
@@ -1715,7 +1702,8 @@
 						{ name: 'America: The Story of Us' },
 						{
 							name: 'Battlefield',
-							notes: `I watched several of the Second World War episodes during my childhood.`
+							url: 'https://www.youtube.com/playlist?list=PL8hNHC9nbLlwpq5bbCkcODDmAXXFfuSKZ',
+							thoughts: `This series was quite a formative part of my childhood.`
 						}
 					]
 				}
@@ -1867,7 +1855,8 @@
 			]
 		},
 		{
-			category: 'Essays',
+			category: 'Text',
+			description: 'Essays, short stories and other written work.',
 			lists: [
 				{
 					date: 2026,
@@ -1878,7 +1867,7 @@
 							startDate: new TemporalDate(2026, 8, 15),
 							finishDate: new TemporalDate(2026, 8, 15),
 							url: 'https://harperreview.com/something-to-do-with-being-entertained/',
-							notes: 'From a physical copy of The Harper Review Vol. IV, no. 1; gift from Emily',
+							notes: 'From a copy of The Harper Review Vol. IV, no. 1 gifted by Emily',
 							thoughts: `I found the writing accessible, even though I haven’t
 							read David Foster Wallace’s work. He was right to treat 
 							“existentially unsatisfying pleasure” as a matter of life and 
@@ -1897,6 +1886,32 @@
 							to, entertainment, et cetera. In eating food (quite literally 
 							nourishing!), in relationships, in love, in Maslow’s, in doing 
 							taxes, in work, in the otherwise mundane aspects of being human.`
+						},
+						{
+							name: 'Terms and Conditions',
+							authors: ['Daniel Lefferts'],
+							startDate: new TemporalDate(2026, 8, 4),
+							finishDate: new TemporalDate(2026, 8, 4),
+							thoughts: `Groups: do they ever survive?`,
+							notes: 'Recommended by Josh'
+						},
+						{
+							name: 'There Will Come Soft Rains',
+							authors: ['Ray Bradbury'],
+							startDate: new TemporalDate(2026, 8, 4),
+							finishDate: new TemporalDate(2026, 8, 4),
+							highlight: true,
+							notes: 'Recommended by Irena',
+							thoughts: `Technology will not save us. Bradbury’s smart house — 
+							one that can cook, clean, try to put out a fire — is not yet here. 
+							Even if it were, it will never fully adapt to or know our 
+							circumstance. The home in Allendale carries on despite the
+							apocalypse, the same way an algorithm might continue their work on
+							our social media accounts after a death. Technology will not save
+							itself. There is no meaning to technology without the person
+							maintaining it, the person using it. It merely exists to rust into
+							oblivion. We may destroy ourselves, with technology. 
+							Yet, the sun still rises on August 5.`
 						}
 					]
 				},
@@ -1937,6 +1952,17 @@
 							name: 'The “Blob” Is Furious About Gaza. But That’s Not Enough.',
 							authors: ['Josef Burton'],
 							url: 'https://www.thenation.com/article/world/blob-gaza-biden-blinken/'
+						}
+					]
+				},
+				{
+					date: 2020,
+					items: [
+						{
+							name: 'The Ones Who Walk Away from Omelas',
+							finishDate: new TemporalDate(2020, 3, 15),
+							authors: ['Ursula K. Le Guin'],
+							notes: 'Recommended by Yaru'
 						}
 					]
 				}
@@ -1983,7 +2009,7 @@
 )}
 	{@const preposition = date.partial ? 'in' : 'on'}
 	<div class="extra date">
-		{#if category === 'Books' || category === 'Shows' || category === 'Essays' || startedOnDifferentDate}Finished
+		{#if category === 'Books' || category === 'Shows' || category === 'Text' || startedOnDifferentDate}Finished
 			{preposition}
 		{:else if category === 'Theater' || category === 'Film'}Watched {preposition}
 		{/if}
@@ -1994,7 +2020,7 @@
 {#snippet dateConsumed(date: TemporalDate | TemporalPartialDate, category: string)}
 	{@const preposition = date.partial ? 'in' : 'on'}
 	<div class="extra date">
-		{#if category === 'Books' || category === 'Essays'}Read {preposition}
+		{#if category === 'Books' || category === 'Text'}Read {preposition}
 		{:else if category === 'Theater' || category === 'Film' || category === 'Shows'}Watched {preposition}
 		{/if}
 		{date}
@@ -2013,10 +2039,12 @@
 {/snippet}
 
 {#snippet dates(item: Item, category: string)}
-	<div class="dates">
-		{#if item.startDate !== undefined && item.finishDate !== undefined && item.startDate.toString() === item.finishDate.toString()}
+	{#if item.startDate !== undefined && item.finishDate !== undefined && item.startDate.toString() === item.finishDate.toString()}
+		<div class="dates">
 			{@render dateConsumed(item.finishDate, category)}
-		{:else}
+		</div>
+	{:else if item.startDate || item.finishDate}
+		<div class="dates">
 			{#if item.startDate}
 				{@render dateStarted(item.startDate)}
 			{/if}
@@ -2027,8 +2055,8 @@
 					item.startDate !== undefined && item.startDate !== item.finishDate
 				)}
 			{/if}
-		{/if}
-	</div>
+		</div>
+	{/if}
 {/snippet}
 
 <main>
@@ -2038,7 +2066,7 @@
 	</hgroup>
 	<div style="display: grid; gap: 1.25rem;">
 		{#each data as { category, description, lists }}
-			<section id={category.toLowerCase()}>
+			<section id={category.toLowerCase().replaceAll(' ', '-')}>
 				<hgroup>
 					<h2>{category}</h2>
 					<b class="count">{lists.flatMap((d) => d.items).length}</b>
@@ -2052,7 +2080,7 @@
 							{#if date === undefined}
 								{#if i > 0}
 									<hgroup>
-										<h3>Undated</h3>
+										<h3>More</h3>
 										<small class="count">{items.length}</small>
 									</hgroup>
 								{/if}
@@ -2135,7 +2163,9 @@
 			<div style="display: inline-flex; column-gap: 0.5rem; row-gap: 0.375rem;">
 				<div style="flex-shrink: 0;">Jump to:</div>
 				<div style="display: inline-flex; column-gap: 0.375rem; row-gap: 0.25rem; flex-wrap: wrap;">
-					{#each data as { category }}<a href="#{category.toLowerCase()}">{category}</a>{/each}
+					{#each data as { category }}<a href="#{category.toLowerCase().replaceAll(' ', '-')}"
+							>{category}</a
+						>{/each}
 				</div>
 			</div>
 		</div>
