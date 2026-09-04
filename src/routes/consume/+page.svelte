@@ -1858,7 +1858,7 @@
 					date: 2026,
 					items: [
 						{
-							name: "Liberté, égalité, artificialité",
+							name: 'Liberté, égalité, artificialité',
 							authors: ['Jake Glasgow'],
 							startDate: new TemporalDate(2026, 9, 3),
 							finishDate: new TemporalDate(2026, 9, 3),
@@ -2174,6 +2174,8 @@
 							<ul>
 								{#each items as item}
 									{@const id = `${category.toLowerCase()}-${item.name
+										.normalize('NFD')
+										.replace(/[\u0300-\u036f]/g, '')
 										.replaceAll(/\W/g, '-')
 										.toLowerCase()}${item.year === undefined ? '' : `-${item.year}`}`}
 									<li class="item" {id}>
