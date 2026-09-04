@@ -1858,6 +1858,17 @@
 					date: 2026,
 					items: [
 						{
+							name: "Liberté, égalité, artificialité",
+							authors: ['Jake Glasgow'],
+							startDate: new TemporalDate(2026, 9, 3),
+							finishDate: new TemporalDate(2026, 9, 3),
+							url: 'https://harperreview.com/liberte-egalite-artificialite/',
+							thoughts: `Well presented. Is there something about humans being
+							able to have true original thoughts? Can I really say that I’ve 
+							had an original thought, or be able to say for certain that a 
+							thought from an LLM is not original? Very squishy.`
+						},
+						{
 							name: 'I, me, mine',
 							authors: ['Olivia Curran'],
 							startDate: new TemporalDate(2026, 8, 27),
@@ -1891,8 +1902,7 @@
 							given system but a person’s focus on their private welfare, over a
 							communal welfare or participation. If the collective cared for
 							more than just the private life, then maybe a viable council 
-							system (or something of the sort) would naturally emerge. Alas, 
-							we are disaffected.`,
+							system (or something of the sort) would naturally emerge.`,
 							notes: 'Gift from Emily'
 						},
 						{
@@ -1919,8 +1929,10 @@
 							startDate: new TemporalDate(2026, 8, 15),
 							finishDate: new TemporalDate(2026, 8, 27),
 							url: 'https://harperreview.com/galatea-and-claude/',
-							thoughts: `So you’re telling me Claude is a performative male?
-							Claude is safer, maybe.`,
+							thoughts: `So you’re telling me Claude is a performative male? 
+							There’s value to the safety of rehearsal, but maybe we’ve become
+							too obsessed with perfecting practice that we forget to do the
+							real thing.`,
 							notes: 'Gift from Emily'
 						},
 						{
