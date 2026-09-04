@@ -1866,7 +1866,8 @@
 							thoughts: `Well presented. Is there something about humans being
 							able to have true original thoughts? Can I really say that I’ve 
 							had an original thought, or be able to say for certain that a 
-							thought from an LLM is not original? Very squishy.`
+							thought from an LLM is not original? Very squishy.`,
+							notes: 'Gift from Emily'
 						},
 						{
 							name: 'I, me, mine',
