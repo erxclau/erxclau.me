@@ -120,6 +120,12 @@
 					date: 'Current',
 					items: [
 						{
+							name: 'Perfection',
+							authors: ['Vincenzo Latronico', 'Sophie Hughes'],
+							startDate: new TemporalDate(2026, 9, 5),
+							notes: 'Recommended by Yaru'
+						},
+						{
 							name: 'The Power Broker',
 							authors: ['Robert Caro'],
 							startDate: new TemporalPartialDate(2026, 1),
