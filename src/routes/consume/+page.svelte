@@ -582,6 +582,13 @@
 					date: 2026,
 					items: [
 						{
+							name: 'Thunderbolts*',
+							thoughts: `Many things gone dark: Selina Meyer, Thanos, Captain 
+							America. The magazine spreads during the end credits were fun.`,
+							finishDate: new TemporalDate(2026, 9, 4),
+							notes: 'On Disney+'
+						},
+						{
 							name: 'Captain America: Brave New World',
 							startDate: new TemporalDate(2026, 8, 30),
 							finishDate: new TemporalDate(2026, 9, 1),
