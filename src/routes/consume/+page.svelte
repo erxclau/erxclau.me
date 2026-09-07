@@ -120,12 +120,6 @@
 					date: 'Current',
 					items: [
 						{
-							name: 'Perfection',
-							authors: ['Vincenzo Latronico', 'Sophie Hughes'],
-							startDate: new TemporalDate(2026, 9, 5),
-							notes: 'Recommended by Yaru'
-						},
-						{
 							name: 'The Power Broker',
 							authors: ['Robert Caro'],
 							startDate: new TemporalPartialDate(2026, 1),
@@ -136,6 +130,14 @@
 				{
 					date: 2026,
 					items: [
+						{
+							name: 'Perfection',
+							authors: ['Vincenzo Latronico', 'Sophie Hughes'],
+							startDate: new TemporalDate(2026, 9, 5),
+							finishDate: new TemporalDate(2026, 9, 7),
+							notes: 'Recommended by Yaru',
+							highlight: true
+						},
 						{
 							name: 'Interior Chinatown',
 							authors: ['Charles Yu'],
@@ -582,7 +584,13 @@
 			lists: [
 				{
 					date: 'Current',
-					items: []
+					items: [
+						{
+							name: 'The Hobbit: The Desolation of Smaug',
+							startDate: new TemporalDate(2026, 9, 6),
+							notes: `On HBO Max; extended edition`
+						}
+					]
 				},
 				{
 					date: 2026,
