@@ -136,7 +136,36 @@
 							startDate: new TemporalDate(2026, 9, 5),
 							finishDate: new TemporalDate(2026, 9, 7),
 							notes: 'Recommended by Yaru',
-							highlight: true
+							highlight: true,
+							thoughts: `<div>I’d spend most of my days underneath the Kosciuszko
+							 (kah-see-AAHS-koh) Street station. My parents ran a Chinese
+							 restaurant on the Bushwick side of Broadway. Across the street,
+							 within Bed-Stuy, there’s a laundromat I played arcade games in, a
+							 Little Caesar’s we used to order 5 dollar sausage and pepperoni 
+							 pizzas from. It’s boarded up now, in the process of being
+							 <a target="_blank" href="https://newyorkyimby.com/2026/04/permits-filed-for-1150-broadway-in-bed-stuy-brooklyn.html">redeveloped</a> 
+							 into a 99-unit residential building. Of course, the city needs 
+							 more housing stock. Limited housing is how natives get pushed out. 
+							 I don’t so much resist the change, but rather feel I’d taken 
+							 institutions, characters for granted, that I should not spend so 
+							 much time away while what is still there is still there. All the
+							 while, I gentrify another neighborhood. They call it a transient city, 
+							 but there’s more to the District than fleeting new-grad stints.</div>
+							 <div>I loved the pace of the narrative. The prose seamlessly 
+							 shifted between elaborate lists describing Anna and Tom’s lives, 
+							 to more contemplative passages reflecting on those sequences. I 
+							 have a romantic yearning to return to the days of the Internet 
+							 before social media, even though I was too young to actually 
+							 experience much of it. It must have been so much simpler. There’s
+							 much about anxiety throughout, of what Anna and Tom ought to do. 
+							 Yes, prominently about work, place, but also of sex and activism. 
+							 Belonging, more generally. Anna and Tom ultimately went back to a 
+							 vanilla sex life and “activism” from a distance. A journey to 
+							 distant lands is required to truly find home. I am still on one,
+							 lost at sea, searching for perfection. The ending is a bit
+							 unfortunate, that Anna and Tom can only take the weight off their
+							 shoulders after others’ reviews, not an internal satisfaction.
+							 </div>`
 						},
 						{
 							name: 'Interior Chinatown',
@@ -586,15 +615,23 @@
 					date: 'Current',
 					items: [
 						{
-							name: 'The Hobbit: The Desolation of Smaug',
-							startDate: new TemporalDate(2026, 9, 6),
-							notes: `On HBO Max; extended edition`
+							name: 'The Hobbit: The Battle of the Five Armies',
+							startDate: new TemporalDate(2026, 9, 10),
+							// thoughts: ``,
+							notes: 'On HBO Max; extended edition'
 						}
 					]
 				},
 				{
 					date: 2026,
 					items: [
+						{
+							name: 'The Hobbit: The Desolation of Smaug',
+							startDate: new TemporalDate(2026, 9, 6),
+							finishDate: new TemporalDate(2026, 9, 7),
+							thoughts: `More plot! Legolas is so cool.`,
+							notes: `On HBO Max; extended edition`
+						},
 						{
 							name: 'Thunderbolts*',
 							thoughts: `Many things gone dark: Selina Meyer, Thanos, Captain 
@@ -1902,7 +1939,7 @@
 							and I might share some overlap in our algorithmic “taste,” but 
 							there’s no true depth to it. What’s the value in making taste
 							more convenient, in engineering it? Seek from a (local) who 
-							instead of an (online) what. I enjoyed listening to an episode of 
+							instead of an (online) what. I enjoyed listening to an <a target="_blank" href="https://youtu.be/f4KgyG-AuAo?si=x3dMS7_rfUmSlSa2">episode</a> of 
 							The Vergecast that dealt with similar themes; it was framed in 
 							response to Mark Zuckerberg’s AI manifesto.`,
 							notes: 'Gift from Emily'
@@ -2391,6 +2428,11 @@
 		text-wrap: pretty;
 	}
 
+	:global(.extra:has(div)) {
+		display: grid;
+		gap: 0.25rem;
+	}
+
 	li .note,
 	li .date {
 		font-size: 0.825rem;
@@ -2479,5 +2521,10 @@
 	.extra-container {
 		display: grid;
 		gap: 0.125rem;
+	}
+
+	.extra :global(a) {
+		color: var(--color-primary);
+		text-underline-offset: 2px;
 	}
 </style>

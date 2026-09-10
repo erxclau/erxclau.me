@@ -9,6 +9,86 @@
 			<li>
 				<figure>
 					<blockquote>
+						<div>
+							They will find themselves wondering how long it would be before a neural network could
+							carry out most of their work. They will find themselves wondering whether that would
+							be such a shame. How could they ever have chosen to spend their days like that,
+							hunched over a computer screen in heir living room?
+						</div>
+						<div>
+							But then, had they really chosen it? The reaszon they had tolerated, even loved the
+							work, they will tell themselves, is because the repetitiveness provided a
+							counterbalance ot the limitless growth and broad horizons of the rest of their days.
+							Now, they will realize, nothing remains but the work.
+						</div>
+					</blockquote>
+					<figcaption>Vincenzo Latronico<cite>Perfection</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>
+						If they hadn’t moved abroad, that Sunday they would have gone for lunch with one of
+						their families. They would probably still be drinking coffee around the table. It would
+						be daylight. Though it remained unspoken, Anna and Tom would both feel the crush of
+						nostalgia. What were they doing there? It wasn’t so much thier hometown that they
+						missed, but something they had taken for granted back when they lived there. They
+						couldn’t say precisely what that something was, but its absense made daily life in
+						Berlin feel intense, draining — more exciting, maybe, but ultimately harder.
+					</blockquote>
+					<figcaption>Vincenzo Latronico<cite>Perfection</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>
+						Gentrification, as they understood it, was something other people did.
+					</blockquote>
+					<figcaption>Vincenzo Latronico<cite>Perfection</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>
+						They were happy with their sex life, and when they talked about it they said as much,
+						and believed it. In a way, this was what was so suspicious. They worried they were
+						content merely being contented.
+					</blockquote>
+					<figcaption>Vincenzo Latronico<cite>Perfection</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>
+						Anna and Tom had been welcomed with an almost suspicious level of interest and openness,
+						proof of a loneliness everyone was trying to exorcize.
+					</blockquote>
+					<figcaption>Vincenzo Latronico<cite>Perfection</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>
+						They could make vague connections between place names and crucial events from the
+						previous century, and naturally they were aware of the Wall and the broken glass, but
+						really their awareness didn’t exceed a few anecdotes rattled off to make it look like
+						their life there had more substance.
+					</blockquote>
+					<figcaption>Vincenzo Latronico<cite>Perfection</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>
+						They would spend hours building personal websites and profiles that reflected their
+						tastes and interests, lists of things that made them special.
+					</blockquote>
+					<figcaption>Vincenzo Latronico<cite>Perfection</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>
 						Now he began taking measures to limit use of his parks. He had restricted the use of
 						state parks by poor and lower-middle-class families in the first place, by limiting
 						access to the parks by rapid transit; he had vetoed the Long Island Rail Road’s proposed
@@ -59,8 +139,10 @@
 			<li>
 				<figure>
 					<blockquote>
-						Not one would mind, neither bird nor tree, / if mankind perished utterly; / And Spring
-						herself, when she woke at dawn / Would scarcely know that we were gone.
+						<div>Not one would mind, neither bird nor tree,</div>
+						<div>if mankind perished utterly;</div>
+						<div>And Spring herself, when she woke at dawn</div>
+						<div>Would scarcely know that we were gone.</div>
 					</blockquote>
 					<figcaption>Sara Teasdale <cite>There Will Come Soft Rains</cite></figcaption>
 				</figure>
@@ -74,7 +156,8 @@
 			<li>
 				<figure>
 					<blockquote>
-						One must wait until the evening / To see how splendid the day has been.
+						<div>One must wait until the evening</div>
+						<div>To see how splendid the day has been.</div>
 					</blockquote>
 					<figcaption>Sophocles <cite>The Power Broker</cite></figcaption>
 				</figure>
@@ -368,6 +451,8 @@
 		position: relative;
 		margin: 0 2rem;
 		text-wrap: pretty;
+		display: grid;
+		gap: 0.375rem;
 	}
 
 	blockquote::before {
