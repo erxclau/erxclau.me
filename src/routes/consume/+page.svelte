@@ -165,6 +165,8 @@
 							 lost at sea, searching for perfection. The ending is a bit
 							 unfortunate, that Anna and Tom can only take the weight off their
 							 shoulders after others’ reviews, not an internal satisfaction.
+							 Did they find perfection? Are they still chasing as they were
+							 all those years ago when they fled to Berlin?
 							 </div>`
 						},
 						{
