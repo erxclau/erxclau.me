@@ -146,17 +146,17 @@
 							 <a target="_blank" href="https://newyorkyimby.com/2026/04/permits-filed-for-1150-broadway-in-bed-stuy-brooklyn.html">redeveloped</a> 
 							 into a 99-unit residential building. Of course, the city needs 
 							 more housing stock. Limited housing is how natives get pushed out. 
-							 I don’t so much resist the change, but rather feel I’d taken 
-							 institutions, characters for granted, that I should not spend so 
-							 much time away while what is still there is still there. All the
-							 while, I gentrify another neighborhood. They call it a transient city, 
-							 but there’s more to the District than fleeting new-grad stints.</div>
+							 I don’t resist the change, but feel I’d taken institutions, 
+							 characters for granted, that I should not spend so much time away 
+							 while what is still there is still there. All the while, I gentrify 
+							 another neighborhood. They call it a transient city, but there’s 
+							 more to the District than fleeting new-grad stints.</div>
 							 <div>I loved the pace of the narrative. The prose seamlessly 
 							 shifted between elaborate lists describing Anna and Tom’s lives, 
 							 to more contemplative passages reflecting on those sequences. I 
 							 have a romantic yearning to return to the days of the Internet 
 							 before social media, even though I was too young to actually 
-							 experience much of it. It must have been so much simpler. There’s
+							 experience any of it. A simpler, more naïve time. There’s
 							 much about anxiety throughout, of what Anna and Tom ought to do. 
 							 Yes, prominently about work, place, but also of sex and activism. 
 							 Belonging, more generally. Anna and Tom ultimately went back to a 
