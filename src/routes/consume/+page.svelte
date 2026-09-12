@@ -14,7 +14,7 @@
 						{
 							name: 'Maybe Happy Ending',
 							finishDate: new TemporalDate(2026, 7, 19),
-							notes: 'At Belasco Theater',
+							notes: 'At Belasco Theater with Albon, Irena and Tiffany',
 							thoughts: `I loved the set design. The shrinking and expanding
 							viewport was so fun. I particularly liked the reveal during the
 							firefly scene with all of the instrumentalists. I did cry at the
@@ -94,7 +94,7 @@
 							I was able to enjoy the show after letting go of those expectations. I appreciated the more conversational, awkward and whimsical
 							moments that were not particularly conveyed in the original recording. I loved how versatile the rotating floor was.
 							I cried through much of the second half.`,
-							notes: 'At Richard Rodgers Theater',
+							notes: 'At Richard Rodgers Theater with Irena',
 							highlight: true
 						}
 					]
@@ -107,7 +107,7 @@
 							finishDate: new TemporalDate(2025, 11, 22),
 							thoughts:
 								'A funny, self-aware musical about living forever. Colorful, abundant, physically impressive.',
-							notes: 'At Lunt-Fontanne Theatre'
+							notes: 'At Lunt-Fontanne Theatre with Sophia'
 						}
 					]
 				}
@@ -135,7 +135,7 @@
 							authors: ['Vincenzo Latronico', 'Sophie Hughes'],
 							startDate: new TemporalDate(2026, 9, 5),
 							finishDate: new TemporalDate(2026, 9, 7),
-							notes: 'Recommended by Yaru',
+							notes: 'From Kramers; recommended by Yaru',
 							highlight: true,
 							thoughts: `<div>I’d spend most of my days underneath the Kosciuszko
 							 (kah-see-AAHS-koh) Street station. My parents ran a Chinese
@@ -373,6 +373,7 @@
 						{
 							name: 'Killing Rage: Ending Racism',
 							authors: ['bell hooks'],
+							finishDate: new TemporalPartialDate(2025, 3),
 							thoughts: `In relation to Black beauty standards that I read about in The Message, 
 							hooks discusses the “Black is beautiful” movement of the 1960s that rejected Eurocentric 
 							beauty standards. Yet, because of robust Western programming and lasting white prejudice
@@ -614,25 +615,22 @@
 			category: 'Film',
 			lists: [
 				{
-					date: 'Current',
+					date: 2026,
 					items: [
 						{
 							name: 'The Hobbit: The Battle of the Five Armies',
 							startDate: new TemporalDate(2026, 9, 10),
-							// thoughts: ``,
-							notes: 'On HBO Max; extended edition'
-						}
-					]
-				},
-				{
-					date: 2026,
-					items: [
+							finishDate: new TemporalDate(2026, 9, 12),
+							thoughts: `Everyone is so annoying! Some of the physics and fight
+							scenes were a little silly.`,
+							notes: 'On HBO Max; extended edition; with Josh'
+						},
 						{
 							name: 'The Hobbit: The Desolation of Smaug',
 							startDate: new TemporalDate(2026, 9, 6),
 							finishDate: new TemporalDate(2026, 9, 7),
 							thoughts: `More plot! Legolas is so cool.`,
-							notes: `On HBO Max; extended edition`
+							notes: `On HBO Max; extended edition; with Josh`
 						},
 						{
 							name: 'Thunderbolts*',
@@ -682,7 +680,7 @@
 							startDate: new TemporalDate(2026, 8, 15),
 							finishDate: new TemporalDate(2026, 8, 18),
 							thoughts: `Some cool battle scenes. Silly tropes at times.`,
-							notes: 'On HBO Max'
+							notes: 'On HBO Max; with Josh'
 						},
 						{
 							name: 'Logan',
@@ -967,7 +965,7 @@
 						{
 							name: 'Paprika',
 							finishDate: new TemporalDate(2026, 4, 5),
-							notes: 'At the National Museum of Asian Art',
+							notes: 'At the National Museum of Asian Art with Josh',
 							highlight: true,
 							thoughts: `Confusing and wild, in a beautiful dream-like way. 
 							How can the dream of one influence, perhaps corrupt, the dreams of the many? 
@@ -1050,7 +1048,7 @@
 						{
 							name: 'Wicked: For Good',
 							finishDate: new TemporalDate(2025, 11, 21),
-							notes: 'At AMC Courthouse Plaza 8',
+							notes: 'At AMC Courthouse Plaza 8 with Agnes and Josh',
 							thoughts: `I think it was fine. The musical numbers were less memorable than the ones from the first part.`
 						},
 						{
@@ -1061,7 +1059,8 @@
 						},
 						{
 							name: 'Kiki’s Delivery Service',
-							finishDate: new TemporalDate(2025, 8, 30)
+							finishDate: new TemporalDate(2025, 8, 30),
+							notes: 'With April, Frank and Sharon'
 						},
 						{
 							name: 'Independence Day',
@@ -1078,7 +1077,7 @@
 							name: 'When Harry Met Sally',
 							highlight: true,
 							finishDate: new TemporalDate(2025, 7, 14),
-							notes: 'On Pluto TV'
+							notes: 'On Pluto TV; with Sophia'
 						},
 						{
 							name: 'Tron: Legacy',
@@ -1242,7 +1241,8 @@
 								until consuming media about the film such as F.D Signifier’s video on the movie and Black art.
 								`,
 							highlight: true,
-							finishDate: new TemporalDate(2025, 5, 4)
+							finishDate: new TemporalDate(2025, 5, 4),
+							notes: 'With Sophia'
 						},
 						{
 							name: 'Arrival',
@@ -1349,7 +1349,7 @@
 						{
 							name: 'Perfect Days',
 							finishDate: new TemporalDate(2025, 1, 19),
-							notes: 'On YouTube',
+							notes: 'On YouTube; recommended by Sophia',
 							highlight: true,
 							thoughts: `Sparse, pleasant. Splendid music. Is ambition the thief of joy?
 								For Hirayama, stability and routine seem to be the key to a perfect day.`
@@ -1389,11 +1389,12 @@
 						{ name: 'The Edge of Seventeen' },
 						{ name: 'The Girl Next Door' },
 						{ name: 'The Perks of Being a Wallflower', highlight: true },
-						{ name: 'A Family Affair' },
+						{ name: 'A Family Affair', notes: 'On Netflix; with Alessia, Kim, Nicole and Sarah' },
 						{
 							name: 'Inside Out 2',
 							finishDate: new TemporalDate(2024, 6, 18),
-							notes: 'At Landmark’s E Street Cinema'
+							notes:
+								'At Landmark’s E Street Cinema with summer 2024 Washington Post newsroom interns'
 						},
 						{
 							name: 'Dìdi',
@@ -1409,12 +1410,13 @@
 							name: 'The Boy and the Heron',
 							highlight: true,
 							finishDate: new TemporalDate(2024, 1, 14),
-							notes: 'At State Theater'
+							notes: 'At State Theater with Marie, Oliver, Sophia and Sophia'
 						},
 						{
 							name: 'Past Lives',
 							highlight: true,
 							finishDate: new TemporalDate(2024, 1, 13),
+							notes: 'At Michigan Theater with Marie, Oliver, Sophia and Sophia',
 							thoughts: `Bittersweet, as past lives are?`
 						}
 					]
@@ -1422,12 +1424,17 @@
 				{
 					date: 2023,
 					items: [
-						{ name: 'Midsommar', highlight: true, thoughts: 'Chilling. Great aesthetics.' },
+						{
+							name: 'Midsommar',
+							highlight: true,
+							thoughts: 'Chilling. Great aesthetics.',
+							notes: 'With Sophia'
+						},
 						{
 							name: 'Oppenheimer',
 							highlight: true,
 							finishDate: new TemporalDate(2023, 7, 30),
-							notes: 'At State Theater',
+							notes: 'At State Theater with Sophia',
 							thoughts: `A power outage meant I did not see Barbie and Oppenheimer on the same day. 
 							I appreciate that the film extends beyond Hiroshima and Nagasaki and addresses the brewing American 
 							fear of communism and the Soviet Union before, during and immediately after the Second World War.
@@ -1437,20 +1444,20 @@
 							name: 'Barbie',
 							highlight: true,
 							finishDate: new TemporalDate(2023, 7, 23),
-							notes: 'At State Theater',
+							notes: 'At State Theater with Sophia',
 							thoughts: `Pink pants. Fun time.`
 						},
 						{
 							name: 'Spider-Man: Across the Spider-Verse',
 							highlight: true,
 							finishDate: new TemporalDate(2023, 6, 13),
-							notes: 'At State Theater',
+							notes: 'At State Theater with Sophia',
 							thoughts: `I loved the style of Across the Spider-Verse (and Into the Spider-Verse).
 								I felt that animation allowed for very creative uses of cartoon physics, vibrant colors and visual effects.`
 						},
 						{ name: 'Everything Everywhere All at Once', highlight: true },
-						{ name: 'The Grand Budapest Hotel', highlight: true },
-						{ name: 'Knives Out' },
+						{ name: 'The Grand Budapest Hotel', highlight: true, notes: 'With Sophia' },
+						{ name: 'Knives Out', notes: 'With Sophia' },
 						{ name: 'Guardians of the Galaxy Vol. 3' },
 						{ name: 'Ant-Man and the Wasp: Quantumania' }
 					]
@@ -1667,12 +1674,12 @@
 						},
 						{
 							name: 'Industry',
-							notes: 'On HBO Max',
+							notes: 'On HBO Max; with Josh',
 							startDate: new TemporalDate(2026, 7, 2)
 						},
 						{
 							name: 'Heated Rivalry',
-							notes: 'On HBO Max',
+							notes: 'On HBO Max; with Josh',
 							startDate: new TemporalPartialDate(2026, 12)
 						}
 					]
@@ -1719,7 +1726,7 @@
 							highlight: true,
 							startDate: new TemporalDate(2025, 2, 7),
 							finishDate: new TemporalDate(2025, 2, 13),
-							notes: 'On HBO Max'
+							notes: 'On HBO Max; recommended by Irena'
 						}
 					]
 				},
@@ -1727,17 +1734,17 @@
 					date: 2024,
 					items: [
 						{ name: 'Masters of the Air', notes: 'On Apple TV' },
-						{ name: 'Moral Orel', highlight: true },
-						{ name: 'Quiet on Set: The Dark Side of Kids TV' }
+						{ name: 'Moral Orel', highlight: true, notes: 'With Sophia' },
+						{ name: 'Quiet on Set: The Dark Side of Kids TV', notes: 'With Sophia' }
 					]
 				},
 				{
 					date: 2023,
 					items: [
-						{ name: 'School Babysitters', notes: 'On Crunchyroll' },
+						{ name: 'School Babysitters', notes: 'On Crunchyroll; with Sophia' },
 						{
 							name: 'American Born Chinese',
-							notes: 'On Disney+',
+							notes: 'On Disney+; with Sophia',
 							finishDate: new TemporalPartialDate(2023, 6)
 						},
 						{ name: 'Atypical' }
@@ -1842,33 +1849,33 @@
 					items: [
 						{
 							name: 'He’s dying. She’s pregnant',
-							authors: ['The Washington Post'],
-							url: 'https://wapo.st/3LijDEa'
+							authors: [
+								'Ariana Eunjung Cha',
+								'Drea Cornejo',
+								'Jahi Chikwendiu',
+								'Dan Keating',
+								'Julia Wall'
+							],
+							url: 'https://wapo.st/3LijDEa',
+							notes: 'From The Washington Post'
 						},
 						{
 							name: 'The Blast Effect',
-							authors: ['The Washington Post'],
-							url: 'https://wapo.st/4pYrs15'
+							authors: ['Nick Kirkpatrick', 'Atthar Mirza', 'Manuel Canales'],
+							url: 'https://wapo.st/4pYrs15',
+							notes: 'From The Washington Post'
 						},
 						{
 							name: 'The Firefighter With O.C.D. and the Vaccine He Believed Would Kill Him',
-							authors: ['The New York Times'],
-							url: 'https://www.nytimes.com/2025/04/17/nyregion/firefighter-mental-health-ocd.html?unlocked_article_code=1.AFA.GV9H.ZmCU7wEc3HDd&smid=url-share'
-						},
-						{
-							name: 'The Anti-Social Century',
-							authors: ['The Atlantic'],
-							url: 'https://www.theatlantic.com/magazine/archive/2025/02/american-loneliness-personality-politics/681091/'
-						},
-						{
-							name: 'The Agony of Texting With Men',
-							authors: ['The Atlantic'],
-							url: 'https://www.theatlantic.com/family/archive/2025/01/men-texting-men-loneliness/681076/'
+							authors: ['Joseph Goldstein'],
+							url: 'https://www.nytimes.com/2025/04/17/nyregion/firefighter-mental-health-ocd.html?unlocked_article_code=1.AFA.GV9H.ZmCU7wEc3HDd&smid=url-share',
+							notes: 'From The New York Times'
 						},
 						{
 							name: 'The Militia and the Mole',
-							authors: ['ProPublica'],
-							url: 'https://www.propublica.org/article/ap3-oath-keepers-militia-mole'
+							authors: ['Joshua Kaplan'],
+							url: 'https://www.propublica.org/article/ap3-oath-keepers-militia-mole',
+							notes: 'From ProPublica'
 						},
 						{
 							name: 'The Good Whale',
@@ -1877,34 +1884,39 @@
 						},
 						{
 							name: 'The Deserter',
-							authors: ['The New York Times'],
-							url: 'https://www.nytimes.com/2024/09/21/podcasts/russia-ukraine-deserter-audio.html'
+							authors: ['Sarah A. Topol'],
+							url: 'https://www.nytimes.com/2024/09/21/podcasts/russia-ukraine-deserter-audio.html',
+							notes: 'From The New York Times'
 						},
 						{
 							name: 'Searching for Maura',
-							authors: ['The Washington Post'],
-							url: 'https://wapo.st/3N6ObJz'
+							authors: ['Claire Healy', 'Nicole Dungca', 'Ren Galeno'],
+							url: 'https://wapo.st/3N6ObJz',
+							notes: 'From The Washington Post'
 						},
 						{
 							name: 'More than 1,800 congressmen once enslaved Black people. This is who they were, and how they shaped the nation.',
-							authors: ['The Washington Post'],
-							url: 'https://wapo.st/4jdw0hk'
+							authors: ['Julie Zauzmer Weil', 'Adrián Blanco Ramos', 'Leo Dominguez'],
+							url: 'https://wapo.st/4jdw0hk',
+							notes: 'From The Washington Post'
 						},
 						{
 							name: 'Machine Bias',
-							authors: ['ProPublica'],
-							url: 'https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing'
+							authors: ['Julia Angwin', 'Jeff Larson', 'Surya Mattu', 'Lauren Kirchner'],
+							url: 'https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing',
+							notes: 'From ProPublica'
 						},
 						{
 							name: 'How does ‘Hamilton,’ the non stop, hip-hop Broadway sensation tap rap’s master rhymes to blur musical lines?',
-							authors: ['The Wall Street Journal'],
+							authors: ['Joel Eastwood', 'Erik Hinton'],
 							thoughts: `This page unfortunately no longer works due to digital decay, 
 							but I remember spending a lot of time typing my own (in hindsight, nonsensical) 
 							multisyllabic rhyme schemes into the interactive element at the end of the page. 
 							I often attribute the start of my interest in pursuing a journalism career to 
 							interfacing with COVID-19 coverage in 2020, but perhaps I should really be 
 							attributing this piece.`,
-							url: 'https://graphics.wsj.com/hamilton/'
+							url: 'https://graphics.wsj.com/hamilton/',
+							notes: 'For The Wall Street Journal'
 						}
 					]
 				}
@@ -1927,7 +1939,7 @@
 							able to have true original thoughts? Can I really say that I’ve 
 							had an original thought, or be able to say for certain that a 
 							thought from an LLM is not original? Very squishy.`,
-							notes: 'Gift from Emily'
+							notes: 'From The Harper Review Vol. IV, no. 1; copy gifted by Emily'
 						},
 						{
 							name: 'I, me, mine',
@@ -1944,7 +1956,7 @@
 							instead of an (online) what. I enjoyed listening to an <a target="_blank" href="https://youtu.be/f4KgyG-AuAo?si=x3dMS7_rfUmSlSa2">episode</a> of 
 							The Vergecast that dealt with similar themes; it was framed in 
 							response to Mark Zuckerberg’s AI manifesto.`,
-							notes: 'Gift from Emily'
+							notes: 'From The Harper Review Vol. IV, no. 1; copy gifted by Emily'
 						},
 						{
 							name: 'Disaffected democracy',
@@ -1964,7 +1976,7 @@
 							communal welfare or participation. If the collective cared for
 							more than just the private life, then maybe a viable council 
 							system (or something of the sort) would naturally emerge.`,
-							notes: 'Gift from Emily'
+							notes: 'From The Harper Review Vol. IV, no. 1; copy gifted by Emily'
 						},
 						{
 							name: 'Nietzsche’s basilisk',
@@ -1982,7 +1994,7 @@
 							reads that Susan Sontag’s Camp is the same word “camp” that was so 
 							pervasive a couple of years ago. I feel I can finally appreciate 
 							the meaning.`,
-							notes: 'Gift from Emily'
+							notes: 'From The Harper Review Vol. IV, no. 1; copy gifted by Emily'
 						},
 						{
 							name: 'Galatea and Claude',
@@ -1994,7 +2006,7 @@
 							There’s value to the safety of rehearsal, but maybe we’ve become
 							too obsessed with perfecting practice that we forget to do the
 							real thing.`,
-							notes: 'Gift from Emily'
+							notes: 'From The Harper Review Vol. IV, no. 1; copy gifted by Emily'
 						},
 						{
 							name: 'Something to do with being entertained',
@@ -2002,7 +2014,7 @@
 							startDate: new TemporalDate(2026, 8, 15),
 							finishDate: new TemporalDate(2026, 8, 15),
 							url: 'https://harperreview.com/something-to-do-with-being-entertained/',
-							notes: 'From a copy of The Harper Review Vol. IV, no. 1 gifted by Emily',
+							notes: 'From The Harper Review Vol. IV, no. 1; copy gifted by Emily',
 							thoughts: `I found the writing accessible, even though I haven’t
 							read David Foster Wallace’s work. He was right to treat 
 							“existentially unsatisfying pleasure” as a matter of life and 
@@ -2028,7 +2040,8 @@
 							startDate: new TemporalDate(2026, 8, 4),
 							finishDate: new TemporalDate(2026, 8, 4),
 							thoughts: `Groups: do they ever survive?`,
-							notes: 'Recommended by Josh'
+							notes: 'From The Yale Review; recommended by Josh',
+							url: 'https://yalereview.org/article/daniel-lefferts-terms-and-conditions'
 						},
 						{
 							name: 'There Will Come Soft Rains',
@@ -2057,27 +2070,49 @@
 							name: 'Last Boys at the Beginning of History',
 							authors: ['Mana Afsari'],
 							url: 'https://thepointmag.com/politics/last-boys-at-the-beginning-of-history/',
-							notes: 'Recommended by Emily'
+							notes: 'From The Point; recommended by Emily'
 						},
 						{
 							name: 'ChatGPT Is a Gimmick',
 							authors: ['Jonathan Malesic'],
-							url: 'https://hedgehogreview.com/web-features/thr/posts/chatgpt-is-a-gimmick'
+							url: 'https://hedgehogreview.com/web-features/thr/posts/chatgpt-is-a-gimmick',
+							startDate: new TemporalDate(2025, 5, 22),
+							finishDate: new TemporalDate(2025, 5, 22),
+							notes: 'From The Hedgehog Review; recommended by Irena'
 						},
 						{
 							name: 'The Worst Magazine In America',
 							authors: ['Nathan J. Robinson'],
-							url: 'https://www.currentaffairs.org/news/the-worst-magazine-in-america'
+							url: 'https://www.currentaffairs.org/news/the-worst-magazine-in-america',
+							startDate: new TemporalDate(2025, 4, 8),
+							finishDate: new TemporalDate(2025, 4, 8),
+							notes: 'From Current Affairs; recommended by Irena'
 						},
 						{
 							name: 'AI: The New Aesthetics of Fascism',
 							authors: ['Gareth Watkins'],
-							url: 'https://newsocialist.org.uk/transmissions/ai-the-new-aesthetics-of-fascism/'
+							url: 'https://newsocialist.org.uk/transmissions/ai-the-new-aesthetics-of-fascism/',
+							notes: 'From New Socialist; recommended by Irena',
+							startDate: new TemporalDate(2025, 4, 1),
+							finishDate: new TemporalDate(2025, 4, 1)
 						},
 						{
 							name: 'Surely You’re a Creep, Mr. Feynman',
 							authors: ['Leila McNeill'],
-							url: 'https://thebaffler.com/outbursts/surely-youre-a-creep-mr-feynman-mcneill'
+							url: 'https://thebaffler.com/outbursts/surely-youre-a-creep-mr-feynman-mcneill',
+							notes: 'From The Baffler'
+						},
+						{
+							name: 'The Anti-Social Century',
+							authors: ['Derek Thompson'],
+							url: 'https://www.theatlantic.com/magazine/archive/2025/02/american-loneliness-personality-politics/681091/',
+							notes: 'From The Atlantic'
+						},
+						{
+							name: 'The Agony of Texting With Men',
+							authors: ['Matthew Schnipper'],
+							url: 'https://www.theatlantic.com/family/archive/2025/01/men-texting-men-loneliness/681076/',
+							notes: 'From The Atlantic'
 						}
 					]
 				},
@@ -2087,7 +2122,10 @@
 						{
 							name: 'The “Blob” Is Furious About Gaza. But That’s Not Enough.',
 							authors: ['Josef Burton'],
-							url: 'https://www.thenation.com/article/world/blob-gaza-biden-blinken/'
+							url: 'https://www.thenation.com/article/world/blob-gaza-biden-blinken/',
+							startDate: new TemporalDate(2024, 12, 20),
+							finishDate: new TemporalDate(2024, 12, 20),
+							notes: 'From The Nation; recommended by Irena'
 						}
 					]
 				},
@@ -2508,6 +2546,7 @@
 		display: flex;
 		flex-wrap: wrap;
 		column-gap: 1rem;
+		row-gap: 0.125rem;
 	}
 
 	.item {
