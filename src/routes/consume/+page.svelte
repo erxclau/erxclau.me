@@ -1478,7 +1478,12 @@
 				{
 					date: 2022,
 					items: [
-						{ name: 'Drive My Car', finishDate: new TemporalDate(2022, 2, 26) },
+						{
+							name: 'Drive My Car',
+							startDate: new TemporalDate(2022, 2, 26),
+							finishDate: new TemporalDate(2022, 2, 26),
+							notes: 'At State Theater with Dora and Alex'
+						},
 						{ name: 'Ender’s Game' }
 					]
 				},
