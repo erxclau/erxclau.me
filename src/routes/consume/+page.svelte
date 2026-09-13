@@ -618,6 +618,13 @@
 					date: 2026,
 					items: [
 						{
+							name: 'Band of Brothers: Legacy',
+							startDate: new TemporalDate(2026, 9, 12),
+							finishDate: new TemporalDate(2026, 9, 12),
+							notes: 'On HBO Max',
+							thoughts: `Any thoughtful remark around 9/11 usually makes me tear up.`
+						},
+						{
 							name: 'The Hobbit: The Battle of the Five Armies',
 							startDate: new TemporalDate(2026, 9, 10),
 							finishDate: new TemporalDate(2026, 9, 12),
@@ -2544,8 +2551,7 @@
 
 	.dates {
 		display: flex;
-		flex-wrap: wrap;
-		column-gap: 1rem;
+		flex-direction: column;
 		row-gap: 0.125rem;
 	}
 
