@@ -120,6 +120,12 @@
 					date: 'Current',
 					items: [
 						{
+							name: 'Taiwan Travelogue',
+							authors: ['Yáng Shuāng-Zǐ', 'Lin King'],
+							startDate: new TemporalDate(2026, 9, 12),
+							notes: 'From Lost City Books'
+						},
+						{
 							name: 'The Power Broker',
 							authors: ['Robert Caro'],
 							startDate: new TemporalPartialDate(2026, 1),
