@@ -120,12 +120,6 @@
 					date: 'Current',
 					items: [
 						{
-							name: 'Taiwan Travelogue',
-							authors: ['Yáng Shuāng-Zǐ', 'Lin King'],
-							startDate: new TemporalDate(2026, 9, 12),
-							notes: 'From Lost City Books'
-						},
-						{
 							name: 'The Power Broker',
 							authors: ['Robert Caro'],
 							startDate: new TemporalPartialDate(2026, 1),
@@ -136,6 +130,29 @@
 				{
 					date: 2026,
 					items: [
+						{
+							name: 'Taiwan Travelogue',
+							authors: ['Yáng Shuāng-Zǐ', 'Lin King'],
+							startDate: new TemporalDate(2026, 9, 12),
+							finishDate: new TemporalDate(2026, 9, 23),
+							notes: 'From Lost City Books; For Ellē’s book club',
+							thoughts: `Aoyama wants a more authentic appreciation for Taiwan
+							by living a “normal“ life, not simply hopping from one tourism
+							attraction to the next. Yet, eating all the food she does, much
+							of it prepared either logistically or literally by Chi-chan, is 
+							surely not “normal.” She is still being fed a version of Taiwan.
+							She lives through consumption, a more subtle extraction of the
+							colony. I was not a huge fan of the seemingly redundant food
+							descriptions, but I understand the necessity in filling out 
+							the duo’s relationship. The mix of Mandarin, Japanese, Hokkien
+							and Wade—Giles was incredibly confusing to me, though I can 
+							understand why the translator wanted to situate the text that way.
+							It was all vaguely familiar but out of reach. I like the use of X
+							in place for unknown speech. Chi-chan is the only reason Aoyama
+							knows what’s happening around her, a form of labor that is only
+							really revealed to the reader when she is not around and Aoyama
+							can only hear X. Shoutout Fuzhou.`
+						},
 						{
 							name: 'Perfection',
 							authors: ['Vincenzo Latronico', 'Sophie Hughes'],
@@ -1520,6 +1537,7 @@
 						{
 							name: 'Mean Girls',
 							highlight: true,
+							startDate: new TemporalDate(2018, 7, 29),
 							finishDate: new TemporalDate(2018, 7, 29),
 							thoughts: `I was told I was a mix of Regina and Janis in high school.`
 						},
@@ -1694,6 +1712,11 @@
 							name: 'Industry',
 							notes: 'On HBO Max; with Josh',
 							startDate: new TemporalDate(2026, 7, 2)
+						},
+						{
+							name: 'Abbott Elementary',
+							notes: 'On Hulu',
+							startDate: new TemporalDate(2025, 6, 28)
 						},
 						{
 							name: 'Heated Rivalry',
