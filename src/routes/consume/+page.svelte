@@ -641,6 +641,22 @@
 					date: 2026,
 					items: [
 						{
+							name: 'Spider-Man: Brand New Day',
+							startDate: new TemporalDate(2026, 9, 25),
+							finishDate: new TemporalDate(2026, 9, 25),
+							notes: 'At Regal Gallery Place',
+							thoughts: `Not a day goes by.`,
+							highlight: true
+						},
+						{
+							name: 'The Fantastic Four: First Steps',
+							startDate: new TemporalDate(2026, 9, 24),
+							finishDate: new TemporalDate(2026, 9, 24),
+							notes: 'On Disney+',
+							thoughts: `Nice aesthetics. The Thing’s subplot with Rachel Rozman
+							felt forced. Thankful that there were not many action scenes.`
+						},
+						{
 							name: 'Band of Brothers: Legacy',
 							startDate: new TemporalDate(2026, 9, 12),
 							finishDate: new TemporalDate(2026, 9, 12),
@@ -1704,9 +1720,14 @@
 					date: 'Current',
 					items: [
 						{
-							name: 'Abbott Elementary',
-							notes: 'On Hulu',
-							startDate: new TemporalDate(2025, 6, 28)
+							name: 'Lanterns',
+							notes: 'On HBO Max; with Josh',
+							startDate: new TemporalDate(2026, 9, 13),
+							thoughts: `Not every superhero franchise needs to take place
+							in New York City (or any city, for that matter). I’m glad that the
+							story mostly stays grounded on Earth, despite the looming
+							extraterrestrial threats. It’s hard to get behind any of the
+							characters for being so stuck in their convictions.`
 						},
 						{
 							name: 'Industry',

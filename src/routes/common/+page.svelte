@@ -9,6 +9,29 @@
 			<li>
 				<figure>
 					<blockquote>
+						Traveling is living in a foreign place. As in, experiencing all four seasons of normal
+						life in a foreign place. Leaving behind a home environment where one’s habits have
+						settled into old, tired ways and spending one’s days somewhere else, trying to find some
+						new feeling in the mere act of being alive in this world. In this sense, traveling is a
+						way of cleansing one’s body and mind—starting afresh.
+					</blockquote>
+					<figcaption>Aoyama Chizuko<cite>Taiwan Travelogue</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>
+						All I’m saying is, is it not much better to eat lychee here like this thank to visit
+						Kappan Mountain or whatnot? Sweating through our clothes just to catch a glimpse of a
+						sight that humans have arbitrarily dubbed ‘famous’ can make us forget that we are
+						surrounded by wonderful things every day. What a shame.
+					</blockquote>
+					<figcaption>Aoyama Chizuko<cite>Taiwan Travelogue</cite></figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<blockquote>
 						<div>
 							They will find themselves wondering how long it would be before a neural network could
 							carry out most of their work. They will find themselves wondering whether that would
