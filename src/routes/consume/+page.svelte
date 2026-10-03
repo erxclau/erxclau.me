@@ -1738,17 +1738,19 @@
 							name: 'Abbott Elementary',
 							notes: 'On Hulu',
 							startDate: new TemporalDate(2025, 6, 28)
-						},
-						{
-							name: 'Heated Rivalry',
-							notes: 'On HBO Max; with Josh',
-							startDate: new TemporalPartialDate(2026, 12)
 						}
 					]
 				},
 				{
 					date: 2026,
 					items: [
+						{
+							name: 'Heated Rivalry',
+							thoughts: `Very slow. Shane’s dialogue was especially boring.`,
+							notes: 'On HBO Max; with Josh',
+							startDate: new TemporalPartialDate(2025, 12),
+							finishDate: new TemporalDate(2026, 10, 2)
+						},
 						{
 							name: 'Ted Lasso',
 							notes: 'On Apple TV; up to season 3',
