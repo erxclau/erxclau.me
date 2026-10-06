@@ -1723,6 +1723,7 @@
 							name: 'Lanterns',
 							notes: 'On HBO Max; with Josh',
 							startDate: new TemporalDate(2026, 9, 13),
+                            finishDate: new TemporalDate(2026, 10, 4),
 							thoughts: `Not every superhero franchise needs to take place
 							in New York City (or any city, for that matter). I’m glad that the
 							story mostly stays grounded on Earth, despite the looming
