@@ -641,6 +641,21 @@
 					date: 2026,
 					items: [
 						{
+							name: 'Brokeback Mountain',
+							startDate: new TemporalDate(2026, 10, 10),
+							finishDate: new TemporalDate(2026, 10, 11),
+							notes: 'With Josh',
+							thoughts: `The aging is brutal. Ennis gets to live, but what kind of life?`
+						},
+						{
+							name: 'A Poet',
+							startDate: new TemporalDate(2026, 10, 7),
+							finishDate: new TemporalDate(2026, 10, 7),
+							notes: 'On Mubi; with Josh and Rees',
+							thoughts: `Sharp. Glad it retained the humor even as the plot got 
+							more serious. Art need not have overtly political messages.`
+						},
+						{
 							name: 'Spider-Man: Brand New Day',
 							startDate: new TemporalDate(2026, 9, 25),
 							finishDate: new TemporalDate(2026, 9, 25),
@@ -1723,7 +1738,7 @@
 							name: 'Lanterns',
 							notes: 'On HBO Max; with Josh',
 							startDate: new TemporalDate(2026, 9, 13),
-                            finishDate: new TemporalDate(2026, 10, 4),
+							finishDate: new TemporalDate(2026, 10, 4),
 							thoughts: `Not every superhero franchise needs to take place
 							in New York City (or any city, for that matter). I’m glad that the
 							story mostly stays grounded on Earth, despite the looming
