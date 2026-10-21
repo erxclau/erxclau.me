@@ -641,6 +641,27 @@
 					date: 2026,
 					items: [
 						{
+							name: 'The Social Network',
+							startDate: new TemporalDate(2026, 10, 11),
+							finishDate: new TemporalDate(2026, 10, 11),
+							notes: 'On Tubi',
+							thoughts: `Mark, rejected by established social orders (in
+							large part by his inability to empathize with others), attempts to
+							create his own. Did it even work? Despite the disruptive framing, 
+							Mark still seeks acceptance from certain people and established 
+							institutions: Sean Parker, Peter Thiel, Erica Albright. Facebook
+							would not have taken off if not for The Phoenix, only possible because
+							of Eduardo Saverin. In retrospect, the lawsuits depicted in the film
+							seem quite silly, trite, frivolous, in comparison to the globally 
+							disastrous impacts Facebook has had on the world: the 2017 
+							Rohingya genocide, political misinformation and polarization, 
+							increased levels of teenage anxiety and depression. Perhaps they
+							are valuable in showcasing Mark’s narrow, flippant approach to
+							running his platform. Also, I had not fully connected that the Winklevoss
+							twins, top contributors to Republican campaigns, were involved in 
+							the Facebook story.`
+						},
+						{
 							name: 'Brokeback Mountain',
 							startDate: new TemporalDate(2026, 10, 10),
 							finishDate: new TemporalDate(2026, 10, 11),
