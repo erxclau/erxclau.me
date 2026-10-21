@@ -331,8 +331,8 @@
 		<hgroup>
 			<enhanced:img
 				fetchpriority="high"
-				src="#lib/assets/eric.png?enhanced"
-				alt="Eric Lau in a white T-shirt with a blue long-sleeve shirt on top. He is wearing gold rim glasses and is looking to the right."
+				src="#lib/assets/headshot.jpeg?enhanced"
+				alt="Eric Lau wearing a white shirt with black glasses."
 				style:width="135px"
 				style:height="135px"
 				style:border-radius="5px"
