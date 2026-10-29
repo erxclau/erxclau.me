@@ -135,7 +135,7 @@
 							authors: ['Yáng Shuāng-Zǐ', 'Lin King'],
 							startDate: new TemporalDate(2026, 9, 12),
 							finishDate: new TemporalDate(2026, 9, 23),
-							notes: 'From Lost City Books; For Ellē’s book club',
+							notes: 'From Lost City Books; for Ellē’s book club',
 							thoughts: `Aoyama wants a more authentic appreciation for Taiwan
 							by living a “normal“ life, not simply hopping from one tourism
 							attraction to the next. Yet, eating all the food she does, much
@@ -640,6 +640,53 @@
 				{
 					date: 2026,
 					items: [
+						{
+							name: 'You Can See Everything',
+							startDate: new TemporalDate(2026, 10, 25),
+							finishDate: new TemporalDate(2026, 10, 25),
+							notes: 'At Regal Gallery Place with Kay',
+							highlight: true,
+							thoughts: `Elizabeth Holmes to Nathan Fielder: “you can see everything.” 
+							That’s what she says after allowing him to stay in her and Billy’s
+							rental house. The word “can” plays a critical role in the phrase,
+							and in a back-and-forth between Holmes and Fielder about what the
+							Edison was capable of. Holmes viewed the Edison as a platform that
+							could, in theory, run a multitude of tests, even if not all of the
+							tests were yet available. Fielder argues that Theranos was not 
+							explicit in characterizing the theoretical aspects of the platform,
+							instead implying (with “can”) that Edison was already capable of 
+							running the many tests. In theory, Fielder can see everything, 
+							but of course he’s not capable of that in praxis. [An aside: there’s 
+							been a lot of Barack Obama on my feeds as he’s been campaigning
+							for the various Democratic candidates running in the midterm elections. 
+							I can’t help but tie in the famous slogan, “Yes, we can!” All of that 
+							potential! All of that, in theory! Rest in peace, Dolores Huerta.] 
+							Fielder does not try to relitigate the science. In that sense, he 
+							already cannot see everything. And even if Fielder was replaced or joined
+							by a scientist who could, they still would not be able to see <i>everything</i>.
+							Nor can anyone else, really. Maybe God? I always find myself coming back
+							to the ideas of God’s eye view, the God trick, the view from nowhere,
+							Donna Haraway’s situated knowledges. Journalism, computer science, data, 
+							science, health, the documentary format vie to be objective but
+							are all situated in biases, perspectives. Acknowledging that is 
+							important in any work. Fielder largely ditches the common documentarian 
+							attempts at God—wide angles, drone shots, authoritative voices—for 
+							close, intimate, grounded shots with a monotone, sometimes funny, 
+							guide. As a character in the film, he’s situated, susceptible to 
+							manipulation. It makes us (and Amanda Seyfried) question whether that 
+							affects how he operated as a filmmaker during filming and post-production.
+							He even got in the water with her! Billy Evans is at his most 
+							confrontational when there are other characters around who say or 
+							suggest negative details about him or Holmes. Evans reveals himself 
+							in these encounters: first nudging Holmes’ father to join for family 
+							time instead of fielding questions (only for family time to be Evans and 
+							Holmes talking business), then demanding Fielder end his interview with a 
+							Theranos 2.0 employee, and finally when he lashes out at Seyfried. 
+							The tech bro caricature has always been about control, narcissism, 
+							sexism, hubris. Now they’re right-wing, gun-toting Californians 
+							living in Texas. As with Sunny Balwani, it’s unclear whether Holmes 
+							is a true partner to, or being controlled by Evans.`
+						},
 						{
 							name: 'The Social Network',
 							startDate: new TemporalDate(2026, 10, 11),
@@ -1756,17 +1803,6 @@
 					date: 'Current',
 					items: [
 						{
-							name: 'Lanterns',
-							notes: 'On HBO Max; with Josh',
-							startDate: new TemporalDate(2026, 9, 13),
-							finishDate: new TemporalDate(2026, 10, 4),
-							thoughts: `Not every superhero franchise needs to take place
-							in New York City (or any city, for that matter). I’m glad that the
-							story mostly stays grounded on Earth, despite the looming
-							extraterrestrial threats. It’s hard to get behind any of the
-							characters for being so stuck in their convictions.`
-						},
-						{
 							name: 'Industry',
 							notes: 'On HBO Max; with Josh',
 							startDate: new TemporalDate(2026, 7, 2)
@@ -1781,6 +1817,37 @@
 				{
 					date: 2026,
 					items: [
+						{
+							name: 'The Dropout',
+							notes: 'On Hulu',
+							startDate: new TemporalDate(2026, 10, 23),
+							finishDate: new TemporalDate(2026, 10, 25),
+							thoughts: `I watched this the day before seeing You Can See Everything, mostly
+							to get caught up to speed with the story of Elizabeth Holmes. I had
+							also become aware that Amanda Seyfried would play some role in the
+							documentary so I figured it would be worthwhile to see her
+							portrayal of Holmes in the show. I feel the show was helpful in
+							getting the broad strokes of the story. I pretty quickly understood
+							that many of the character details were dramatized even with the
+							portrayals of Holmes dancing to Lil Wayne or on a Steve Jobs poster. 
+							I thought it was hilarious that one of the first things that 
+							happened in the show was the reveal that Holmes’ father worked at Enron.
+							Some of the editing was strange to me: when Seyfried’s Holmes was
+							cut into clips with Joe Biden, Bill Clinton and Charlie Rose, she 
+							looked a bit too high definition for it to be believable. God
+							bless journalism!`
+						},
+						{
+							name: 'Lanterns',
+							notes: 'On HBO Max; with Josh',
+							startDate: new TemporalDate(2026, 9, 13),
+							finishDate: new TemporalDate(2026, 10, 4),
+							thoughts: `Not every superhero franchise needs to take place
+							in New York City (or any city, for that matter). I’m glad that the
+							story mostly stays grounded on Earth, despite the looming
+							extraterrestrial threats. It’s hard to get behind any of the
+							characters for being so stuck in their convictions.`
+						},
 						{
 							name: 'Heated Rivalry',
 							thoughts: `Very slow. Shane’s dialogue was especially boring.`,
